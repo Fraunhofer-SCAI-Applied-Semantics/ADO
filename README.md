@@ -24,7 +24,7 @@ We created Alzheimer's Disease Ontology for TextMining purpose.
 
 Please use this GitHub repository's [Issue tracker](https://github.com/Fraunhofer-SCAI-Applied-Semantics/ado/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
 
-## Maintanance 
+## Maintenance 
 
 The Alzheimer's Disease Ontology will be maintained by Fraunhofer SCAI for at least 3 years from now on. 
 
