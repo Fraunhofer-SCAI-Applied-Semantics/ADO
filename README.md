@@ -1,29 +1,36 @@
 
-![Build Status](https://github.com/Fraunhofer-SCAI-Applied-Semantics/ado/workflows/CI/badge.svg)
 # Alzheimers Disease Ontology
 
-Description: None
+We created Alzheimer's Disease Ontology for TextMining purpose.
 
-More information can be found at http://obofoundry.org/ontology/ado
+## Development
+- InputFiles
+    - contains OntoFox input files
+    - manually created
+- OutputModules
+    - contains OntoFox output files
+    - automatically generated
+- ADO.owl
+    - main devlopement file, imports module
+    - manually created
+- catalog-v001.xml
+     - Protege catalog file that links IRIs from imported modules to relative file paths
+     - manually created
+- ADO_merged.owl
+    - most recent release (merged main devlopement file with all imported modules)
+    - automatically generated
 
-## Versions
-
-### Stable release versions
-
-The latest version of the ontology can always be found at:
-
-http://purl.obolibrary.org/obo/ado.owl
-
-(note this will not show up until the request has been approved by obofoundry.org)
-
-### Editors' version
-
-Editors of this ontology should use the edit version, [src/ontology/ado-edit.owl](src/ontology/ado-edit.owl)
-
-## Contact
+## Contact 
 
 Please use this GitHub repository's [Issue tracker](https://github.com/Fraunhofer-SCAI-Applied-Semantics/ado/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
 
+## Maintenance 
+
+The Alzheimer's Disease Ontology will be maintained by Fraunhofer SCAI for at least 3 years from now on. 
+
+
 ## Acknowledgements
 
-This ontology repository was created using the [Ontology Development Kit (ODK)](https://github.com/INCATools/ontology-development-kit).
+This research was funded by Alzheimer Forschung Initiative (AFI)
+
+
