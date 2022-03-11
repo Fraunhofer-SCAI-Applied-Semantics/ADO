@@ -14,7 +14,7 @@ We created Alzheimer's Disease Ontology for TextMining purpose.
     - main devlopement file, imports module
     - manually created
 - catalog-v001.xml
-     - otege catalog file that links IRIs from imported modules to relative file paths
+     - Protege catalog file that links IRIs from imported modules to relative file paths
      - manually created
 - ADO_merged.owl
     - most recent release (merged main devlopement file with all imported modules)
