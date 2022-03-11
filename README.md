@@ -33,10 +33,4 @@ The Alzheimer's Disease Ontology will be maintained by Fraunhofer SCAI for at le
 
 This research was funded by Alzheimer Forschung Initiative (AFI)
 
-## License
 
-
-Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
-
-This work is licensed under a
-[Creative Commons Attribution 4.0 International License][cc-by].
