@@ -1,77 +1,4 @@
 Level	Rule Name	Subject	Property	Value
-ERROR	multiple_definitions	BFO:0000020	IAO:0000115	A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.@en
-ERROR	multiple_definitions	BFO:0000020	IAO:0000115	b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1  i &lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])@en
-ERROR	multiple_definitions	BFO:0000020	IAO:0000115	b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])@en
-ERROR	multiple_definitions	GSSO:000252	IAO:0000115	A broad term referring to clinical psychotherapy that uses techniques derived from behaviorism.@en
-ERROR	multiple_definitions	GSSO:000252	IAO:0000115	Therapeutic approach that may employ classical conditioning, operant learning techniques, or other behavioral techniques, in an attempt to eliminate or modify problem behavior, addressing itself primarily to the client's overt behavior, as opposed to thoughts, feelings, or other cognitive processes.@en
-ERROR	multiple_definitions	GSSO:002199	IAO:0000115	A grouping of humans based on shared physical or social qualities into categories generally viewed as distinct by society. The term was first used to refer to speakers of a common language and then to denote national affiliations. By the 17th century the term began to refer to physical (phenotypical) traits. Modern scholarship regards race as a social construct, an identity which is assigned based on rules made by society. While partially based on physical similarities within groups, race does not have an inherent physical or biological meaning.@en
-ERROR	multiple_definitions	GSSO:002199	IAO:0000115	Race is a characteristic of an individual defined by some culturally-defined combination of heritable phenotypic characteristics, geographic ancestry, physical appearance, ethnicity, and social status.@en
-ERROR	multiple_definitions	IAO:0000030	IAO:0000115	A generically dependent continuant that is about some thing.@en
-ERROR	multiple_definitions	IAO:0000030	IAO:0000115	An information content entity is an entity that is generically dependent on some artifact and stands in relation of aboutness to some entity@en
-ERROR	multiple_definitions	IAO:0000111	IAO:0000115	The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)@en
-ERROR	multiple_definitions	IAO:0000111	IAO:0000115	?????????????????????????????????? ??????@zh
-ERROR	multiple_definitions	IAO:0000112	IAO:0000115	A phrase describing how a class name should be used. May also include other kinds of examples that facilitate immediate understanding of a class semantics, such as widely known prototypical subclasses or instances of the class. Although essential for high level terms, examples for low level terms (e.g., Affymetrix HU133 array) are not@en
-ERROR	multiple_definitions	IAO:0000112	IAO:0000115	A phrase describing how a term should be used and/or a citation to a work which uses it. May also include other kinds of examples that facilitate immediate understanding, such as widely know prototypes or instances of a class, or cases where a relation is said to hold.@en
-ERROR	multiple_definitions	IAO:0000115	IAO:0000115	A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition's source and attribution in a form that can easily be interpreted by software.
-ERROR	multiple_definitions	IAO:0000115	IAO:0000115	English language definitions of what NCI means by the concept. These are limited to 1024 characters. They may also include information about the definition's source and attribution in a form that can easily be interpreted by software.
-ERROR	multiple_definitions	IAO:0000115	IAO:0000115	OBI???????????????????????????????????? ?????????????@zh
-ERROR	multiple_definitions	IAO:0000115	IAO:0000115	The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.@en
-ERROR	multiple_definitions	IAO:0000115	IAO:0000115	The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.
-ERROR	multiple_definitions	IAO:0000115	IAO:0000115	The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.@en
-ERROR	multiple_definitions	IAO:0000115	IAO:0000115	???????????????????????????????????? ?????????????@zh
-ERROR	multiple_definitions	IAO:0000116	IAO:0000115	An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.@en
-ERROR	multiple_definitions	IAO:0000116	IAO:0000115	??????????????????????????????????????????????????@zh
-ERROR	multiple_definitions	IAO:0000117	IAO:0000115	Name of editor entering the definition in the file. The definition editor is a point of contact for information regarding the term. The definition editor may be, but is not always, the author of the definition, which may have been worked upon by several people@en
-ERROR	multiple_definitions	IAO:0000117	IAO:0000115	Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people@en
-ERROR	multiple_definitions	IAO:0000117	IAO:0000115	??????????????????????????????????????????????????????????????@zh
-ERROR	multiple_definitions	IAO:0000118	IAO:0000115	An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)@en
-ERROR	multiple_definitions	IAO:0000118	IAO:0000115	??????????????????????????????????@zh
-ERROR	multiple_definitions	IAO:0000119	IAO:0000115	Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007@en
-ERROR	multiple_definitions	IAO:0000119	IAO:0000115	formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007@en
-ERROR	multiple_definitions	IAO:0000119	IAO:0000115	???????????????????????/???????S????????/???????S??????2007?1?31???????URI?MeSH??C04?PUBMEDID???uri@zh
-ERROR	multiple_definitions	IAO:0000412	IAO:0000115	For external terms/classes, the ontology from which the term was imported@en
-ERROR	multiple_definitions	IAO:0000412	IAO:0000115	????/?????????@zh
-ERROR	multiple_definitions	NCIT:P106	IAO:0000115	A property that represents a description of the sort of thing or category to which a concept belongs in the context of the UMLS semantic network.
-ERROR	multiple_definitions	NCIT:P106	IAO:0000115	The semantic type describes the sort of thing or category to which a concept belongs in the context of the UMLS semantic network.
-ERROR	multiple_definitions	NCIT:P107	IAO:0000115	A property representing an alternative Preferred Name for use in some NCI systems.
-ERROR	multiple_definitions	NCIT:P107	IAO:0000115	Provides an alternative Preferred Name for use in some NCI systems.
-ERROR	multiple_definitions	NCIT:P108	IAO:0000115	A property representing the word or phrase that NCI uses by preference to refer to the concept.
-ERROR	multiple_definitions	NCIT:P108	IAO:0000115	The word or phrase that NCI uses by preference to refer to the concept.
-ERROR	multiple_definitions	NCIT:P207	IAO:0000115	A property representing the concept unique identifier (CUI) assigned by the National Library of Medicine (NLM). If a concept in any NCI-maintained knowledgebase exists in the NLM Unified Medical Language System (UMLS), NCI includes the NLM CUI among the information we provide about the concept.
-ERROR	multiple_definitions	NCIT:P207	IAO:0000115	Concept Unique Identifiers, or CUIs, are concept numbers assigned by the National Library of Medicine (NLM). If a concept in any NCI-maintained knowledgebase exists in the NLM Unified Medical Language System (UMLS), NCI includes the NLM CUI among the information we provide about the concept.
-ERROR	multiple_definitions	NCIT:P98	IAO:0000115	A property representing notations made by NCI vocabulary curators. They are intended to provide supplemental, unstructured information to the user or additional insight about the concept.
-ERROR	multiple_definitions	NCIT:P98	IAO:0000115	Design notes are notations made by NCI vocabulary curators. They are intended to provide supplemental, unstructured information to the user or additional insight about the concept.
-ERROR	multiple_definitions	OBI:0000011	IAO:0000115	A process that realizes a plan which is the concretization of a plan specification.@en
-ERROR	multiple_definitions	OBI:0000011	IAO:0000115	A processual entity that realizes a plan which is the concretization of a plan specification.@en
-ERROR	multiple_definitions	OBI:0000070	IAO:0000115	A planned process with the objective to produce information about some evaluant@en
-ERROR	multiple_definitions	OBI:0000070	IAO:0000115	A planned process with the objective to produce information about the material entity that is the evaluant, by physically examining it or its proxies.@en
-ERROR	multiple_definitions	RO:0002161	IAO:0000115	S never_in_taxon T iff: S SubClassOf in_taxon only not T.
-ERROR	multiple_definitions	RO:0002161	IAO:0000115	"x never in taxon T if and only if T is a class, and x does not instantiate the class expression \""in taxon some T\"". Note that this is a shortcut relation, and should be used as a hasValue restriction in OWL."
-ERROR	multiple_definitions	RO:0002175	IAO:0000115	S present_in_taxon T if some instance of T has some S. This does not means that all instances of T have an S - it may only be certain life stages or sexes that have S
-ERROR	multiple_definitions	RO:0002175	IAO:0000115	S present_in_taxon T if some instance of T has some S. This does not means that all instances of T have an S - it may only be certain life stages or sexes that have S.
-ERROR	multiple_definitions	UBERON:0000125	IAO:0000115	A spatially aggregated collection of nerve cell bodies in the CNS, consisting of one or more subpopulations that share cell type, chemical phenotype, and connections, and including nearby cells that share the same cell type, chemical phenotype, and connections. (CUMBO)
-ERROR	multiple_definitions	UBERON:0000125	IAO:0000115	A spatially aggregated collection of nerve cell bodies in the CNS, consisting of one or more subpopulations that share cell type, chemical phenotype, and connections, and including nearby cells that share the same cell type, chemical phenotype, and connections. (CUMBO).
-ERROR	multiple_definitions	oboInOwl:hasDbXref	IAO:0000115	A database cross-reference. An annotation which directs one to information contained within a database.
-ERROR	multiple_definitions	oboInOwl:hasDbXref	IAO:0000115	A property representing a reference to an identical or very similar object in another database.
-ERROR	multiple_definitions	oboInOwl:hasDbXref	IAO:0000115	Reference database or publication source.
-ERROR	multiple_definitions	oboInOwl:hasExactSynonym	IAO:0000115	A property representing a fully qualified synonym, contains the string, term type, source, and an optional source code if appropriate. Each subfield is deliniated to facilitate interpretation by software.
-ERROR	multiple_definitions	oboInOwl:hasExactSynonym	IAO:0000115	An alias in which the alias exhibits true synonymy. Example: ornithine cycle is an exact synonym of urea cycle.
-ERROR	multiple_definitions	oboInOwl:hasExactSynonym	IAO:0000115	Exact synonym.
-ERROR	multiple_definitions	oboInOwl:hasExactSynonym	IAO:0000115	Fully qualified synonym, contains the string, term type, source, and an optional source code if appropriate. Each subfield is deliniated to facilitate interpretation by software.
-ERROR	multiple_definitions	oboInOwl:inSubset	IAO:0000115	An association that connects the concept defining a particular terminology subset with concepts that belong to this subset.
-ERROR	multiple_definitions	oboInOwl:inSubset	IAO:0000115	In subset.
-ERROR	multiple_definitions	oboInOwl:inSubset	IAO:0000115	Used to associate the concept defining a particular terminology subset with concepts that belong to this subset.
-ERROR	duplicate_label	https://www.wikidata.org/wiki/Property:P1659	rdfs:label	see also@en
-ERROR	duplicate_label	dc11:relation	rdfs:label	relation@en
-ERROR	duplicate_label	dc:relation	rdfs:label	relation@en
-ERROR	duplicate_label	CHEBI:36080	rdfs:label	protein
-ERROR	duplicate_label	PR:000000001	rdfs:label	protein
-ERROR	duplicate_label	IAO:0000119	rdfs:label	definition source
-ERROR	duplicate_label	SCDO:0000340	rdfs:label	definition source
-ERROR	duplicate_label	IAO:0000232	rdfs:label	curator note
-ERROR	duplicate_label	SCDO:0000303	rdfs:label	curator note
-ERROR	duplicate_label	dc11:contributor	rdfs:label	contributor
-ERROR	duplicate_label	dc:contributor	rdfs:label	contributor
 ERROR	multiple_labels	BFO:0000001	rdfs:label	entity
 ERROR	multiple_labels	BFO:0000001	rdfs:label	entity@en
 ERROR	multiple_labels	BFO:0000003	rdfs:label	occurrent
@@ -177,103 +104,79 @@ ERROR	multiple_labels	oboInOwl:inSubset	rdfs:label	in subset
 ERROR	multiple_labels	oboInOwl:inSubset	rdfs:label	in_subset
 ERROR	multiple_labels	oboInOwl:shorthand	rdfs:label	shorthand
 ERROR	multiple_labels	oboInOwl:shorthand	rdfs:label	shorthand@en
-WARN	duplicate_scoped_synonym	CHEBI:15361	oboInOwl:hasExactSynonym	2-oxopropanoate
-WARN	duplicate_scoped_synonym	CHEBI:15361	oboInOwl:hasRelatedSynonym	2-oxopropanoate
-WARN	duplicate_scoped_synonym	CHEBI:16038	oboInOwl:hasExactSynonym	phosphatidylethanolamines
-WARN	duplicate_scoped_synonym	CHEBI:16038	oboInOwl:hasRelatedSynonym	phosphatidylethanolamines
-WARN	duplicate_scoped_synonym	CHEBI:16584	oboInOwl:hasExactSynonym	3-methylbut-3-en-1-yl trihydrogen diphosphate
-WARN	duplicate_scoped_synonym	CHEBI:16584	oboInOwl:hasRelatedSynonym	3-methylbut-3-en-1-yl trihydrogen diphosphate
-WARN	duplicate_scoped_synonym	CHEBI:16865	oboInOwl:hasExactSynonym	4-aminobutanoic acid
-WARN	duplicate_scoped_synonym	CHEBI:16865	oboInOwl:hasRelatedSynonym	4-aminobutanoic acid
-WARN	duplicate_scoped_synonym	CHEBI:16991	oboInOwl:hasExactSynonym	deoxyribonucleic acids
-WARN	duplicate_scoped_synonym	CHEBI:16991	oboInOwl:hasRelatedSynonym	deoxyribonucleic acids
-WARN	duplicate_scoped_synonym	CHEBI:17087	oboInOwl:hasExactSynonym	ketones
-WARN	duplicate_scoped_synonym	CHEBI:17087	oboInOwl:hasRelatedSynonym	ketones
-WARN	duplicate_scoped_synonym	CHEBI:17347	oboInOwl:hasExactSynonym	testosterone
-WARN	duplicate_scoped_synonym	CHEBI:17347	oboInOwl:hasRelatedSynonym	testosterone
-WARN	duplicate_scoped_synonym	CHEBI:17478	oboInOwl:hasExactSynonym	aldehydes
-WARN	duplicate_scoped_synonym	CHEBI:17478	oboInOwl:hasRelatedSynonym	aldehydes
-WARN	duplicate_scoped_synonym	CHEBI:18248	oboInOwl:hasExactSynonym	iron
-WARN	duplicate_scoped_synonym	CHEBI:18248	oboInOwl:hasRelatedSynonym	iron
-WARN	duplicate_scoped_synonym	CHEBI:22984	oboInOwl:hasExactSynonym	calcium
-WARN	duplicate_scoped_synonym	CHEBI:22984	oboInOwl:hasRelatedSynonym	calcium
-WARN	duplicate_scoped_synonym	CHEBI:24913	oboInOwl:hasExactSynonym	isoprenoids
-WARN	duplicate_scoped_synonym	CHEBI:24913	oboInOwl:hasRelatedSynonym	isoprenoids
-WARN	duplicate_scoped_synonym	CHEBI:25016	oboInOwl:hasExactSynonym	lead
-WARN	duplicate_scoped_synonym	CHEBI:25016	oboInOwl:hasRelatedSynonym	lead
-WARN	duplicate_scoped_synonym	CHEBI:25029	oboInOwl:hasExactSynonym	leukotrienes
-WARN	duplicate_scoped_synonym	CHEBI:25029	oboInOwl:hasRelatedSynonym	leukotrienes
-WARN	duplicate_scoped_synonym	CHEBI:25698	oboInOwl:hasExactSynonym	ethers
-WARN	duplicate_scoped_synonym	CHEBI:25698	oboInOwl:hasRelatedSynonym	ethers
-WARN	duplicate_scoped_synonym	CHEBI:26020	oboInOwl:hasExactSynonym	phosphates
-WARN	duplicate_scoped_synonym	CHEBI:26020	oboInOwl:hasRelatedSynonym	phosphates
-WARN	duplicate_scoped_synonym	CHEBI:27363	oboInOwl:hasExactSynonym	zinc
-WARN	duplicate_scoped_synonym	CHEBI:27363	oboInOwl:hasRelatedSynonym	zinc
-WARN	duplicate_scoped_synonym	CHEBI:28694	oboInOwl:hasExactSynonym	copper
-WARN	duplicate_scoped_synonym	CHEBI:28694	oboInOwl:hasRelatedSynonym	copper
-WARN	duplicate_scoped_synonym	CHEBI:28984	oboInOwl:hasExactSynonym	aluminium
-WARN	duplicate_scoped_synonym	CHEBI:28984	oboInOwl:hasRelatedSynonym	aluminium
-WARN	duplicate_scoped_synonym	CHEBI:30145	oboInOwl:hasExactSynonym	lithium
-WARN	duplicate_scoped_synonym	CHEBI:30145	oboInOwl:hasRelatedSynonym	lithium
-WARN	duplicate_scoped_synonym	CHEBI:33567	oboInOwl:hasExactSynonym	catecholamines
-WARN	duplicate_scoped_synonym	CHEBI:33567	oboInOwl:hasRelatedSynonym	catecholamines
-WARN	duplicate_scoped_synonym	CHEBI:33697	oboInOwl:hasExactSynonym	ribonucleic acids
-WARN	duplicate_scoped_synonym	CHEBI:33697	oboInOwl:hasRelatedSynonym	ribonucleic acids
-WARN	duplicate_scoped_synonym	CHEBI:35358	oboInOwl:hasExactSynonym	sulfonamides
-WARN	duplicate_scoped_synonym	CHEBI:35358	oboInOwl:hasRelatedSynonym	sulfonamides
-WARN	duplicate_scoped_synonym	CHEBI:35366	oboInOwl:hasExactSynonym	fatty acids
-WARN	duplicate_scoped_synonym	CHEBI:35366	oboInOwl:hasRelatedSynonym	fatty acids
-WARN	duplicate_scoped_synonym	CHEBI:37622	oboInOwl:hasExactSynonym	carboxamides
-WARN	duplicate_scoped_synonym	CHEBI:37622	oboInOwl:hasRelatedSynonym	carboxamides
-WARN	duplicate_scoped_synonym	CHEBI:49552	oboInOwl:hasExactSynonym	copper(1+) ion
-WARN	duplicate_scoped_synonym	CHEBI:49552	oboInOwl:hasExactSynonym	copper(I) cation
-WARN	duplicate_scoped_synonym	CHEBI:49552	oboInOwl:hasRelatedSynonym	copper(1+) ion
-WARN	duplicate_scoped_synonym	CHEBI:49552	oboInOwl:hasRelatedSynonym	copper(I) cation
-WARN	duplicate_scoped_synonym	CHEBI:50169	oboInOwl:hasExactSynonym	3alpha-hydroxy-5alpha-pregnan-20-one
-WARN	duplicate_scoped_synonym	CHEBI:50169	oboInOwl:hasRelatedSynonym	3alpha-hydroxy-5alpha-pregnan-20-one
-WARN	duplicate_scoped_synonym	CHEBI:57678	oboInOwl:hasExactSynonym	2-oxo-3-sulfanylpropanoate
-WARN	duplicate_scoped_synonym	CHEBI:57678	oboInOwl:hasRelatedSynonym	2-oxo-3-sulfanylpropanoate
-WARN	duplicate_scoped_synonym	CHEBI:7476	oboInOwl:hasExactSynonym	naproxen
-WARN	duplicate_scoped_synonym	CHEBI:7476	oboInOwl:hasRelatedSynonym	naproxen
-WARN	duplicate_scoped_synonym	CHEBI:7494	oboInOwl:hasExactSynonym	nefazodone
-WARN	duplicate_scoped_synonym	CHEBI:7494	oboInOwl:hasRelatedSynonym	nefazodone
-WARN	duplicate_scoped_synonym	CHEBI:8212	oboInOwl:hasExactSynonym	pimozide
-WARN	duplicate_scoped_synonym	CHEBI:8212	oboInOwl:hasRelatedSynonym	pimozide
-WARN	duplicate_scoped_synonym	CHEBI:8871	oboInOwl:hasExactSynonym	risperidone
-WARN	duplicate_scoped_synonym	CHEBI:8871	oboInOwl:hasRelatedSynonym	risperidone
-WARN	duplicate_scoped_synonym	IAO:0000115	IAO:0000118	DEFINITION
-WARN	duplicate_scoped_synonym	IAO:0000115	oboInOwl:hasExactSynonym	DEFINITION
-WARN	duplicate_scoped_synonym	NCBITaxon:2759	oboInOwl:hasExactSynonym	eukaryotes
-WARN	duplicate_scoped_synonym	NCBITaxon:2759	oboInOwl:hasRelatedSynonym	eukaryotes
-WARN	duplicate_scoped_synonym	NCBITaxon:40674	oboInOwl:hasExactSynonym	mammals
-WARN	duplicate_scoped_synonym	NCBITaxon:40674	oboInOwl:hasRelatedSynonym	mammals
-WARN	duplicate_scoped_synonym	NCBITaxon:7742	oboInOwl:hasExactSynonym	vertebrates
-WARN	duplicate_scoped_synonym	NCBITaxon:7742	oboInOwl:hasRelatedSynonym	vertebrates
-WARN	duplicate_scoped_synonym	UBERON:0001018	oboInOwl:hasNarrowSynonym	nerve tract
-WARN	duplicate_scoped_synonym	UBERON:0001018	oboInOwl:hasRelatedSynonym	nerve tract
-WARN	duplicate_scoped_synonym	UBERON:0002751	oboInOwl:hasExactSynonym	gyrus temporalis inferior
-WARN	duplicate_scoped_synonym	UBERON:0002751	oboInOwl:hasRelatedSynonym	gyrus temporalis inferior
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	DiffAvg:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	DiffFormula:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	DiffMono:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	Formula:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	MassAvg:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	MassMono:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	Origin:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	Source:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	TermSpec:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	UniProt:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	Unimod:
-WARN	invalid_xref	TXPO:0000145	oboInOwl:hasDbXref	FBRL: A Function and Behavior Representation Language. Sasajima, M., Kitamura, Y., Ikeda, M. & Mizoguchi, R., In Proc. of IJCAI-95 (pp. 1830-1836), 1995
-WARN	invalid_xref	TXPO:0001865	oboInOwl:hasDbXref	rerlated molecular fuction GO:0004672
-WARN	invalid_xref	TXPO:0003645	oboInOwl:hasDbXref	IMR:0000368 (obsolete)
-WARN	invalid_xref	TXPO:0003668	oboInOwl:hasDbXref	IMR:0000960 (obsolete)
-WARN	invalid_xref	TXPO:0003670	oboInOwl:hasDbXref	IMR:0001166 (obsolete)
-WARN	invalid_xref	TXPO:0003670	oboInOwl:hasDbXref	"related molecule fuction
-GO:0004407"
-WARN	invalid_xref	TXPO:0003671	oboInOwl:hasDbXref	Catalysis role of the hydrolysis of a glycerophospholipid.
-WARN	invalid_xref	TXPO:0003671	oboInOwl:hasDbXref	IMR:0000281 (obsolete)
-WARN	invalid_xref	TXPO:0003673	oboInOwl:hasDbXref	IMR:0000517 (obsolete)
+ERROR	duplicate_label	https://www.wikidata.org/wiki/Property:P1659	rdfs:label	see also@en
+ERROR	duplicate_label	dc11:relation	rdfs:label	relation@en
+ERROR	duplicate_label	dc:relation	rdfs:label	relation@en
+ERROR	duplicate_label	CHEBI:36080	rdfs:label	protein
+ERROR	duplicate_label	PR:000000001	rdfs:label	protein
+ERROR	duplicate_label	IAO:0000119	rdfs:label	definition source
+ERROR	duplicate_label	SCDO:0000340	rdfs:label	definition source
+ERROR	duplicate_label	IAO:0000232	rdfs:label	curator note
+ERROR	duplicate_label	SCDO:0000303	rdfs:label	curator note
+ERROR	duplicate_label	dc11:contributor	rdfs:label	contributor
+ERROR	duplicate_label	dc:contributor	rdfs:label	contributor
+ERROR	multiple_definitions	BFO:0000020	IAO:0000115	A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.@en
+ERROR	multiple_definitions	BFO:0000020	IAO:0000115	b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1  i &lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])@en
+ERROR	multiple_definitions	BFO:0000020	IAO:0000115	b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])@en
+ERROR	multiple_definitions	GSSO:000252	IAO:0000115	A broad term referring to clinical psychotherapy that uses techniques derived from behaviorism.@en
+ERROR	multiple_definitions	GSSO:000252	IAO:0000115	Therapeutic approach that may employ classical conditioning, operant learning techniques, or other behavioral techniques, in an attempt to eliminate or modify problem behavior, addressing itself primarily to the client's overt behavior, as opposed to thoughts, feelings, or other cognitive processes.@en
+ERROR	multiple_definitions	GSSO:002199	IAO:0000115	A grouping of humans based on shared physical or social qualities into categories generally viewed as distinct by society. The term was first used to refer to speakers of a common language and then to denote national affiliations. By the 17th century the term began to refer to physical (phenotypical) traits. Modern scholarship regards race as a social construct, an identity which is assigned based on rules made by society. While partially based on physical similarities within groups, race does not have an inherent physical or biological meaning.@en
+ERROR	multiple_definitions	GSSO:002199	IAO:0000115	Race is a characteristic of an individual defined by some culturally-defined combination of heritable phenotypic characteristics, geographic ancestry, physical appearance, ethnicity, and social status.@en
+ERROR	multiple_definitions	IAO:0000030	IAO:0000115	A generically dependent continuant that is about some thing.@en
+ERROR	multiple_definitions	IAO:0000030	IAO:0000115	An information content entity is an entity that is generically dependent on some artifact and stands in relation of aboutness to some entity@en
+ERROR	multiple_definitions	IAO:0000111	IAO:0000115	The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)@en
+ERROR	multiple_definitions	IAO:0000111	IAO:0000115	?????????????????????????????????? ??????@zh
+ERROR	multiple_definitions	IAO:0000112	IAO:0000115	A phrase describing how a class name should be used. May also include other kinds of examples that facilitate immediate understanding of a class semantics, such as widely known prototypical subclasses or instances of the class. Although essential for high level terms, examples for low level terms (e.g., Affymetrix HU133 array) are not@en
+ERROR	multiple_definitions	IAO:0000112	IAO:0000115	A phrase describing how a term should be used and/or a citation to a work which uses it. May also include other kinds of examples that facilitate immediate understanding, such as widely know prototypes or instances of a class, or cases where a relation is said to hold.@en
+ERROR	multiple_definitions	IAO:0000115	IAO:0000115	A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition's source and attribution in a form that can easily be interpreted by software.
+ERROR	multiple_definitions	IAO:0000115	IAO:0000115	English language definitions of what NCI means by the concept. These are limited to 1024 characters. They may also include information about the definition's source and attribution in a form that can easily be interpreted by software.
+ERROR	multiple_definitions	IAO:0000115	IAO:0000115	OBI???????????????????????????????????? ?????????????@zh
+ERROR	multiple_definitions	IAO:0000115	IAO:0000115	The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.@en
+ERROR	multiple_definitions	IAO:0000115	IAO:0000115	The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.
+ERROR	multiple_definitions	IAO:0000115	IAO:0000115	The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.@en
+ERROR	multiple_definitions	IAO:0000115	IAO:0000115	???????????????????????????????????? ?????????????@zh
+ERROR	multiple_definitions	IAO:0000116	IAO:0000115	An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.@en
+ERROR	multiple_definitions	IAO:0000116	IAO:0000115	??????????????????????????????????????????????????@zh
+ERROR	multiple_definitions	IAO:0000117	IAO:0000115	Name of editor entering the definition in the file. The definition editor is a point of contact for information regarding the term. The definition editor may be, but is not always, the author of the definition, which may have been worked upon by several people@en
+ERROR	multiple_definitions	IAO:0000117	IAO:0000115	Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people@en
+ERROR	multiple_definitions	IAO:0000117	IAO:0000115	??????????????????????????????????????????????????????????????@zh
+ERROR	multiple_definitions	IAO:0000118	IAO:0000115	An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)@en
+ERROR	multiple_definitions	IAO:0000118	IAO:0000115	??????????????????????????????????@zh
+ERROR	multiple_definitions	IAO:0000119	IAO:0000115	Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007@en
+ERROR	multiple_definitions	IAO:0000119	IAO:0000115	formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007@en
+ERROR	multiple_definitions	IAO:0000119	IAO:0000115	???????????????????????/???????S????????/???????S??????2007?1?31???????URI?MeSH??C04?PUBMEDID???uri@zh
+ERROR	multiple_definitions	IAO:0000412	IAO:0000115	For external terms/classes, the ontology from which the term was imported@en
+ERROR	multiple_definitions	IAO:0000412	IAO:0000115	????/?????????@zh
+ERROR	multiple_definitions	NCIT:P106	IAO:0000115	A property that represents a description of the sort of thing or category to which a concept belongs in the context of the UMLS semantic network.
+ERROR	multiple_definitions	NCIT:P106	IAO:0000115	The semantic type describes the sort of thing or category to which a concept belongs in the context of the UMLS semantic network.
+ERROR	multiple_definitions	NCIT:P107	IAO:0000115	A property representing an alternative Preferred Name for use in some NCI systems.
+ERROR	multiple_definitions	NCIT:P107	IAO:0000115	Provides an alternative Preferred Name for use in some NCI systems.
+ERROR	multiple_definitions	NCIT:P108	IAO:0000115	A property representing the word or phrase that NCI uses by preference to refer to the concept.
+ERROR	multiple_definitions	NCIT:P108	IAO:0000115	The word or phrase that NCI uses by preference to refer to the concept.
+ERROR	multiple_definitions	NCIT:P207	IAO:0000115	A property representing the concept unique identifier (CUI) assigned by the National Library of Medicine (NLM). If a concept in any NCI-maintained knowledgebase exists in the NLM Unified Medical Language System (UMLS), NCI includes the NLM CUI among the information we provide about the concept.
+ERROR	multiple_definitions	NCIT:P207	IAO:0000115	Concept Unique Identifiers, or CUIs, are concept numbers assigned by the National Library of Medicine (NLM). If a concept in any NCI-maintained knowledgebase exists in the NLM Unified Medical Language System (UMLS), NCI includes the NLM CUI among the information we provide about the concept.
+ERROR	multiple_definitions	NCIT:P98	IAO:0000115	A property representing notations made by NCI vocabulary curators. They are intended to provide supplemental, unstructured information to the user or additional insight about the concept.
+ERROR	multiple_definitions	NCIT:P98	IAO:0000115	Design notes are notations made by NCI vocabulary curators. They are intended to provide supplemental, unstructured information to the user or additional insight about the concept.
+ERROR	multiple_definitions	OBI:0000011	IAO:0000115	A process that realizes a plan which is the concretization of a plan specification.@en
+ERROR	multiple_definitions	OBI:0000011	IAO:0000115	A processual entity that realizes a plan which is the concretization of a plan specification.@en
+ERROR	multiple_definitions	OBI:0000070	IAO:0000115	A planned process with the objective to produce information about some evaluant@en
+ERROR	multiple_definitions	OBI:0000070	IAO:0000115	A planned process with the objective to produce information about the material entity that is the evaluant, by physically examining it or its proxies.@en
+ERROR	multiple_definitions	RO:0002161	IAO:0000115	S never_in_taxon T iff: S SubClassOf in_taxon only not T.
+ERROR	multiple_definitions	RO:0002161	IAO:0000115	"x never in taxon T if and only if T is a class, and x does not instantiate the class expression \""in taxon some T\"". Note that this is a shortcut relation, and should be used as a hasValue restriction in OWL."
+ERROR	multiple_definitions	RO:0002175	IAO:0000115	S present_in_taxon T if some instance of T has some S. This does not means that all instances of T have an S - it may only be certain life stages or sexes that have S
+ERROR	multiple_definitions	RO:0002175	IAO:0000115	S present_in_taxon T if some instance of T has some S. This does not means that all instances of T have an S - it may only be certain life stages or sexes that have S.
+ERROR	multiple_definitions	UBERON:0000125	IAO:0000115	A spatially aggregated collection of nerve cell bodies in the CNS, consisting of one or more subpopulations that share cell type, chemical phenotype, and connections, and including nearby cells that share the same cell type, chemical phenotype, and connections. (CUMBO)
+ERROR	multiple_definitions	UBERON:0000125	IAO:0000115	A spatially aggregated collection of nerve cell bodies in the CNS, consisting of one or more subpopulations that share cell type, chemical phenotype, and connections, and including nearby cells that share the same cell type, chemical phenotype, and connections. (CUMBO).
+ERROR	multiple_definitions	oboInOwl:hasDbXref	IAO:0000115	A database cross-reference. An annotation which directs one to information contained within a database.
+ERROR	multiple_definitions	oboInOwl:hasDbXref	IAO:0000115	A property representing a reference to an identical or very similar object in another database.
+ERROR	multiple_definitions	oboInOwl:hasDbXref	IAO:0000115	Reference database or publication source.
+ERROR	multiple_definitions	oboInOwl:hasExactSynonym	IAO:0000115	A property representing a fully qualified synonym, contains the string, term type, source, and an optional source code if appropriate. Each subfield is deliniated to facilitate interpretation by software.
+ERROR	multiple_definitions	oboInOwl:hasExactSynonym	IAO:0000115	An alias in which the alias exhibits true synonymy. Example: ornithine cycle is an exact synonym of urea cycle.
+ERROR	multiple_definitions	oboInOwl:hasExactSynonym	IAO:0000115	Exact synonym.
+ERROR	multiple_definitions	oboInOwl:hasExactSynonym	IAO:0000115	Fully qualified synonym, contains the string, term type, source, and an optional source code if appropriate. Each subfield is deliniated to facilitate interpretation by software.
+ERROR	multiple_definitions	oboInOwl:inSubset	IAO:0000115	An association that connects the concept defining a particular terminology subset with concepts that belong to this subset.
+ERROR	multiple_definitions	oboInOwl:inSubset	IAO:0000115	In subset.
+ERROR	multiple_definitions	oboInOwl:inSubset	IAO:0000115	Used to associate the concept defining a particular terminology subset with concepts that belong to this subset.
 WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] 
 WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (hasContinuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [126-001] 
 WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] 
@@ -417,6 +320,183 @@ editor date: 2017-04-18
 WARN	annotation_whitespace	RO:0002161	IAO:0000425	?X DisjointWith RO_0002162 some ?Y 
 WARN	annotation_whitespace	STATO:0000184	IAO:0000115	"A ratio is a data item which is formed with two numbers r and s is written r/s, where r is the numerator and s is the denominator. The ratio of r to s is equivalent to the quotient r/s. 
 @en"
+WARN	duplicate_exact_synonym	OGG:3000009611	IAO:0000118	TRAC1
+WARN	duplicate_exact_synonym	OGG:3000009612	IAO:0000118	TRAC1
+WARN	duplicate_exact_synonym	OGG:3000000207	IAO:0000118	PKB
+WARN	duplicate_exact_synonym	OGG:3000002185	IAO:0000118	PKB
+WARN	duplicate_exact_synonym	OGG:3000000801	IAO:0000118	PHKD
+WARN	duplicate_exact_synonym	OGG:3000000805	IAO:0000118	PHKD
+WARN	duplicate_exact_synonym	OGG:3000001432	IAO:0000118	p38
+WARN	duplicate_exact_synonym	OGG:3000005594	IAO:0000118	p38
+WARN	duplicate_exact_synonym	OGG:3000004842	IAO:0000118	NOS
+WARN	duplicate_exact_synonym	OGG:3000004843	IAO:0000118	NOS
+WARN	duplicate_exact_synonym	NCIT:C16866	oboInOwl:hasExactSynonym	Model System
+WARN	duplicate_exact_synonym	NCIT:C80519	oboInOwl:hasExactSynonym	Model System
+WARN	duplicate_exact_synonym	NCIT:C16866	oboInOwl:hasExactSynonym	Model
+WARN	duplicate_exact_synonym	NCIT:C80519	oboInOwl:hasExactSynonym	Model
+WARN	duplicate_exact_synonym	OGG:3000003577	IAO:0000118	IL8RA
+WARN	duplicate_exact_synonym	OGG:3000003579	IAO:0000118	IL8RA
+WARN	duplicate_exact_synonym	OGG:3000001230	IAO:0000118	CKR-1
+WARN	duplicate_exact_synonym	OGG:3000003577	IAO:0000118	CKR-1
+WARN	duplicate_exact_synonym	OGG:3000000983	IAO:0000118	CDC2
+WARN	duplicate_exact_synonym	OGG:3000005424	IAO:0000118	CDC2
+WARN	duplicate_exact_synonym	OGG:3000002833	IAO:0000118	CD182
+WARN	duplicate_exact_synonym	OGG:3000003579	IAO:0000118	CD182
+WARN	duplicate_exact_synonym	GO:0007610	oboInOwl:hasExactSynonym	behaviour
+WARN	duplicate_exact_synonym	NBO:0000313	oboInOwl:hasExactSynonym	behaviour
+WARN	duplicate_exact_synonym	OGG:3000000718	IAO:0000118	ASP
+WARN	duplicate_exact_synonym	OGG:3000009474	IAO:0000118	ASP
+WARN	duplicate_exact_synonym	MONDO:0007089	oboInOwl:hasExactSynonym	Alzheimer disease type 2
+WARN	duplicate_exact_synonym	MONDO:0100088	oboInOwl:hasExactSynonym	Alzheimer disease type 2
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C100110	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C100129	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C101858	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C115302	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C115304	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C117745	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118168	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118169	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118468	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118970	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118971	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C119016	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C120166	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C125239	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C125906	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C127259	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C127261	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132298	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132310	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C137840	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C142799	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C142800	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156952	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156953	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156954	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156955	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157011	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157711	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C158037	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C158520	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159026	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159074	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159125	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159328	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159339	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159418	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159501	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159503	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C160931	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C165451	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C165634	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C167409	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C168549	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C168555	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C170442	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C170450	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C171094	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C171122	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173231	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C174019	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C174238	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C174250	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C174261	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C175518	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C54447	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C54450	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C54587	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C62596	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C65047	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66737	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66738	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67152	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67154	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67497	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C77526	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C77808	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C78735	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C81222	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C85492	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C89506	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90259	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C99147	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/chebi#1_STAR	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/chebi#2_STAR	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_AGR_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_FlyBase_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_GXD_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_MGI_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_RAD_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_annotate	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_manually_annotate	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_agr	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_aspergillus	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_candida	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_flybase_ribbon	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_mouse	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pombe	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_synapse	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_yeast	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/hp#hposlim_core	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mi#PSI-MI_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mod#PSI-MOD-slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mondo#clingen	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mondo#gard_rare	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mondo#metaclass	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mondo#ordo_disease	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mondo#predisposition	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/pato#attribute_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/pato#mpath_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/pato#scalar_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/pato#value_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/so#SOFA	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#cumbo	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#grouping_class	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#major_organ	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#non_informative	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#organ_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#upper_level	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#vertebrate_core	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/valid_for_go_annotation_extension	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/valid_for_go_ontology	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/valid_for_gocam	rdfs:subPropertyOf	
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	DiffAvg:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	DiffFormula:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	DiffMono:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	Formula:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	MassAvg:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	MassMono:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	Origin:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	Source:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	TermSpec:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	UniProt:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	Unimod:
+WARN	invalid_xref	TXPO:0000145	oboInOwl:hasDbXref	FBRL: A Function and Behavior Representation Language. Sasajima, M., Kitamura, Y., Ikeda, M. & Mizoguchi, R., In Proc. of IJCAI-95 (pp. 1830-1836), 1995
+WARN	invalid_xref	TXPO:0001865	oboInOwl:hasDbXref	rerlated molecular fuction GO:0004672
+WARN	invalid_xref	TXPO:0003645	oboInOwl:hasDbXref	IMR:0000368 (obsolete)
+WARN	invalid_xref	TXPO:0003668	oboInOwl:hasDbXref	IMR:0000960 (obsolete)
+WARN	invalid_xref	TXPO:0003670	oboInOwl:hasDbXref	IMR:0001166 (obsolete)
+WARN	invalid_xref	TXPO:0003670	oboInOwl:hasDbXref	"related molecule fuction
+GO:0004407"
+WARN	invalid_xref	TXPO:0003671	oboInOwl:hasDbXref	Catalysis role of the hydrolysis of a glycerophospholipid.
+WARN	invalid_xref	TXPO:0003671	oboInOwl:hasDbXref	IMR:0000281 (obsolete)
+WARN	invalid_xref	TXPO:0003673	oboInOwl:hasDbXref	IMR:0000517 (obsolete)
 WARN	missing_definition	BFO:0000141	IAO:0000115	
 WARN	missing_definition	BTO:0000932	IAO:0000115	
 WARN	missing_definition	CHEBI:135342	IAO:0000115	
@@ -1235,9 +1315,6 @@ WARN	missing_definition	oboInOwl:hasNarrowSynonym	IAO:0000115
 WARN	missing_definition	oboInOwl:hasSynonym	IAO:0000115	
 WARN	missing_definition	oboInOwl:shorthand	IAO:0000115	
 WARN	missing_definition	foaf:depicted_by	IAO:0000115	
-WARN	missing_definition	https://bio.scai.fraunhofer.de/ontology/ADO#OWLObjectProperty_00000000000000000005	IAO:0000115	
-WARN	missing_definition	https://bio.scai.fraunhofer.de/ontology/ADO#OWLObjectProperty_00000000000000000007	IAO:0000115	
-WARN	missing_definition	https://bio.scai.fraunhofer.de/ontology/ADO#OWLObjectProperty_00000000000000000008	IAO:0000115	
 WARN	missing_definition	https://bio.scai.fraunhofer.de/ontology/ADO#cognitive_symptom	IAO:0000115	
 WARN	missing_definition	https://scai.fraunhofer.de/AlzheimerOntology#non-pharmacotherapy_procedure	IAO:0000115	
 WARN	missing_definition	https://schema.org/alternateName	IAO:0000115	
@@ -1251,134 +1328,82 @@ WARN	missing_definition	https://www.wikidata.org/wiki/Property:P3201	IAO:0000115
 WARN	missing_definition	https://www.wikidata.org/wiki/Property:P486	IAO:0000115	
 WARN	missing_definition	https://www.wikidata.org/wiki/Property:P5806	IAO:0000115	
 WARN	missing_definition	https://www.wikidata.org/wiki/Q1823134	IAO:0000115	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C100110	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C100129	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C101858	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C115302	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C115304	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C117745	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118168	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118169	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118468	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118970	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118971	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C119016	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C120166	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C125239	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C125906	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C127259	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C127261	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132298	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132310	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C137840	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C142799	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C142800	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156952	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156953	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156954	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156955	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157011	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157711	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C158037	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C158520	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159026	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159074	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159125	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159328	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159339	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159418	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159501	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159503	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C160931	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C165451	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C165634	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C167409	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C168549	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C168555	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C170442	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C170450	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C171094	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C171122	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173231	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C174019	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C174238	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C174250	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C174261	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C175518	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C54447	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C54450	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C54587	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C62596	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C65047	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66737	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66738	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67152	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67154	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67497	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C77526	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C77808	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C78735	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C81222	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C85492	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C89506	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90259	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C99147	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/chebi#1_STAR	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/chebi#2_STAR	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_AGR_slim	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_FlyBase_slim	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_GXD_slim	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_MGI_slim	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_RAD_slim	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_annotate	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_manually_annotate	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_agr	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_aspergillus	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_candida	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_flybase_ribbon	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_mouse	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pombe	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_synapse	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_yeast	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/hp#hposlim_core	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mi#PSI-MI_slim	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mod#PSI-MOD-slim	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mondo#clingen	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mondo#gard_rare	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mondo#metaclass	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mondo#ordo_disease	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mondo#predisposition	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/pato#attribute_slim	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/pato#mpath_slim	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/pato#scalar_slim	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/pato#value_slim	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/so#SOFA	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#cumbo	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#grouping_class	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#major_organ	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#non_informative	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#organ_slim	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#upper_level	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#vertebrate_core	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/valid_for_go_annotation_extension	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/valid_for_go_ontology	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/valid_for_gocam	rdfs:subPropertyOf	
+WARN	duplicate_scoped_synonym	CHEBI:15361	oboInOwl:hasExactSynonym	2-oxopropanoate
+WARN	duplicate_scoped_synonym	CHEBI:15361	oboInOwl:hasRelatedSynonym	2-oxopropanoate
+WARN	duplicate_scoped_synonym	CHEBI:16038	oboInOwl:hasExactSynonym	phosphatidylethanolamines
+WARN	duplicate_scoped_synonym	CHEBI:16038	oboInOwl:hasRelatedSynonym	phosphatidylethanolamines
+WARN	duplicate_scoped_synonym	CHEBI:16584	oboInOwl:hasExactSynonym	3-methylbut-3-en-1-yl trihydrogen diphosphate
+WARN	duplicate_scoped_synonym	CHEBI:16584	oboInOwl:hasRelatedSynonym	3-methylbut-3-en-1-yl trihydrogen diphosphate
+WARN	duplicate_scoped_synonym	CHEBI:16865	oboInOwl:hasExactSynonym	4-aminobutanoic acid
+WARN	duplicate_scoped_synonym	CHEBI:16865	oboInOwl:hasRelatedSynonym	4-aminobutanoic acid
+WARN	duplicate_scoped_synonym	CHEBI:16991	oboInOwl:hasExactSynonym	deoxyribonucleic acids
+WARN	duplicate_scoped_synonym	CHEBI:16991	oboInOwl:hasRelatedSynonym	deoxyribonucleic acids
+WARN	duplicate_scoped_synonym	CHEBI:17087	oboInOwl:hasExactSynonym	ketones
+WARN	duplicate_scoped_synonym	CHEBI:17087	oboInOwl:hasRelatedSynonym	ketones
+WARN	duplicate_scoped_synonym	CHEBI:17347	oboInOwl:hasExactSynonym	testosterone
+WARN	duplicate_scoped_synonym	CHEBI:17347	oboInOwl:hasRelatedSynonym	testosterone
+WARN	duplicate_scoped_synonym	CHEBI:17478	oboInOwl:hasExactSynonym	aldehydes
+WARN	duplicate_scoped_synonym	CHEBI:17478	oboInOwl:hasRelatedSynonym	aldehydes
+WARN	duplicate_scoped_synonym	CHEBI:18248	oboInOwl:hasExactSynonym	iron
+WARN	duplicate_scoped_synonym	CHEBI:18248	oboInOwl:hasRelatedSynonym	iron
+WARN	duplicate_scoped_synonym	CHEBI:22984	oboInOwl:hasExactSynonym	calcium
+WARN	duplicate_scoped_synonym	CHEBI:22984	oboInOwl:hasRelatedSynonym	calcium
+WARN	duplicate_scoped_synonym	CHEBI:24913	oboInOwl:hasExactSynonym	isoprenoids
+WARN	duplicate_scoped_synonym	CHEBI:24913	oboInOwl:hasRelatedSynonym	isoprenoids
+WARN	duplicate_scoped_synonym	CHEBI:25016	oboInOwl:hasExactSynonym	lead
+WARN	duplicate_scoped_synonym	CHEBI:25016	oboInOwl:hasRelatedSynonym	lead
+WARN	duplicate_scoped_synonym	CHEBI:25029	oboInOwl:hasExactSynonym	leukotrienes
+WARN	duplicate_scoped_synonym	CHEBI:25029	oboInOwl:hasRelatedSynonym	leukotrienes
+WARN	duplicate_scoped_synonym	CHEBI:25698	oboInOwl:hasExactSynonym	ethers
+WARN	duplicate_scoped_synonym	CHEBI:25698	oboInOwl:hasRelatedSynonym	ethers
+WARN	duplicate_scoped_synonym	CHEBI:26020	oboInOwl:hasExactSynonym	phosphates
+WARN	duplicate_scoped_synonym	CHEBI:26020	oboInOwl:hasRelatedSynonym	phosphates
+WARN	duplicate_scoped_synonym	CHEBI:27363	oboInOwl:hasExactSynonym	zinc
+WARN	duplicate_scoped_synonym	CHEBI:27363	oboInOwl:hasRelatedSynonym	zinc
+WARN	duplicate_scoped_synonym	CHEBI:28694	oboInOwl:hasExactSynonym	copper
+WARN	duplicate_scoped_synonym	CHEBI:28694	oboInOwl:hasRelatedSynonym	copper
+WARN	duplicate_scoped_synonym	CHEBI:28984	oboInOwl:hasExactSynonym	aluminium
+WARN	duplicate_scoped_synonym	CHEBI:28984	oboInOwl:hasRelatedSynonym	aluminium
+WARN	duplicate_scoped_synonym	CHEBI:30145	oboInOwl:hasExactSynonym	lithium
+WARN	duplicate_scoped_synonym	CHEBI:30145	oboInOwl:hasRelatedSynonym	lithium
+WARN	duplicate_scoped_synonym	CHEBI:33567	oboInOwl:hasExactSynonym	catecholamines
+WARN	duplicate_scoped_synonym	CHEBI:33567	oboInOwl:hasRelatedSynonym	catecholamines
+WARN	duplicate_scoped_synonym	CHEBI:33697	oboInOwl:hasExactSynonym	ribonucleic acids
+WARN	duplicate_scoped_synonym	CHEBI:33697	oboInOwl:hasRelatedSynonym	ribonucleic acids
+WARN	duplicate_scoped_synonym	CHEBI:35358	oboInOwl:hasExactSynonym	sulfonamides
+WARN	duplicate_scoped_synonym	CHEBI:35358	oboInOwl:hasRelatedSynonym	sulfonamides
+WARN	duplicate_scoped_synonym	CHEBI:35366	oboInOwl:hasExactSynonym	fatty acids
+WARN	duplicate_scoped_synonym	CHEBI:35366	oboInOwl:hasRelatedSynonym	fatty acids
+WARN	duplicate_scoped_synonym	CHEBI:37622	oboInOwl:hasExactSynonym	carboxamides
+WARN	duplicate_scoped_synonym	CHEBI:37622	oboInOwl:hasRelatedSynonym	carboxamides
+WARN	duplicate_scoped_synonym	CHEBI:49552	oboInOwl:hasExactSynonym	copper(1+) ion
+WARN	duplicate_scoped_synonym	CHEBI:49552	oboInOwl:hasExactSynonym	copper(I) cation
+WARN	duplicate_scoped_synonym	CHEBI:49552	oboInOwl:hasRelatedSynonym	copper(1+) ion
+WARN	duplicate_scoped_synonym	CHEBI:49552	oboInOwl:hasRelatedSynonym	copper(I) cation
+WARN	duplicate_scoped_synonym	CHEBI:50169	oboInOwl:hasExactSynonym	3alpha-hydroxy-5alpha-pregnan-20-one
+WARN	duplicate_scoped_synonym	CHEBI:50169	oboInOwl:hasRelatedSynonym	3alpha-hydroxy-5alpha-pregnan-20-one
+WARN	duplicate_scoped_synonym	CHEBI:57678	oboInOwl:hasExactSynonym	2-oxo-3-sulfanylpropanoate
+WARN	duplicate_scoped_synonym	CHEBI:57678	oboInOwl:hasRelatedSynonym	2-oxo-3-sulfanylpropanoate
+WARN	duplicate_scoped_synonym	CHEBI:7476	oboInOwl:hasExactSynonym	naproxen
+WARN	duplicate_scoped_synonym	CHEBI:7476	oboInOwl:hasRelatedSynonym	naproxen
+WARN	duplicate_scoped_synonym	CHEBI:7494	oboInOwl:hasExactSynonym	nefazodone
+WARN	duplicate_scoped_synonym	CHEBI:7494	oboInOwl:hasRelatedSynonym	nefazodone
+WARN	duplicate_scoped_synonym	CHEBI:8212	oboInOwl:hasExactSynonym	pimozide
+WARN	duplicate_scoped_synonym	CHEBI:8212	oboInOwl:hasRelatedSynonym	pimozide
+WARN	duplicate_scoped_synonym	CHEBI:8871	oboInOwl:hasExactSynonym	risperidone
+WARN	duplicate_scoped_synonym	CHEBI:8871	oboInOwl:hasRelatedSynonym	risperidone
+WARN	duplicate_scoped_synonym	IAO:0000115	IAO:0000118	DEFINITION
+WARN	duplicate_scoped_synonym	IAO:0000115	oboInOwl:hasExactSynonym	DEFINITION
+WARN	duplicate_scoped_synonym	NCBITaxon:2759	oboInOwl:hasExactSynonym	eukaryotes
+WARN	duplicate_scoped_synonym	NCBITaxon:2759	oboInOwl:hasRelatedSynonym	eukaryotes
+WARN	duplicate_scoped_synonym	NCBITaxon:40674	oboInOwl:hasExactSynonym	mammals
+WARN	duplicate_scoped_synonym	NCBITaxon:40674	oboInOwl:hasRelatedSynonym	mammals
+WARN	duplicate_scoped_synonym	NCBITaxon:7742	oboInOwl:hasExactSynonym	vertebrates
+WARN	duplicate_scoped_synonym	NCBITaxon:7742	oboInOwl:hasRelatedSynonym	vertebrates
+WARN	duplicate_scoped_synonym	UBERON:0001018	oboInOwl:hasNarrowSynonym	nerve tract
+WARN	duplicate_scoped_synonym	UBERON:0001018	oboInOwl:hasRelatedSynonym	nerve tract
+WARN	duplicate_scoped_synonym	UBERON:0002751	oboInOwl:hasExactSynonym	gyrus temporalis inferior
+WARN	duplicate_scoped_synonym	UBERON:0002751	oboInOwl:hasRelatedSynonym	gyrus temporalis inferior
 WARN	duplicate_label_synonym	CHEBI:13705	oboInOwl:hasExactSynonym	acetoacetate
 WARN	duplicate_label_synonym	CHEBI:15354	oboInOwl:hasExactSynonym	choline
 WARN	duplicate_label_synonym	CHEBI:15355	oboInOwl:hasExactSynonym	acetylcholine
@@ -1695,34 +1720,6 @@ WARN	duplicate_label_synonym	UBERON:0002020	oboInOwl:hasExactSynonym	gray matter
 WARN	duplicate_label_synonym	UBERON:0002435	oboInOwl:hasExactSynonym	striatum
 WARN	duplicate_label_synonym	obo:UPa_UPA00026	oboInOwl:hasExactSynonym	metabolism
 WARN	duplicate_label_synonym	oboInOwl:hasDbXref	oboInOwl:hasExactSynonym	database_cross_reference
-WARN	duplicate_exact_synonym	OGG:3000009611	IAO:0000118	TRAC1
-WARN	duplicate_exact_synonym	OGG:3000009612	IAO:0000118	TRAC1
-WARN	duplicate_exact_synonym	OGG:3000000207	IAO:0000118	PKB
-WARN	duplicate_exact_synonym	OGG:3000002185	IAO:0000118	PKB
-WARN	duplicate_exact_synonym	OGG:3000000801	IAO:0000118	PHKD
-WARN	duplicate_exact_synonym	OGG:3000000805	IAO:0000118	PHKD
-WARN	duplicate_exact_synonym	OGG:3000001432	IAO:0000118	p38
-WARN	duplicate_exact_synonym	OGG:3000005594	IAO:0000118	p38
-WARN	duplicate_exact_synonym	OGG:3000004842	IAO:0000118	NOS
-WARN	duplicate_exact_synonym	OGG:3000004843	IAO:0000118	NOS
-WARN	duplicate_exact_synonym	NCIT:C16866	oboInOwl:hasExactSynonym	Model System
-WARN	duplicate_exact_synonym	NCIT:C80519	oboInOwl:hasExactSynonym	Model System
-WARN	duplicate_exact_synonym	NCIT:C16866	oboInOwl:hasExactSynonym	Model
-WARN	duplicate_exact_synonym	NCIT:C80519	oboInOwl:hasExactSynonym	Model
-WARN	duplicate_exact_synonym	OGG:3000003577	IAO:0000118	IL8RA
-WARN	duplicate_exact_synonym	OGG:3000003579	IAO:0000118	IL8RA
-WARN	duplicate_exact_synonym	OGG:3000001230	IAO:0000118	CKR-1
-WARN	duplicate_exact_synonym	OGG:3000003577	IAO:0000118	CKR-1
-WARN	duplicate_exact_synonym	OGG:3000000983	IAO:0000118	CDC2
-WARN	duplicate_exact_synonym	OGG:3000005424	IAO:0000118	CDC2
-WARN	duplicate_exact_synonym	OGG:3000002833	IAO:0000118	CD182
-WARN	duplicate_exact_synonym	OGG:3000003579	IAO:0000118	CD182
-WARN	duplicate_exact_synonym	GO:0007610	oboInOwl:hasExactSynonym	behaviour
-WARN	duplicate_exact_synonym	NBO:0000313	oboInOwl:hasExactSynonym	behaviour
-WARN	duplicate_exact_synonym	OGG:3000000718	IAO:0000118	ASP
-WARN	duplicate_exact_synonym	OGG:3000009474	IAO:0000118	ASP
-WARN	duplicate_exact_synonym	MONDO:0007089	oboInOwl:hasExactSynonym	Alzheimer disease type 2
-WARN	duplicate_exact_synonym	MONDO:0100088	oboInOwl:hasExactSynonym	Alzheimer disease type 2
 INFO	missing_superclass	BFO:0000001	rdfs:subClassOf	
 INFO	lowercase_definition	BFO:0000004	IAO:0000115	b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])@en
 INFO	lowercase_definition	BFO:0000015	IAO:0000115	p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])@en
