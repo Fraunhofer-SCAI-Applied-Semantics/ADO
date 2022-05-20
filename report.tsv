@@ -1,64 +1,15 @@
 Level	Rule Name	Subject	Property	Value
-ERROR	multiple_definitions	BFO:0000020	IAO:0000115	A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.@en
-ERROR	multiple_definitions	BFO:0000020	IAO:0000115	b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1  i &lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])@en
-ERROR	multiple_definitions	BFO:0000020	IAO:0000115	b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])@en
-ERROR	multiple_definitions	GSSO:000252	IAO:0000115	A broad term referring to clinical psychotherapy that uses techniques derived from behaviorism.@en
-ERROR	multiple_definitions	GSSO:000252	IAO:0000115	Therapeutic approach that may employ classical conditioning, operant learning techniques, or other behavioral techniques, in an attempt to eliminate or modify problem behavior, addressing itself primarily to the client's overt behavior, as opposed to thoughts, feelings, or other cognitive processes.@en
-ERROR	multiple_definitions	IAO:0000030	IAO:0000115	A generically dependent continuant that is about some thing.@en
-ERROR	multiple_definitions	IAO:0000030	IAO:0000115	An information content entity is an entity that is generically dependent on some artifact and stands in relation of aboutness to some entity@en
-ERROR	multiple_definitions	IAO:0000111	IAO:0000115	The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)@en
-ERROR	multiple_definitions	IAO:0000111	IAO:0000115	?????????????????????????????????? ??????@zh
-ERROR	multiple_definitions	IAO:0000112	IAO:0000115	A phrase describing how a class name should be used. May also include other kinds of examples that facilitate immediate understanding of a class semantics, such as widely known prototypical subclasses or instances of the class. Although essential for high level terms, examples for low level terms (e.g., Affymetrix HU133 array) are not@en
-ERROR	multiple_definitions	IAO:0000112	IAO:0000115	A phrase describing how a term should be used and/or a citation to a work which uses it. May also include other kinds of examples that facilitate immediate understanding, such as widely know prototypes or instances of a class, or cases where a relation is said to hold.@en
-ERROR	multiple_definitions	IAO:0000115	IAO:0000115	A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition's source and attribution in a form that can easily be interpreted by software.
-ERROR	multiple_definitions	IAO:0000115	IAO:0000115	English language definitions of what NCI means by the concept. These are limited to 1024 characters. They may also include information about the definition's source and attribution in a form that can easily be interpreted by software.
-ERROR	multiple_definitions	IAO:0000115	IAO:0000115	OBI???????????????????????????????????? ?????????????@zh
-ERROR	multiple_definitions	IAO:0000115	IAO:0000115	The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.@en
-ERROR	multiple_definitions	IAO:0000115	IAO:0000115	The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.
-ERROR	multiple_definitions	IAO:0000115	IAO:0000115	The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.@en
-ERROR	multiple_definitions	IAO:0000115	IAO:0000115	???????????????????????????????????? ?????????????@zh
-ERROR	multiple_definitions	IAO:0000116	IAO:0000115	An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.@en
-ERROR	multiple_definitions	IAO:0000116	IAO:0000115	??????????????????????????????????????????????????@zh
-ERROR	multiple_definitions	IAO:0000117	IAO:0000115	Name of editor entering the definition in the file. The definition editor is a point of contact for information regarding the term. The definition editor may be, but is not always, the author of the definition, which may have been worked upon by several people@en
-ERROR	multiple_definitions	IAO:0000117	IAO:0000115	Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people@en
-ERROR	multiple_definitions	IAO:0000117	IAO:0000115	??????????????????????????????????????????????????????????????@zh
-ERROR	multiple_definitions	IAO:0000118	IAO:0000115	An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)@en
-ERROR	multiple_definitions	IAO:0000118	IAO:0000115	??????????????????????????????????@zh
-ERROR	multiple_definitions	IAO:0000119	IAO:0000115	Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007@en
-ERROR	multiple_definitions	IAO:0000119	IAO:0000115	formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007@en
-ERROR	multiple_definitions	IAO:0000119	IAO:0000115	???????????????????????/???????S????????/???????S??????2007?1?31???????URI?MeSH??C04?PUBMEDID???uri@zh
-ERROR	multiple_definitions	IAO:0000412	IAO:0000115	For external terms/classes, the ontology from which the term was imported@en
-ERROR	multiple_definitions	IAO:0000412	IAO:0000115	????/?????????@zh
-ERROR	multiple_definitions	NCIT:P106	IAO:0000115	A property that represents a description of the sort of thing or category to which a concept belongs in the context of the UMLS semantic network.
-ERROR	multiple_definitions	NCIT:P106	IAO:0000115	The semantic type describes the sort of thing or category to which a concept belongs in the context of the UMLS semantic network.
-ERROR	multiple_definitions	NCIT:P107	IAO:0000115	A property representing an alternative Preferred Name for use in some NCI systems.
-ERROR	multiple_definitions	NCIT:P107	IAO:0000115	Provides an alternative Preferred Name for use in some NCI systems.
-ERROR	multiple_definitions	NCIT:P108	IAO:0000115	A property representing the word or phrase that NCI uses by preference to refer to the concept.
-ERROR	multiple_definitions	NCIT:P108	IAO:0000115	The word or phrase that NCI uses by preference to refer to the concept.
-ERROR	multiple_definitions	NCIT:P207	IAO:0000115	A property representing the concept unique identifier (CUI) assigned by the National Library of Medicine (NLM). If a concept in any NCI-maintained knowledgebase exists in the NLM Unified Medical Language System (UMLS), NCI includes the NLM CUI among the information we provide about the concept.
-ERROR	multiple_definitions	NCIT:P207	IAO:0000115	Concept Unique Identifiers, or CUIs, are concept numbers assigned by the National Library of Medicine (NLM). If a concept in any NCI-maintained knowledgebase exists in the NLM Unified Medical Language System (UMLS), NCI includes the NLM CUI among the information we provide about the concept.
-ERROR	multiple_definitions	NCIT:P98	IAO:0000115	A property representing notations made by NCI vocabulary curators. They are intended to provide supplemental, unstructured information to the user or additional insight about the concept.
-ERROR	multiple_definitions	NCIT:P98	IAO:0000115	Design notes are notations made by NCI vocabulary curators. They are intended to provide supplemental, unstructured information to the user or additional insight about the concept.
-ERROR	multiple_definitions	OBI:0000011	IAO:0000115	A process that realizes a plan which is the concretization of a plan specification.@en
-ERROR	multiple_definitions	OBI:0000011	IAO:0000115	A processual entity that realizes a plan which is the concretization of a plan specification.@en
-ERROR	multiple_definitions	OBI:0000070	IAO:0000115	A planned process with the objective to produce information about some evaluant@en
-ERROR	multiple_definitions	OBI:0000070	IAO:0000115	A planned process with the objective to produce information about the material entity that is the evaluant, by physically examining it or its proxies.@en
-ERROR	multiple_definitions	RO:0002161	IAO:0000115	S never_in_taxon T iff: S SubClassOf in_taxon only not T.
-ERROR	multiple_definitions	RO:0002161	IAO:0000115	"x never in taxon T if and only if T is a class, and x does not instantiate the class expression \""in taxon some T\"". Note that this is a shortcut relation, and should be used as a hasValue restriction in OWL."
-ERROR	multiple_definitions	RO:0002175	IAO:0000115	S present_in_taxon T if some instance of T has some S. This does not means that all instances of T have an S - it may only be certain life stages or sexes that have S
-ERROR	multiple_definitions	RO:0002175	IAO:0000115	S present_in_taxon T if some instance of T has some S. This does not means that all instances of T have an S - it may only be certain life stages or sexes that have S.
-ERROR	multiple_definitions	UBERON:0000125	IAO:0000115	A spatially aggregated collection of nerve cell bodies in the CNS, consisting of one or more subpopulations that share cell type, chemical phenotype, and connections, and including nearby cells that share the same cell type, chemical phenotype, and connections. (CUMBO)
-ERROR	multiple_definitions	UBERON:0000125	IAO:0000115	A spatially aggregated collection of nerve cell bodies in the CNS, consisting of one or more subpopulations that share cell type, chemical phenotype, and connections, and including nearby cells that share the same cell type, chemical phenotype, and connections. (CUMBO).
-ERROR	multiple_definitions	oboInOwl:hasDbXref	IAO:0000115	A database cross-reference. An annotation which directs one to information contained within a database.
-ERROR	multiple_definitions	oboInOwl:hasDbXref	IAO:0000115	A property representing a reference to an identical or very similar object in another database.
-ERROR	multiple_definitions	oboInOwl:hasDbXref	IAO:0000115	Reference database or publication source.
-ERROR	multiple_definitions	oboInOwl:hasExactSynonym	IAO:0000115	A property representing a fully qualified synonym, contains the string, term type, source, and an optional source code if appropriate. Each subfield is deliniated to facilitate interpretation by software.
-ERROR	multiple_definitions	oboInOwl:hasExactSynonym	IAO:0000115	An alias in which the alias exhibits true synonymy. Example: ornithine cycle is an exact synonym of urea cycle.
-ERROR	multiple_definitions	oboInOwl:hasExactSynonym	IAO:0000115	Exact synonym.
-ERROR	multiple_definitions	oboInOwl:hasExactSynonym	IAO:0000115	Fully qualified synonym, contains the string, term type, source, and an optional source code if appropriate. Each subfield is deliniated to facilitate interpretation by software.
-ERROR	multiple_definitions	oboInOwl:inSubset	IAO:0000115	An association that connects the concept defining a particular terminology subset with concepts that belong to this subset.
-ERROR	multiple_definitions	oboInOwl:inSubset	IAO:0000115	In subset.
-ERROR	multiple_definitions	oboInOwl:inSubset	IAO:0000115	Used to associate the concept defining a particular terminology subset with concepts that belong to this subset.
+ERROR	duplicate_label	https://www.wikidata.org/wiki/Property:P1659	rdfs:label	see also@en
+ERROR	duplicate_label	dc11:relation	rdfs:label	relation@en
+ERROR	duplicate_label	dc:relation	rdfs:label	relation@en
+ERROR	duplicate_label	CHEBI:36080	rdfs:label	protein
+ERROR	duplicate_label	PR:000000001	rdfs:label	protein
+ERROR	duplicate_label	IAO:0000119	rdfs:label	definition source
+ERROR	duplicate_label	SCDO:0000340	rdfs:label	definition source
+ERROR	duplicate_label	IAO:0000232	rdfs:label	curator note
+ERROR	duplicate_label	SCDO:0000303	rdfs:label	curator note
+ERROR	duplicate_label	dc11:contributor	rdfs:label	contributor
+ERROR	duplicate_label	dc:contributor	rdfs:label	contributor
 ERROR	duplicate_definition	ExO:0000145	IAO:0000115	A person of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin, regardless of race.
 ERROR	duplicate_definition	ExO:0000149	IAO:0000115	A person of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin, regardless of race.
 ERROR	multiple_labels	BFO:0000001	rdfs:label	entity
@@ -166,17 +117,237 @@ ERROR	multiple_labels	oboInOwl:inSubset	rdfs:label	in subset
 ERROR	multiple_labels	oboInOwl:inSubset	rdfs:label	in_subset
 ERROR	multiple_labels	oboInOwl:shorthand	rdfs:label	shorthand
 ERROR	multiple_labels	oboInOwl:shorthand	rdfs:label	shorthand@en
-ERROR	duplicate_label	https://www.wikidata.org/wiki/Property:P1659	rdfs:label	see also@en
-ERROR	duplicate_label	dc11:relation	rdfs:label	relation@en
-ERROR	duplicate_label	dc:relation	rdfs:label	relation@en
-ERROR	duplicate_label	CHEBI:36080	rdfs:label	protein
-ERROR	duplicate_label	PR:000000001	rdfs:label	protein
-ERROR	duplicate_label	IAO:0000119	rdfs:label	definition source
-ERROR	duplicate_label	SCDO:0000340	rdfs:label	definition source
-ERROR	duplicate_label	IAO:0000232	rdfs:label	curator note
-ERROR	duplicate_label	SCDO:0000303	rdfs:label	curator note
-ERROR	duplicate_label	dc11:contributor	rdfs:label	contributor
-ERROR	duplicate_label	dc:contributor	rdfs:label	contributor
+ERROR	multiple_definitions	BFO:0000020	IAO:0000115	A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.@en
+ERROR	multiple_definitions	BFO:0000020	IAO:0000115	b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1  i &lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])@en
+ERROR	multiple_definitions	BFO:0000020	IAO:0000115	b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])@en
+ERROR	multiple_definitions	GSSO:000252	IAO:0000115	A broad term referring to clinical psychotherapy that uses techniques derived from behaviorism.@en
+ERROR	multiple_definitions	GSSO:000252	IAO:0000115	Therapeutic approach that may employ classical conditioning, operant learning techniques, or other behavioral techniques, in an attempt to eliminate or modify problem behavior, addressing itself primarily to the client's overt behavior, as opposed to thoughts, feelings, or other cognitive processes.@en
+ERROR	multiple_definitions	IAO:0000030	IAO:0000115	A generically dependent continuant that is about some thing.@en
+ERROR	multiple_definitions	IAO:0000030	IAO:0000115	An information content entity is an entity that is generically dependent on some artifact and stands in relation of aboutness to some entity@en
+ERROR	multiple_definitions	IAO:0000111	IAO:0000115	The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)@en
+ERROR	multiple_definitions	IAO:0000111	IAO:0000115	?????????????????????????????????? ??????@zh
+ERROR	multiple_definitions	IAO:0000112	IAO:0000115	A phrase describing how a class name should be used. May also include other kinds of examples that facilitate immediate understanding of a class semantics, such as widely known prototypical subclasses or instances of the class. Although essential for high level terms, examples for low level terms (e.g., Affymetrix HU133 array) are not@en
+ERROR	multiple_definitions	IAO:0000112	IAO:0000115	A phrase describing how a term should be used and/or a citation to a work which uses it. May also include other kinds of examples that facilitate immediate understanding, such as widely know prototypes or instances of a class, or cases where a relation is said to hold.@en
+ERROR	multiple_definitions	IAO:0000115	IAO:0000115	A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition's source and attribution in a form that can easily be interpreted by software.
+ERROR	multiple_definitions	IAO:0000115	IAO:0000115	English language definitions of what NCI means by the concept. These are limited to 1024 characters. They may also include information about the definition's source and attribution in a form that can easily be interpreted by software.
+ERROR	multiple_definitions	IAO:0000115	IAO:0000115	OBI???????????????????????????????????? ?????????????@zh
+ERROR	multiple_definitions	IAO:0000115	IAO:0000115	The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.@en
+ERROR	multiple_definitions	IAO:0000115	IAO:0000115	The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.
+ERROR	multiple_definitions	IAO:0000115	IAO:0000115	The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.@en
+ERROR	multiple_definitions	IAO:0000115	IAO:0000115	???????????????????????????????????? ?????????????@zh
+ERROR	multiple_definitions	IAO:0000116	IAO:0000115	An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.@en
+ERROR	multiple_definitions	IAO:0000116	IAO:0000115	??????????????????????????????????????????????????@zh
+ERROR	multiple_definitions	IAO:0000117	IAO:0000115	Name of editor entering the definition in the file. The definition editor is a point of contact for information regarding the term. The definition editor may be, but is not always, the author of the definition, which may have been worked upon by several people@en
+ERROR	multiple_definitions	IAO:0000117	IAO:0000115	Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people@en
+ERROR	multiple_definitions	IAO:0000117	IAO:0000115	??????????????????????????????????????????????????????????????@zh
+ERROR	multiple_definitions	IAO:0000118	IAO:0000115	An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)@en
+ERROR	multiple_definitions	IAO:0000118	IAO:0000115	??????????????????????????????????@zh
+ERROR	multiple_definitions	IAO:0000119	IAO:0000115	Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007@en
+ERROR	multiple_definitions	IAO:0000119	IAO:0000115	formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007@en
+ERROR	multiple_definitions	IAO:0000119	IAO:0000115	???????????????????????/???????S????????/???????S??????2007?1?31???????URI?MeSH??C04?PUBMEDID???uri@zh
+ERROR	multiple_definitions	IAO:0000412	IAO:0000115	For external terms/classes, the ontology from which the term was imported@en
+ERROR	multiple_definitions	IAO:0000412	IAO:0000115	????/?????????@zh
+ERROR	multiple_definitions	NCIT:P106	IAO:0000115	A property that represents a description of the sort of thing or category to which a concept belongs in the context of the UMLS semantic network.
+ERROR	multiple_definitions	NCIT:P106	IAO:0000115	The semantic type describes the sort of thing or category to which a concept belongs in the context of the UMLS semantic network.
+ERROR	multiple_definitions	NCIT:P107	IAO:0000115	A property representing an alternative Preferred Name for use in some NCI systems.
+ERROR	multiple_definitions	NCIT:P107	IAO:0000115	Provides an alternative Preferred Name for use in some NCI systems.
+ERROR	multiple_definitions	NCIT:P108	IAO:0000115	A property representing the word or phrase that NCI uses by preference to refer to the concept.
+ERROR	multiple_definitions	NCIT:P108	IAO:0000115	The word or phrase that NCI uses by preference to refer to the concept.
+ERROR	multiple_definitions	NCIT:P207	IAO:0000115	A property representing the concept unique identifier (CUI) assigned by the National Library of Medicine (NLM). If a concept in any NCI-maintained knowledgebase exists in the NLM Unified Medical Language System (UMLS), NCI includes the NLM CUI among the information we provide about the concept.
+ERROR	multiple_definitions	NCIT:P207	IAO:0000115	Concept Unique Identifiers, or CUIs, are concept numbers assigned by the National Library of Medicine (NLM). If a concept in any NCI-maintained knowledgebase exists in the NLM Unified Medical Language System (UMLS), NCI includes the NLM CUI among the information we provide about the concept.
+ERROR	multiple_definitions	NCIT:P98	IAO:0000115	A property representing notations made by NCI vocabulary curators. They are intended to provide supplemental, unstructured information to the user or additional insight about the concept.
+ERROR	multiple_definitions	NCIT:P98	IAO:0000115	Design notes are notations made by NCI vocabulary curators. They are intended to provide supplemental, unstructured information to the user or additional insight about the concept.
+ERROR	multiple_definitions	OBI:0000011	IAO:0000115	A process that realizes a plan which is the concretization of a plan specification.@en
+ERROR	multiple_definitions	OBI:0000011	IAO:0000115	A processual entity that realizes a plan which is the concretization of a plan specification.@en
+ERROR	multiple_definitions	OBI:0000070	IAO:0000115	A planned process with the objective to produce information about some evaluant@en
+ERROR	multiple_definitions	OBI:0000070	IAO:0000115	A planned process with the objective to produce information about the material entity that is the evaluant, by physically examining it or its proxies.@en
+ERROR	multiple_definitions	RO:0002161	IAO:0000115	S never_in_taxon T iff: S SubClassOf in_taxon only not T.
+ERROR	multiple_definitions	RO:0002161	IAO:0000115	"x never in taxon T if and only if T is a class, and x does not instantiate the class expression \""in taxon some T\"". Note that this is a shortcut relation, and should be used as a hasValue restriction in OWL."
+ERROR	multiple_definitions	RO:0002175	IAO:0000115	S present_in_taxon T if some instance of T has some S. This does not means that all instances of T have an S - it may only be certain life stages or sexes that have S
+ERROR	multiple_definitions	RO:0002175	IAO:0000115	S present_in_taxon T if some instance of T has some S. This does not means that all instances of T have an S - it may only be certain life stages or sexes that have S.
+ERROR	multiple_definitions	UBERON:0000125	IAO:0000115	A spatially aggregated collection of nerve cell bodies in the CNS, consisting of one or more subpopulations that share cell type, chemical phenotype, and connections, and including nearby cells that share the same cell type, chemical phenotype, and connections. (CUMBO)
+ERROR	multiple_definitions	UBERON:0000125	IAO:0000115	A spatially aggregated collection of nerve cell bodies in the CNS, consisting of one or more subpopulations that share cell type, chemical phenotype, and connections, and including nearby cells that share the same cell type, chemical phenotype, and connections. (CUMBO).
+ERROR	multiple_definitions	oboInOwl:hasDbXref	IAO:0000115	A database cross-reference. An annotation which directs one to information contained within a database.
+ERROR	multiple_definitions	oboInOwl:hasDbXref	IAO:0000115	A property representing a reference to an identical or very similar object in another database.
+ERROR	multiple_definitions	oboInOwl:hasDbXref	IAO:0000115	Reference database or publication source.
+ERROR	multiple_definitions	oboInOwl:hasExactSynonym	IAO:0000115	A property representing a fully qualified synonym, contains the string, term type, source, and an optional source code if appropriate. Each subfield is deliniated to facilitate interpretation by software.
+ERROR	multiple_definitions	oboInOwl:hasExactSynonym	IAO:0000115	An alias in which the alias exhibits true synonymy. Example: ornithine cycle is an exact synonym of urea cycle.
+ERROR	multiple_definitions	oboInOwl:hasExactSynonym	IAO:0000115	Exact synonym.
+ERROR	multiple_definitions	oboInOwl:hasExactSynonym	IAO:0000115	Fully qualified synonym, contains the string, term type, source, and an optional source code if appropriate. Each subfield is deliniated to facilitate interpretation by software.
+ERROR	multiple_definitions	oboInOwl:inSubset	IAO:0000115	An association that connects the concept defining a particular terminology subset with concepts that belong to this subset.
+ERROR	multiple_definitions	oboInOwl:inSubset	IAO:0000115	In subset.
+ERROR	multiple_definitions	oboInOwl:inSubset	IAO:0000115	Used to associate the concept defining a particular terminology subset with concepts that belong to this subset.
+WARN	duplicate_exact_synonym	OGG:3000009611	IAO:0000118	TRAC1
+WARN	duplicate_exact_synonym	OGG:3000009612	IAO:0000118	TRAC1
+WARN	duplicate_exact_synonym	OGG:3000000207	IAO:0000118	PKB
+WARN	duplicate_exact_synonym	OGG:3000002185	IAO:0000118	PKB
+WARN	duplicate_exact_synonym	OGG:3000000801	IAO:0000118	PHKD
+WARN	duplicate_exact_synonym	OGG:3000000805	IAO:0000118	PHKD
+WARN	duplicate_exact_synonym	OGG:3000001432	IAO:0000118	p38
+WARN	duplicate_exact_synonym	OGG:3000005594	IAO:0000118	p38
+WARN	duplicate_exact_synonym	OGG:3000004842	IAO:0000118	NOS
+WARN	duplicate_exact_synonym	OGG:3000004843	IAO:0000118	NOS
+WARN	duplicate_exact_synonym	NCIT:C16866	oboInOwl:hasExactSynonym	Model System
+WARN	duplicate_exact_synonym	NCIT:C80519	oboInOwl:hasExactSynonym	Model System
+WARN	duplicate_exact_synonym	NCIT:C16866	oboInOwl:hasExactSynonym	Model
+WARN	duplicate_exact_synonym	NCIT:C80519	oboInOwl:hasExactSynonym	Model
+WARN	duplicate_exact_synonym	OGG:3000003577	IAO:0000118	IL8RA
+WARN	duplicate_exact_synonym	OGG:3000003579	IAO:0000118	IL8RA
+WARN	duplicate_exact_synonym	OGG:3000001230	IAO:0000118	CKR-1
+WARN	duplicate_exact_synonym	OGG:3000003577	IAO:0000118	CKR-1
+WARN	duplicate_exact_synonym	OGG:3000000983	IAO:0000118	CDC2
+WARN	duplicate_exact_synonym	OGG:3000005424	IAO:0000118	CDC2
+WARN	duplicate_exact_synonym	OGG:3000002833	IAO:0000118	CD182
+WARN	duplicate_exact_synonym	OGG:3000003579	IAO:0000118	CD182
+WARN	duplicate_exact_synonym	GO:0007610	oboInOwl:hasExactSynonym	behaviour
+WARN	duplicate_exact_synonym	NBO:0000313	oboInOwl:hasExactSynonym	behaviour
+WARN	duplicate_exact_synonym	OGG:3000000718	IAO:0000118	ASP
+WARN	duplicate_exact_synonym	OGG:3000009474	IAO:0000118	ASP
+WARN	duplicate_exact_synonym	MONDO:0007089	oboInOwl:hasExactSynonym	Alzheimer disease type 2
+WARN	duplicate_exact_synonym	MONDO:0100088	oboInOwl:hasExactSynonym	Alzheimer disease type 2
+WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] 
+WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (hasContinuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [126-001] 
+WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] 
+WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x) (if (Material Entity x) (exists (t) (and (TemporalRegion t) (existsAt x t))))) // axiom label in BFO2 CLIF: [011-002] 
+WARN	annotation_whitespace	BFO:0000003	IAO:0000602	(forall (x) (if (Occurrent x) (exists (r) (and (SpatioTemporalRegion r) (occupiesSpatioTemporalRegion x r))))) // axiom label in BFO2 CLIF: [108-001] 
+WARN	annotation_whitespace	BFO:0000003	IAO:0000602	(forall (x) (iff (Occurrent x) (and (Entity x) (exists (y) (temporalPartOf y x))))) // axiom label in BFO2 CLIF: [079-001] 
+WARN	annotation_whitespace	BFO:0000004	IAO:0000602	(forall (x t) (if (IndependentContinuant x) (exists (r) (and (SpatialRegion r) (locatedInAt x r t))))) // axiom label in BFO2 CLIF: [134-001] 
+WARN	annotation_whitespace	BFO:0000004	IAO:0000602	(forall (x t) (if (and (IndependentContinuant x) (existsAt x t)) (exists (y) (and (Entity y) (specificallyDependsOnAt y x t))))) // axiom label in BFO2 CLIF: [018-002] 
+WARN	annotation_whitespace	BFO:0000004	IAO:0000602	(iff (IndependentContinuant a) (and (Continuant a) (not (exists (b t) (specificallyDependsOnAt a b t))))) // axiom label in BFO2 CLIF: [017-002] 
+WARN	annotation_whitespace	BFO:0000006	IAO:0000602	(forall (x y t) (if (and (SpatialRegion x) (continuantPartOfAt y x t)) (SpatialRegion y))) // axiom label in BFO2 CLIF: [036-001] 
+WARN	annotation_whitespace	BFO:0000006	IAO:0000602	(forall (x) (if (SpatialRegion x) (Continuant x))) // axiom label in BFO2 CLIF: [035-001] 
+WARN	annotation_whitespace	BFO:0000008	IAO:0000602	(forall (r) (if (TemporalRegion r) (occupiesTemporalRegion r r))) // axiom label in BFO2 CLIF: [119-002] 
+WARN	annotation_whitespace	BFO:0000008	IAO:0000602	(forall (x y) (if (and (TemporalRegion x) (occurrentPartOf y x)) (TemporalRegion y))) // axiom label in BFO2 CLIF: [101-001] 
+WARN	annotation_whitespace	BFO:0000008	IAO:0000602	(forall (x) (if (TemporalRegion x) (Occurrent x))) // axiom label in BFO2 CLIF: [100-001] 
+WARN	annotation_whitespace	BFO:0000009	IAO:0000602	(forall (x) (if (TwoDimensionalSpatialRegion x) (SpatialRegion x))) // axiom label in BFO2 CLIF: [039-001] 
+WARN	annotation_whitespace	BFO:0000011	IAO:0000602	(forall (r) (if (SpatioTemporalRegion r) (occupiesSpatioTemporalRegion r r))) // axiom label in BFO2 CLIF: [107-002] 
+WARN	annotation_whitespace	BFO:0000011	IAO:0000602	(forall (x t) (if (SpatioTemporalRegion x) (exists (y) (and (SpatialRegion y) (spatiallyProjectsOntoAt x y t))))) // axiom label in BFO2 CLIF: [099-001] 
+WARN	annotation_whitespace	BFO:0000011	IAO:0000602	(forall (x y) (if (and (SpatioTemporalRegion x) (occurrentPartOf y x)) (SpatioTemporalRegion y))) // axiom label in BFO2 CLIF: [096-001] 
+WARN	annotation_whitespace	BFO:0000011	IAO:0000602	(forall (x) (if (SpatioTemporalRegion x) (Occurrent x))) // axiom label in BFO2 CLIF: [095-001] 
+WARN	annotation_whitespace	BFO:0000011	IAO:0000602	(forall (x) (if (SpatioTemporalRegion x) (exists (y) (and (TemporalRegion y) (temporallyProjectsOnto x y))))) // axiom label in BFO2 CLIF: [098-001] 
+WARN	annotation_whitespace	BFO:0000015	IAO:0000602	(iff (Process a) (and (Occurrent a) (exists (b) (properTemporalPartOf b a)) (exists (c t) (and (MaterialEntity c) (specificallyDependsOnAt a c t))))) // axiom label in BFO2 CLIF: [083-003] 
+WARN	annotation_whitespace	BFO:0000016	IAO:0000602	(forall (x t) (if (and (RealizableEntity x) (existsAt x t)) (exists (y) (and (MaterialEntity y) (specificallyDepends x y t))))) // axiom label in BFO2 CLIF: [063-002] 
+WARN	annotation_whitespace	BFO:0000016	IAO:0000602	(forall (x) (if (Disposition x) (and (RealizableEntity x) (exists (y) (and (MaterialEntity y) (bearerOfAt x y t)))))) // axiom label in BFO2 CLIF: [062-002] 
+WARN	annotation_whitespace	BFO:0000017	IAO:0000602	(forall (x t) (if (RealizableEntity x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (bearerOfAt y x t))))) // axiom label in BFO2 CLIF: [060-002] 
+WARN	annotation_whitespace	BFO:0000017	IAO:0000602	(forall (x) (if (RealizableEntity x) (and (SpecificallyDependentContinuant x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (inheresIn x y)))))) // axiom label in BFO2 CLIF: [058-002] 
+WARN	annotation_whitespace	BFO:0000018	IAO:0000602	(forall (x) (if (ZeroDimensionalSpatialRegion x) (SpatialRegion x))) // axiom label in BFO2 CLIF: [037-001] 
+WARN	annotation_whitespace	BFO:0000019	IAO:0000602	(forall (x) (if (Quality x) (SpecificallyDependentContinuant x))) // axiom label in BFO2 CLIF: [055-001] 
+WARN	annotation_whitespace	BFO:0000019	IAO:0000602	(forall (x) (if (exists (t) (and (existsAt x t) (Quality x))) (forall (t_1) (if (existsAt x t_1) (Quality x))))) // axiom label in BFO2 CLIF: [105-001] 
+WARN	annotation_whitespace	BFO:0000020	IAO:0000602	(iff (RelationalSpecificallyDependentContinuant a) (and (SpecificallyDependentContinuant a) (forall (t) (exists (b c) (and (not (SpatialRegion b)) (not (SpatialRegion c)) (not (= b c)) (not (exists (d) (and (continuantPartOfAt d b t) (continuantPartOfAt d c t)))) (specificallyDependsOnAt a b t) (specificallyDependsOnAt a c t)))))) // axiom label in BFO2 CLIF: [131-004] 
+WARN	annotation_whitespace	BFO:0000020	IAO:0000602	(iff (SpecificallyDependentContinuant a) (and (Continuant a) (forall (t) (if (existsAt a t) (exists (b) (and (IndependentContinuant b) (not (SpatialRegion b)) (specificallyDependsOnAt a b t))))))) // axiom label in BFO2 CLIF: [050-003] 
+WARN	annotation_whitespace	BFO:0000023	IAO:0000602	(forall (x) (if (Role x) (RealizableEntity x))) // axiom label in BFO2 CLIF: [061-001] 
+WARN	annotation_whitespace	BFO:0000024	IAO:0000602	(forall (x) (if (FiatObjectPart x) (and (MaterialEntity x) (forall (t) (if (existsAt x t) (exists (y) (and (Object y) (properContinuantPartOfAt x y t)))))))) // axiom label in BFO2 CLIF: [027-004] 
+WARN	annotation_whitespace	BFO:0000026	IAO:0000602	(forall (x) (if (OneDimensionalSpatialRegion x) (SpatialRegion x))) // axiom label in BFO2 CLIF: [038-001] 
+WARN	annotation_whitespace	BFO:0000027	IAO:0000116	An entity a is an object aggregate if and only if there is a mutually exhaustive and pairwise disjoint partition of a into objects 
+WARN	annotation_whitespace	BFO:0000027	IAO:0000602	(forall (x) (if (ObjectAggregate x) (and (MaterialEntity x) (forall (t) (if (existsAt x t) (exists (y z) (and (Object y) (Object z) (memberPartOfAt y x t) (memberPartOfAt z x t) (not (= y z)))))) (not (exists (w t_1) (and (memberPartOfAt w x t_1) (not (Object w)))))))) // axiom label in BFO2 CLIF: [025-004] 
+WARN	annotation_whitespace	BFO:0000028	IAO:0000602	(forall (x) (if (ThreeDimensionalSpatialRegion x) (SpatialRegion x))) // axiom label in BFO2 CLIF: [040-001] 
+WARN	annotation_whitespace	BFO:0000029	IAO:0000602	(forall (x) (if (Site x) (ImmaterialEntity x))) // axiom label in BFO2 CLIF: [034-002] 
+WARN	annotation_whitespace	BFO:0000031	IAO:0000602	(iff (GenericallyDependentContinuant a) (and (Continuant a) (exists (b t) (genericallyDependsOnAt a b t)))) // axiom label in BFO2 CLIF: [074-001] 
+WARN	annotation_whitespace	BFO:0000034	IAO:0000602	(forall (x) (if (Function x) (Disposition x))) // axiom label in BFO2 CLIF: [064-001] 
+WARN	annotation_whitespace	BFO:0000035	IAO:0000602	(forall (x) (if (ProcessBoundary x) (exists (y) (and (ZeroDimensionalTemporalRegion y) (occupiesTemporalRegion x y))))) // axiom label in BFO2 CLIF: [085-002] 
+WARN	annotation_whitespace	BFO:0000035	IAO:0000602	(iff (ProcessBoundary a) (exists (p) (and (Process p) (temporalPartOf a p) (not (exists (b) (properTemporalPartOf b a)))))) // axiom label in BFO2 CLIF: [084-001] 
+WARN	annotation_whitespace	BFO:0000038	IAO:0000602	(forall (x) (if (OneDimensionalTemporalRegion x) (TemporalRegion x))) // axiom label in BFO2 CLIF: [103-001] 
+WARN	annotation_whitespace	BFO:0000040	IAO:0000602	(forall (x) (if (MaterialEntity x) (IndependentContinuant x))) // axiom label in BFO2 CLIF: [019-002] 
+WARN	annotation_whitespace	BFO:0000040	IAO:0000602	(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt x y t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [021-002] 
+WARN	annotation_whitespace	BFO:0000040	IAO:0000602	(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] 
+WARN	annotation_whitespace	BFO:0000140	IAO:0000602	(iff (ContinuantFiatBoundary a) (and (ImmaterialEntity a) (exists (b) (and (or (ZeroDimensionalSpatialRegion b) (OneDimensionalSpatialRegion b) (TwoDimensionalSpatialRegion b)) (forall (t) (locatedInAt a b t)))) (not (exists (c t) (and (SpatialRegion c) (continuantPartOfAt c a t)))))) // axiom label in BFO2 CLIF: [029-001] 
+WARN	annotation_whitespace	BFO:0000142	IAO:0000602	(iff (OneDimensionalContinuantFiatBoundary a) (and (ContinuantFiatBoundary a) (exists (b) (and (OneDimensionalSpatialRegion b) (forall (t) (locatedInAt a b t)))))) // axiom label in BFO2 CLIF: [032-001] 
+WARN	annotation_whitespace	BFO:0000144	IAO:0000602	(forall (x y) (if (processProfileOf x y) (and (properContinuantPartOf x y) (exists (z t) (and (properOccurrentPartOf z y) (TemporalRegion t) (occupiesSpatioTemporalRegion x t) (occupiesSpatioTemporalRegion y t) (occupiesSpatioTemporalRegion z t) (not (exists (w) (and (occurrentPartOf w x) (occurrentPartOf w z))))))))) // axiom label in BFO2 CLIF: [094-005] 
+WARN	annotation_whitespace	BFO:0000144	IAO:0000602	(iff (ProcessProfile a) (exists (b) (and (Process b) (processProfileOf a b)))) // axiom label in BFO2 CLIF: [093-002] 
+WARN	annotation_whitespace	BFO:0000145	IAO:0000602	(iff (RelationalQuality a) (exists (b c t) (and (IndependentContinuant b) (IndependentContinuant c) (qualityOfAt a b t) (qualityOfAt a c t)))) // axiom label in BFO2 CLIF: [057-001] 
+WARN	annotation_whitespace	BFO:0000146	IAO:0000602	(iff (TwoDimensionalContinuantFiatBoundary a) (and (ContinuantFiatBoundary a) (exists (b) (and (TwoDimensionalSpatialRegion b) (forall (t) (locatedInAt a b t)))))) // axiom label in BFO2 CLIF: [033-001] 
+WARN	annotation_whitespace	BFO:0000147	IAO:0000602	(iff (ZeroDimensionalContinuantFiatBoundary a) (and (ContinuantFiatBoundary a) (exists (b) (and (ZeroDimensionalSpatialRegion b) (forall (t) (locatedInAt a b t)))))) // axiom label in BFO2 CLIF: [031-001] 
+WARN	annotation_whitespace	BFO:0000148	IAO:0000602	(forall (x) (if (ZeroDimensionalTemporalRegion x) (TemporalRegion x))) // axiom label in BFO2 CLIF: [102-001] 
+WARN	annotation_whitespace	ERO:0001071	IAO:0000118	CSF collection 
+WARN	annotation_whitespace	ERO:0001071	IAO:0000118	Cerebrospinal fluid collection 
+WARN	annotation_whitespace	IAO:0000115	IAO:0000116	"2012-04-05:
+Barry Smith
+
+The official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions'  is terrible.
+
+Can you fix to something like:
+
+A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.
+
+Alan Ruttenberg
+
+Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria.
+
+On the specifics of the proposed definition:
+
+We don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition.
+
+Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable.
+
+We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  @en"
+WARN	annotation_whitespace	IAO:0000115	IAO:0000116	"2012-04-05: 
+Barry Smith
+
+OBI??????????????????'???????????????????????????'?????
+
+???????????
+
+?????????????????????????
+
+Alan Ruttenberg
+
+???????????????????????????????????????????????????????????????????????????????????????????????????????
+
+????????????
+
+????“??”??“??”?“??”?????????????“??”??????????“??”???'??'??????????????????????“??”???????????????????????????????????????????????????????????????????????????????? “????”????????????????????????????????????????????????
+
+??????????????????????????????
+
+???????????????????????????????????????chebi???????????????????????/???????????????????? @en"
+WARN	annotation_whitespace	IAO:0000115	IAO:0000116	"2012-04-05: 
+Barry Smith
+
+The official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions'  is terrible.
+
+Can you fix to something like:
+
+A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.
+
+Alan Ruttenberg
+
+Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria. 
+
+On the specifics of the proposed definition:
+
+We don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. 
+
+Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. 
+
+We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  @en"
+WARN	annotation_whitespace	INO:0000006	IAO:0000115	an annotation property that lists keyword(s) useful for literature tagging and retrieval of sentences containing the type (or kind) of entity (e.g., interaction) as shown by the ontology term label and definition. 
+WARN	annotation_whitespace	INO:0000157	IAO:0000115	A regulation represents a regulatory interaction between two interactors. 
+WARN	annotation_whitespace	MF:0000008	rdfs:seeAlso	GO:0050890, cognition, defined as `The operation of the mind by which an organism becomes aware of objects of thought or perception; it includes the mental activities associated with thinking, learning, and memory.' 
+WARN	annotation_whitespace	MF:0000020	IAO:0000115	A mental process is a bodily process that is of a type such that it can of itself be conscious. Examples include thinking, feeling pain, remembering and emotion as occurrent experiences. 
+WARN	annotation_whitespace	MF:0000020	rdfs:seeAlso	GO:0050890, cognition, defined as `The operation of the mind by which an organism becomes aware of objects of thought or perception; it includes the mental activities associated with thinking, learning, and memory.' 
+WARN	annotation_whitespace	MF:0000033	IAO:0000115	A mental disposition is a bodily disposition that is realized in a mental process. 
+WARN	annotation_whitespace	OAE:0000002	IAO:0000115	medical intervention is a planned process that has the goal of diagnosing, preventing or relieving illness or injury. 
+WARN	annotation_whitespace	OAE:0000002	IAO:0000116	"The act of intervening, interfering or interceding with the intent of modifying the outcome. In medicine, an intervention is usually undertaken to help treat or cure a condition. For example, \""Acupuncture as a therapeutic intervention is widely practiced in the United States,\""
+Reference:
+http://www.medterms.com/script/main/art.asp?articlekey=34214 . Some interventions can be used for diagnosis. "
+WARN	annotation_whitespace	OAE:0001551	IAO:0000115	an adverse event that occurs in brain. 
+WARN	annotation_whitespace	OBCS:0000001	IAO:0000115	a data transformation that has input of mulitple data and report overall trend of the data. 
+WARN	annotation_whitespace	OBCS:0000231	IAO:0000115	A rate of deaths (in general, or due to a specific cause) that in a particular population, scaled to the size of that population, per unit of time. 
+WARN	annotation_whitespace	OBI:0000070	IAO:0000116	12/3/12: BP: the reference to the 'physical examination' is included to point out that a prediction is not an assay, as that does not require physical examiniation. 
+WARN	annotation_whitespace	OBI:0500026	IAO:0000115	"an eligibility criterion (rule) is_a selection criterion which 
+defines and states the requirements (positive or negative) for an entity to be considered as suitable for a given task or participation in a process.
+@en"
+WARN	annotation_whitespace	OGG:0000000002	IAO:0000115	A gene is a material entity that represents the entire DNA sequence required for synthesis of a functional protein or RNA molecule. 
+WARN	annotation_whitespace	OGG:0000000006	IAO:0000115	A GeneID in the NCBI Gene database 
+WARN	annotation_whitespace	OGG:0000000007	IAO:0000115	the NCBI LocusTag name of a gene 
+WARN	annotation_whitespace	OGG:0000000029	IAO:0000115	an annotation property that shows the GO information associated with a specific gene. 
+WARN	annotation_whitespace	OGG:0000000030	IAO:0000115	An annotation property that represents a gene's association with PubMed publication(s). 
+WARN	annotation_whitespace	OGMS:0000096	IAO:0000232	"creation date: 2011-02-21T09:57:44Z
+editor date: 2017-04-18
+"
+WARN	annotation_whitespace	RO:0002161	IAO:0000425	?X DisjointWith RO_0002162 some ?Y 
+WARN	annotation_whitespace	STATO:0000184	IAO:0000115	"A ratio is a data item which is formed with two numbers r and s is written r/s, where r is the numerator and s is the denominator. The ratio of r to s is equivalent to the quotient r/s. 
+@en"
 WARN	duplicate_scoped_synonym	CHEBI:15361	oboInOwl:hasExactSynonym	2-oxopropanoate
 WARN	duplicate_scoped_synonym	CHEBI:15361	oboInOwl:hasRelatedSynonym	2-oxopropanoate
 WARN	duplicate_scoped_synonym	CHEBI:16038	oboInOwl:hasExactSynonym	phosphatidylethanolamines
@@ -253,326 +424,27 @@ WARN	duplicate_scoped_synonym	UBERON:0001018	oboInOwl:hasNarrowSynonym	nerve tra
 WARN	duplicate_scoped_synonym	UBERON:0001018	oboInOwl:hasRelatedSynonym	nerve tract
 WARN	duplicate_scoped_synonym	UBERON:0002751	oboInOwl:hasExactSynonym	gyrus temporalis inferior
 WARN	duplicate_scoped_synonym	UBERON:0002751	oboInOwl:hasRelatedSynonym	gyrus temporalis inferior
-WARN	duplicate_label_synonym	CHEBI:13705	oboInOwl:hasExactSynonym	acetoacetate
-WARN	duplicate_label_synonym	CHEBI:15354	oboInOwl:hasExactSynonym	choline
-WARN	duplicate_label_synonym	CHEBI:15355	oboInOwl:hasExactSynonym	acetylcholine
-WARN	duplicate_label_synonym	CHEBI:15356	oboInOwl:hasExactSynonym	cysteine
-WARN	duplicate_label_synonym	CHEBI:15361	oboInOwl:hasExactSynonym	pyruvate
-WARN	duplicate_label_synonym	CHEBI:15377	oboInOwl:hasExactSynonym	water
-WARN	duplicate_label_synonym	CHEBI:15380	oboInOwl:hasExactSynonym	succinyl-CoA
-WARN	duplicate_label_synonym	CHEBI:15440	oboInOwl:hasExactSynonym	squalene
-WARN	duplicate_label_synonym	CHEBI:15784	oboInOwl:hasExactSynonym	N-acetyl-D-glucosamine 6-phosphate
-WARN	duplicate_label_synonym	CHEBI:16091	oboInOwl:hasExactSynonym	dolichol
-WARN	duplicate_label_synonym	CHEBI:16113	oboInOwl:hasExactSynonym	cholesterol
-WARN	duplicate_label_synonym	CHEBI:16189	oboInOwl:hasExactSynonym	sulfate
-WARN	duplicate_label_synonym	CHEBI:16240	oboInOwl:hasExactSynonym	hydrogen peroxide
-WARN	duplicate_label_synonym	CHEBI:16474	oboInOwl:hasExactSynonym	NADPH
-WARN	duplicate_label_synonym	CHEBI:16521	oboInOwl:hasExactSynonym	lanosterol
-WARN	duplicate_label_synonym	CHEBI:16796	oboInOwl:hasExactSynonym	melatonin
-WARN	duplicate_label_synonym	CHEBI:16811	oboInOwl:hasExactSynonym	methionine
-WARN	duplicate_label_synonym	CHEBI:16828	oboInOwl:hasExactSynonym	L-tryptophan
-WARN	duplicate_label_synonym	CHEBI:16865	oboInOwl:hasExactSynonym	gamma-aminobutyric acid
-WARN	duplicate_label_synonym	CHEBI:16908	oboInOwl:hasExactSynonym	NADH
-WARN	duplicate_label_synonym	CHEBI:17230	oboInOwl:hasExactSynonym	homocysteine
-WARN	duplicate_label_synonym	CHEBI:17234	oboInOwl:hasExactSynonym	glucose
-WARN	duplicate_label_synonym	CHEBI:17347	oboInOwl:hasExactSynonym	testosterone
-WARN	duplicate_label_synonym	CHEBI:17359	oboInOwl:hasExactSynonym	sulfite
-WARN	duplicate_label_synonym	CHEBI:17478	oboInOwl:hasExactSynonym	aldehyde
-WARN	duplicate_label_synonym	CHEBI:176842	oboInOwl:hasExactSynonym	vitamin B9
-WARN	duplicate_label_synonym	CHEBI:176843	oboInOwl:hasExactSynonym	vitamin B12
-WARN	duplicate_label_synonym	CHEBI:17996	oboInOwl:hasExactSynonym	chloride
-WARN	duplicate_label_synonym	CHEBI:18022	oboInOwl:hasExactSynonym	thiocyanate
-WARN	duplicate_label_synonym	CHEBI:18211	oboInOwl:hasExactSynonym	citrulline
-WARN	duplicate_label_synonym	CHEBI:18379	oboInOwl:hasExactSynonym	nitrile
-WARN	duplicate_label_synonym	CHEBI:18420	oboInOwl:hasExactSynonym	magnesium(2+)
-WARN	duplicate_label_synonym	CHEBI:18421	oboInOwl:hasExactSynonym	superoxide
-WARN	duplicate_label_synonym	CHEBI:23019	oboInOwl:hasExactSynonym	carbonyl group
-WARN	duplicate_label_synonym	CHEBI:23053	oboInOwl:hasExactSynonym	catechin
-WARN	duplicate_label_synonym	CHEBI:23367	oboInOwl:hasExactSynonym	molecular entity
-WARN	duplicate_label_synonym	CHEBI:23888	IAO:0000118	drug
-WARN	duplicate_label_synonym	CHEBI:23924	oboInOwl:hasExactSynonym	enzyme inhibitor
-WARN	duplicate_label_synonym	CHEBI:24062	oboInOwl:hasExactSynonym	fluorine molecular entity
-WARN	duplicate_label_synonym	CHEBI:24431	oboInOwl:hasExactSynonym	chemical entity
-WARN	duplicate_label_synonym	CHEBI:24433	oboInOwl:hasExactSynonym	group
-WARN	duplicate_label_synonym	CHEBI:24471	oboInOwl:hasExactSynonym	halogen molecular entity
-WARN	duplicate_label_synonym	CHEBI:24833	oboInOwl:hasExactSynonym	oxoacid
-WARN	duplicate_label_synonym	CHEBI:24870	oboInOwl:hasExactSynonym	ion
-WARN	duplicate_label_synonym	CHEBI:24913	oboInOwl:hasExactSynonym	isoprenoid
-WARN	duplicate_label_synonym	CHEBI:25000	oboInOwl:hasExactSynonym	lactone
-WARN	duplicate_label_synonym	CHEBI:25029	oboInOwl:hasExactSynonym	leukotriene
-WARN	duplicate_label_synonym	CHEBI:25367	oboInOwl:hasExactSynonym	molecule
-WARN	duplicate_label_synonym	CHEBI:25681	oboInOwl:hasExactSynonym	omega-3 fatty acid
-WARN	duplicate_label_synonym	CHEBI:25698	oboInOwl:hasExactSynonym	ether
-WARN	duplicate_label_synonym	CHEBI:25703	oboInOwl:hasExactSynonym	organic phosphate
-WARN	duplicate_label_synonym	CHEBI:25710	oboInOwl:hasExactSynonym	organophosphorus compound
-WARN	duplicate_label_synonym	CHEBI:25806	oboInOwl:hasExactSynonym	oxygen molecular entity
-WARN	duplicate_label_synonym	CHEBI:25900	oboInOwl:hasExactSynonym	aldopentose phosphate
-WARN	duplicate_label_synonym	CHEBI:25941	oboInOwl:hasExactSynonym	peroxynitrite
-WARN	duplicate_label_synonym	CHEBI:26167	oboInOwl:hasExactSynonym	polar amino acid
-WARN	duplicate_label_synonym	CHEBI:26562	oboInOwl:hasExactSynonym	ribose phosphate
-WARN	duplicate_label_synonym	CHEBI:26835	oboInOwl:hasExactSynonym	sulfur molecular entity
-WARN	duplicate_label_synonym	CHEBI:28115	oboInOwl:hasExactSynonym	methylcobalamin
-WARN	duplicate_label_synonym	CHEBI:28300	oboInOwl:hasExactSynonym	glutamine
-WARN	duplicate_label_synonym	CHEBI:28839	oboInOwl:hasExactSynonym	3-disulfanyl-L-alanine
-WARN	duplicate_label_synonym	CHEBI:29016	oboInOwl:hasExactSynonym	arginine
-WARN	duplicate_label_synonym	CHEBI:29033	oboInOwl:hasExactSynonym	iron(2+)
-WARN	duplicate_label_synonym	CHEBI:29101	oboInOwl:hasExactSynonym	sodium(1+)
-WARN	duplicate_label_synonym	CHEBI:29103	oboInOwl:hasExactSynonym	potassium(1+)
-WARN	duplicate_label_synonym	CHEBI:29105	oboInOwl:hasExactSynonym	zinc(2+)
-WARN	duplicate_label_synonym	CHEBI:29108	oboInOwl:hasExactSynonym	calcium(2+)
-WARN	duplicate_label_synonym	CHEBI:29191	oboInOwl:hasExactSynonym	hydroxyl
-WARN	duplicate_label_synonym	CHEBI:30089	oboInOwl:hasExactSynonym	acetate
-WARN	duplicate_label_synonym	CHEBI:31296	oboInOwl:hasExactSynonym	Blonanserin
-WARN	duplicate_label_synonym	CHEBI:33234	oboInOwl:hasExactSynonym	vitamin E
-WARN	duplicate_label_synonym	CHEBI:33250	oboInOwl:hasExactSynonym	atom
-WARN	duplicate_label_synonym	CHEBI:33256	oboInOwl:hasExactSynonym	primary amide
-WARN	duplicate_label_synonym	CHEBI:33261	oboInOwl:hasExactSynonym	organosulfur compound
-WARN	duplicate_label_synonym	CHEBI:33302	oboInOwl:hasExactSynonym	pnictogen molecular entity
-WARN	duplicate_label_synonym	CHEBI:33304	oboInOwl:hasExactSynonym	chalcogen molecular entity
-WARN	duplicate_label_synonym	CHEBI:33447	oboInOwl:hasExactSynonym	phospho sugar
-WARN	duplicate_label_synonym	CHEBI:33575	oboInOwl:hasExactSynonym	carboxylic acid
-WARN	duplicate_label_synonym	CHEBI:33582	oboInOwl:hasExactSynonym	carbon group molecular entity
-WARN	duplicate_label_synonym	CHEBI:33597	oboInOwl:hasExactSynonym	homocyclic compound
-WARN	duplicate_label_synonym	CHEBI:33598	oboInOwl:hasExactSynonym	carbocyclic compound
-WARN	duplicate_label_synonym	CHEBI:33670	oboInOwl:hasExactSynonym	heteromonocyclic compound
-WARN	duplicate_label_synonym	CHEBI:33674	oboInOwl:hasExactSynonym	s-block molecular entity
-WARN	duplicate_label_synonym	CHEBI:33697	oboInOwl:hasExactSynonym	ribonucleic acid
-WARN	duplicate_label_synonym	CHEBI:33839	oboInOwl:hasExactSynonym	macromolecule
-WARN	duplicate_label_synonym	CHEBI:33853	oboInOwl:hasExactSynonym	phenols
-WARN	duplicate_label_synonym	CHEBI:35222	oboInOwl:hasExactSynonym	inhibitor
-WARN	duplicate_label_synonym	CHEBI:35850	oboInOwl:hasExactSynonym	sulfone
-WARN	duplicate_label_synonym	CHEBI:36005	oboInOwl:hasExactSynonym	docosahexaenoic acid
-WARN	duplicate_label_synonym	CHEBI:36009	oboInOwl:hasExactSynonym	omega-6 fatty acid
-WARN	duplicate_label_synonym	CHEBI:36359	oboInOwl:hasExactSynonym	phosphorus oxoacid derivative
-WARN	duplicate_label_synonym	CHEBI:36820	oboInOwl:hasExactSynonym	ring assembly
-WARN	duplicate_label_synonym	CHEBI:36962	oboInOwl:hasExactSynonym	organochalcogen compound
-WARN	duplicate_label_synonym	CHEBI:36963	oboInOwl:hasExactSynonym	organooxygen compound
-WARN	duplicate_label_synonym	CHEBI:37143	oboInOwl:hasExactSynonym	organofluorine compound
-WARN	duplicate_label_synonym	CHEBI:37555	oboInOwl:hasExactSynonym	omega-carboxyacyl-CoA
-WARN	duplicate_label_synonym	CHEBI:3962	oboInOwl:hasExactSynonym	curcumin
-WARN	duplicate_label_synonym	CHEBI:40303	oboInOwl:hasExactSynonym	lovastatin
-WARN	duplicate_label_synonym	CHEBI:42944	oboInOwl:hasExactSynonym	galanthamine
-WARN	duplicate_label_synonym	CHEBI:4353	oboInOwl:hasExactSynonym	Decursin
-WARN	duplicate_label_synonym	CHEBI:48705	oboInOwl:hasExactSynonym	agonist
-WARN	duplicate_label_synonym	CHEBI:48706	oboInOwl:hasExactSynonym	antagonist
-WARN	duplicate_label_synonym	CHEBI:49552	oboInOwl:hasExactSynonym	copper(1+)
-WARN	duplicate_label_synonym	CHEBI:49713	oboInOwl:hasExactSynonym	lithium(1+)
-WARN	duplicate_label_synonym	CHEBI:506227	oboInOwl:hasExactSynonym	N-acetyl-D-glucosamine
-WARN	duplicate_label_synonym	CHEBI:5417	oboInOwl:hasExactSynonym	glucosamine
-WARN	duplicate_label_synonym	CHEBI:5445	oboInOwl:hasExactSynonym	glyceraldehyde
-WARN	duplicate_label_synonym	CHEBI:566274	oboInOwl:hasExactSynonym	malonaldehyde
-WARN	duplicate_label_synonym	CHEBI:64073	oboInOwl:hasExactSynonym	exendin-4
-WARN	duplicate_label_synonym	CHEBI:6498	oboInOwl:hasExactSynonym	lipoxin A4
-WARN	duplicate_label_synonym	CHEBI:6538	oboInOwl:hasExactSynonym	Loratadine
-WARN	duplicate_label_synonym	CHEBI:6539	oboInOwl:hasExactSynonym	Lorazepam
-WARN	duplicate_label_synonym	CHEBI:6690	oboInOwl:hasExactSynonym	Maprotiline
-WARN	duplicate_label_synonym	CHEBI:6960	oboInOwl:hasExactSynonym	Moexipril
-WARN	duplicate_label_synonym	CHEBI:7476	oboInOwl:hasExactSynonym	naproxen
-WARN	duplicate_label_synonym	CHEBI:7494	oboInOwl:hasExactSynonym	nefazodone
-WARN	duplicate_label_synonym	CHEBI:8060	oboInOwl:hasExactSynonym	Phenelzine
-WARN	duplicate_label_synonym	CHEBI:8212	oboInOwl:hasExactSynonym	pimozide
-WARN	duplicate_label_synonym	CHEBI:86269	oboInOwl:hasExactSynonym	3-nitrotyrosine
-WARN	duplicate_label_synonym	CHEBI:8665	oboInOwl:hasExactSynonym	Pyridostigmine
-WARN	duplicate_label_synonym	CHEBI:8871	oboInOwl:hasExactSynonym	risperidone
-WARN	duplicate_label_synonym	CHEBI:9435	oboInOwl:hasExactSynonym	Temazepam
-WARN	duplicate_label_synonym	CL:0000598	oboInOwl:hasExactSynonym	pyramidal neuron
-WARN	duplicate_label_synonym	CMO:0000000	oboInOwl:hasExactSynonym	clinical measurement
-WARN	duplicate_label_synonym	GO:0007610	oboInOwl:hasExactSynonym	behavior
-WARN	duplicate_label_synonym	HP:0000707	oboInOwl:hasExactSynonym	Abnormality of the nervous system
-WARN	duplicate_label_synonym	HP:0000751	oboInOwl:hasExactSynonym	Personality changes
-WARN	duplicate_label_synonym	HP:0002013	oboInOwl:hasExactSynonym	Vomiting
-WARN	duplicate_label_synonym	HP:0012393	oboInOwl:hasExactSynonym	Allergy
-WARN	duplicate_label_synonym	HP:0012639	oboInOwl:hasExactSynonym	Abnormal nervous system morphology
-WARN	duplicate_label_synonym	IDOMAL:0000581	IAO:0000118	C3b
-WARN	duplicate_label_synonym	MOD:00719	oboInOwl:hasExactSynonym	L-methionine sulfoxide
-WARN	duplicate_label_synonym	MONDO:0000839	oboInOwl:hasExactSynonym	congenital abnormality
-WARN	duplicate_label_synonym	MONDO:0002046	oboInOwl:hasExactSynonym	alcohol abuse
-WARN	duplicate_label_synonym	MONDO:0002251	oboInOwl:hasExactSynonym	hepatitis
-WARN	duplicate_label_synonym	MONDO:0004335	oboInOwl:hasExactSynonym	digestive system disease
-WARN	duplicate_label_synonym	MONDO:0005151	oboInOwl:hasExactSynonym	endocrine system disease
-WARN	duplicate_label_synonym	MONDO:0007089	oboInOwl:hasExactSynonym	Alzheimer disease 2
-WARN	duplicate_label_synonym	MONDO:0010022	oboInOwl:hasExactSynonym	senile plaque formation
-WARN	duplicate_label_synonym	MONDO:0010422	oboInOwl:hasExactSynonym	Alzheimer disease 16
-WARN	duplicate_label_synonym	MONDO:0010783	oboInOwl:hasExactSynonym	Alzheimer disease, susceptibility to, mitochondrial
-WARN	duplicate_label_synonym	MONDO:0011194	oboInOwl:hasExactSynonym	Alzheimer disease 5
-WARN	duplicate_label_synonym	MONDO:0011401	oboInOwl:hasExactSynonym	Alzheimer disease without neurofibrillary tangles
-WARN	duplicate_label_synonym	MONDO:0011513	oboInOwl:hasExactSynonym	Alzheimer disease, familial early-onset, with coexisting amyloid and prion pathology
-WARN	duplicate_label_synonym	MONDO:0011561	oboInOwl:hasExactSynonym	Alzheimer disease 6
-WARN	duplicate_label_synonym	MONDO:0011647	oboInOwl:hasExactSynonym	Alzheimer disease 7
-WARN	duplicate_label_synonym	MONDO:0011743	oboInOwl:hasExactSynonym	Alzheimer disease 4
-WARN	duplicate_label_synonym	MONDO:0011777	oboInOwl:hasExactSynonym	Alzheimer disease 8
-WARN	duplicate_label_synonym	MONDO:0011913	oboInOwl:hasExactSynonym	Alzheimer disease 3
-WARN	duplicate_label_synonym	MONDO:0012321	oboInOwl:hasExactSynonym	Alzheimer disease 10
-WARN	duplicate_label_synonym	MONDO:0012344	oboInOwl:hasExactSynonym	Alzheimer disease 11
-WARN	duplicate_label_synonym	MONDO:0012609	oboInOwl:hasExactSynonym	Alzheimer disease 12
-WARN	duplicate_label_synonym	MONDO:0012630	oboInOwl:hasExactSynonym	Alzheimer disease 13
-WARN	duplicate_label_synonym	MONDO:0012631	oboInOwl:hasExactSynonym	Alzheimer disease 14
-WARN	duplicate_label_synonym	MONDO:0014036	oboInOwl:hasExactSynonym	Alzheimer disease 17
-WARN	duplicate_label_synonym	MONDO:0014265	oboInOwl:hasExactSynonym	Alzheimer disease 18
-WARN	duplicate_label_synonym	MONDO:0014316	oboInOwl:hasExactSynonym	Alzheimer disease 19
-WARN	duplicate_label_synonym	MONDO:0022880	oboInOwl:hasExactSynonym	corticobasal degeneration
-WARN	duplicate_label_synonym	MOP:0000030	oboInOwl:hasExactSynonym	acetylation
-WARN	duplicate_label_synonym	MP:0005331	oboInOwl:hasExactSynonym	insulin resistance
-WARN	duplicate_label_synonym	NCIT:A11	oboInOwl:hasExactSynonym	Has_NICHD_Parent
-WARN	duplicate_label_synonym	NCIT:A13	oboInOwl:hasExactSynonym	Related_To_Genetic_Biomarker
-WARN	duplicate_label_synonym	NCIT:A24	oboInOwl:hasExactSynonym	Is_PCDC_AML_Permissible_Value_For_Variable
-WARN	duplicate_label_synonym	NCIT:A28	oboInOwl:hasExactSynonym	Is_PCDC_EWS_Permissible_Value_For_Variable
-WARN	duplicate_label_synonym	NCIT:C100762	oboInOwl:hasExactSynonym	Alzheimer's Disease Assessment Scale-Cognitive CDISC Version Questionnaire
-WARN	duplicate_label_synonym	NCIT:C102114	oboInOwl:hasExactSynonym	Clinical Dementia Rating Questionnaire
-WARN	duplicate_label_synonym	NCIT:C103400	oboInOwl:hasExactSynonym	FDG-Positron Emission Tomography
-WARN	duplicate_label_synonym	NCIT:C105165	oboInOwl:hasExactSynonym	Disability Assessment for Dementia Questionnaire
-WARN	duplicate_label_synonym	NCIT:C105166	oboInOwl:hasExactSynonym	Alzheimer's Disease Cooperative Study Activities of Daily Living Inventory Questionnaire
-WARN	duplicate_label_synonym	NCIT:C106697	oboInOwl:hasExactSynonym	Geriatric Depression Scale Questionnaire
-WARN	duplicate_label_synonym	NCIT:C106888	oboInOwl:hasExactSynonym	Alzheimer's Disease Cooperative Study-Activities of Daily Living Inventory Mild Cognitive Impairment Questionnaire
-WARN	duplicate_label_synonym	NCIT:C111794	oboInOwl:hasExactSynonym	Notch Receptor Intracellular Domain
-WARN	duplicate_label_synonym	NCIT:C116450	oboInOwl:hasExactSynonym	Arterial Spin Labeling Magnetic Resonance Imaging
-WARN	duplicate_label_synonym	NCIT:C117960	oboInOwl:hasExactSynonym	Diagnostic Criteria
-WARN	duplicate_label_synonym	NCIT:C117997	oboInOwl:hasExactSynonym	Extrapyramidal Symptom Rating Scale-Abbreviated Clinical Classification
-WARN	duplicate_label_synonym	NCIT:C118457	oboInOwl:hasExactSynonym	N-Methyl-D-Aspartate Receptor
-WARN	duplicate_label_synonym	NCIT:C118892	oboInOwl:hasExactSynonym	FOXO Family
-WARN	duplicate_label_synonym	NCIT:C1192	oboInOwl:hasExactSynonym	Phosphatidylinositol 4,5-bisphosphate
-WARN	duplicate_label_synonym	NCIT:C120257	oboInOwl:hasExactSynonym	California Verbal Learning Test - Second Edition
-WARN	duplicate_label_synonym	NCIT:C123667	oboInOwl:hasExactSynonym	Montreal Cognitive Assessment Functional Test
-WARN	duplicate_label_synonym	NCIT:C123668	oboInOwl:hasExactSynonym	Rey Auditory Verbal Learning Functional Test
-WARN	duplicate_label_synonym	NCIT:C12534	oboInOwl:hasExactSynonym	Non-Granular Leukocyte
-WARN	duplicate_label_synonym	NCIT:C125410	oboInOwl:hasExactSynonym	Have Difficulty Swallowing
-WARN	duplicate_label_synonym	NCIT:C125913	oboInOwl:hasExactSynonym	Have Indigestion
-WARN	duplicate_label_synonym	NCIT:C129326	oboInOwl:hasExactSynonym	Resting State Functional Connectivity Magnetic Resonance Imaging
-WARN	duplicate_label_synonym	NCIT:C129646	oboInOwl:hasExactSynonym	Vascular Endothelial Growth Factor Family
-WARN	duplicate_label_synonym	NCIT:C131258	oboInOwl:hasExactSynonym	MT-RNR2 Gene
-WARN	duplicate_label_synonym	NCIT:C137847	oboInOwl:hasExactSynonym	Current Difficulty Learning New Tasks or Instructions
-WARN	duplicate_label_synonym	NCIT:C14211	oboInOwl:hasExactSynonym	Guinea Pig
-WARN	duplicate_label_synonym	NCIT:C143955	oboInOwl:hasExactSynonym	Blood Inflammatory Marker
-WARN	duplicate_label_synonym	NCIT:C150129	oboInOwl:hasExactSynonym	Circulating Protein
-WARN	duplicate_label_synonym	NCIT:C15206	oboInOwl:hasExactSynonym	Clinical Study
-WARN	duplicate_label_synonym	NCIT:C15262	oboInOwl:hasExactSynonym	Immunotherapy
-WARN	duplicate_label_synonym	NCIT:C15273	oboInOwl:hasExactSynonym	Longitudinal Study
-WARN	duplicate_label_synonym	NCIT:C15327	oboInOwl:hasExactSynonym	Lumbar Puncture
-WARN	duplicate_label_synonym	NCIT:C15362	oboInOwl:hasExactSynonym	Case Study
-WARN	duplicate_label_synonym	NCIT:C157012	oboInOwl:hasExactSynonym	Cognition Clock Test
-WARN	duplicate_label_synonym	NCIT:C15709	oboInOwl:hasExactSynonym	Genetic Testing
-WARN	duplicate_label_synonym	NCIT:C15719	oboInOwl:hasExactSynonym	Surveillance
-WARN	duplicate_label_synonym	NCIT:C160587	oboInOwl:hasExactSynonym	Executive Function Disorder
-WARN	duplicate_label_synonym	NCIT:C16436	oboInOwl:hasExactSynonym	Chromogranin
-WARN	duplicate_label_synonym	NCIT:C16502	oboInOwl:hasExactSynonym	Diagnostic Imaging
-WARN	duplicate_label_synonym	NCIT:C16518	oboInOwl:hasExactSynonym	DNA Binding Protein
-WARN	duplicate_label_synonym	NCIT:C16631	oboInOwl:hasExactSynonym	Genotype
-WARN	duplicate_label_synonym	NCIT:C166444	oboInOwl:hasExactSynonym	Aducanumab
-WARN	duplicate_label_synonym	NCIT:C16672	oboInOwl:hasExactSynonym	Heat Shock Protein
-WARN	duplicate_label_synonym	NCIT:C16795	oboInOwl:hasExactSynonym	Lifestyle
-WARN	duplicate_label_synonym	NCIT:C16809	oboInOwl:hasExactSynonym	Magnetic Resonance Imaging
-WARN	duplicate_label_synonym	NCIT:C16811	oboInOwl:hasExactSynonym	Magnetoencephalography
-WARN	duplicate_label_synonym	NCIT:C16861	oboInOwl:hasExactSynonym	Microtubule Associated Protein
-WARN	duplicate_label_synonym	NCIT:C16866	oboInOwl:hasExactSynonym	Model
-WARN	duplicate_label_synonym	NCIT:C17204	oboInOwl:hasExactSynonym	Computed Tomography
-WARN	duplicate_label_synonym	NCIT:C174447	oboInOwl:hasExactSynonym	Study Arm
-WARN	duplicate_label_synonym	NCIT:C17456	oboInOwl:hasExactSynonym	Experimental Model
-WARN	duplicate_label_synonym	NCIT:C1746	oboInOwl:hasExactSynonym	Peptide Hormone
-WARN	duplicate_label_synonym	NCIT:C17486	oboInOwl:hasExactSynonym	CCAAT Enhancer Binding Protein
-WARN	duplicate_label_synonym	NCIT:C176261	oboInOwl:hasExactSynonym	Study Phase
-WARN	duplicate_label_synonym	NCIT:C176312	oboInOwl:hasExactSynonym	Phosphorylated Tau Protein to Amyloid Beta1-42 Ratio Measurement
-WARN	duplicate_label_synonym	NCIT:C17710	oboInOwl:hasExactSynonym	Subcellular Process
-WARN	duplicate_label_synonym	NCIT:C17765	oboInOwl:hasExactSynonym	Heat Shock Protein 70
-WARN	duplicate_label_synonym	NCIT:C17958	oboInOwl:hasExactSynonym	Functional Magnetic Resonance Imaging
-WARN	duplicate_label_synonym	NCIT:C18103	oboInOwl:hasExactSynonym	Protein Synthesis
-WARN	duplicate_label_synonym	NCIT:C18153	oboInOwl:hasExactSynonym	Caspase
-WARN	duplicate_label_synonym	NCIT:C18520	oboInOwl:hasExactSynonym	Metabolic Marker
-WARN	duplicate_label_synonym	NCIT:C19146	oboInOwl:hasExactSynonym	In Vitro Model
-WARN	duplicate_label_synonym	NCIT:C19148	oboInOwl:hasExactSynonym	In Vivo Model
-WARN	duplicate_label_synonym	NCIT:C19272	oboInOwl:hasExactSynonym	Transgenic Model
-WARN	duplicate_label_synonym	NCIT:C19332	oboInOwl:hasExactSynonym	Personal Attribute
-WARN	duplicate_label_synonym	NCIT:C19609	oboInOwl:hasExactSynonym	Functional Imaging
-WARN	duplicate_label_synonym	NCIT:C20031	oboInOwl:hasExactSynonym	Extracellular Protein
-WARN	duplicate_label_synonym	NCIT:C20080	oboInOwl:hasExactSynonym	Angiography
-WARN	duplicate_label_synonym	NCIT:C20130	oboInOwl:hasExactSynonym	Protein Family
-WARN	duplicate_label_synonym	NCIT:C2020	oboInOwl:hasExactSynonym	Farnesyl Transferase Inhibitor
-WARN	duplicate_label_synonym	NCIT:C20391	oboInOwl:hasExactSynonym	Neurotrophic Factor
-WARN	duplicate_label_synonym	NCIT:C20424	oboInOwl:hasExactSynonym	Growth Factor
-WARN	duplicate_label_synonym	NCIT:C20993	oboInOwl:hasExactSynonym	Research or Clinical Assessment Tool
-WARN	duplicate_label_synonym	NCIT:C21051	oboInOwl:hasExactSynonym	Epigenetic Process
-WARN	duplicate_label_synonym	NCIT:C21097	oboInOwl:hasExactSynonym	Sedation
-WARN	duplicate_label_synonym	NCIT:C21217	oboInOwl:hasExactSynonym	Synuclein Family
-WARN	duplicate_label_synonym	NCIT:C21523	oboInOwl:hasExactSynonym	Complement Component Protein
-WARN	duplicate_label_synonym	NCIT:C25214	oboInOwl:hasExactSynonym	Evaluation
-WARN	duplicate_label_synonym	NCIT:C25506	oboInOwl:hasExactSynonym	Factor
-WARN	duplicate_label_synonym	NCIT:C25662	oboInOwl:hasExactSynonym	Sampling
-WARN	duplicate_label_synonym	NCIT:C3399	oboInOwl:hasExactSynonym	Swelling
-WARN	duplicate_label_synonym	NCIT:C34660	oboInOwl:hasExactSynonym	Head Injury
-WARN	duplicate_label_synonym	NCIT:C38101	oboInOwl:hasExactSynonym	X-Ray Imaging
-WARN	duplicate_label_synonym	NCIT:C38834	oboInOwl:hasExactSynonym	MAPK Signaling Pathway
-WARN	duplicate_label_synonym	NCIT:C40438	oboInOwl:hasExactSynonym	Beck Depression Inventory
-WARN	duplicate_label_synonym	NCIT:C41189	oboInOwl:hasExactSynonym	Study Subject
-WARN	duplicate_label_synonym	NCIT:C46079	oboInOwl:hasExactSynonym	Randomized Controlled Clinical Trial
-WARN	duplicate_label_synonym	NCIT:C46084	oboInOwl:hasExactSynonym	Memory Dysfunction
-WARN	duplicate_label_synonym	NCIT:C463	oboInOwl:hasExactSynonym	Eicosanoid
-WARN	duplicate_label_synonym	NCIT:C48202	oboInOwl:hasExactSynonym	Nested Case-control Study
-WARN	duplicate_label_synonym	NCIT:C48261	oboInOwl:hasExactSynonym	Screening
-WARN	duplicate_label_synonym	NCIT:C49159	oboInOwl:hasExactSynonym	Proportion
-WARN	duplicate_label_synonym	NCIT:C49686	oboInOwl:hasExactSynonym	Phase IIa Trial
-WARN	duplicate_label_synonym	NCIT:C49688	oboInOwl:hasExactSynonym	Phase IIb Trial
-WARN	duplicate_label_synonym	NCIT:C53360	oboInOwl:hasExactSynonym	Age-Adjusted Mortality Rate
-WARN	duplicate_label_synonym	NCIT:C54721	oboInOwl:hasExactSynonym	Phase 0 Trial
-WARN	duplicate_label_synonym	NCIT:C62716	oboInOwl:hasExactSynonym	Wide Range Achievement Test, 3rd Edition
-WARN	duplicate_label_synonym	NCIT:C67360	oboInOwl:hasExactSynonym	Attributable Risk
-WARN	duplicate_label_synonym	NCIT:C70820	oboInOwl:hasExactSynonym	Clinical Study by Phase
-WARN	duplicate_label_synonym	NCIT:C70840	oboInOwl:hasExactSynonym	Blinded Clinical Study
-WARN	duplicate_label_synonym	NCIT:C71164	oboInOwl:hasExactSynonym	Animal Model
-WARN	duplicate_label_synonym	NCIT:C74611	oboInOwl:hasExactSynonym	Erythrocyte Sedimentation Rate Measurement
-WARN	duplicate_label_synonym	NCIT:C74982	oboInOwl:hasExactSynonym	Mini-Mental Status Exam
-WARN	duplicate_label_synonym	NCIT:C76786	oboInOwl:hasExactSynonym	Tramiprosate
-WARN	duplicate_label_synonym	NCIT:C78757	oboInOwl:hasExactSynonym	Latrepirdine
-WARN	duplicate_label_synonym	NCIT:C79569	oboInOwl:hasExactSynonym	Bapineuzumab
-WARN	duplicate_label_synonym	NCIT:C80519	oboInOwl:hasExactSynonym	Biological Model
-WARN	duplicate_label_synonym	NCIT:C81115	oboInOwl:hasExactSynonym	Semagacestat
-WARN	duplicate_label_synonym	NCIT:C84809	oboInOwl:hasExactSynonym	Beta Amyloid 42 Measurement
-WARN	duplicate_label_synonym	NCIT:C84810	oboInOwl:hasExactSynonym	Tau Protein Measurement
-WARN	duplicate_label_synonym	NCIT:C84812	oboInOwl:hasExactSynonym	Phosphorylated Tau Protein Measurement
-WARN	duplicate_label_synonym	NCIT:C86983	oboInOwl:hasExactSynonym	NINCDS-ADRDA Criteria for Alzheimer's Disease
-WARN	duplicate_label_synonym	NCIT:C88419	oboInOwl:hasExactSynonym	Executive Function
-WARN	duplicate_label_synonym	NCIT:C91102	oboInOwl:hasExactSynonym	Clinical or Research Assessment Question
-WARN	duplicate_label_synonym	NCIT:C91105	oboInOwl:hasExactSynonym	Clinical or Research Assessment Questionnaire
-WARN	duplicate_label_synonym	NCIT:C93150	oboInOwl:hasExactSynonym	Hazard Ratio
-WARN	duplicate_label_synonym	NCIT:C93228	oboInOwl:hasExactSynonym	Retrospective Cohort Study
-WARN	duplicate_label_synonym	NCIT:C95114	oboInOwl:hasExactSynonym	Gamma Secretase
-WARN	duplicate_label_synonym	NCIT:C97201	oboInOwl:hasExactSynonym	Dimerization
-WARN	duplicate_label_synonym	NCIT:C98241	oboInOwl:hasExactSynonym	Thiazolidinedione Antidiabetic Agent
-WARN	duplicate_label_synonym	NCIT:C98772	oboInOwl:hasExactSynonym	Primary Outcome Measure
-WARN	duplicate_label_synonym	NCIT:C98781	oboInOwl:hasExactSynonym	Secondary Outcome Measure
-WARN	duplicate_label_synonym	NCIT:NHC0	oboInOwl:hasExactSynonym	code
-WARN	duplicate_label_synonym	NCIT:P100	oboInOwl:hasExactSynonym	OMIM_Number
-WARN	duplicate_label_synonym	NCIT:P106	oboInOwl:hasExactSynonym	Semantic_Type
-WARN	duplicate_label_synonym	NCIT:P107	oboInOwl:hasExactSynonym	Display_Name
-WARN	duplicate_label_synonym	NCIT:P108	oboInOwl:hasExactSynonym	Preferred_Name
-WARN	duplicate_label_synonym	NCIT:P207	oboInOwl:hasExactSynonym	UMLS_CUI
-WARN	duplicate_label_synonym	NCIT:P208	oboInOwl:hasExactSynonym	NCI_META_CUI
-WARN	duplicate_label_synonym	NCIT:P210	oboInOwl:hasExactSynonym	CAS_Registry
-WARN	duplicate_label_synonym	NCIT:P215	oboInOwl:hasExactSynonym	KEGG_ID
-WARN	duplicate_label_synonym	NCIT:P302	oboInOwl:hasExactSynonym	Accepted_Therapeutic_Use_For
-WARN	duplicate_label_synonym	NCIT:P310	oboInOwl:hasExactSynonym	Concept_Status
-WARN	duplicate_label_synonym	NCIT:P317	oboInOwl:hasExactSynonym	FDA_Table
-WARN	duplicate_label_synonym	NCIT:P319	oboInOwl:hasExactSynonym	FDA_UNII_Code
-WARN	duplicate_label_synonym	NCIT:P322	oboInOwl:hasExactSynonym	Contributing_Source
-WARN	duplicate_label_synonym	NCIT:P325	oboInOwl:hasExactSynonym	ALT_DEFINITION
-WARN	duplicate_label_synonym	NCIT:P331	oboInOwl:hasExactSynonym	NCBI_Taxon_ID
-WARN	duplicate_label_synonym	NCIT:P350	oboInOwl:hasExactSynonym	Chemical_Formula
-WARN	duplicate_label_synonym	NCIT:P366	oboInOwl:hasExactSynonym	Legacy Concept Name
-WARN	duplicate_label_synonym	NCIT:P366	oboInOwl:hasExactSynonym	Legacy_Concept_Name
-WARN	duplicate_label_synonym	NCIT:P368	oboInOwl:hasExactSynonym	CHEBI_ID
-WARN	duplicate_label_synonym	NCIT:P369	oboInOwl:hasExactSynonym	HGNC_ID
-WARN	duplicate_label_synonym	NCIT:P371	oboInOwl:hasExactSynonym	NICHD_Hierarchy_Term
-WARN	duplicate_label_synonym	NCIT:P375	oboInOwl:hasExactSynonym	Maps_To
-WARN	duplicate_label_synonym	NCIT:P98	oboInOwl:hasExactSynonym	DesignNote
-WARN	duplicate_label_synonym	OGG:3000000351	oboInOwl:hasExactSynonym	APP
-WARN	duplicate_label_synonym	OGG:3000000847	oboInOwl:hasExactSynonym	CAT
-WARN	duplicate_label_synonym	OGG:3000001139	IAO:0000118	CHRNA7
-WARN	duplicate_label_synonym	OGG:3000004513	IAO:0000118	COX2
-WARN	duplicate_label_synonym	SYMP:0000124	oboInOwl:hasExactSynonym	seizure
-WARN	duplicate_label_synonym	UBERON:0000463	oboInOwl:hasExactSynonym	organism substance
-WARN	duplicate_label_synonym	UBERON:0001851	oboInOwl:hasExactSynonym	cortex
-WARN	duplicate_label_synonym	UBERON:0002020	oboInOwl:hasExactSynonym	gray matter
-WARN	duplicate_label_synonym	UBERON:0002435	oboInOwl:hasExactSynonym	striatum
-WARN	duplicate_label_synonym	obo:UPa_UPA00026	oboInOwl:hasExactSynonym	metabolism
-WARN	duplicate_label_synonym	oboInOwl:hasDbXref	oboInOwl:hasExactSynonym	database_cross_reference
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	DiffAvg:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	DiffFormula:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	DiffMono:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	Formula:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	MassAvg:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	MassMono:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	Origin:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	Source:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	TermSpec:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	UniProt:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	Unimod:
+WARN	invalid_xref	TXPO:0000145	oboInOwl:hasDbXref	FBRL: A Function and Behavior Representation Language. Sasajima, M., Kitamura, Y., Ikeda, M. & Mizoguchi, R., In Proc. of IJCAI-95 (pp. 1830-1836), 1995
+WARN	invalid_xref	TXPO:0001865	oboInOwl:hasDbXref	rerlated molecular fuction GO:0004672
+WARN	invalid_xref	TXPO:0003645	oboInOwl:hasDbXref	IMR:0000368 (obsolete)
+WARN	invalid_xref	TXPO:0003668	oboInOwl:hasDbXref	IMR:0000960 (obsolete)
+WARN	invalid_xref	TXPO:0003670	oboInOwl:hasDbXref	IMR:0001166 (obsolete)
+WARN	invalid_xref	TXPO:0003670	oboInOwl:hasDbXref	"related molecule fuction
+GO:0004407"
+WARN	invalid_xref	TXPO:0003671	oboInOwl:hasDbXref	Catalysis role of the hydrolysis of a glycerophospholipid.
+WARN	invalid_xref	TXPO:0003671	oboInOwl:hasDbXref	IMR:0000281 (obsolete)
+WARN	invalid_xref	TXPO:0003673	oboInOwl:hasDbXref	IMR:0000517 (obsolete)
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C100110	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C100129	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C101858	rdfs:subPropertyOf	
@@ -883,9 +755,7 @@ WARN	missing_definition	NCBITaxon:6239	IAO:0000115
 WARN	missing_definition	NCBITaxon:7215	IAO:0000115	
 WARN	missing_definition	NCBITaxon:7742	IAO:0000115	
 WARN	missing_definition	NCBITaxon:7955	IAO:0000115	
-WARN	missing_definition	NCBITaxon:9443	IAO:0000115	
 WARN	missing_definition	NCBITaxon:9606	IAO:0000115	
-WARN	missing_definition	NCBITaxon:9989	IAO:0000115	
 WARN	missing_definition	NCIT:C166444	IAO:0000115	
 WARN	missing_definition	NCIT:C17456	IAO:0000115	
 WARN	missing_definition	NCIT:C19146	IAO:0000115	
@@ -1532,198 +1402,326 @@ WARN	missing_definition	https://www.wikidata.org/wiki/Property:P3201	IAO:0000115
 WARN	missing_definition	https://www.wikidata.org/wiki/Property:P486	IAO:0000115	
 WARN	missing_definition	https://www.wikidata.org/wiki/Property:P5806	IAO:0000115	
 WARN	missing_definition	https://www.wikidata.org/wiki/Q1823134	IAO:0000115	
-WARN	duplicate_exact_synonym	OGG:3000009611	IAO:0000118	TRAC1
-WARN	duplicate_exact_synonym	OGG:3000009612	IAO:0000118	TRAC1
-WARN	duplicate_exact_synonym	OGG:3000000207	IAO:0000118	PKB
-WARN	duplicate_exact_synonym	OGG:3000002185	IAO:0000118	PKB
-WARN	duplicate_exact_synonym	OGG:3000000801	IAO:0000118	PHKD
-WARN	duplicate_exact_synonym	OGG:3000000805	IAO:0000118	PHKD
-WARN	duplicate_exact_synonym	OGG:3000001432	IAO:0000118	p38
-WARN	duplicate_exact_synonym	OGG:3000005594	IAO:0000118	p38
-WARN	duplicate_exact_synonym	OGG:3000004842	IAO:0000118	NOS
-WARN	duplicate_exact_synonym	OGG:3000004843	IAO:0000118	NOS
-WARN	duplicate_exact_synonym	NCIT:C16866	oboInOwl:hasExactSynonym	Model System
-WARN	duplicate_exact_synonym	NCIT:C80519	oboInOwl:hasExactSynonym	Model System
-WARN	duplicate_exact_synonym	NCIT:C16866	oboInOwl:hasExactSynonym	Model
-WARN	duplicate_exact_synonym	NCIT:C80519	oboInOwl:hasExactSynonym	Model
-WARN	duplicate_exact_synonym	OGG:3000003577	IAO:0000118	IL8RA
-WARN	duplicate_exact_synonym	OGG:3000003579	IAO:0000118	IL8RA
-WARN	duplicate_exact_synonym	OGG:3000001230	IAO:0000118	CKR-1
-WARN	duplicate_exact_synonym	OGG:3000003577	IAO:0000118	CKR-1
-WARN	duplicate_exact_synonym	OGG:3000000983	IAO:0000118	CDC2
-WARN	duplicate_exact_synonym	OGG:3000005424	IAO:0000118	CDC2
-WARN	duplicate_exact_synonym	OGG:3000002833	IAO:0000118	CD182
-WARN	duplicate_exact_synonym	OGG:3000003579	IAO:0000118	CD182
-WARN	duplicate_exact_synonym	GO:0007610	oboInOwl:hasExactSynonym	behaviour
-WARN	duplicate_exact_synonym	NBO:0000313	oboInOwl:hasExactSynonym	behaviour
-WARN	duplicate_exact_synonym	OGG:3000000718	IAO:0000118	ASP
-WARN	duplicate_exact_synonym	OGG:3000009474	IAO:0000118	ASP
-WARN	duplicate_exact_synonym	MONDO:0007089	oboInOwl:hasExactSynonym	Alzheimer disease type 2
-WARN	duplicate_exact_synonym	MONDO:0100088	oboInOwl:hasExactSynonym	Alzheimer disease type 2
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	DiffAvg:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	DiffFormula:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	DiffMono:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	Formula:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	MassAvg:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	MassMono:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	Origin:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	Source:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	TermSpec:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	UniProt:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	Unimod:
-WARN	invalid_xref	TXPO:0000145	oboInOwl:hasDbXref	FBRL: A Function and Behavior Representation Language. Sasajima, M., Kitamura, Y., Ikeda, M. & Mizoguchi, R., In Proc. of IJCAI-95 (pp. 1830-1836), 1995
-WARN	invalid_xref	TXPO:0001865	oboInOwl:hasDbXref	rerlated molecular fuction GO:0004672
-WARN	invalid_xref	TXPO:0003645	oboInOwl:hasDbXref	IMR:0000368 (obsolete)
-WARN	invalid_xref	TXPO:0003668	oboInOwl:hasDbXref	IMR:0000960 (obsolete)
-WARN	invalid_xref	TXPO:0003670	oboInOwl:hasDbXref	IMR:0001166 (obsolete)
-WARN	invalid_xref	TXPO:0003670	oboInOwl:hasDbXref	"related molecule fuction
-GO:0004407"
-WARN	invalid_xref	TXPO:0003671	oboInOwl:hasDbXref	Catalysis role of the hydrolysis of a glycerophospholipid.
-WARN	invalid_xref	TXPO:0003671	oboInOwl:hasDbXref	IMR:0000281 (obsolete)
-WARN	invalid_xref	TXPO:0003673	oboInOwl:hasDbXref	IMR:0000517 (obsolete)
-WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] 
-WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (hasContinuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [126-001] 
-WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] 
-WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x) (if (Material Entity x) (exists (t) (and (TemporalRegion t) (existsAt x t))))) // axiom label in BFO2 CLIF: [011-002] 
-WARN	annotation_whitespace	BFO:0000003	IAO:0000602	(forall (x) (if (Occurrent x) (exists (r) (and (SpatioTemporalRegion r) (occupiesSpatioTemporalRegion x r))))) // axiom label in BFO2 CLIF: [108-001] 
-WARN	annotation_whitespace	BFO:0000003	IAO:0000602	(forall (x) (iff (Occurrent x) (and (Entity x) (exists (y) (temporalPartOf y x))))) // axiom label in BFO2 CLIF: [079-001] 
-WARN	annotation_whitespace	BFO:0000004	IAO:0000602	(forall (x t) (if (IndependentContinuant x) (exists (r) (and (SpatialRegion r) (locatedInAt x r t))))) // axiom label in BFO2 CLIF: [134-001] 
-WARN	annotation_whitespace	BFO:0000004	IAO:0000602	(forall (x t) (if (and (IndependentContinuant x) (existsAt x t)) (exists (y) (and (Entity y) (specificallyDependsOnAt y x t))))) // axiom label in BFO2 CLIF: [018-002] 
-WARN	annotation_whitespace	BFO:0000004	IAO:0000602	(iff (IndependentContinuant a) (and (Continuant a) (not (exists (b t) (specificallyDependsOnAt a b t))))) // axiom label in BFO2 CLIF: [017-002] 
-WARN	annotation_whitespace	BFO:0000006	IAO:0000602	(forall (x y t) (if (and (SpatialRegion x) (continuantPartOfAt y x t)) (SpatialRegion y))) // axiom label in BFO2 CLIF: [036-001] 
-WARN	annotation_whitespace	BFO:0000006	IAO:0000602	(forall (x) (if (SpatialRegion x) (Continuant x))) // axiom label in BFO2 CLIF: [035-001] 
-WARN	annotation_whitespace	BFO:0000008	IAO:0000602	(forall (r) (if (TemporalRegion r) (occupiesTemporalRegion r r))) // axiom label in BFO2 CLIF: [119-002] 
-WARN	annotation_whitespace	BFO:0000008	IAO:0000602	(forall (x y) (if (and (TemporalRegion x) (occurrentPartOf y x)) (TemporalRegion y))) // axiom label in BFO2 CLIF: [101-001] 
-WARN	annotation_whitespace	BFO:0000008	IAO:0000602	(forall (x) (if (TemporalRegion x) (Occurrent x))) // axiom label in BFO2 CLIF: [100-001] 
-WARN	annotation_whitespace	BFO:0000009	IAO:0000602	(forall (x) (if (TwoDimensionalSpatialRegion x) (SpatialRegion x))) // axiom label in BFO2 CLIF: [039-001] 
-WARN	annotation_whitespace	BFO:0000011	IAO:0000602	(forall (r) (if (SpatioTemporalRegion r) (occupiesSpatioTemporalRegion r r))) // axiom label in BFO2 CLIF: [107-002] 
-WARN	annotation_whitespace	BFO:0000011	IAO:0000602	(forall (x t) (if (SpatioTemporalRegion x) (exists (y) (and (SpatialRegion y) (spatiallyProjectsOntoAt x y t))))) // axiom label in BFO2 CLIF: [099-001] 
-WARN	annotation_whitespace	BFO:0000011	IAO:0000602	(forall (x y) (if (and (SpatioTemporalRegion x) (occurrentPartOf y x)) (SpatioTemporalRegion y))) // axiom label in BFO2 CLIF: [096-001] 
-WARN	annotation_whitespace	BFO:0000011	IAO:0000602	(forall (x) (if (SpatioTemporalRegion x) (Occurrent x))) // axiom label in BFO2 CLIF: [095-001] 
-WARN	annotation_whitespace	BFO:0000011	IAO:0000602	(forall (x) (if (SpatioTemporalRegion x) (exists (y) (and (TemporalRegion y) (temporallyProjectsOnto x y))))) // axiom label in BFO2 CLIF: [098-001] 
-WARN	annotation_whitespace	BFO:0000015	IAO:0000602	(iff (Process a) (and (Occurrent a) (exists (b) (properTemporalPartOf b a)) (exists (c t) (and (MaterialEntity c) (specificallyDependsOnAt a c t))))) // axiom label in BFO2 CLIF: [083-003] 
-WARN	annotation_whitespace	BFO:0000016	IAO:0000602	(forall (x t) (if (and (RealizableEntity x) (existsAt x t)) (exists (y) (and (MaterialEntity y) (specificallyDepends x y t))))) // axiom label in BFO2 CLIF: [063-002] 
-WARN	annotation_whitespace	BFO:0000016	IAO:0000602	(forall (x) (if (Disposition x) (and (RealizableEntity x) (exists (y) (and (MaterialEntity y) (bearerOfAt x y t)))))) // axiom label in BFO2 CLIF: [062-002] 
-WARN	annotation_whitespace	BFO:0000017	IAO:0000602	(forall (x t) (if (RealizableEntity x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (bearerOfAt y x t))))) // axiom label in BFO2 CLIF: [060-002] 
-WARN	annotation_whitespace	BFO:0000017	IAO:0000602	(forall (x) (if (RealizableEntity x) (and (SpecificallyDependentContinuant x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (inheresIn x y)))))) // axiom label in BFO2 CLIF: [058-002] 
-WARN	annotation_whitespace	BFO:0000018	IAO:0000602	(forall (x) (if (ZeroDimensionalSpatialRegion x) (SpatialRegion x))) // axiom label in BFO2 CLIF: [037-001] 
-WARN	annotation_whitespace	BFO:0000019	IAO:0000602	(forall (x) (if (Quality x) (SpecificallyDependentContinuant x))) // axiom label in BFO2 CLIF: [055-001] 
-WARN	annotation_whitespace	BFO:0000019	IAO:0000602	(forall (x) (if (exists (t) (and (existsAt x t) (Quality x))) (forall (t_1) (if (existsAt x t_1) (Quality x))))) // axiom label in BFO2 CLIF: [105-001] 
-WARN	annotation_whitespace	BFO:0000020	IAO:0000602	(iff (RelationalSpecificallyDependentContinuant a) (and (SpecificallyDependentContinuant a) (forall (t) (exists (b c) (and (not (SpatialRegion b)) (not (SpatialRegion c)) (not (= b c)) (not (exists (d) (and (continuantPartOfAt d b t) (continuantPartOfAt d c t)))) (specificallyDependsOnAt a b t) (specificallyDependsOnAt a c t)))))) // axiom label in BFO2 CLIF: [131-004] 
-WARN	annotation_whitespace	BFO:0000020	IAO:0000602	(iff (SpecificallyDependentContinuant a) (and (Continuant a) (forall (t) (if (existsAt a t) (exists (b) (and (IndependentContinuant b) (not (SpatialRegion b)) (specificallyDependsOnAt a b t))))))) // axiom label in BFO2 CLIF: [050-003] 
-WARN	annotation_whitespace	BFO:0000023	IAO:0000602	(forall (x) (if (Role x) (RealizableEntity x))) // axiom label in BFO2 CLIF: [061-001] 
-WARN	annotation_whitespace	BFO:0000024	IAO:0000602	(forall (x) (if (FiatObjectPart x) (and (MaterialEntity x) (forall (t) (if (existsAt x t) (exists (y) (and (Object y) (properContinuantPartOfAt x y t)))))))) // axiom label in BFO2 CLIF: [027-004] 
-WARN	annotation_whitespace	BFO:0000026	IAO:0000602	(forall (x) (if (OneDimensionalSpatialRegion x) (SpatialRegion x))) // axiom label in BFO2 CLIF: [038-001] 
-WARN	annotation_whitespace	BFO:0000027	IAO:0000116	An entity a is an object aggregate if and only if there is a mutually exhaustive and pairwise disjoint partition of a into objects 
-WARN	annotation_whitespace	BFO:0000027	IAO:0000602	(forall (x) (if (ObjectAggregate x) (and (MaterialEntity x) (forall (t) (if (existsAt x t) (exists (y z) (and (Object y) (Object z) (memberPartOfAt y x t) (memberPartOfAt z x t) (not (= y z)))))) (not (exists (w t_1) (and (memberPartOfAt w x t_1) (not (Object w)))))))) // axiom label in BFO2 CLIF: [025-004] 
-WARN	annotation_whitespace	BFO:0000028	IAO:0000602	(forall (x) (if (ThreeDimensionalSpatialRegion x) (SpatialRegion x))) // axiom label in BFO2 CLIF: [040-001] 
-WARN	annotation_whitespace	BFO:0000029	IAO:0000602	(forall (x) (if (Site x) (ImmaterialEntity x))) // axiom label in BFO2 CLIF: [034-002] 
-WARN	annotation_whitespace	BFO:0000031	IAO:0000602	(iff (GenericallyDependentContinuant a) (and (Continuant a) (exists (b t) (genericallyDependsOnAt a b t)))) // axiom label in BFO2 CLIF: [074-001] 
-WARN	annotation_whitespace	BFO:0000034	IAO:0000602	(forall (x) (if (Function x) (Disposition x))) // axiom label in BFO2 CLIF: [064-001] 
-WARN	annotation_whitespace	BFO:0000035	IAO:0000602	(forall (x) (if (ProcessBoundary x) (exists (y) (and (ZeroDimensionalTemporalRegion y) (occupiesTemporalRegion x y))))) // axiom label in BFO2 CLIF: [085-002] 
-WARN	annotation_whitespace	BFO:0000035	IAO:0000602	(iff (ProcessBoundary a) (exists (p) (and (Process p) (temporalPartOf a p) (not (exists (b) (properTemporalPartOf b a)))))) // axiom label in BFO2 CLIF: [084-001] 
-WARN	annotation_whitespace	BFO:0000038	IAO:0000602	(forall (x) (if (OneDimensionalTemporalRegion x) (TemporalRegion x))) // axiom label in BFO2 CLIF: [103-001] 
-WARN	annotation_whitespace	BFO:0000040	IAO:0000602	(forall (x) (if (MaterialEntity x) (IndependentContinuant x))) // axiom label in BFO2 CLIF: [019-002] 
-WARN	annotation_whitespace	BFO:0000040	IAO:0000602	(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt x y t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [021-002] 
-WARN	annotation_whitespace	BFO:0000040	IAO:0000602	(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] 
-WARN	annotation_whitespace	BFO:0000140	IAO:0000602	(iff (ContinuantFiatBoundary a) (and (ImmaterialEntity a) (exists (b) (and (or (ZeroDimensionalSpatialRegion b) (OneDimensionalSpatialRegion b) (TwoDimensionalSpatialRegion b)) (forall (t) (locatedInAt a b t)))) (not (exists (c t) (and (SpatialRegion c) (continuantPartOfAt c a t)))))) // axiom label in BFO2 CLIF: [029-001] 
-WARN	annotation_whitespace	BFO:0000142	IAO:0000602	(iff (OneDimensionalContinuantFiatBoundary a) (and (ContinuantFiatBoundary a) (exists (b) (and (OneDimensionalSpatialRegion b) (forall (t) (locatedInAt a b t)))))) // axiom label in BFO2 CLIF: [032-001] 
-WARN	annotation_whitespace	BFO:0000144	IAO:0000602	(forall (x y) (if (processProfileOf x y) (and (properContinuantPartOf x y) (exists (z t) (and (properOccurrentPartOf z y) (TemporalRegion t) (occupiesSpatioTemporalRegion x t) (occupiesSpatioTemporalRegion y t) (occupiesSpatioTemporalRegion z t) (not (exists (w) (and (occurrentPartOf w x) (occurrentPartOf w z))))))))) // axiom label in BFO2 CLIF: [094-005] 
-WARN	annotation_whitespace	BFO:0000144	IAO:0000602	(iff (ProcessProfile a) (exists (b) (and (Process b) (processProfileOf a b)))) // axiom label in BFO2 CLIF: [093-002] 
-WARN	annotation_whitespace	BFO:0000145	IAO:0000602	(iff (RelationalQuality a) (exists (b c t) (and (IndependentContinuant b) (IndependentContinuant c) (qualityOfAt a b t) (qualityOfAt a c t)))) // axiom label in BFO2 CLIF: [057-001] 
-WARN	annotation_whitespace	BFO:0000146	IAO:0000602	(iff (TwoDimensionalContinuantFiatBoundary a) (and (ContinuantFiatBoundary a) (exists (b) (and (TwoDimensionalSpatialRegion b) (forall (t) (locatedInAt a b t)))))) // axiom label in BFO2 CLIF: [033-001] 
-WARN	annotation_whitespace	BFO:0000147	IAO:0000602	(iff (ZeroDimensionalContinuantFiatBoundary a) (and (ContinuantFiatBoundary a) (exists (b) (and (ZeroDimensionalSpatialRegion b) (forall (t) (locatedInAt a b t)))))) // axiom label in BFO2 CLIF: [031-001] 
-WARN	annotation_whitespace	BFO:0000148	IAO:0000602	(forall (x) (if (ZeroDimensionalTemporalRegion x) (TemporalRegion x))) // axiom label in BFO2 CLIF: [102-001] 
-WARN	annotation_whitespace	ERO:0001071	IAO:0000118	CSF collection 
-WARN	annotation_whitespace	ERO:0001071	IAO:0000118	Cerebrospinal fluid collection 
-WARN	annotation_whitespace	IAO:0000115	IAO:0000116	"2012-04-05:
-Barry Smith
-
-The official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions'  is terrible.
-
-Can you fix to something like:
-
-A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.
-
-Alan Ruttenberg
-
-Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria.
-
-On the specifics of the proposed definition:
-
-We don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition.
-
-Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable.
-
-We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  @en"
-WARN	annotation_whitespace	IAO:0000115	IAO:0000116	"2012-04-05: 
-Barry Smith
-
-OBI??????????????????'???????????????????????????'?????
-
-???????????
-
-?????????????????????????
-
-Alan Ruttenberg
-
-???????????????????????????????????????????????????????????????????????????????????????????????????????
-
-????????????
-
-????“??”??“??”?“??”?????????????“??”??????????“??”???'??'??????????????????????“??”???????????????????????????????????????????????????????????????????????????????? “????”????????????????????????????????????????????????
-
-??????????????????????????????
-
-???????????????????????????????????????chebi???????????????????????/???????????????????? @en"
-WARN	annotation_whitespace	IAO:0000115	IAO:0000116	"2012-04-05: 
-Barry Smith
-
-The official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions'  is terrible.
-
-Can you fix to something like:
-
-A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.
-
-Alan Ruttenberg
-
-Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria. 
-
-On the specifics of the proposed definition:
-
-We don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. 
-
-Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. 
-
-We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  @en"
-WARN	annotation_whitespace	INO:0000006	IAO:0000115	an annotation property that lists keyword(s) useful for literature tagging and retrieval of sentences containing the type (or kind) of entity (e.g., interaction) as shown by the ontology term label and definition. 
-WARN	annotation_whitespace	INO:0000157	IAO:0000115	A regulation represents a regulatory interaction between two interactors. 
-WARN	annotation_whitespace	MF:0000008	rdfs:seeAlso	GO:0050890, cognition, defined as `The operation of the mind by which an organism becomes aware of objects of thought or perception; it includes the mental activities associated with thinking, learning, and memory.' 
-WARN	annotation_whitespace	MF:0000020	IAO:0000115	A mental process is a bodily process that is of a type such that it can of itself be conscious. Examples include thinking, feeling pain, remembering and emotion as occurrent experiences. 
-WARN	annotation_whitespace	MF:0000020	rdfs:seeAlso	GO:0050890, cognition, defined as `The operation of the mind by which an organism becomes aware of objects of thought or perception; it includes the mental activities associated with thinking, learning, and memory.' 
-WARN	annotation_whitespace	MF:0000033	IAO:0000115	A mental disposition is a bodily disposition that is realized in a mental process. 
-WARN	annotation_whitespace	OAE:0000002	IAO:0000115	medical intervention is a planned process that has the goal of diagnosing, preventing or relieving illness or injury. 
-WARN	annotation_whitespace	OAE:0000002	IAO:0000116	"The act of intervening, interfering or interceding with the intent of modifying the outcome. In medicine, an intervention is usually undertaken to help treat or cure a condition. For example, \""Acupuncture as a therapeutic intervention is widely practiced in the United States,\""
-Reference:
-http://www.medterms.com/script/main/art.asp?articlekey=34214 . Some interventions can be used for diagnosis. "
-WARN	annotation_whitespace	OAE:0001551	IAO:0000115	an adverse event that occurs in brain. 
-WARN	annotation_whitespace	OBCS:0000001	IAO:0000115	a data transformation that has input of mulitple data and report overall trend of the data. 
-WARN	annotation_whitespace	OBCS:0000231	IAO:0000115	A rate of deaths (in general, or due to a specific cause) that in a particular population, scaled to the size of that population, per unit of time. 
-WARN	annotation_whitespace	OBI:0000070	IAO:0000116	12/3/12: BP: the reference to the 'physical examination' is included to point out that a prediction is not an assay, as that does not require physical examiniation. 
-WARN	annotation_whitespace	OBI:0500026	IAO:0000115	"an eligibility criterion (rule) is_a selection criterion which 
-defines and states the requirements (positive or negative) for an entity to be considered as suitable for a given task or participation in a process.
-@en"
-WARN	annotation_whitespace	OGG:0000000002	IAO:0000115	A gene is a material entity that represents the entire DNA sequence required for synthesis of a functional protein or RNA molecule. 
-WARN	annotation_whitespace	OGG:0000000006	IAO:0000115	A GeneID in the NCBI Gene database 
-WARN	annotation_whitespace	OGG:0000000007	IAO:0000115	the NCBI LocusTag name of a gene 
-WARN	annotation_whitespace	OGG:0000000029	IAO:0000115	an annotation property that shows the GO information associated with a specific gene. 
-WARN	annotation_whitespace	OGG:0000000030	IAO:0000115	An annotation property that represents a gene's association with PubMed publication(s). 
-WARN	annotation_whitespace	OGMS:0000096	IAO:0000232	"creation date: 2011-02-21T09:57:44Z
-editor date: 2017-04-18
-"
-WARN	annotation_whitespace	RO:0002161	IAO:0000425	?X DisjointWith RO_0002162 some ?Y 
-WARN	annotation_whitespace	STATO:0000184	IAO:0000115	"A ratio is a data item which is formed with two numbers r and s is written r/s, where r is the numerator and s is the denominator. The ratio of r to s is equivalent to the quotient r/s. 
-@en"
+WARN	duplicate_label_synonym	CHEBI:13705	oboInOwl:hasExactSynonym	acetoacetate
+WARN	duplicate_label_synonym	CHEBI:15354	oboInOwl:hasExactSynonym	choline
+WARN	duplicate_label_synonym	CHEBI:15355	oboInOwl:hasExactSynonym	acetylcholine
+WARN	duplicate_label_synonym	CHEBI:15356	oboInOwl:hasExactSynonym	cysteine
+WARN	duplicate_label_synonym	CHEBI:15361	oboInOwl:hasExactSynonym	pyruvate
+WARN	duplicate_label_synonym	CHEBI:15377	oboInOwl:hasExactSynonym	water
+WARN	duplicate_label_synonym	CHEBI:15380	oboInOwl:hasExactSynonym	succinyl-CoA
+WARN	duplicate_label_synonym	CHEBI:15440	oboInOwl:hasExactSynonym	squalene
+WARN	duplicate_label_synonym	CHEBI:15784	oboInOwl:hasExactSynonym	N-acetyl-D-glucosamine 6-phosphate
+WARN	duplicate_label_synonym	CHEBI:16091	oboInOwl:hasExactSynonym	dolichol
+WARN	duplicate_label_synonym	CHEBI:16113	oboInOwl:hasExactSynonym	cholesterol
+WARN	duplicate_label_synonym	CHEBI:16189	oboInOwl:hasExactSynonym	sulfate
+WARN	duplicate_label_synonym	CHEBI:16240	oboInOwl:hasExactSynonym	hydrogen peroxide
+WARN	duplicate_label_synonym	CHEBI:16474	oboInOwl:hasExactSynonym	NADPH
+WARN	duplicate_label_synonym	CHEBI:16521	oboInOwl:hasExactSynonym	lanosterol
+WARN	duplicate_label_synonym	CHEBI:16796	oboInOwl:hasExactSynonym	melatonin
+WARN	duplicate_label_synonym	CHEBI:16811	oboInOwl:hasExactSynonym	methionine
+WARN	duplicate_label_synonym	CHEBI:16828	oboInOwl:hasExactSynonym	L-tryptophan
+WARN	duplicate_label_synonym	CHEBI:16865	oboInOwl:hasExactSynonym	gamma-aminobutyric acid
+WARN	duplicate_label_synonym	CHEBI:16908	oboInOwl:hasExactSynonym	NADH
+WARN	duplicate_label_synonym	CHEBI:17230	oboInOwl:hasExactSynonym	homocysteine
+WARN	duplicate_label_synonym	CHEBI:17234	oboInOwl:hasExactSynonym	glucose
+WARN	duplicate_label_synonym	CHEBI:17347	oboInOwl:hasExactSynonym	testosterone
+WARN	duplicate_label_synonym	CHEBI:17359	oboInOwl:hasExactSynonym	sulfite
+WARN	duplicate_label_synonym	CHEBI:17478	oboInOwl:hasExactSynonym	aldehyde
+WARN	duplicate_label_synonym	CHEBI:176842	oboInOwl:hasExactSynonym	vitamin B9
+WARN	duplicate_label_synonym	CHEBI:176843	oboInOwl:hasExactSynonym	vitamin B12
+WARN	duplicate_label_synonym	CHEBI:17996	oboInOwl:hasExactSynonym	chloride
+WARN	duplicate_label_synonym	CHEBI:18022	oboInOwl:hasExactSynonym	thiocyanate
+WARN	duplicate_label_synonym	CHEBI:18211	oboInOwl:hasExactSynonym	citrulline
+WARN	duplicate_label_synonym	CHEBI:18379	oboInOwl:hasExactSynonym	nitrile
+WARN	duplicate_label_synonym	CHEBI:18420	oboInOwl:hasExactSynonym	magnesium(2+)
+WARN	duplicate_label_synonym	CHEBI:18421	oboInOwl:hasExactSynonym	superoxide
+WARN	duplicate_label_synonym	CHEBI:23019	oboInOwl:hasExactSynonym	carbonyl group
+WARN	duplicate_label_synonym	CHEBI:23053	oboInOwl:hasExactSynonym	catechin
+WARN	duplicate_label_synonym	CHEBI:23367	oboInOwl:hasExactSynonym	molecular entity
+WARN	duplicate_label_synonym	CHEBI:23888	IAO:0000118	drug
+WARN	duplicate_label_synonym	CHEBI:23924	oboInOwl:hasExactSynonym	enzyme inhibitor
+WARN	duplicate_label_synonym	CHEBI:24062	oboInOwl:hasExactSynonym	fluorine molecular entity
+WARN	duplicate_label_synonym	CHEBI:24431	oboInOwl:hasExactSynonym	chemical entity
+WARN	duplicate_label_synonym	CHEBI:24433	oboInOwl:hasExactSynonym	group
+WARN	duplicate_label_synonym	CHEBI:24471	oboInOwl:hasExactSynonym	halogen molecular entity
+WARN	duplicate_label_synonym	CHEBI:24833	oboInOwl:hasExactSynonym	oxoacid
+WARN	duplicate_label_synonym	CHEBI:24870	oboInOwl:hasExactSynonym	ion
+WARN	duplicate_label_synonym	CHEBI:24913	oboInOwl:hasExactSynonym	isoprenoid
+WARN	duplicate_label_synonym	CHEBI:25000	oboInOwl:hasExactSynonym	lactone
+WARN	duplicate_label_synonym	CHEBI:25029	oboInOwl:hasExactSynonym	leukotriene
+WARN	duplicate_label_synonym	CHEBI:25367	oboInOwl:hasExactSynonym	molecule
+WARN	duplicate_label_synonym	CHEBI:25681	oboInOwl:hasExactSynonym	omega-3 fatty acid
+WARN	duplicate_label_synonym	CHEBI:25698	oboInOwl:hasExactSynonym	ether
+WARN	duplicate_label_synonym	CHEBI:25703	oboInOwl:hasExactSynonym	organic phosphate
+WARN	duplicate_label_synonym	CHEBI:25710	oboInOwl:hasExactSynonym	organophosphorus compound
+WARN	duplicate_label_synonym	CHEBI:25806	oboInOwl:hasExactSynonym	oxygen molecular entity
+WARN	duplicate_label_synonym	CHEBI:25900	oboInOwl:hasExactSynonym	aldopentose phosphate
+WARN	duplicate_label_synonym	CHEBI:25941	oboInOwl:hasExactSynonym	peroxynitrite
+WARN	duplicate_label_synonym	CHEBI:26167	oboInOwl:hasExactSynonym	polar amino acid
+WARN	duplicate_label_synonym	CHEBI:26562	oboInOwl:hasExactSynonym	ribose phosphate
+WARN	duplicate_label_synonym	CHEBI:26835	oboInOwl:hasExactSynonym	sulfur molecular entity
+WARN	duplicate_label_synonym	CHEBI:28115	oboInOwl:hasExactSynonym	methylcobalamin
+WARN	duplicate_label_synonym	CHEBI:28300	oboInOwl:hasExactSynonym	glutamine
+WARN	duplicate_label_synonym	CHEBI:28839	oboInOwl:hasExactSynonym	3-disulfanyl-L-alanine
+WARN	duplicate_label_synonym	CHEBI:29016	oboInOwl:hasExactSynonym	arginine
+WARN	duplicate_label_synonym	CHEBI:29033	oboInOwl:hasExactSynonym	iron(2+)
+WARN	duplicate_label_synonym	CHEBI:29101	oboInOwl:hasExactSynonym	sodium(1+)
+WARN	duplicate_label_synonym	CHEBI:29103	oboInOwl:hasExactSynonym	potassium(1+)
+WARN	duplicate_label_synonym	CHEBI:29105	oboInOwl:hasExactSynonym	zinc(2+)
+WARN	duplicate_label_synonym	CHEBI:29108	oboInOwl:hasExactSynonym	calcium(2+)
+WARN	duplicate_label_synonym	CHEBI:29191	oboInOwl:hasExactSynonym	hydroxyl
+WARN	duplicate_label_synonym	CHEBI:30089	oboInOwl:hasExactSynonym	acetate
+WARN	duplicate_label_synonym	CHEBI:31296	oboInOwl:hasExactSynonym	Blonanserin
+WARN	duplicate_label_synonym	CHEBI:33234	oboInOwl:hasExactSynonym	vitamin E
+WARN	duplicate_label_synonym	CHEBI:33250	oboInOwl:hasExactSynonym	atom
+WARN	duplicate_label_synonym	CHEBI:33256	oboInOwl:hasExactSynonym	primary amide
+WARN	duplicate_label_synonym	CHEBI:33261	oboInOwl:hasExactSynonym	organosulfur compound
+WARN	duplicate_label_synonym	CHEBI:33302	oboInOwl:hasExactSynonym	pnictogen molecular entity
+WARN	duplicate_label_synonym	CHEBI:33304	oboInOwl:hasExactSynonym	chalcogen molecular entity
+WARN	duplicate_label_synonym	CHEBI:33447	oboInOwl:hasExactSynonym	phospho sugar
+WARN	duplicate_label_synonym	CHEBI:33575	oboInOwl:hasExactSynonym	carboxylic acid
+WARN	duplicate_label_synonym	CHEBI:33582	oboInOwl:hasExactSynonym	carbon group molecular entity
+WARN	duplicate_label_synonym	CHEBI:33597	oboInOwl:hasExactSynonym	homocyclic compound
+WARN	duplicate_label_synonym	CHEBI:33598	oboInOwl:hasExactSynonym	carbocyclic compound
+WARN	duplicate_label_synonym	CHEBI:33670	oboInOwl:hasExactSynonym	heteromonocyclic compound
+WARN	duplicate_label_synonym	CHEBI:33674	oboInOwl:hasExactSynonym	s-block molecular entity
+WARN	duplicate_label_synonym	CHEBI:33697	oboInOwl:hasExactSynonym	ribonucleic acid
+WARN	duplicate_label_synonym	CHEBI:33839	oboInOwl:hasExactSynonym	macromolecule
+WARN	duplicate_label_synonym	CHEBI:33853	oboInOwl:hasExactSynonym	phenols
+WARN	duplicate_label_synonym	CHEBI:35222	oboInOwl:hasExactSynonym	inhibitor
+WARN	duplicate_label_synonym	CHEBI:35850	oboInOwl:hasExactSynonym	sulfone
+WARN	duplicate_label_synonym	CHEBI:36005	oboInOwl:hasExactSynonym	docosahexaenoic acid
+WARN	duplicate_label_synonym	CHEBI:36009	oboInOwl:hasExactSynonym	omega-6 fatty acid
+WARN	duplicate_label_synonym	CHEBI:36359	oboInOwl:hasExactSynonym	phosphorus oxoacid derivative
+WARN	duplicate_label_synonym	CHEBI:36820	oboInOwl:hasExactSynonym	ring assembly
+WARN	duplicate_label_synonym	CHEBI:36962	oboInOwl:hasExactSynonym	organochalcogen compound
+WARN	duplicate_label_synonym	CHEBI:36963	oboInOwl:hasExactSynonym	organooxygen compound
+WARN	duplicate_label_synonym	CHEBI:37143	oboInOwl:hasExactSynonym	organofluorine compound
+WARN	duplicate_label_synonym	CHEBI:37555	oboInOwl:hasExactSynonym	omega-carboxyacyl-CoA
+WARN	duplicate_label_synonym	CHEBI:3962	oboInOwl:hasExactSynonym	curcumin
+WARN	duplicate_label_synonym	CHEBI:40303	oboInOwl:hasExactSynonym	lovastatin
+WARN	duplicate_label_synonym	CHEBI:42944	oboInOwl:hasExactSynonym	galanthamine
+WARN	duplicate_label_synonym	CHEBI:4353	oboInOwl:hasExactSynonym	Decursin
+WARN	duplicate_label_synonym	CHEBI:48705	oboInOwl:hasExactSynonym	agonist
+WARN	duplicate_label_synonym	CHEBI:48706	oboInOwl:hasExactSynonym	antagonist
+WARN	duplicate_label_synonym	CHEBI:49552	oboInOwl:hasExactSynonym	copper(1+)
+WARN	duplicate_label_synonym	CHEBI:49713	oboInOwl:hasExactSynonym	lithium(1+)
+WARN	duplicate_label_synonym	CHEBI:506227	oboInOwl:hasExactSynonym	N-acetyl-D-glucosamine
+WARN	duplicate_label_synonym	CHEBI:5417	oboInOwl:hasExactSynonym	glucosamine
+WARN	duplicate_label_synonym	CHEBI:5445	oboInOwl:hasExactSynonym	glyceraldehyde
+WARN	duplicate_label_synonym	CHEBI:566274	oboInOwl:hasExactSynonym	malonaldehyde
+WARN	duplicate_label_synonym	CHEBI:64073	oboInOwl:hasExactSynonym	exendin-4
+WARN	duplicate_label_synonym	CHEBI:6498	oboInOwl:hasExactSynonym	lipoxin A4
+WARN	duplicate_label_synonym	CHEBI:6538	oboInOwl:hasExactSynonym	Loratadine
+WARN	duplicate_label_synonym	CHEBI:6539	oboInOwl:hasExactSynonym	Lorazepam
+WARN	duplicate_label_synonym	CHEBI:6690	oboInOwl:hasExactSynonym	Maprotiline
+WARN	duplicate_label_synonym	CHEBI:6960	oboInOwl:hasExactSynonym	Moexipril
+WARN	duplicate_label_synonym	CHEBI:7476	oboInOwl:hasExactSynonym	naproxen
+WARN	duplicate_label_synonym	CHEBI:7494	oboInOwl:hasExactSynonym	nefazodone
+WARN	duplicate_label_synonym	CHEBI:8060	oboInOwl:hasExactSynonym	Phenelzine
+WARN	duplicate_label_synonym	CHEBI:8212	oboInOwl:hasExactSynonym	pimozide
+WARN	duplicate_label_synonym	CHEBI:86269	oboInOwl:hasExactSynonym	3-nitrotyrosine
+WARN	duplicate_label_synonym	CHEBI:8665	oboInOwl:hasExactSynonym	Pyridostigmine
+WARN	duplicate_label_synonym	CHEBI:8871	oboInOwl:hasExactSynonym	risperidone
+WARN	duplicate_label_synonym	CHEBI:9435	oboInOwl:hasExactSynonym	Temazepam
+WARN	duplicate_label_synonym	CL:0000598	oboInOwl:hasExactSynonym	pyramidal neuron
+WARN	duplicate_label_synonym	CMO:0000000	oboInOwl:hasExactSynonym	clinical measurement
+WARN	duplicate_label_synonym	GO:0007610	oboInOwl:hasExactSynonym	behavior
+WARN	duplicate_label_synonym	HP:0000707	oboInOwl:hasExactSynonym	Abnormality of the nervous system
+WARN	duplicate_label_synonym	HP:0000751	oboInOwl:hasExactSynonym	Personality changes
+WARN	duplicate_label_synonym	HP:0002013	oboInOwl:hasExactSynonym	Vomiting
+WARN	duplicate_label_synonym	HP:0012393	oboInOwl:hasExactSynonym	Allergy
+WARN	duplicate_label_synonym	HP:0012639	oboInOwl:hasExactSynonym	Abnormal nervous system morphology
+WARN	duplicate_label_synonym	IDOMAL:0000581	IAO:0000118	C3b
+WARN	duplicate_label_synonym	MOD:00719	oboInOwl:hasExactSynonym	L-methionine sulfoxide
+WARN	duplicate_label_synonym	MONDO:0000839	oboInOwl:hasExactSynonym	congenital abnormality
+WARN	duplicate_label_synonym	MONDO:0002046	oboInOwl:hasExactSynonym	alcohol abuse
+WARN	duplicate_label_synonym	MONDO:0002251	oboInOwl:hasExactSynonym	hepatitis
+WARN	duplicate_label_synonym	MONDO:0004335	oboInOwl:hasExactSynonym	digestive system disease
+WARN	duplicate_label_synonym	MONDO:0005151	oboInOwl:hasExactSynonym	endocrine system disease
+WARN	duplicate_label_synonym	MONDO:0007089	oboInOwl:hasExactSynonym	Alzheimer disease 2
+WARN	duplicate_label_synonym	MONDO:0010022	oboInOwl:hasExactSynonym	senile plaque formation
+WARN	duplicate_label_synonym	MONDO:0010422	oboInOwl:hasExactSynonym	Alzheimer disease 16
+WARN	duplicate_label_synonym	MONDO:0010783	oboInOwl:hasExactSynonym	Alzheimer disease, susceptibility to, mitochondrial
+WARN	duplicate_label_synonym	MONDO:0011194	oboInOwl:hasExactSynonym	Alzheimer disease 5
+WARN	duplicate_label_synonym	MONDO:0011401	oboInOwl:hasExactSynonym	Alzheimer disease without neurofibrillary tangles
+WARN	duplicate_label_synonym	MONDO:0011513	oboInOwl:hasExactSynonym	Alzheimer disease, familial early-onset, with coexisting amyloid and prion pathology
+WARN	duplicate_label_synonym	MONDO:0011561	oboInOwl:hasExactSynonym	Alzheimer disease 6
+WARN	duplicate_label_synonym	MONDO:0011647	oboInOwl:hasExactSynonym	Alzheimer disease 7
+WARN	duplicate_label_synonym	MONDO:0011743	oboInOwl:hasExactSynonym	Alzheimer disease 4
+WARN	duplicate_label_synonym	MONDO:0011777	oboInOwl:hasExactSynonym	Alzheimer disease 8
+WARN	duplicate_label_synonym	MONDO:0011913	oboInOwl:hasExactSynonym	Alzheimer disease 3
+WARN	duplicate_label_synonym	MONDO:0012321	oboInOwl:hasExactSynonym	Alzheimer disease 10
+WARN	duplicate_label_synonym	MONDO:0012344	oboInOwl:hasExactSynonym	Alzheimer disease 11
+WARN	duplicate_label_synonym	MONDO:0012609	oboInOwl:hasExactSynonym	Alzheimer disease 12
+WARN	duplicate_label_synonym	MONDO:0012630	oboInOwl:hasExactSynonym	Alzheimer disease 13
+WARN	duplicate_label_synonym	MONDO:0012631	oboInOwl:hasExactSynonym	Alzheimer disease 14
+WARN	duplicate_label_synonym	MONDO:0014036	oboInOwl:hasExactSynonym	Alzheimer disease 17
+WARN	duplicate_label_synonym	MONDO:0014265	oboInOwl:hasExactSynonym	Alzheimer disease 18
+WARN	duplicate_label_synonym	MONDO:0014316	oboInOwl:hasExactSynonym	Alzheimer disease 19
+WARN	duplicate_label_synonym	MONDO:0022880	oboInOwl:hasExactSynonym	corticobasal degeneration
+WARN	duplicate_label_synonym	MOP:0000030	oboInOwl:hasExactSynonym	acetylation
+WARN	duplicate_label_synonym	MP:0005331	oboInOwl:hasExactSynonym	insulin resistance
+WARN	duplicate_label_synonym	NCIT:A11	oboInOwl:hasExactSynonym	Has_NICHD_Parent
+WARN	duplicate_label_synonym	NCIT:A13	oboInOwl:hasExactSynonym	Related_To_Genetic_Biomarker
+WARN	duplicate_label_synonym	NCIT:A24	oboInOwl:hasExactSynonym	Is_PCDC_AML_Permissible_Value_For_Variable
+WARN	duplicate_label_synonym	NCIT:A28	oboInOwl:hasExactSynonym	Is_PCDC_EWS_Permissible_Value_For_Variable
+WARN	duplicate_label_synonym	NCIT:C100762	oboInOwl:hasExactSynonym	Alzheimer's Disease Assessment Scale-Cognitive CDISC Version Questionnaire
+WARN	duplicate_label_synonym	NCIT:C102114	oboInOwl:hasExactSynonym	Clinical Dementia Rating Questionnaire
+WARN	duplicate_label_synonym	NCIT:C103400	oboInOwl:hasExactSynonym	FDG-Positron Emission Tomography
+WARN	duplicate_label_synonym	NCIT:C105165	oboInOwl:hasExactSynonym	Disability Assessment for Dementia Questionnaire
+WARN	duplicate_label_synonym	NCIT:C105166	oboInOwl:hasExactSynonym	Alzheimer's Disease Cooperative Study Activities of Daily Living Inventory Questionnaire
+WARN	duplicate_label_synonym	NCIT:C106697	oboInOwl:hasExactSynonym	Geriatric Depression Scale Questionnaire
+WARN	duplicate_label_synonym	NCIT:C106888	oboInOwl:hasExactSynonym	Alzheimer's Disease Cooperative Study-Activities of Daily Living Inventory Mild Cognitive Impairment Questionnaire
+WARN	duplicate_label_synonym	NCIT:C111794	oboInOwl:hasExactSynonym	Notch Receptor Intracellular Domain
+WARN	duplicate_label_synonym	NCIT:C116450	oboInOwl:hasExactSynonym	Arterial Spin Labeling Magnetic Resonance Imaging
+WARN	duplicate_label_synonym	NCIT:C117960	oboInOwl:hasExactSynonym	Diagnostic Criteria
+WARN	duplicate_label_synonym	NCIT:C117997	oboInOwl:hasExactSynonym	Extrapyramidal Symptom Rating Scale-Abbreviated Clinical Classification
+WARN	duplicate_label_synonym	NCIT:C118457	oboInOwl:hasExactSynonym	N-Methyl-D-Aspartate Receptor
+WARN	duplicate_label_synonym	NCIT:C118892	oboInOwl:hasExactSynonym	FOXO Family
+WARN	duplicate_label_synonym	NCIT:C1192	oboInOwl:hasExactSynonym	Phosphatidylinositol 4,5-bisphosphate
+WARN	duplicate_label_synonym	NCIT:C120257	oboInOwl:hasExactSynonym	California Verbal Learning Test - Second Edition
+WARN	duplicate_label_synonym	NCIT:C123667	oboInOwl:hasExactSynonym	Montreal Cognitive Assessment Functional Test
+WARN	duplicate_label_synonym	NCIT:C123668	oboInOwl:hasExactSynonym	Rey Auditory Verbal Learning Functional Test
+WARN	duplicate_label_synonym	NCIT:C12534	oboInOwl:hasExactSynonym	Non-Granular Leukocyte
+WARN	duplicate_label_synonym	NCIT:C125410	oboInOwl:hasExactSynonym	Have Difficulty Swallowing
+WARN	duplicate_label_synonym	NCIT:C125913	oboInOwl:hasExactSynonym	Have Indigestion
+WARN	duplicate_label_synonym	NCIT:C129326	oboInOwl:hasExactSynonym	Resting State Functional Connectivity Magnetic Resonance Imaging
+WARN	duplicate_label_synonym	NCIT:C129646	oboInOwl:hasExactSynonym	Vascular Endothelial Growth Factor Family
+WARN	duplicate_label_synonym	NCIT:C131258	oboInOwl:hasExactSynonym	MT-RNR2 Gene
+WARN	duplicate_label_synonym	NCIT:C137847	oboInOwl:hasExactSynonym	Current Difficulty Learning New Tasks or Instructions
+WARN	duplicate_label_synonym	NCIT:C14211	oboInOwl:hasExactSynonym	Guinea Pig
+WARN	duplicate_label_synonym	NCIT:C143955	oboInOwl:hasExactSynonym	Blood Inflammatory Marker
+WARN	duplicate_label_synonym	NCIT:C150129	oboInOwl:hasExactSynonym	Circulating Protein
+WARN	duplicate_label_synonym	NCIT:C15206	oboInOwl:hasExactSynonym	Clinical Study
+WARN	duplicate_label_synonym	NCIT:C15262	oboInOwl:hasExactSynonym	Immunotherapy
+WARN	duplicate_label_synonym	NCIT:C15273	oboInOwl:hasExactSynonym	Longitudinal Study
+WARN	duplicate_label_synonym	NCIT:C15327	oboInOwl:hasExactSynonym	Lumbar Puncture
+WARN	duplicate_label_synonym	NCIT:C15362	oboInOwl:hasExactSynonym	Case Study
+WARN	duplicate_label_synonym	NCIT:C157012	oboInOwl:hasExactSynonym	Cognition Clock Test
+WARN	duplicate_label_synonym	NCIT:C15709	oboInOwl:hasExactSynonym	Genetic Testing
+WARN	duplicate_label_synonym	NCIT:C15719	oboInOwl:hasExactSynonym	Surveillance
+WARN	duplicate_label_synonym	NCIT:C160587	oboInOwl:hasExactSynonym	Executive Function Disorder
+WARN	duplicate_label_synonym	NCIT:C16436	oboInOwl:hasExactSynonym	Chromogranin
+WARN	duplicate_label_synonym	NCIT:C16502	oboInOwl:hasExactSynonym	Diagnostic Imaging
+WARN	duplicate_label_synonym	NCIT:C16518	oboInOwl:hasExactSynonym	DNA Binding Protein
+WARN	duplicate_label_synonym	NCIT:C16631	oboInOwl:hasExactSynonym	Genotype
+WARN	duplicate_label_synonym	NCIT:C166444	oboInOwl:hasExactSynonym	Aducanumab
+WARN	duplicate_label_synonym	NCIT:C16672	oboInOwl:hasExactSynonym	Heat Shock Protein
+WARN	duplicate_label_synonym	NCIT:C16795	oboInOwl:hasExactSynonym	Lifestyle
+WARN	duplicate_label_synonym	NCIT:C16809	oboInOwl:hasExactSynonym	Magnetic Resonance Imaging
+WARN	duplicate_label_synonym	NCIT:C16811	oboInOwl:hasExactSynonym	Magnetoencephalography
+WARN	duplicate_label_synonym	NCIT:C16861	oboInOwl:hasExactSynonym	Microtubule Associated Protein
+WARN	duplicate_label_synonym	NCIT:C16866	oboInOwl:hasExactSynonym	Model
+WARN	duplicate_label_synonym	NCIT:C17204	oboInOwl:hasExactSynonym	Computed Tomography
+WARN	duplicate_label_synonym	NCIT:C174447	oboInOwl:hasExactSynonym	Study Arm
+WARN	duplicate_label_synonym	NCIT:C17456	oboInOwl:hasExactSynonym	Experimental Model
+WARN	duplicate_label_synonym	NCIT:C1746	oboInOwl:hasExactSynonym	Peptide Hormone
+WARN	duplicate_label_synonym	NCIT:C17486	oboInOwl:hasExactSynonym	CCAAT Enhancer Binding Protein
+WARN	duplicate_label_synonym	NCIT:C176261	oboInOwl:hasExactSynonym	Study Phase
+WARN	duplicate_label_synonym	NCIT:C176312	oboInOwl:hasExactSynonym	Phosphorylated Tau Protein to Amyloid Beta1-42 Ratio Measurement
+WARN	duplicate_label_synonym	NCIT:C17710	oboInOwl:hasExactSynonym	Subcellular Process
+WARN	duplicate_label_synonym	NCIT:C17765	oboInOwl:hasExactSynonym	Heat Shock Protein 70
+WARN	duplicate_label_synonym	NCIT:C17958	oboInOwl:hasExactSynonym	Functional Magnetic Resonance Imaging
+WARN	duplicate_label_synonym	NCIT:C18103	oboInOwl:hasExactSynonym	Protein Synthesis
+WARN	duplicate_label_synonym	NCIT:C18153	oboInOwl:hasExactSynonym	Caspase
+WARN	duplicate_label_synonym	NCIT:C18520	oboInOwl:hasExactSynonym	Metabolic Marker
+WARN	duplicate_label_synonym	NCIT:C19146	oboInOwl:hasExactSynonym	In Vitro Model
+WARN	duplicate_label_synonym	NCIT:C19148	oboInOwl:hasExactSynonym	In Vivo Model
+WARN	duplicate_label_synonym	NCIT:C19272	oboInOwl:hasExactSynonym	Transgenic Model
+WARN	duplicate_label_synonym	NCIT:C19332	oboInOwl:hasExactSynonym	Personal Attribute
+WARN	duplicate_label_synonym	NCIT:C19609	oboInOwl:hasExactSynonym	Functional Imaging
+WARN	duplicate_label_synonym	NCIT:C20031	oboInOwl:hasExactSynonym	Extracellular Protein
+WARN	duplicate_label_synonym	NCIT:C20080	oboInOwl:hasExactSynonym	Angiography
+WARN	duplicate_label_synonym	NCIT:C20130	oboInOwl:hasExactSynonym	Protein Family
+WARN	duplicate_label_synonym	NCIT:C2020	oboInOwl:hasExactSynonym	Farnesyl Transferase Inhibitor
+WARN	duplicate_label_synonym	NCIT:C20391	oboInOwl:hasExactSynonym	Neurotrophic Factor
+WARN	duplicate_label_synonym	NCIT:C20424	oboInOwl:hasExactSynonym	Growth Factor
+WARN	duplicate_label_synonym	NCIT:C20993	oboInOwl:hasExactSynonym	Research or Clinical Assessment Tool
+WARN	duplicate_label_synonym	NCIT:C21051	oboInOwl:hasExactSynonym	Epigenetic Process
+WARN	duplicate_label_synonym	NCIT:C21097	oboInOwl:hasExactSynonym	Sedation
+WARN	duplicate_label_synonym	NCIT:C21217	oboInOwl:hasExactSynonym	Synuclein Family
+WARN	duplicate_label_synonym	NCIT:C21523	oboInOwl:hasExactSynonym	Complement Component Protein
+WARN	duplicate_label_synonym	NCIT:C25214	oboInOwl:hasExactSynonym	Evaluation
+WARN	duplicate_label_synonym	NCIT:C25506	oboInOwl:hasExactSynonym	Factor
+WARN	duplicate_label_synonym	NCIT:C25662	oboInOwl:hasExactSynonym	Sampling
+WARN	duplicate_label_synonym	NCIT:C3399	oboInOwl:hasExactSynonym	Swelling
+WARN	duplicate_label_synonym	NCIT:C34660	oboInOwl:hasExactSynonym	Head Injury
+WARN	duplicate_label_synonym	NCIT:C38101	oboInOwl:hasExactSynonym	X-Ray Imaging
+WARN	duplicate_label_synonym	NCIT:C38834	oboInOwl:hasExactSynonym	MAPK Signaling Pathway
+WARN	duplicate_label_synonym	NCIT:C40438	oboInOwl:hasExactSynonym	Beck Depression Inventory
+WARN	duplicate_label_synonym	NCIT:C41189	oboInOwl:hasExactSynonym	Study Subject
+WARN	duplicate_label_synonym	NCIT:C46079	oboInOwl:hasExactSynonym	Randomized Controlled Clinical Trial
+WARN	duplicate_label_synonym	NCIT:C46084	oboInOwl:hasExactSynonym	Memory Dysfunction
+WARN	duplicate_label_synonym	NCIT:C463	oboInOwl:hasExactSynonym	Eicosanoid
+WARN	duplicate_label_synonym	NCIT:C48202	oboInOwl:hasExactSynonym	Nested Case-control Study
+WARN	duplicate_label_synonym	NCIT:C48261	oboInOwl:hasExactSynonym	Screening
+WARN	duplicate_label_synonym	NCIT:C49159	oboInOwl:hasExactSynonym	Proportion
+WARN	duplicate_label_synonym	NCIT:C49686	oboInOwl:hasExactSynonym	Phase IIa Trial
+WARN	duplicate_label_synonym	NCIT:C49688	oboInOwl:hasExactSynonym	Phase IIb Trial
+WARN	duplicate_label_synonym	NCIT:C53360	oboInOwl:hasExactSynonym	Age-Adjusted Mortality Rate
+WARN	duplicate_label_synonym	NCIT:C54721	oboInOwl:hasExactSynonym	Phase 0 Trial
+WARN	duplicate_label_synonym	NCIT:C62716	oboInOwl:hasExactSynonym	Wide Range Achievement Test, 3rd Edition
+WARN	duplicate_label_synonym	NCIT:C67360	oboInOwl:hasExactSynonym	Attributable Risk
+WARN	duplicate_label_synonym	NCIT:C70820	oboInOwl:hasExactSynonym	Clinical Study by Phase
+WARN	duplicate_label_synonym	NCIT:C70840	oboInOwl:hasExactSynonym	Blinded Clinical Study
+WARN	duplicate_label_synonym	NCIT:C71164	oboInOwl:hasExactSynonym	Animal Model
+WARN	duplicate_label_synonym	NCIT:C74611	oboInOwl:hasExactSynonym	Erythrocyte Sedimentation Rate Measurement
+WARN	duplicate_label_synonym	NCIT:C74982	oboInOwl:hasExactSynonym	Mini-Mental Status Exam
+WARN	duplicate_label_synonym	NCIT:C76786	oboInOwl:hasExactSynonym	Tramiprosate
+WARN	duplicate_label_synonym	NCIT:C78757	oboInOwl:hasExactSynonym	Latrepirdine
+WARN	duplicate_label_synonym	NCIT:C79569	oboInOwl:hasExactSynonym	Bapineuzumab
+WARN	duplicate_label_synonym	NCIT:C80519	oboInOwl:hasExactSynonym	Biological Model
+WARN	duplicate_label_synonym	NCIT:C81115	oboInOwl:hasExactSynonym	Semagacestat
+WARN	duplicate_label_synonym	NCIT:C84809	oboInOwl:hasExactSynonym	Beta Amyloid 42 Measurement
+WARN	duplicate_label_synonym	NCIT:C84810	oboInOwl:hasExactSynonym	Tau Protein Measurement
+WARN	duplicate_label_synonym	NCIT:C84812	oboInOwl:hasExactSynonym	Phosphorylated Tau Protein Measurement
+WARN	duplicate_label_synonym	NCIT:C86983	oboInOwl:hasExactSynonym	NINCDS-ADRDA Criteria for Alzheimer's Disease
+WARN	duplicate_label_synonym	NCIT:C88419	oboInOwl:hasExactSynonym	Executive Function
+WARN	duplicate_label_synonym	NCIT:C91102	oboInOwl:hasExactSynonym	Clinical or Research Assessment Question
+WARN	duplicate_label_synonym	NCIT:C91105	oboInOwl:hasExactSynonym	Clinical or Research Assessment Questionnaire
+WARN	duplicate_label_synonym	NCIT:C93150	oboInOwl:hasExactSynonym	Hazard Ratio
+WARN	duplicate_label_synonym	NCIT:C93228	oboInOwl:hasExactSynonym	Retrospective Cohort Study
+WARN	duplicate_label_synonym	NCIT:C95114	oboInOwl:hasExactSynonym	Gamma Secretase
+WARN	duplicate_label_synonym	NCIT:C97201	oboInOwl:hasExactSynonym	Dimerization
+WARN	duplicate_label_synonym	NCIT:C98241	oboInOwl:hasExactSynonym	Thiazolidinedione Antidiabetic Agent
+WARN	duplicate_label_synonym	NCIT:C98772	oboInOwl:hasExactSynonym	Primary Outcome Measure
+WARN	duplicate_label_synonym	NCIT:C98781	oboInOwl:hasExactSynonym	Secondary Outcome Measure
+WARN	duplicate_label_synonym	NCIT:NHC0	oboInOwl:hasExactSynonym	code
+WARN	duplicate_label_synonym	NCIT:P100	oboInOwl:hasExactSynonym	OMIM_Number
+WARN	duplicate_label_synonym	NCIT:P106	oboInOwl:hasExactSynonym	Semantic_Type
+WARN	duplicate_label_synonym	NCIT:P107	oboInOwl:hasExactSynonym	Display_Name
+WARN	duplicate_label_synonym	NCIT:P108	oboInOwl:hasExactSynonym	Preferred_Name
+WARN	duplicate_label_synonym	NCIT:P207	oboInOwl:hasExactSynonym	UMLS_CUI
+WARN	duplicate_label_synonym	NCIT:P208	oboInOwl:hasExactSynonym	NCI_META_CUI
+WARN	duplicate_label_synonym	NCIT:P210	oboInOwl:hasExactSynonym	CAS_Registry
+WARN	duplicate_label_synonym	NCIT:P215	oboInOwl:hasExactSynonym	KEGG_ID
+WARN	duplicate_label_synonym	NCIT:P302	oboInOwl:hasExactSynonym	Accepted_Therapeutic_Use_For
+WARN	duplicate_label_synonym	NCIT:P310	oboInOwl:hasExactSynonym	Concept_Status
+WARN	duplicate_label_synonym	NCIT:P317	oboInOwl:hasExactSynonym	FDA_Table
+WARN	duplicate_label_synonym	NCIT:P319	oboInOwl:hasExactSynonym	FDA_UNII_Code
+WARN	duplicate_label_synonym	NCIT:P322	oboInOwl:hasExactSynonym	Contributing_Source
+WARN	duplicate_label_synonym	NCIT:P325	oboInOwl:hasExactSynonym	ALT_DEFINITION
+WARN	duplicate_label_synonym	NCIT:P331	oboInOwl:hasExactSynonym	NCBI_Taxon_ID
+WARN	duplicate_label_synonym	NCIT:P350	oboInOwl:hasExactSynonym	Chemical_Formula
+WARN	duplicate_label_synonym	NCIT:P366	oboInOwl:hasExactSynonym	Legacy Concept Name
+WARN	duplicate_label_synonym	NCIT:P366	oboInOwl:hasExactSynonym	Legacy_Concept_Name
+WARN	duplicate_label_synonym	NCIT:P368	oboInOwl:hasExactSynonym	CHEBI_ID
+WARN	duplicate_label_synonym	NCIT:P369	oboInOwl:hasExactSynonym	HGNC_ID
+WARN	duplicate_label_synonym	NCIT:P371	oboInOwl:hasExactSynonym	NICHD_Hierarchy_Term
+WARN	duplicate_label_synonym	NCIT:P375	oboInOwl:hasExactSynonym	Maps_To
+WARN	duplicate_label_synonym	NCIT:P98	oboInOwl:hasExactSynonym	DesignNote
+WARN	duplicate_label_synonym	OGG:3000000351	oboInOwl:hasExactSynonym	APP
+WARN	duplicate_label_synonym	OGG:3000000847	oboInOwl:hasExactSynonym	CAT
+WARN	duplicate_label_synonym	OGG:3000001139	IAO:0000118	CHRNA7
+WARN	duplicate_label_synonym	OGG:3000004513	IAO:0000118	COX2
+WARN	duplicate_label_synonym	SYMP:0000124	oboInOwl:hasExactSynonym	seizure
+WARN	duplicate_label_synonym	UBERON:0000463	oboInOwl:hasExactSynonym	organism substance
+WARN	duplicate_label_synonym	UBERON:0001851	oboInOwl:hasExactSynonym	cortex
+WARN	duplicate_label_synonym	UBERON:0002020	oboInOwl:hasExactSynonym	gray matter
+WARN	duplicate_label_synonym	UBERON:0002435	oboInOwl:hasExactSynonym	striatum
+WARN	duplicate_label_synonym	obo:UPa_UPA00026	oboInOwl:hasExactSynonym	metabolism
+WARN	duplicate_label_synonym	oboInOwl:hasDbXref	oboInOwl:hasExactSynonym	database_cross_reference
 INFO	lowercase_definition	BFO:0000004	IAO:0000115	b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])@en
 INFO	lowercase_definition	BFO:0000015	IAO:0000115	p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])@en
 INFO	lowercase_definition	BFO:0000016	IAO:0000600	b is a disposition means: b is a realizable entity & b’s bearer is some material entity & b is such that if it ceases to exist, then its bearer is physically changed, & b’s realization occurs when and because this bearer is in some special physical circumstances, & this realization occurs in virtue of the bearer’s physical make-up. (axiom label in BFO2 Reference: [062-002])@en
