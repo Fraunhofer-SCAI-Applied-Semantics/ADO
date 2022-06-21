@@ -1,4 +1,17 @@
 Level	Rule Name	Subject	Property	Value
+ERROR	duplicate_definition	ExO:0000145	IAO:0000115	A person of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin, regardless of race.
+ERROR	duplicate_definition	ExO:0000149	IAO:0000115	A person of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin, regardless of race.
+ERROR	duplicate_label	https://www.wikidata.org/wiki/Property:P1659	rdfs:label	see also@en
+ERROR	duplicate_label	dc11:relation	rdfs:label	relation@en
+ERROR	duplicate_label	dc:relation	rdfs:label	relation@en
+ERROR	duplicate_label	CHEBI:36080	rdfs:label	protein
+ERROR	duplicate_label	PR:000000001	rdfs:label	protein
+ERROR	duplicate_label	IAO:0000119	rdfs:label	definition source
+ERROR	duplicate_label	SCDO:0000340	rdfs:label	definition source
+ERROR	duplicate_label	IAO:0000232	rdfs:label	curator note
+ERROR	duplicate_label	SCDO:0000303	rdfs:label	curator note
+ERROR	duplicate_label	dc11:contributor	rdfs:label	contributor
+ERROR	duplicate_label	dc:contributor	rdfs:label	contributor
 ERROR	multiple_definitions	BFO:0000020	IAO:0000115	A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.@en
 ERROR	multiple_definitions	BFO:0000020	IAO:0000115	b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1  i &lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])@en
 ERROR	multiple_definitions	BFO:0000020	IAO:0000115	b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])@en
@@ -43,6 +56,8 @@ ERROR	multiple_definitions	OBI:0000011	IAO:0000115	A process that realizes a pla
 ERROR	multiple_definitions	OBI:0000011	IAO:0000115	A processual entity that realizes a plan which is the concretization of a plan specification.@en
 ERROR	multiple_definitions	OBI:0000070	IAO:0000115	A planned process with the objective to produce information about some evaluant@en
 ERROR	multiple_definitions	OBI:0000070	IAO:0000115	A planned process with the objective to produce information about the material entity that is the evaluant, by physically examining it or its proxies.@en
+ERROR	multiple_definitions	OGMS:0000083	IAO:0000115	TODO: Define.@en
+ERROR	multiple_definitions	OGMS:0000083	IAO:0000115	The information regarding anatomic findings obtained through the use of observation, palpation, percussion, and auscultation.
 ERROR	multiple_definitions	RO:0002161	IAO:0000115	S never_in_taxon T iff: S SubClassOf in_taxon only not T.
 ERROR	multiple_definitions	RO:0002161	IAO:0000115	"x never in taxon T if and only if T is a class, and x does not instantiate the class expression \""in taxon some T\"". Note that this is a shortcut relation, and should be used as a hasValue restriction in OWL."
 ERROR	multiple_definitions	RO:0002175	IAO:0000115	S present_in_taxon T if some instance of T has some S. This does not means that all instances of T have an S - it may only be certain life stages or sexes that have S
@@ -59,19 +74,6 @@ ERROR	multiple_definitions	oboInOwl:hasExactSynonym	IAO:0000115	Fully qualified 
 ERROR	multiple_definitions	oboInOwl:inSubset	IAO:0000115	An association that connects the concept defining a particular terminology subset with concepts that belong to this subset.
 ERROR	multiple_definitions	oboInOwl:inSubset	IAO:0000115	In subset.
 ERROR	multiple_definitions	oboInOwl:inSubset	IAO:0000115	Used to associate the concept defining a particular terminology subset with concepts that belong to this subset.
-ERROR	duplicate_definition	ExO:0000145	IAO:0000115	A person of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin, regardless of race.
-ERROR	duplicate_definition	ExO:0000149	IAO:0000115	A person of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin, regardless of race.
-ERROR	duplicate_label	https://www.wikidata.org/wiki/Property:P1659	rdfs:label	see also@en
-ERROR	duplicate_label	dc11:relation	rdfs:label	relation@en
-ERROR	duplicate_label	dc:relation	rdfs:label	relation@en
-ERROR	duplicate_label	CHEBI:36080	rdfs:label	protein
-ERROR	duplicate_label	PR:000000001	rdfs:label	protein
-ERROR	duplicate_label	IAO:0000119	rdfs:label	definition source
-ERROR	duplicate_label	SCDO:0000340	rdfs:label	definition source
-ERROR	duplicate_label	IAO:0000232	rdfs:label	curator note
-ERROR	duplicate_label	SCDO:0000303	rdfs:label	curator note
-ERROR	duplicate_label	dc11:contributor	rdfs:label	contributor
-ERROR	duplicate_label	dc:contributor	rdfs:label	contributor
 ERROR	multiple_labels	BFO:0000001	rdfs:label	entity
 ERROR	multiple_labels	BFO:0000001	rdfs:label	entity@en
 ERROR	multiple_labels	BFO:0000003	rdfs:label	occurrent
@@ -177,82 +179,326 @@ ERROR	multiple_labels	oboInOwl:inSubset	rdfs:label	in subset
 ERROR	multiple_labels	oboInOwl:inSubset	rdfs:label	in_subset
 ERROR	multiple_labels	oboInOwl:shorthand	rdfs:label	shorthand
 ERROR	multiple_labels	oboInOwl:shorthand	rdfs:label	shorthand@en
-WARN	duplicate_scoped_synonym	CHEBI:15361	oboInOwl:hasExactSynonym	2-oxopropanoate
-WARN	duplicate_scoped_synonym	CHEBI:15361	oboInOwl:hasRelatedSynonym	2-oxopropanoate
-WARN	duplicate_scoped_synonym	CHEBI:16038	oboInOwl:hasExactSynonym	phosphatidylethanolamines
-WARN	duplicate_scoped_synonym	CHEBI:16038	oboInOwl:hasRelatedSynonym	phosphatidylethanolamines
-WARN	duplicate_scoped_synonym	CHEBI:16584	oboInOwl:hasExactSynonym	3-methylbut-3-en-1-yl trihydrogen diphosphate
-WARN	duplicate_scoped_synonym	CHEBI:16584	oboInOwl:hasRelatedSynonym	3-methylbut-3-en-1-yl trihydrogen diphosphate
-WARN	duplicate_scoped_synonym	CHEBI:16865	oboInOwl:hasExactSynonym	4-aminobutanoic acid
-WARN	duplicate_scoped_synonym	CHEBI:16865	oboInOwl:hasRelatedSynonym	4-aminobutanoic acid
-WARN	duplicate_scoped_synonym	CHEBI:16991	oboInOwl:hasExactSynonym	deoxyribonucleic acids
-WARN	duplicate_scoped_synonym	CHEBI:16991	oboInOwl:hasRelatedSynonym	deoxyribonucleic acids
-WARN	duplicate_scoped_synonym	CHEBI:17087	oboInOwl:hasExactSynonym	ketones
-WARN	duplicate_scoped_synonym	CHEBI:17087	oboInOwl:hasRelatedSynonym	ketones
-WARN	duplicate_scoped_synonym	CHEBI:17347	oboInOwl:hasExactSynonym	testosterone
-WARN	duplicate_scoped_synonym	CHEBI:17347	oboInOwl:hasRelatedSynonym	testosterone
-WARN	duplicate_scoped_synonym	CHEBI:17478	oboInOwl:hasExactSynonym	aldehydes
-WARN	duplicate_scoped_synonym	CHEBI:17478	oboInOwl:hasRelatedSynonym	aldehydes
-WARN	duplicate_scoped_synonym	CHEBI:18248	oboInOwl:hasExactSynonym	iron
-WARN	duplicate_scoped_synonym	CHEBI:18248	oboInOwl:hasRelatedSynonym	iron
-WARN	duplicate_scoped_synonym	CHEBI:22984	oboInOwl:hasExactSynonym	calcium
-WARN	duplicate_scoped_synonym	CHEBI:22984	oboInOwl:hasRelatedSynonym	calcium
-WARN	duplicate_scoped_synonym	CHEBI:24913	oboInOwl:hasExactSynonym	isoprenoids
-WARN	duplicate_scoped_synonym	CHEBI:24913	oboInOwl:hasRelatedSynonym	isoprenoids
-WARN	duplicate_scoped_synonym	CHEBI:25016	oboInOwl:hasExactSynonym	lead
-WARN	duplicate_scoped_synonym	CHEBI:25016	oboInOwl:hasRelatedSynonym	lead
-WARN	duplicate_scoped_synonym	CHEBI:25029	oboInOwl:hasExactSynonym	leukotrienes
-WARN	duplicate_scoped_synonym	CHEBI:25029	oboInOwl:hasRelatedSynonym	leukotrienes
-WARN	duplicate_scoped_synonym	CHEBI:25698	oboInOwl:hasExactSynonym	ethers
-WARN	duplicate_scoped_synonym	CHEBI:25698	oboInOwl:hasRelatedSynonym	ethers
-WARN	duplicate_scoped_synonym	CHEBI:26020	oboInOwl:hasExactSynonym	phosphates
-WARN	duplicate_scoped_synonym	CHEBI:26020	oboInOwl:hasRelatedSynonym	phosphates
-WARN	duplicate_scoped_synonym	CHEBI:27363	oboInOwl:hasExactSynonym	zinc
-WARN	duplicate_scoped_synonym	CHEBI:27363	oboInOwl:hasRelatedSynonym	zinc
-WARN	duplicate_scoped_synonym	CHEBI:28694	oboInOwl:hasExactSynonym	copper
-WARN	duplicate_scoped_synonym	CHEBI:28694	oboInOwl:hasRelatedSynonym	copper
-WARN	duplicate_scoped_synonym	CHEBI:28984	oboInOwl:hasExactSynonym	aluminium
-WARN	duplicate_scoped_synonym	CHEBI:28984	oboInOwl:hasRelatedSynonym	aluminium
-WARN	duplicate_scoped_synonym	CHEBI:30145	oboInOwl:hasExactSynonym	lithium
-WARN	duplicate_scoped_synonym	CHEBI:30145	oboInOwl:hasRelatedSynonym	lithium
-WARN	duplicate_scoped_synonym	CHEBI:33567	oboInOwl:hasExactSynonym	catecholamines
-WARN	duplicate_scoped_synonym	CHEBI:33567	oboInOwl:hasRelatedSynonym	catecholamines
-WARN	duplicate_scoped_synonym	CHEBI:33697	oboInOwl:hasExactSynonym	ribonucleic acids
-WARN	duplicate_scoped_synonym	CHEBI:33697	oboInOwl:hasRelatedSynonym	ribonucleic acids
-WARN	duplicate_scoped_synonym	CHEBI:35358	oboInOwl:hasExactSynonym	sulfonamides
-WARN	duplicate_scoped_synonym	CHEBI:35358	oboInOwl:hasRelatedSynonym	sulfonamides
-WARN	duplicate_scoped_synonym	CHEBI:35366	oboInOwl:hasExactSynonym	fatty acids
-WARN	duplicate_scoped_synonym	CHEBI:35366	oboInOwl:hasRelatedSynonym	fatty acids
-WARN	duplicate_scoped_synonym	CHEBI:37622	oboInOwl:hasExactSynonym	carboxamides
-WARN	duplicate_scoped_synonym	CHEBI:37622	oboInOwl:hasRelatedSynonym	carboxamides
-WARN	duplicate_scoped_synonym	CHEBI:49552	oboInOwl:hasExactSynonym	copper(1+) ion
-WARN	duplicate_scoped_synonym	CHEBI:49552	oboInOwl:hasExactSynonym	copper(I) cation
-WARN	duplicate_scoped_synonym	CHEBI:49552	oboInOwl:hasRelatedSynonym	copper(1+) ion
-WARN	duplicate_scoped_synonym	CHEBI:49552	oboInOwl:hasRelatedSynonym	copper(I) cation
-WARN	duplicate_scoped_synonym	CHEBI:50169	oboInOwl:hasExactSynonym	3alpha-hydroxy-5alpha-pregnan-20-one
-WARN	duplicate_scoped_synonym	CHEBI:50169	oboInOwl:hasRelatedSynonym	3alpha-hydroxy-5alpha-pregnan-20-one
-WARN	duplicate_scoped_synonym	CHEBI:57678	oboInOwl:hasExactSynonym	2-oxo-3-sulfanylpropanoate
-WARN	duplicate_scoped_synonym	CHEBI:57678	oboInOwl:hasRelatedSynonym	2-oxo-3-sulfanylpropanoate
-WARN	duplicate_scoped_synonym	CHEBI:7476	oboInOwl:hasExactSynonym	naproxen
-WARN	duplicate_scoped_synonym	CHEBI:7476	oboInOwl:hasRelatedSynonym	naproxen
-WARN	duplicate_scoped_synonym	CHEBI:7494	oboInOwl:hasExactSynonym	nefazodone
-WARN	duplicate_scoped_synonym	CHEBI:7494	oboInOwl:hasRelatedSynonym	nefazodone
-WARN	duplicate_scoped_synonym	CHEBI:8212	oboInOwl:hasExactSynonym	pimozide
-WARN	duplicate_scoped_synonym	CHEBI:8212	oboInOwl:hasRelatedSynonym	pimozide
-WARN	duplicate_scoped_synonym	CHEBI:8871	oboInOwl:hasExactSynonym	risperidone
-WARN	duplicate_scoped_synonym	CHEBI:8871	oboInOwl:hasRelatedSynonym	risperidone
-WARN	duplicate_scoped_synonym	IAO:0000115	IAO:0000118	DEFINITION
-WARN	duplicate_scoped_synonym	IAO:0000115	oboInOwl:hasExactSynonym	DEFINITION
-WARN	duplicate_scoped_synonym	NCBITaxon:2759	oboInOwl:hasExactSynonym	eukaryotes
-WARN	duplicate_scoped_synonym	NCBITaxon:2759	oboInOwl:hasRelatedSynonym	eukaryotes
-WARN	duplicate_scoped_synonym	NCBITaxon:40674	oboInOwl:hasExactSynonym	mammals
-WARN	duplicate_scoped_synonym	NCBITaxon:40674	oboInOwl:hasRelatedSynonym	mammals
-WARN	duplicate_scoped_synonym	NCBITaxon:7742	oboInOwl:hasExactSynonym	vertebrates
-WARN	duplicate_scoped_synonym	NCBITaxon:7742	oboInOwl:hasRelatedSynonym	vertebrates
-WARN	duplicate_scoped_synonym	UBERON:0001018	oboInOwl:hasNarrowSynonym	nerve tract
-WARN	duplicate_scoped_synonym	UBERON:0001018	oboInOwl:hasRelatedSynonym	nerve tract
-WARN	duplicate_scoped_synonym	UBERON:0002751	oboInOwl:hasExactSynonym	gyrus temporalis inferior
-WARN	duplicate_scoped_synonym	UBERON:0002751	oboInOwl:hasRelatedSynonym	gyrus temporalis inferior
+WARN	duplicate_label_synonym	CHEBI:13705	oboInOwl:hasExactSynonym	acetoacetate
+WARN	duplicate_label_synonym	CHEBI:15354	oboInOwl:hasExactSynonym	choline
+WARN	duplicate_label_synonym	CHEBI:15355	oboInOwl:hasExactSynonym	acetylcholine
+WARN	duplicate_label_synonym	CHEBI:15356	oboInOwl:hasExactSynonym	cysteine
+WARN	duplicate_label_synonym	CHEBI:15361	oboInOwl:hasExactSynonym	pyruvate
+WARN	duplicate_label_synonym	CHEBI:15377	oboInOwl:hasExactSynonym	water
+WARN	duplicate_label_synonym	CHEBI:15380	oboInOwl:hasExactSynonym	succinyl-CoA
+WARN	duplicate_label_synonym	CHEBI:15440	oboInOwl:hasExactSynonym	squalene
+WARN	duplicate_label_synonym	CHEBI:15784	oboInOwl:hasExactSynonym	N-acetyl-D-glucosamine 6-phosphate
+WARN	duplicate_label_synonym	CHEBI:16091	oboInOwl:hasExactSynonym	dolichol
+WARN	duplicate_label_synonym	CHEBI:16113	oboInOwl:hasExactSynonym	cholesterol
+WARN	duplicate_label_synonym	CHEBI:16189	oboInOwl:hasExactSynonym	sulfate
+WARN	duplicate_label_synonym	CHEBI:16240	oboInOwl:hasExactSynonym	hydrogen peroxide
+WARN	duplicate_label_synonym	CHEBI:16474	oboInOwl:hasExactSynonym	NADPH
+WARN	duplicate_label_synonym	CHEBI:16521	oboInOwl:hasExactSynonym	lanosterol
+WARN	duplicate_label_synonym	CHEBI:16796	oboInOwl:hasExactSynonym	melatonin
+WARN	duplicate_label_synonym	CHEBI:16811	oboInOwl:hasExactSynonym	methionine
+WARN	duplicate_label_synonym	CHEBI:16828	oboInOwl:hasExactSynonym	L-tryptophan
+WARN	duplicate_label_synonym	CHEBI:16865	oboInOwl:hasExactSynonym	gamma-aminobutyric acid
+WARN	duplicate_label_synonym	CHEBI:16908	oboInOwl:hasExactSynonym	NADH
+WARN	duplicate_label_synonym	CHEBI:17230	oboInOwl:hasExactSynonym	homocysteine
+WARN	duplicate_label_synonym	CHEBI:17234	oboInOwl:hasExactSynonym	glucose
+WARN	duplicate_label_synonym	CHEBI:17347	oboInOwl:hasExactSynonym	testosterone
+WARN	duplicate_label_synonym	CHEBI:17359	oboInOwl:hasExactSynonym	sulfite
+WARN	duplicate_label_synonym	CHEBI:17478	oboInOwl:hasExactSynonym	aldehyde
+WARN	duplicate_label_synonym	CHEBI:176842	oboInOwl:hasExactSynonym	vitamin B9
+WARN	duplicate_label_synonym	CHEBI:176843	oboInOwl:hasExactSynonym	vitamin B12
+WARN	duplicate_label_synonym	CHEBI:17996	oboInOwl:hasExactSynonym	chloride
+WARN	duplicate_label_synonym	CHEBI:18022	oboInOwl:hasExactSynonym	thiocyanate
+WARN	duplicate_label_synonym	CHEBI:18211	oboInOwl:hasExactSynonym	citrulline
+WARN	duplicate_label_synonym	CHEBI:18379	oboInOwl:hasExactSynonym	nitrile
+WARN	duplicate_label_synonym	CHEBI:18420	oboInOwl:hasExactSynonym	magnesium(2+)
+WARN	duplicate_label_synonym	CHEBI:18421	oboInOwl:hasExactSynonym	superoxide
+WARN	duplicate_label_synonym	CHEBI:23019	oboInOwl:hasExactSynonym	carbonyl group
+WARN	duplicate_label_synonym	CHEBI:23053	oboInOwl:hasExactSynonym	catechin
+WARN	duplicate_label_synonym	CHEBI:23367	oboInOwl:hasExactSynonym	molecular entity
+WARN	duplicate_label_synonym	CHEBI:23888	IAO:0000118	drug
+WARN	duplicate_label_synonym	CHEBI:23924	oboInOwl:hasExactSynonym	enzyme inhibitor
+WARN	duplicate_label_synonym	CHEBI:24062	oboInOwl:hasExactSynonym	fluorine molecular entity
+WARN	duplicate_label_synonym	CHEBI:24431	oboInOwl:hasExactSynonym	chemical entity
+WARN	duplicate_label_synonym	CHEBI:24433	oboInOwl:hasExactSynonym	group
+WARN	duplicate_label_synonym	CHEBI:24471	oboInOwl:hasExactSynonym	halogen molecular entity
+WARN	duplicate_label_synonym	CHEBI:24833	oboInOwl:hasExactSynonym	oxoacid
+WARN	duplicate_label_synonym	CHEBI:24870	oboInOwl:hasExactSynonym	ion
+WARN	duplicate_label_synonym	CHEBI:24913	oboInOwl:hasExactSynonym	isoprenoid
+WARN	duplicate_label_synonym	CHEBI:25000	oboInOwl:hasExactSynonym	lactone
+WARN	duplicate_label_synonym	CHEBI:25029	oboInOwl:hasExactSynonym	leukotriene
+WARN	duplicate_label_synonym	CHEBI:25367	oboInOwl:hasExactSynonym	molecule
+WARN	duplicate_label_synonym	CHEBI:25681	oboInOwl:hasExactSynonym	omega-3 fatty acid
+WARN	duplicate_label_synonym	CHEBI:25698	oboInOwl:hasExactSynonym	ether
+WARN	duplicate_label_synonym	CHEBI:25703	oboInOwl:hasExactSynonym	organic phosphate
+WARN	duplicate_label_synonym	CHEBI:25710	oboInOwl:hasExactSynonym	organophosphorus compound
+WARN	duplicate_label_synonym	CHEBI:25806	oboInOwl:hasExactSynonym	oxygen molecular entity
+WARN	duplicate_label_synonym	CHEBI:25900	oboInOwl:hasExactSynonym	aldopentose phosphate
+WARN	duplicate_label_synonym	CHEBI:25941	oboInOwl:hasExactSynonym	peroxynitrite
+WARN	duplicate_label_synonym	CHEBI:26167	oboInOwl:hasExactSynonym	polar amino acid
+WARN	duplicate_label_synonym	CHEBI:26562	oboInOwl:hasExactSynonym	ribose phosphate
+WARN	duplicate_label_synonym	CHEBI:26835	oboInOwl:hasExactSynonym	sulfur molecular entity
+WARN	duplicate_label_synonym	CHEBI:28115	oboInOwl:hasExactSynonym	methylcobalamin
+WARN	duplicate_label_synonym	CHEBI:28300	oboInOwl:hasExactSynonym	glutamine
+WARN	duplicate_label_synonym	CHEBI:28839	oboInOwl:hasExactSynonym	3-disulfanyl-L-alanine
+WARN	duplicate_label_synonym	CHEBI:29016	oboInOwl:hasExactSynonym	arginine
+WARN	duplicate_label_synonym	CHEBI:29033	oboInOwl:hasExactSynonym	iron(2+)
+WARN	duplicate_label_synonym	CHEBI:29101	oboInOwl:hasExactSynonym	sodium(1+)
+WARN	duplicate_label_synonym	CHEBI:29103	oboInOwl:hasExactSynonym	potassium(1+)
+WARN	duplicate_label_synonym	CHEBI:29105	oboInOwl:hasExactSynonym	zinc(2+)
+WARN	duplicate_label_synonym	CHEBI:29108	oboInOwl:hasExactSynonym	calcium(2+)
+WARN	duplicate_label_synonym	CHEBI:29191	oboInOwl:hasExactSynonym	hydroxyl
+WARN	duplicate_label_synonym	CHEBI:30089	oboInOwl:hasExactSynonym	acetate
+WARN	duplicate_label_synonym	CHEBI:31296	oboInOwl:hasExactSynonym	Blonanserin
+WARN	duplicate_label_synonym	CHEBI:33234	oboInOwl:hasExactSynonym	vitamin E
+WARN	duplicate_label_synonym	CHEBI:33250	oboInOwl:hasExactSynonym	atom
+WARN	duplicate_label_synonym	CHEBI:33256	oboInOwl:hasExactSynonym	primary amide
+WARN	duplicate_label_synonym	CHEBI:33261	oboInOwl:hasExactSynonym	organosulfur compound
+WARN	duplicate_label_synonym	CHEBI:33302	oboInOwl:hasExactSynonym	pnictogen molecular entity
+WARN	duplicate_label_synonym	CHEBI:33304	oboInOwl:hasExactSynonym	chalcogen molecular entity
+WARN	duplicate_label_synonym	CHEBI:33447	oboInOwl:hasExactSynonym	phospho sugar
+WARN	duplicate_label_synonym	CHEBI:33575	oboInOwl:hasExactSynonym	carboxylic acid
+WARN	duplicate_label_synonym	CHEBI:33582	oboInOwl:hasExactSynonym	carbon group molecular entity
+WARN	duplicate_label_synonym	CHEBI:33597	oboInOwl:hasExactSynonym	homocyclic compound
+WARN	duplicate_label_synonym	CHEBI:33598	oboInOwl:hasExactSynonym	carbocyclic compound
+WARN	duplicate_label_synonym	CHEBI:33670	oboInOwl:hasExactSynonym	heteromonocyclic compound
+WARN	duplicate_label_synonym	CHEBI:33674	oboInOwl:hasExactSynonym	s-block molecular entity
+WARN	duplicate_label_synonym	CHEBI:33697	oboInOwl:hasExactSynonym	ribonucleic acid
+WARN	duplicate_label_synonym	CHEBI:33839	oboInOwl:hasExactSynonym	macromolecule
+WARN	duplicate_label_synonym	CHEBI:33853	oboInOwl:hasExactSynonym	phenols
+WARN	duplicate_label_synonym	CHEBI:35222	oboInOwl:hasExactSynonym	inhibitor
+WARN	duplicate_label_synonym	CHEBI:35850	oboInOwl:hasExactSynonym	sulfone
+WARN	duplicate_label_synonym	CHEBI:36005	oboInOwl:hasExactSynonym	docosahexaenoic acid
+WARN	duplicate_label_synonym	CHEBI:36009	oboInOwl:hasExactSynonym	omega-6 fatty acid
+WARN	duplicate_label_synonym	CHEBI:36359	oboInOwl:hasExactSynonym	phosphorus oxoacid derivative
+WARN	duplicate_label_synonym	CHEBI:36820	oboInOwl:hasExactSynonym	ring assembly
+WARN	duplicate_label_synonym	CHEBI:36962	oboInOwl:hasExactSynonym	organochalcogen compound
+WARN	duplicate_label_synonym	CHEBI:36963	oboInOwl:hasExactSynonym	organooxygen compound
+WARN	duplicate_label_synonym	CHEBI:37143	oboInOwl:hasExactSynonym	organofluorine compound
+WARN	duplicate_label_synonym	CHEBI:37555	oboInOwl:hasExactSynonym	omega-carboxyacyl-CoA
+WARN	duplicate_label_synonym	CHEBI:3962	oboInOwl:hasExactSynonym	curcumin
+WARN	duplicate_label_synonym	CHEBI:40303	oboInOwl:hasExactSynonym	lovastatin
+WARN	duplicate_label_synonym	CHEBI:42944	oboInOwl:hasExactSynonym	galanthamine
+WARN	duplicate_label_synonym	CHEBI:4353	oboInOwl:hasExactSynonym	Decursin
+WARN	duplicate_label_synonym	CHEBI:48705	oboInOwl:hasExactSynonym	agonist
+WARN	duplicate_label_synonym	CHEBI:48706	oboInOwl:hasExactSynonym	antagonist
+WARN	duplicate_label_synonym	CHEBI:49552	oboInOwl:hasExactSynonym	copper(1+)
+WARN	duplicate_label_synonym	CHEBI:49713	oboInOwl:hasExactSynonym	lithium(1+)
+WARN	duplicate_label_synonym	CHEBI:506227	oboInOwl:hasExactSynonym	N-acetyl-D-glucosamine
+WARN	duplicate_label_synonym	CHEBI:5417	oboInOwl:hasExactSynonym	glucosamine
+WARN	duplicate_label_synonym	CHEBI:5445	oboInOwl:hasExactSynonym	glyceraldehyde
+WARN	duplicate_label_synonym	CHEBI:566274	oboInOwl:hasExactSynonym	malonaldehyde
+WARN	duplicate_label_synonym	CHEBI:64073	oboInOwl:hasExactSynonym	exendin-4
+WARN	duplicate_label_synonym	CHEBI:6498	oboInOwl:hasExactSynonym	lipoxin A4
+WARN	duplicate_label_synonym	CHEBI:6538	oboInOwl:hasExactSynonym	Loratadine
+WARN	duplicate_label_synonym	CHEBI:6539	oboInOwl:hasExactSynonym	Lorazepam
+WARN	duplicate_label_synonym	CHEBI:6690	oboInOwl:hasExactSynonym	Maprotiline
+WARN	duplicate_label_synonym	CHEBI:6960	oboInOwl:hasExactSynonym	Moexipril
+WARN	duplicate_label_synonym	CHEBI:7476	oboInOwl:hasExactSynonym	naproxen
+WARN	duplicate_label_synonym	CHEBI:7494	oboInOwl:hasExactSynonym	nefazodone
+WARN	duplicate_label_synonym	CHEBI:8060	oboInOwl:hasExactSynonym	Phenelzine
+WARN	duplicate_label_synonym	CHEBI:8212	oboInOwl:hasExactSynonym	pimozide
+WARN	duplicate_label_synonym	CHEBI:86269	oboInOwl:hasExactSynonym	3-nitrotyrosine
+WARN	duplicate_label_synonym	CHEBI:8665	oboInOwl:hasExactSynonym	Pyridostigmine
+WARN	duplicate_label_synonym	CHEBI:8871	oboInOwl:hasExactSynonym	risperidone
+WARN	duplicate_label_synonym	CHEBI:9435	oboInOwl:hasExactSynonym	Temazepam
+WARN	duplicate_label_synonym	CL:0000598	oboInOwl:hasExactSynonym	pyramidal neuron
+WARN	duplicate_label_synonym	CMO:0000000	oboInOwl:hasExactSynonym	clinical measurement
+WARN	duplicate_label_synonym	GO:0007610	oboInOwl:hasExactSynonym	behavior
+WARN	duplicate_label_synonym	HP:0000707	oboInOwl:hasExactSynonym	Abnormality of the nervous system
+WARN	duplicate_label_synonym	HP:0000751	oboInOwl:hasExactSynonym	Personality changes
+WARN	duplicate_label_synonym	HP:0002013	oboInOwl:hasExactSynonym	Vomiting
+WARN	duplicate_label_synonym	HP:0012393	oboInOwl:hasExactSynonym	Allergy
+WARN	duplicate_label_synonym	HP:0012639	oboInOwl:hasExactSynonym	Abnormal nervous system morphology
+WARN	duplicate_label_synonym	IDOMAL:0000581	IAO:0000118	C3b
+WARN	duplicate_label_synonym	MOD:00719	oboInOwl:hasExactSynonym	L-methionine sulfoxide
+WARN	duplicate_label_synonym	MONDO:0000839	oboInOwl:hasExactSynonym	congenital abnormality
+WARN	duplicate_label_synonym	MONDO:0002046	oboInOwl:hasExactSynonym	alcohol abuse
+WARN	duplicate_label_synonym	MONDO:0002251	oboInOwl:hasExactSynonym	hepatitis
+WARN	duplicate_label_synonym	MONDO:0004335	oboInOwl:hasExactSynonym	digestive system disease
+WARN	duplicate_label_synonym	MONDO:0005151	oboInOwl:hasExactSynonym	endocrine system disease
+WARN	duplicate_label_synonym	MONDO:0007089	oboInOwl:hasExactSynonym	Alzheimer disease 2
+WARN	duplicate_label_synonym	MONDO:0010022	oboInOwl:hasExactSynonym	senile plaque formation
+WARN	duplicate_label_synonym	MONDO:0010422	oboInOwl:hasExactSynonym	Alzheimer disease 16
+WARN	duplicate_label_synonym	MONDO:0010783	oboInOwl:hasExactSynonym	Alzheimer disease, susceptibility to, mitochondrial
+WARN	duplicate_label_synonym	MONDO:0011194	oboInOwl:hasExactSynonym	Alzheimer disease 5
+WARN	duplicate_label_synonym	MONDO:0011401	oboInOwl:hasExactSynonym	Alzheimer disease without neurofibrillary tangles
+WARN	duplicate_label_synonym	MONDO:0011513	oboInOwl:hasExactSynonym	Alzheimer disease, familial early-onset, with coexisting amyloid and prion pathology
+WARN	duplicate_label_synonym	MONDO:0011561	oboInOwl:hasExactSynonym	Alzheimer disease 6
+WARN	duplicate_label_synonym	MONDO:0011647	oboInOwl:hasExactSynonym	Alzheimer disease 7
+WARN	duplicate_label_synonym	MONDO:0011743	oboInOwl:hasExactSynonym	Alzheimer disease 4
+WARN	duplicate_label_synonym	MONDO:0011777	oboInOwl:hasExactSynonym	Alzheimer disease 8
+WARN	duplicate_label_synonym	MONDO:0011913	oboInOwl:hasExactSynonym	Alzheimer disease 3
+WARN	duplicate_label_synonym	MONDO:0012321	oboInOwl:hasExactSynonym	Alzheimer disease 10
+WARN	duplicate_label_synonym	MONDO:0012344	oboInOwl:hasExactSynonym	Alzheimer disease 11
+WARN	duplicate_label_synonym	MONDO:0012609	oboInOwl:hasExactSynonym	Alzheimer disease 12
+WARN	duplicate_label_synonym	MONDO:0012630	oboInOwl:hasExactSynonym	Alzheimer disease 13
+WARN	duplicate_label_synonym	MONDO:0012631	oboInOwl:hasExactSynonym	Alzheimer disease 14
+WARN	duplicate_label_synonym	MONDO:0014036	oboInOwl:hasExactSynonym	Alzheimer disease 17
+WARN	duplicate_label_synonym	MONDO:0014265	oboInOwl:hasExactSynonym	Alzheimer disease 18
+WARN	duplicate_label_synonym	MONDO:0014316	oboInOwl:hasExactSynonym	Alzheimer disease 19
+WARN	duplicate_label_synonym	MONDO:0022880	oboInOwl:hasExactSynonym	corticobasal degeneration
+WARN	duplicate_label_synonym	MOP:0000030	oboInOwl:hasExactSynonym	acetylation
+WARN	duplicate_label_synonym	MP:0005331	oboInOwl:hasExactSynonym	insulin resistance
+WARN	duplicate_label_synonym	NCIT:A11	oboInOwl:hasExactSynonym	Has_NICHD_Parent
+WARN	duplicate_label_synonym	NCIT:A13	oboInOwl:hasExactSynonym	Related_To_Genetic_Biomarker
+WARN	duplicate_label_synonym	NCIT:A24	oboInOwl:hasExactSynonym	Is_PCDC_AML_Permissible_Value_For_Variable
+WARN	duplicate_label_synonym	NCIT:A28	oboInOwl:hasExactSynonym	Is_PCDC_EWS_Permissible_Value_For_Variable
+WARN	duplicate_label_synonym	NCIT:C100762	oboInOwl:hasExactSynonym	Alzheimer's Disease Assessment Scale-Cognitive CDISC Version Questionnaire
+WARN	duplicate_label_synonym	NCIT:C102114	oboInOwl:hasExactSynonym	Clinical Dementia Rating Questionnaire
+WARN	duplicate_label_synonym	NCIT:C103400	oboInOwl:hasExactSynonym	FDG-Positron Emission Tomography
+WARN	duplicate_label_synonym	NCIT:C105165	oboInOwl:hasExactSynonym	Disability Assessment for Dementia Questionnaire
+WARN	duplicate_label_synonym	NCIT:C105166	oboInOwl:hasExactSynonym	Alzheimer's Disease Cooperative Study Activities of Daily Living Inventory Questionnaire
+WARN	duplicate_label_synonym	NCIT:C106697	oboInOwl:hasExactSynonym	Geriatric Depression Scale Questionnaire
+WARN	duplicate_label_synonym	NCIT:C106888	oboInOwl:hasExactSynonym	Alzheimer's Disease Cooperative Study-Activities of Daily Living Inventory Mild Cognitive Impairment Questionnaire
+WARN	duplicate_label_synonym	NCIT:C111794	oboInOwl:hasExactSynonym	Notch Receptor Intracellular Domain
+WARN	duplicate_label_synonym	NCIT:C116450	oboInOwl:hasExactSynonym	Arterial Spin Labeling Magnetic Resonance Imaging
+WARN	duplicate_label_synonym	NCIT:C117960	oboInOwl:hasExactSynonym	Diagnostic Criteria
+WARN	duplicate_label_synonym	NCIT:C117997	oboInOwl:hasExactSynonym	Extrapyramidal Symptom Rating Scale-Abbreviated Clinical Classification
+WARN	duplicate_label_synonym	NCIT:C118457	oboInOwl:hasExactSynonym	N-Methyl-D-Aspartate Receptor
+WARN	duplicate_label_synonym	NCIT:C118892	oboInOwl:hasExactSynonym	FOXO Family
+WARN	duplicate_label_synonym	NCIT:C1192	oboInOwl:hasExactSynonym	Phosphatidylinositol 4,5-bisphosphate
+WARN	duplicate_label_synonym	NCIT:C120257	oboInOwl:hasExactSynonym	California Verbal Learning Test - Second Edition
+WARN	duplicate_label_synonym	NCIT:C123667	oboInOwl:hasExactSynonym	Montreal Cognitive Assessment Functional Test
+WARN	duplicate_label_synonym	NCIT:C123668	oboInOwl:hasExactSynonym	Rey Auditory Verbal Learning Functional Test
+WARN	duplicate_label_synonym	NCIT:C12534	oboInOwl:hasExactSynonym	Non-Granular Leukocyte
+WARN	duplicate_label_synonym	NCIT:C125410	oboInOwl:hasExactSynonym	Have Difficulty Swallowing
+WARN	duplicate_label_synonym	NCIT:C125913	oboInOwl:hasExactSynonym	Have Indigestion
+WARN	duplicate_label_synonym	NCIT:C129326	oboInOwl:hasExactSynonym	Resting State Functional Connectivity Magnetic Resonance Imaging
+WARN	duplicate_label_synonym	NCIT:C129646	oboInOwl:hasExactSynonym	Vascular Endothelial Growth Factor Family
+WARN	duplicate_label_synonym	NCIT:C131258	oboInOwl:hasExactSynonym	MT-RNR2 Gene
+WARN	duplicate_label_synonym	NCIT:C137847	oboInOwl:hasExactSynonym	Current Difficulty Learning New Tasks or Instructions
+WARN	duplicate_label_synonym	NCIT:C14211	oboInOwl:hasExactSynonym	Guinea Pig
+WARN	duplicate_label_synonym	NCIT:C143955	oboInOwl:hasExactSynonym	Blood Inflammatory Marker
+WARN	duplicate_label_synonym	NCIT:C150129	oboInOwl:hasExactSynonym	Circulating Protein
+WARN	duplicate_label_synonym	NCIT:C15206	oboInOwl:hasExactSynonym	Clinical Study
+WARN	duplicate_label_synonym	NCIT:C15262	oboInOwl:hasExactSynonym	Immunotherapy
+WARN	duplicate_label_synonym	NCIT:C15273	oboInOwl:hasExactSynonym	Longitudinal Study
+WARN	duplicate_label_synonym	NCIT:C15327	oboInOwl:hasExactSynonym	Lumbar Puncture
+WARN	duplicate_label_synonym	NCIT:C15362	oboInOwl:hasExactSynonym	Case Study
+WARN	duplicate_label_synonym	NCIT:C157012	oboInOwl:hasExactSynonym	Cognition Clock Test
+WARN	duplicate_label_synonym	NCIT:C15709	oboInOwl:hasExactSynonym	Genetic Testing
+WARN	duplicate_label_synonym	NCIT:C15719	oboInOwl:hasExactSynonym	Surveillance
+WARN	duplicate_label_synonym	NCIT:C160587	oboInOwl:hasExactSynonym	Executive Function Disorder
+WARN	duplicate_label_synonym	NCIT:C16436	oboInOwl:hasExactSynonym	Chromogranin
+WARN	duplicate_label_synonym	NCIT:C16502	oboInOwl:hasExactSynonym	Diagnostic Imaging
+WARN	duplicate_label_synonym	NCIT:C16518	oboInOwl:hasExactSynonym	DNA Binding Protein
+WARN	duplicate_label_synonym	NCIT:C16631	oboInOwl:hasExactSynonym	Genotype
+WARN	duplicate_label_synonym	NCIT:C166444	oboInOwl:hasExactSynonym	Aducanumab
+WARN	duplicate_label_synonym	NCIT:C16672	oboInOwl:hasExactSynonym	Heat Shock Protein
+WARN	duplicate_label_synonym	NCIT:C16795	oboInOwl:hasExactSynonym	Lifestyle
+WARN	duplicate_label_synonym	NCIT:C16809	oboInOwl:hasExactSynonym	Magnetic Resonance Imaging
+WARN	duplicate_label_synonym	NCIT:C16811	oboInOwl:hasExactSynonym	Magnetoencephalography
+WARN	duplicate_label_synonym	NCIT:C16861	oboInOwl:hasExactSynonym	Microtubule Associated Protein
+WARN	duplicate_label_synonym	NCIT:C16866	oboInOwl:hasExactSynonym	Model
+WARN	duplicate_label_synonym	NCIT:C17204	oboInOwl:hasExactSynonym	Computed Tomography
+WARN	duplicate_label_synonym	NCIT:C174447	oboInOwl:hasExactSynonym	Study Arm
+WARN	duplicate_label_synonym	NCIT:C17456	oboInOwl:hasExactSynonym	Experimental Model
+WARN	duplicate_label_synonym	NCIT:C1746	oboInOwl:hasExactSynonym	Peptide Hormone
+WARN	duplicate_label_synonym	NCIT:C17486	oboInOwl:hasExactSynonym	CCAAT Enhancer Binding Protein
+WARN	duplicate_label_synonym	NCIT:C176261	oboInOwl:hasExactSynonym	Study Phase
+WARN	duplicate_label_synonym	NCIT:C176312	oboInOwl:hasExactSynonym	Phosphorylated Tau Protein to Amyloid Beta1-42 Ratio Measurement
+WARN	duplicate_label_synonym	NCIT:C17710	oboInOwl:hasExactSynonym	Subcellular Process
+WARN	duplicate_label_synonym	NCIT:C17765	oboInOwl:hasExactSynonym	Heat Shock Protein 70
+WARN	duplicate_label_synonym	NCIT:C17958	oboInOwl:hasExactSynonym	Functional Magnetic Resonance Imaging
+WARN	duplicate_label_synonym	NCIT:C18103	oboInOwl:hasExactSynonym	Protein Synthesis
+WARN	duplicate_label_synonym	NCIT:C18153	oboInOwl:hasExactSynonym	Caspase
+WARN	duplicate_label_synonym	NCIT:C18520	oboInOwl:hasExactSynonym	Metabolic Marker
+WARN	duplicate_label_synonym	NCIT:C19146	oboInOwl:hasExactSynonym	In Vitro Model
+WARN	duplicate_label_synonym	NCIT:C19148	oboInOwl:hasExactSynonym	In Vivo Model
+WARN	duplicate_label_synonym	NCIT:C19272	oboInOwl:hasExactSynonym	Transgenic Model
+WARN	duplicate_label_synonym	NCIT:C19332	oboInOwl:hasExactSynonym	Personal Attribute
+WARN	duplicate_label_synonym	NCIT:C19609	oboInOwl:hasExactSynonym	Functional Imaging
+WARN	duplicate_label_synonym	NCIT:C20031	oboInOwl:hasExactSynonym	Extracellular Protein
+WARN	duplicate_label_synonym	NCIT:C20080	oboInOwl:hasExactSynonym	Angiography
+WARN	duplicate_label_synonym	NCIT:C20130	oboInOwl:hasExactSynonym	Protein Family
+WARN	duplicate_label_synonym	NCIT:C2020	oboInOwl:hasExactSynonym	Farnesyl Transferase Inhibitor
+WARN	duplicate_label_synonym	NCIT:C20391	oboInOwl:hasExactSynonym	Neurotrophic Factor
+WARN	duplicate_label_synonym	NCIT:C20424	oboInOwl:hasExactSynonym	Growth Factor
+WARN	duplicate_label_synonym	NCIT:C20993	oboInOwl:hasExactSynonym	Research or Clinical Assessment Tool
+WARN	duplicate_label_synonym	NCIT:C21051	oboInOwl:hasExactSynonym	Epigenetic Process
+WARN	duplicate_label_synonym	NCIT:C21097	oboInOwl:hasExactSynonym	Sedation
+WARN	duplicate_label_synonym	NCIT:C21217	oboInOwl:hasExactSynonym	Synuclein Family
+WARN	duplicate_label_synonym	NCIT:C21523	oboInOwl:hasExactSynonym	Complement Component Protein
+WARN	duplicate_label_synonym	NCIT:C25214	oboInOwl:hasExactSynonym	Evaluation
+WARN	duplicate_label_synonym	NCIT:C25506	oboInOwl:hasExactSynonym	Factor
+WARN	duplicate_label_synonym	NCIT:C25662	oboInOwl:hasExactSynonym	Sampling
+WARN	duplicate_label_synonym	NCIT:C3399	oboInOwl:hasExactSynonym	Swelling
+WARN	duplicate_label_synonym	NCIT:C34660	oboInOwl:hasExactSynonym	Head Injury
+WARN	duplicate_label_synonym	NCIT:C38101	oboInOwl:hasExactSynonym	X-Ray Imaging
+WARN	duplicate_label_synonym	NCIT:C38834	oboInOwl:hasExactSynonym	MAPK Signaling Pathway
+WARN	duplicate_label_synonym	NCIT:C40438	oboInOwl:hasExactSynonym	Beck Depression Inventory
+WARN	duplicate_label_synonym	NCIT:C41189	oboInOwl:hasExactSynonym	Study Subject
+WARN	duplicate_label_synonym	NCIT:C46079	oboInOwl:hasExactSynonym	Randomized Controlled Clinical Trial
+WARN	duplicate_label_synonym	NCIT:C46084	oboInOwl:hasExactSynonym	Memory Dysfunction
+WARN	duplicate_label_synonym	NCIT:C463	oboInOwl:hasExactSynonym	Eicosanoid
+WARN	duplicate_label_synonym	NCIT:C48202	oboInOwl:hasExactSynonym	Nested Case-control Study
+WARN	duplicate_label_synonym	NCIT:C48261	oboInOwl:hasExactSynonym	Screening
+WARN	duplicate_label_synonym	NCIT:C49159	oboInOwl:hasExactSynonym	Proportion
+WARN	duplicate_label_synonym	NCIT:C49686	oboInOwl:hasExactSynonym	Phase IIa Trial
+WARN	duplicate_label_synonym	NCIT:C49688	oboInOwl:hasExactSynonym	Phase IIb Trial
+WARN	duplicate_label_synonym	NCIT:C53360	oboInOwl:hasExactSynonym	Age-Adjusted Mortality Rate
+WARN	duplicate_label_synonym	NCIT:C54721	oboInOwl:hasExactSynonym	Phase 0 Trial
+WARN	duplicate_label_synonym	NCIT:C62716	oboInOwl:hasExactSynonym	Wide Range Achievement Test, 3rd Edition
+WARN	duplicate_label_synonym	NCIT:C67360	oboInOwl:hasExactSynonym	Attributable Risk
+WARN	duplicate_label_synonym	NCIT:C70820	oboInOwl:hasExactSynonym	Clinical Study by Phase
+WARN	duplicate_label_synonym	NCIT:C70840	oboInOwl:hasExactSynonym	Blinded Clinical Study
+WARN	duplicate_label_synonym	NCIT:C71164	oboInOwl:hasExactSynonym	Animal Model
+WARN	duplicate_label_synonym	NCIT:C74611	oboInOwl:hasExactSynonym	Erythrocyte Sedimentation Rate Measurement
+WARN	duplicate_label_synonym	NCIT:C74982	oboInOwl:hasExactSynonym	Mini-Mental Status Exam
+WARN	duplicate_label_synonym	NCIT:C76786	oboInOwl:hasExactSynonym	Tramiprosate
+WARN	duplicate_label_synonym	NCIT:C78757	oboInOwl:hasExactSynonym	Latrepirdine
+WARN	duplicate_label_synonym	NCIT:C79569	oboInOwl:hasExactSynonym	Bapineuzumab
+WARN	duplicate_label_synonym	NCIT:C80519	oboInOwl:hasExactSynonym	Biological Model
+WARN	duplicate_label_synonym	NCIT:C81115	oboInOwl:hasExactSynonym	Semagacestat
+WARN	duplicate_label_synonym	NCIT:C84809	oboInOwl:hasExactSynonym	Beta Amyloid 42 Measurement
+WARN	duplicate_label_synonym	NCIT:C84810	oboInOwl:hasExactSynonym	Tau Protein Measurement
+WARN	duplicate_label_synonym	NCIT:C84812	oboInOwl:hasExactSynonym	Phosphorylated Tau Protein Measurement
+WARN	duplicate_label_synonym	NCIT:C86983	oboInOwl:hasExactSynonym	NINCDS-ADRDA Criteria for Alzheimer's Disease
+WARN	duplicate_label_synonym	NCIT:C88419	oboInOwl:hasExactSynonym	Executive Function
+WARN	duplicate_label_synonym	NCIT:C91102	oboInOwl:hasExactSynonym	Clinical or Research Assessment Question
+WARN	duplicate_label_synonym	NCIT:C91105	oboInOwl:hasExactSynonym	Clinical or Research Assessment Questionnaire
+WARN	duplicate_label_synonym	NCIT:C93150	oboInOwl:hasExactSynonym	Hazard Ratio
+WARN	duplicate_label_synonym	NCIT:C93228	oboInOwl:hasExactSynonym	Retrospective Cohort Study
+WARN	duplicate_label_synonym	NCIT:C95114	oboInOwl:hasExactSynonym	Gamma Secretase
+WARN	duplicate_label_synonym	NCIT:C97201	oboInOwl:hasExactSynonym	Dimerization
+WARN	duplicate_label_synonym	NCIT:C98241	oboInOwl:hasExactSynonym	Thiazolidinedione Antidiabetic Agent
+WARN	duplicate_label_synonym	NCIT:C98772	oboInOwl:hasExactSynonym	Primary Outcome Measure
+WARN	duplicate_label_synonym	NCIT:C98781	oboInOwl:hasExactSynonym	Secondary Outcome Measure
+WARN	duplicate_label_synonym	NCIT:NHC0	oboInOwl:hasExactSynonym	code
+WARN	duplicate_label_synonym	NCIT:P100	oboInOwl:hasExactSynonym	OMIM_Number
+WARN	duplicate_label_synonym	NCIT:P106	oboInOwl:hasExactSynonym	Semantic_Type
+WARN	duplicate_label_synonym	NCIT:P107	oboInOwl:hasExactSynonym	Display_Name
+WARN	duplicate_label_synonym	NCIT:P108	oboInOwl:hasExactSynonym	Preferred_Name
+WARN	duplicate_label_synonym	NCIT:P207	oboInOwl:hasExactSynonym	UMLS_CUI
+WARN	duplicate_label_synonym	NCIT:P208	oboInOwl:hasExactSynonym	NCI_META_CUI
+WARN	duplicate_label_synonym	NCIT:P210	oboInOwl:hasExactSynonym	CAS_Registry
+WARN	duplicate_label_synonym	NCIT:P215	oboInOwl:hasExactSynonym	KEGG_ID
+WARN	duplicate_label_synonym	NCIT:P302	oboInOwl:hasExactSynonym	Accepted_Therapeutic_Use_For
+WARN	duplicate_label_synonym	NCIT:P310	oboInOwl:hasExactSynonym	Concept_Status
+WARN	duplicate_label_synonym	NCIT:P317	oboInOwl:hasExactSynonym	FDA_Table
+WARN	duplicate_label_synonym	NCIT:P319	oboInOwl:hasExactSynonym	FDA_UNII_Code
+WARN	duplicate_label_synonym	NCIT:P322	oboInOwl:hasExactSynonym	Contributing_Source
+WARN	duplicate_label_synonym	NCIT:P325	oboInOwl:hasExactSynonym	ALT_DEFINITION
+WARN	duplicate_label_synonym	NCIT:P331	oboInOwl:hasExactSynonym	NCBI_Taxon_ID
+WARN	duplicate_label_synonym	NCIT:P350	oboInOwl:hasExactSynonym	Chemical_Formula
+WARN	duplicate_label_synonym	NCIT:P366	oboInOwl:hasExactSynonym	Legacy Concept Name
+WARN	duplicate_label_synonym	NCIT:P366	oboInOwl:hasExactSynonym	Legacy_Concept_Name
+WARN	duplicate_label_synonym	NCIT:P368	oboInOwl:hasExactSynonym	CHEBI_ID
+WARN	duplicate_label_synonym	NCIT:P369	oboInOwl:hasExactSynonym	HGNC_ID
+WARN	duplicate_label_synonym	NCIT:P371	oboInOwl:hasExactSynonym	NICHD_Hierarchy_Term
+WARN	duplicate_label_synonym	NCIT:P375	oboInOwl:hasExactSynonym	Maps_To
+WARN	duplicate_label_synonym	NCIT:P98	oboInOwl:hasExactSynonym	DesignNote
+WARN	duplicate_label_synonym	OGG:3000000351	oboInOwl:hasExactSynonym	APP
+WARN	duplicate_label_synonym	OGG:3000000847	oboInOwl:hasExactSynonym	CAT
+WARN	duplicate_label_synonym	OGG:3000001139	IAO:0000118	CHRNA7
+WARN	duplicate_label_synonym	OGG:3000004513	IAO:0000118	COX2
+WARN	duplicate_label_synonym	SYMP:0000124	oboInOwl:hasExactSynonym	seizure
+WARN	duplicate_label_synonym	UBERON:0000463	oboInOwl:hasExactSynonym	organism substance
+WARN	duplicate_label_synonym	UBERON:0001851	oboInOwl:hasExactSynonym	cortex
+WARN	duplicate_label_synonym	UBERON:0002020	oboInOwl:hasExactSynonym	gray matter
+WARN	duplicate_label_synonym	UBERON:0002435	oboInOwl:hasExactSynonym	striatum
+WARN	duplicate_label_synonym	obo:UPa_UPA00026	oboInOwl:hasExactSynonym	metabolism
+WARN	duplicate_label_synonym	oboInOwl:hasDbXref	oboInOwl:hasExactSynonym	database_cross_reference
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C100110	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C100129	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C101858	rdfs:subPropertyOf	
@@ -381,6 +627,134 @@ WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/valid_for_go_annotation_extension	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/valid_for_go_ontology	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/valid_for_gocam	rdfs:subPropertyOf	
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	DiffAvg:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	DiffFormula:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	DiffMono:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	Formula:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	MassAvg:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	MassMono:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	Origin:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	Source:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	TermSpec:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	UniProt:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	Unimod:
+WARN	invalid_xref	TXPO:0000145	oboInOwl:hasDbXref	FBRL: A Function and Behavior Representation Language. Sasajima, M., Kitamura, Y., Ikeda, M. & Mizoguchi, R., In Proc. of IJCAI-95 (pp. 1830-1836), 1995
+WARN	invalid_xref	TXPO:0001865	oboInOwl:hasDbXref	rerlated molecular fuction GO:0004672
+WARN	invalid_xref	TXPO:0003645	oboInOwl:hasDbXref	IMR:0000368 (obsolete)
+WARN	invalid_xref	TXPO:0003668	oboInOwl:hasDbXref	IMR:0000960 (obsolete)
+WARN	invalid_xref	TXPO:0003670	oboInOwl:hasDbXref	IMR:0001166 (obsolete)
+WARN	invalid_xref	TXPO:0003670	oboInOwl:hasDbXref	"related molecule fuction
+GO:0004407"
+WARN	invalid_xref	TXPO:0003671	oboInOwl:hasDbXref	Catalysis role of the hydrolysis of a glycerophospholipid.
+WARN	invalid_xref	TXPO:0003671	oboInOwl:hasDbXref	IMR:0000281 (obsolete)
+WARN	invalid_xref	TXPO:0003673	oboInOwl:hasDbXref	IMR:0000517 (obsolete)
+WARN	duplicate_exact_synonym	OGG:3000009611	IAO:0000118	TRAC1
+WARN	duplicate_exact_synonym	OGG:3000009612	IAO:0000118	TRAC1
+WARN	duplicate_exact_synonym	OGG:3000000207	IAO:0000118	PKB
+WARN	duplicate_exact_synonym	OGG:3000002185	IAO:0000118	PKB
+WARN	duplicate_exact_synonym	OGG:3000000801	IAO:0000118	PHKD
+WARN	duplicate_exact_synonym	OGG:3000000805	IAO:0000118	PHKD
+WARN	duplicate_exact_synonym	OGG:3000001432	IAO:0000118	p38
+WARN	duplicate_exact_synonym	OGG:3000005594	IAO:0000118	p38
+WARN	duplicate_exact_synonym	OGG:3000004842	IAO:0000118	NOS
+WARN	duplicate_exact_synonym	OGG:3000004843	IAO:0000118	NOS
+WARN	duplicate_exact_synonym	NCIT:C16866	oboInOwl:hasExactSynonym	Model System
+WARN	duplicate_exact_synonym	NCIT:C80519	oboInOwl:hasExactSynonym	Model System
+WARN	duplicate_exact_synonym	NCIT:C16866	oboInOwl:hasExactSynonym	Model
+WARN	duplicate_exact_synonym	NCIT:C80519	oboInOwl:hasExactSynonym	Model
+WARN	duplicate_exact_synonym	OGG:3000003577	IAO:0000118	IL8RA
+WARN	duplicate_exact_synonym	OGG:3000003579	IAO:0000118	IL8RA
+WARN	duplicate_exact_synonym	OGG:3000001230	IAO:0000118	CKR-1
+WARN	duplicate_exact_synonym	OGG:3000003577	IAO:0000118	CKR-1
+WARN	duplicate_exact_synonym	OGG:3000000983	IAO:0000118	CDC2
+WARN	duplicate_exact_synonym	OGG:3000005424	IAO:0000118	CDC2
+WARN	duplicate_exact_synonym	OGG:3000002833	IAO:0000118	CD182
+WARN	duplicate_exact_synonym	OGG:3000003579	IAO:0000118	CD182
+WARN	duplicate_exact_synonym	GO:0007610	oboInOwl:hasExactSynonym	behaviour
+WARN	duplicate_exact_synonym	NBO:0000313	oboInOwl:hasExactSynonym	behaviour
+WARN	duplicate_exact_synonym	OGG:3000000718	IAO:0000118	ASP
+WARN	duplicate_exact_synonym	OGG:3000009474	IAO:0000118	ASP
+WARN	duplicate_exact_synonym	MONDO:0007089	oboInOwl:hasExactSynonym	Alzheimer disease type 2
+WARN	duplicate_exact_synonym	MONDO:0100088	oboInOwl:hasExactSynonym	Alzheimer disease type 2
+WARN	duplicate_scoped_synonym	CHEBI:15361	oboInOwl:hasExactSynonym	2-oxopropanoate
+WARN	duplicate_scoped_synonym	CHEBI:15361	oboInOwl:hasRelatedSynonym	2-oxopropanoate
+WARN	duplicate_scoped_synonym	CHEBI:16038	oboInOwl:hasExactSynonym	phosphatidylethanolamines
+WARN	duplicate_scoped_synonym	CHEBI:16038	oboInOwl:hasRelatedSynonym	phosphatidylethanolamines
+WARN	duplicate_scoped_synonym	CHEBI:16584	oboInOwl:hasExactSynonym	3-methylbut-3-en-1-yl trihydrogen diphosphate
+WARN	duplicate_scoped_synonym	CHEBI:16584	oboInOwl:hasRelatedSynonym	3-methylbut-3-en-1-yl trihydrogen diphosphate
+WARN	duplicate_scoped_synonym	CHEBI:16865	oboInOwl:hasExactSynonym	4-aminobutanoic acid
+WARN	duplicate_scoped_synonym	CHEBI:16865	oboInOwl:hasRelatedSynonym	4-aminobutanoic acid
+WARN	duplicate_scoped_synonym	CHEBI:16991	oboInOwl:hasExactSynonym	deoxyribonucleic acids
+WARN	duplicate_scoped_synonym	CHEBI:16991	oboInOwl:hasRelatedSynonym	deoxyribonucleic acids
+WARN	duplicate_scoped_synonym	CHEBI:17087	oboInOwl:hasExactSynonym	ketones
+WARN	duplicate_scoped_synonym	CHEBI:17087	oboInOwl:hasRelatedSynonym	ketones
+WARN	duplicate_scoped_synonym	CHEBI:17347	oboInOwl:hasExactSynonym	testosterone
+WARN	duplicate_scoped_synonym	CHEBI:17347	oboInOwl:hasRelatedSynonym	testosterone
+WARN	duplicate_scoped_synonym	CHEBI:17478	oboInOwl:hasExactSynonym	aldehydes
+WARN	duplicate_scoped_synonym	CHEBI:17478	oboInOwl:hasRelatedSynonym	aldehydes
+WARN	duplicate_scoped_synonym	CHEBI:18248	oboInOwl:hasExactSynonym	iron
+WARN	duplicate_scoped_synonym	CHEBI:18248	oboInOwl:hasRelatedSynonym	iron
+WARN	duplicate_scoped_synonym	CHEBI:22984	oboInOwl:hasExactSynonym	calcium
+WARN	duplicate_scoped_synonym	CHEBI:22984	oboInOwl:hasRelatedSynonym	calcium
+WARN	duplicate_scoped_synonym	CHEBI:24913	oboInOwl:hasExactSynonym	isoprenoids
+WARN	duplicate_scoped_synonym	CHEBI:24913	oboInOwl:hasRelatedSynonym	isoprenoids
+WARN	duplicate_scoped_synonym	CHEBI:25016	oboInOwl:hasExactSynonym	lead
+WARN	duplicate_scoped_synonym	CHEBI:25016	oboInOwl:hasRelatedSynonym	lead
+WARN	duplicate_scoped_synonym	CHEBI:25029	oboInOwl:hasExactSynonym	leukotrienes
+WARN	duplicate_scoped_synonym	CHEBI:25029	oboInOwl:hasRelatedSynonym	leukotrienes
+WARN	duplicate_scoped_synonym	CHEBI:25698	oboInOwl:hasExactSynonym	ethers
+WARN	duplicate_scoped_synonym	CHEBI:25698	oboInOwl:hasRelatedSynonym	ethers
+WARN	duplicate_scoped_synonym	CHEBI:26020	oboInOwl:hasExactSynonym	phosphates
+WARN	duplicate_scoped_synonym	CHEBI:26020	oboInOwl:hasRelatedSynonym	phosphates
+WARN	duplicate_scoped_synonym	CHEBI:27363	oboInOwl:hasExactSynonym	zinc
+WARN	duplicate_scoped_synonym	CHEBI:27363	oboInOwl:hasRelatedSynonym	zinc
+WARN	duplicate_scoped_synonym	CHEBI:28694	oboInOwl:hasExactSynonym	copper
+WARN	duplicate_scoped_synonym	CHEBI:28694	oboInOwl:hasRelatedSynonym	copper
+WARN	duplicate_scoped_synonym	CHEBI:28984	oboInOwl:hasExactSynonym	aluminium
+WARN	duplicate_scoped_synonym	CHEBI:28984	oboInOwl:hasRelatedSynonym	aluminium
+WARN	duplicate_scoped_synonym	CHEBI:30145	oboInOwl:hasExactSynonym	lithium
+WARN	duplicate_scoped_synonym	CHEBI:30145	oboInOwl:hasRelatedSynonym	lithium
+WARN	duplicate_scoped_synonym	CHEBI:33567	oboInOwl:hasExactSynonym	catecholamines
+WARN	duplicate_scoped_synonym	CHEBI:33567	oboInOwl:hasRelatedSynonym	catecholamines
+WARN	duplicate_scoped_synonym	CHEBI:33697	oboInOwl:hasExactSynonym	ribonucleic acids
+WARN	duplicate_scoped_synonym	CHEBI:33697	oboInOwl:hasRelatedSynonym	ribonucleic acids
+WARN	duplicate_scoped_synonym	CHEBI:35358	oboInOwl:hasExactSynonym	sulfonamides
+WARN	duplicate_scoped_synonym	CHEBI:35358	oboInOwl:hasRelatedSynonym	sulfonamides
+WARN	duplicate_scoped_synonym	CHEBI:35366	oboInOwl:hasExactSynonym	fatty acids
+WARN	duplicate_scoped_synonym	CHEBI:35366	oboInOwl:hasRelatedSynonym	fatty acids
+WARN	duplicate_scoped_synonym	CHEBI:37622	oboInOwl:hasExactSynonym	carboxamides
+WARN	duplicate_scoped_synonym	CHEBI:37622	oboInOwl:hasRelatedSynonym	carboxamides
+WARN	duplicate_scoped_synonym	CHEBI:49552	oboInOwl:hasExactSynonym	copper(1+) ion
+WARN	duplicate_scoped_synonym	CHEBI:49552	oboInOwl:hasExactSynonym	copper(I) cation
+WARN	duplicate_scoped_synonym	CHEBI:49552	oboInOwl:hasRelatedSynonym	copper(1+) ion
+WARN	duplicate_scoped_synonym	CHEBI:49552	oboInOwl:hasRelatedSynonym	copper(I) cation
+WARN	duplicate_scoped_synonym	CHEBI:50169	oboInOwl:hasExactSynonym	3alpha-hydroxy-5alpha-pregnan-20-one
+WARN	duplicate_scoped_synonym	CHEBI:50169	oboInOwl:hasRelatedSynonym	3alpha-hydroxy-5alpha-pregnan-20-one
+WARN	duplicate_scoped_synonym	CHEBI:57678	oboInOwl:hasExactSynonym	2-oxo-3-sulfanylpropanoate
+WARN	duplicate_scoped_synonym	CHEBI:57678	oboInOwl:hasRelatedSynonym	2-oxo-3-sulfanylpropanoate
+WARN	duplicate_scoped_synonym	CHEBI:7476	oboInOwl:hasExactSynonym	naproxen
+WARN	duplicate_scoped_synonym	CHEBI:7476	oboInOwl:hasRelatedSynonym	naproxen
+WARN	duplicate_scoped_synonym	CHEBI:7494	oboInOwl:hasExactSynonym	nefazodone
+WARN	duplicate_scoped_synonym	CHEBI:7494	oboInOwl:hasRelatedSynonym	nefazodone
+WARN	duplicate_scoped_synonym	CHEBI:8212	oboInOwl:hasExactSynonym	pimozide
+WARN	duplicate_scoped_synonym	CHEBI:8212	oboInOwl:hasRelatedSynonym	pimozide
+WARN	duplicate_scoped_synonym	CHEBI:8871	oboInOwl:hasExactSynonym	risperidone
+WARN	duplicate_scoped_synonym	CHEBI:8871	oboInOwl:hasRelatedSynonym	risperidone
+WARN	duplicate_scoped_synonym	IAO:0000115	IAO:0000118	DEFINITION
+WARN	duplicate_scoped_synonym	IAO:0000115	oboInOwl:hasExactSynonym	DEFINITION
+WARN	duplicate_scoped_synonym	NCBITaxon:2759	oboInOwl:hasExactSynonym	eukaryotes
+WARN	duplicate_scoped_synonym	NCBITaxon:2759	oboInOwl:hasRelatedSynonym	eukaryotes
+WARN	duplicate_scoped_synonym	NCBITaxon:40674	oboInOwl:hasExactSynonym	mammals
+WARN	duplicate_scoped_synonym	NCBITaxon:40674	oboInOwl:hasRelatedSynonym	mammals
+WARN	duplicate_scoped_synonym	NCBITaxon:7742	oboInOwl:hasExactSynonym	vertebrates
+WARN	duplicate_scoped_synonym	NCBITaxon:7742	oboInOwl:hasRelatedSynonym	vertebrates
+WARN	duplicate_scoped_synonym	UBERON:0001018	oboInOwl:hasNarrowSynonym	nerve tract
+WARN	duplicate_scoped_synonym	UBERON:0001018	oboInOwl:hasRelatedSynonym	nerve tract
+WARN	duplicate_scoped_synonym	UBERON:0002751	oboInOwl:hasExactSynonym	gyrus temporalis inferior
+WARN	duplicate_scoped_synonym	UBERON:0002751	oboInOwl:hasRelatedSynonym	gyrus temporalis inferior
+WARN	equivalent_class_axiom_no_genus	obo:ADO_0000010	obo:ADO_0000013	DOID:10652
+WARN	equivalent_class_axiom_no_genus	obo:ADO_0000011	obo:ADO_0000003	DOID:10652
+WARN	equivalent_class_axiom_no_genus	obo:ADO_0000012	obo:ADO_0000002	DOID:10652
 WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] 
 WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (hasContinuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [126-001] 
 WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] 
@@ -524,56 +898,9 @@ editor date: 2017-04-18
 WARN	annotation_whitespace	RO:0002161	IAO:0000425	?X DisjointWith RO_0002162 some ?Y 
 WARN	annotation_whitespace	STATO:0000184	IAO:0000115	"A ratio is a data item which is formed with two numbers r and s is written r/s, where r is the numerator and s is the denominator. The ratio of r to s is equivalent to the quotient r/s. 
 @en"
-WARN	duplicate_exact_synonym	OGG:3000009611	IAO:0000118	TRAC1
-WARN	duplicate_exact_synonym	OGG:3000009612	IAO:0000118	TRAC1
-WARN	duplicate_exact_synonym	OGG:3000000207	IAO:0000118	PKB
-WARN	duplicate_exact_synonym	OGG:3000002185	IAO:0000118	PKB
-WARN	duplicate_exact_synonym	OGG:3000000801	IAO:0000118	PHKD
-WARN	duplicate_exact_synonym	OGG:3000000805	IAO:0000118	PHKD
-WARN	duplicate_exact_synonym	OGG:3000001432	IAO:0000118	p38
-WARN	duplicate_exact_synonym	OGG:3000005594	IAO:0000118	p38
-WARN	duplicate_exact_synonym	OGG:3000004842	IAO:0000118	NOS
-WARN	duplicate_exact_synonym	OGG:3000004843	IAO:0000118	NOS
-WARN	duplicate_exact_synonym	NCIT:C16866	oboInOwl:hasExactSynonym	Model System
-WARN	duplicate_exact_synonym	NCIT:C80519	oboInOwl:hasExactSynonym	Model System
-WARN	duplicate_exact_synonym	NCIT:C16866	oboInOwl:hasExactSynonym	Model
-WARN	duplicate_exact_synonym	NCIT:C80519	oboInOwl:hasExactSynonym	Model
-WARN	duplicate_exact_synonym	OGG:3000003577	IAO:0000118	IL8RA
-WARN	duplicate_exact_synonym	OGG:3000003579	IAO:0000118	IL8RA
-WARN	duplicate_exact_synonym	OGG:3000001230	IAO:0000118	CKR-1
-WARN	duplicate_exact_synonym	OGG:3000003577	IAO:0000118	CKR-1
-WARN	duplicate_exact_synonym	OGG:3000000983	IAO:0000118	CDC2
-WARN	duplicate_exact_synonym	OGG:3000005424	IAO:0000118	CDC2
-WARN	duplicate_exact_synonym	OGG:3000002833	IAO:0000118	CD182
-WARN	duplicate_exact_synonym	OGG:3000003579	IAO:0000118	CD182
-WARN	duplicate_exact_synonym	GO:0007610	oboInOwl:hasExactSynonym	behaviour
-WARN	duplicate_exact_synonym	NBO:0000313	oboInOwl:hasExactSynonym	behaviour
-WARN	duplicate_exact_synonym	OGG:3000000718	IAO:0000118	ASP
-WARN	duplicate_exact_synonym	OGG:3000009474	IAO:0000118	ASP
-WARN	duplicate_exact_synonym	MONDO:0007089	oboInOwl:hasExactSynonym	Alzheimer disease type 2
-WARN	duplicate_exact_synonym	MONDO:0100088	oboInOwl:hasExactSynonym	Alzheimer disease type 2
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	DiffAvg:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	DiffFormula:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	DiffMono:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	Formula:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	MassAvg:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	MassMono:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	Origin:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	Source:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	TermSpec:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	UniProt:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	Unimod:
-WARN	invalid_xref	TXPO:0000145	oboInOwl:hasDbXref	FBRL: A Function and Behavior Representation Language. Sasajima, M., Kitamura, Y., Ikeda, M. & Mizoguchi, R., In Proc. of IJCAI-95 (pp. 1830-1836), 1995
-WARN	invalid_xref	TXPO:0001865	oboInOwl:hasDbXref	rerlated molecular fuction GO:0004672
-WARN	invalid_xref	TXPO:0003645	oboInOwl:hasDbXref	IMR:0000368 (obsolete)
-WARN	invalid_xref	TXPO:0003668	oboInOwl:hasDbXref	IMR:0000960 (obsolete)
-WARN	invalid_xref	TXPO:0003670	oboInOwl:hasDbXref	IMR:0001166 (obsolete)
-WARN	invalid_xref	TXPO:0003670	oboInOwl:hasDbXref	"related molecule fuction
-GO:0004407"
-WARN	invalid_xref	TXPO:0003671	oboInOwl:hasDbXref	Catalysis role of the hydrolysis of a glycerophospholipid.
-WARN	invalid_xref	TXPO:0003671	oboInOwl:hasDbXref	IMR:0000281 (obsolete)
-WARN	invalid_xref	TXPO:0003673	oboInOwl:hasDbXref	IMR:0000517 (obsolete)
-WARN	missing_definition	obo:ADO_0000001	IAO:0000115	
+WARN	missing_definition	obo:ADO_0000010	IAO:0000115	
+WARN	missing_definition	obo:ADO_0000011	IAO:0000115	
+WARN	missing_definition	obo:ADO_0000012	IAO:0000115	
 WARN	missing_definition	BFO:0000141	IAO:0000115	
 WARN	missing_definition	BTO:0000932	IAO:0000115	
 WARN	missing_definition	CHEBI:135342	IAO:0000115	
@@ -735,7 +1062,6 @@ WARN	missing_definition	IAO:0000425	IAO:0000115
 WARN	missing_definition	ICO:0000321	IAO:0000115	
 WARN	missing_definition	INO:0000142	IAO:0000115	
 WARN	missing_definition	MAXO:0000644	IAO:0000115	
-WARN	missing_definition	MFOMD:0000024	IAO:0000115	
 WARN	missing_definition	MONDO:0007088	IAO:0000115	
 WARN	missing_definition	MONDO:0010022	IAO:0000115	
 WARN	missing_definition	MONDO:0010783	IAO:0000115	
@@ -745,22 +1071,15 @@ WARN	missing_definition	MONDO:0011513	IAO:0000115
 WARN	missing_definition	MONDO:0022880	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1	IAO:0000115	
 WARN	missing_definition	NCBITaxon:10114	IAO:0000115	
-WARN	missing_definition	NCBITaxon:131567	IAO:0000115	
 WARN	missing_definition	NCBITaxon:136217	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1407750	IAO:0000115	
-WARN	missing_definition	NCBITaxon:2759	IAO:0000115	
 WARN	missing_definition	NCBITaxon:3311	IAO:0000115	
 WARN	missing_definition	NCBITaxon:39169	IAO:0000115	
-WARN	missing_definition	NCBITaxon:40674	IAO:0000115	
 WARN	missing_definition	NCBITaxon:6239	IAO:0000115	
 WARN	missing_definition	NCBITaxon:7215	IAO:0000115	
-WARN	missing_definition	NCBITaxon:7742	IAO:0000115	
 WARN	missing_definition	NCBITaxon:7955	IAO:0000115	
-WARN	missing_definition	NCBITaxon:9606	IAO:0000115	
 WARN	missing_definition	NCIT:C166444	IAO:0000115	
 WARN	missing_definition	NCIT:C17456	IAO:0000115	
-WARN	missing_definition	NCIT:C19146	IAO:0000115	
-WARN	missing_definition	NCIT:C19148	IAO:0000115	
 WARN	missing_definition	NCIT:C38834	IAO:0000115	
 WARN	missing_definition	NCIT:C70820	IAO:0000115	
 WARN	missing_definition	NCIT:C76786	IAO:0000115	
@@ -1283,7 +1602,6 @@ WARN	missing_definition	OGG:3100125288	IAO:0000115
 WARN	missing_definition	OGG:3100271696	IAO:0000115	
 WARN	missing_definition	OGG:3100506742	IAO:0000115	
 WARN	missing_definition	OGG:3100885779	IAO:0000115	
-WARN	missing_definition	OGMS:0000032	IAO:0000115	
 WARN	missing_definition	OMIT:0001440	IAO:0000115	
 WARN	missing_definition	OMIT:0001660	IAO:0000115	
 WARN	missing_definition	OMIT:0001676	IAO:0000115	
@@ -1320,14 +1638,11 @@ WARN	missing_definition	OMIT:0024504	IAO:0000115
 WARN	missing_definition	OMIT:0025630	IAO:0000115	
 WARN	missing_definition	OMIT:0026595	IAO:0000115	
 WARN	missing_definition	OMIT:0026640	IAO:0000115	
-WARN	missing_definition	OMIT:0027103	IAO:0000115	
 WARN	missing_definition	OMIT:0027220	IAO:0000115	
 WARN	missing_definition	OMIT:0027570	IAO:0000115	
 WARN	missing_definition	OMIT:0027606	IAO:0000115	
 WARN	missing_definition	OMIT:0027626	IAO:0000115	
 WARN	missing_definition	OMIT:0027628	IAO:0000115	
-WARN	missing_definition	OMIT:0027688	IAO:0000115	
-WARN	missing_definition	OMIT:0027689	IAO:0000115	
 WARN	missing_definition	OMIT:0027985	IAO:0000115	
 WARN	missing_definition	OPMI:0000446	IAO:0000115	
 WARN	missing_definition	OPMI:0000447	IAO:0000115	
@@ -1373,9 +1688,6 @@ WARN	missing_definition	obo:UPa_UPC00165	IAO:0000115
 WARN	missing_definition	obo:UPa_UPC00235	IAO:0000115	
 WARN	missing_definition	obo:UPa_UPC00272	IAO:0000115	
 WARN	missing_definition	VO:0000792	IAO:0000115	
-WARN	missing_definition	obo:ado.owlpurl.obolibrary.org/obo/ADO_0000010	IAO:0000115	
-WARN	missing_definition	obo:ado.owlpurl.obolibrary.org/obo/ADO_0000011	IAO:0000115	
-WARN	missing_definition	obo:ado.owlpurl.obolibrary.org/obo/ADO_0000012	IAO:0000115	
 WARN	missing_definition	obo:mondo#excluded_from_qc_check	IAO:0000115	
 WARN	missing_definition	obo:mondo#excluded_subClassOf	IAO:0000115	
 WARN	missing_definition	dc11:contributor	IAO:0000115	
@@ -1404,330 +1716,10 @@ WARN	missing_definition	https://www.wikidata.org/wiki/Property:P3201	IAO:0000115
 WARN	missing_definition	https://www.wikidata.org/wiki/Property:P486	IAO:0000115	
 WARN	missing_definition	https://www.wikidata.org/wiki/Property:P5806	IAO:0000115	
 WARN	missing_definition	https://www.wikidata.org/wiki/Q1823134	IAO:0000115	
-WARN	equivalent_class_axiom_no_genus	obo:ado.owlpurl.obolibrary.org/obo/ADO_0000010	obo:ado.owlpurl.obolibrary.org/obo/ADO_0000013	DOID:10652
-WARN	equivalent_class_axiom_no_genus	obo:ado.owlpurl.obolibrary.org/obo/ADO_0000011	obo:ADO_0000003	DOID:10652
-WARN	equivalent_class_axiom_no_genus	obo:ado.owlpurl.obolibrary.org/obo/ADO_0000012	obo:ADO_0000002	DOID:10652
-WARN	duplicate_label_synonym	CHEBI:13705	oboInOwl:hasExactSynonym	acetoacetate
-WARN	duplicate_label_synonym	CHEBI:15354	oboInOwl:hasExactSynonym	choline
-WARN	duplicate_label_synonym	CHEBI:15355	oboInOwl:hasExactSynonym	acetylcholine
-WARN	duplicate_label_synonym	CHEBI:15356	oboInOwl:hasExactSynonym	cysteine
-WARN	duplicate_label_synonym	CHEBI:15361	oboInOwl:hasExactSynonym	pyruvate
-WARN	duplicate_label_synonym	CHEBI:15377	oboInOwl:hasExactSynonym	water
-WARN	duplicate_label_synonym	CHEBI:15380	oboInOwl:hasExactSynonym	succinyl-CoA
-WARN	duplicate_label_synonym	CHEBI:15440	oboInOwl:hasExactSynonym	squalene
-WARN	duplicate_label_synonym	CHEBI:15784	oboInOwl:hasExactSynonym	N-acetyl-D-glucosamine 6-phosphate
-WARN	duplicate_label_synonym	CHEBI:16091	oboInOwl:hasExactSynonym	dolichol
-WARN	duplicate_label_synonym	CHEBI:16113	oboInOwl:hasExactSynonym	cholesterol
-WARN	duplicate_label_synonym	CHEBI:16189	oboInOwl:hasExactSynonym	sulfate
-WARN	duplicate_label_synonym	CHEBI:16240	oboInOwl:hasExactSynonym	hydrogen peroxide
-WARN	duplicate_label_synonym	CHEBI:16474	oboInOwl:hasExactSynonym	NADPH
-WARN	duplicate_label_synonym	CHEBI:16521	oboInOwl:hasExactSynonym	lanosterol
-WARN	duplicate_label_synonym	CHEBI:16796	oboInOwl:hasExactSynonym	melatonin
-WARN	duplicate_label_synonym	CHEBI:16811	oboInOwl:hasExactSynonym	methionine
-WARN	duplicate_label_synonym	CHEBI:16828	oboInOwl:hasExactSynonym	L-tryptophan
-WARN	duplicate_label_synonym	CHEBI:16865	oboInOwl:hasExactSynonym	gamma-aminobutyric acid
-WARN	duplicate_label_synonym	CHEBI:16908	oboInOwl:hasExactSynonym	NADH
-WARN	duplicate_label_synonym	CHEBI:17230	oboInOwl:hasExactSynonym	homocysteine
-WARN	duplicate_label_synonym	CHEBI:17234	oboInOwl:hasExactSynonym	glucose
-WARN	duplicate_label_synonym	CHEBI:17347	oboInOwl:hasExactSynonym	testosterone
-WARN	duplicate_label_synonym	CHEBI:17359	oboInOwl:hasExactSynonym	sulfite
-WARN	duplicate_label_synonym	CHEBI:17478	oboInOwl:hasExactSynonym	aldehyde
-WARN	duplicate_label_synonym	CHEBI:176842	oboInOwl:hasExactSynonym	vitamin B9
-WARN	duplicate_label_synonym	CHEBI:176843	oboInOwl:hasExactSynonym	vitamin B12
-WARN	duplicate_label_synonym	CHEBI:17996	oboInOwl:hasExactSynonym	chloride
-WARN	duplicate_label_synonym	CHEBI:18022	oboInOwl:hasExactSynonym	thiocyanate
-WARN	duplicate_label_synonym	CHEBI:18211	oboInOwl:hasExactSynonym	citrulline
-WARN	duplicate_label_synonym	CHEBI:18379	oboInOwl:hasExactSynonym	nitrile
-WARN	duplicate_label_synonym	CHEBI:18420	oboInOwl:hasExactSynonym	magnesium(2+)
-WARN	duplicate_label_synonym	CHEBI:18421	oboInOwl:hasExactSynonym	superoxide
-WARN	duplicate_label_synonym	CHEBI:23019	oboInOwl:hasExactSynonym	carbonyl group
-WARN	duplicate_label_synonym	CHEBI:23053	oboInOwl:hasExactSynonym	catechin
-WARN	duplicate_label_synonym	CHEBI:23367	oboInOwl:hasExactSynonym	molecular entity
-WARN	duplicate_label_synonym	CHEBI:23888	IAO:0000118	drug
-WARN	duplicate_label_synonym	CHEBI:23924	oboInOwl:hasExactSynonym	enzyme inhibitor
-WARN	duplicate_label_synonym	CHEBI:24062	oboInOwl:hasExactSynonym	fluorine molecular entity
-WARN	duplicate_label_synonym	CHEBI:24431	oboInOwl:hasExactSynonym	chemical entity
-WARN	duplicate_label_synonym	CHEBI:24433	oboInOwl:hasExactSynonym	group
-WARN	duplicate_label_synonym	CHEBI:24471	oboInOwl:hasExactSynonym	halogen molecular entity
-WARN	duplicate_label_synonym	CHEBI:24833	oboInOwl:hasExactSynonym	oxoacid
-WARN	duplicate_label_synonym	CHEBI:24870	oboInOwl:hasExactSynonym	ion
-WARN	duplicate_label_synonym	CHEBI:24913	oboInOwl:hasExactSynonym	isoprenoid
-WARN	duplicate_label_synonym	CHEBI:25000	oboInOwl:hasExactSynonym	lactone
-WARN	duplicate_label_synonym	CHEBI:25029	oboInOwl:hasExactSynonym	leukotriene
-WARN	duplicate_label_synonym	CHEBI:25367	oboInOwl:hasExactSynonym	molecule
-WARN	duplicate_label_synonym	CHEBI:25681	oboInOwl:hasExactSynonym	omega-3 fatty acid
-WARN	duplicate_label_synonym	CHEBI:25698	oboInOwl:hasExactSynonym	ether
-WARN	duplicate_label_synonym	CHEBI:25703	oboInOwl:hasExactSynonym	organic phosphate
-WARN	duplicate_label_synonym	CHEBI:25710	oboInOwl:hasExactSynonym	organophosphorus compound
-WARN	duplicate_label_synonym	CHEBI:25806	oboInOwl:hasExactSynonym	oxygen molecular entity
-WARN	duplicate_label_synonym	CHEBI:25900	oboInOwl:hasExactSynonym	aldopentose phosphate
-WARN	duplicate_label_synonym	CHEBI:25941	oboInOwl:hasExactSynonym	peroxynitrite
-WARN	duplicate_label_synonym	CHEBI:26167	oboInOwl:hasExactSynonym	polar amino acid
-WARN	duplicate_label_synonym	CHEBI:26562	oboInOwl:hasExactSynonym	ribose phosphate
-WARN	duplicate_label_synonym	CHEBI:26835	oboInOwl:hasExactSynonym	sulfur molecular entity
-WARN	duplicate_label_synonym	CHEBI:28115	oboInOwl:hasExactSynonym	methylcobalamin
-WARN	duplicate_label_synonym	CHEBI:28300	oboInOwl:hasExactSynonym	glutamine
-WARN	duplicate_label_synonym	CHEBI:28839	oboInOwl:hasExactSynonym	3-disulfanyl-L-alanine
-WARN	duplicate_label_synonym	CHEBI:29016	oboInOwl:hasExactSynonym	arginine
-WARN	duplicate_label_synonym	CHEBI:29033	oboInOwl:hasExactSynonym	iron(2+)
-WARN	duplicate_label_synonym	CHEBI:29101	oboInOwl:hasExactSynonym	sodium(1+)
-WARN	duplicate_label_synonym	CHEBI:29103	oboInOwl:hasExactSynonym	potassium(1+)
-WARN	duplicate_label_synonym	CHEBI:29105	oboInOwl:hasExactSynonym	zinc(2+)
-WARN	duplicate_label_synonym	CHEBI:29108	oboInOwl:hasExactSynonym	calcium(2+)
-WARN	duplicate_label_synonym	CHEBI:29191	oboInOwl:hasExactSynonym	hydroxyl
-WARN	duplicate_label_synonym	CHEBI:30089	oboInOwl:hasExactSynonym	acetate
-WARN	duplicate_label_synonym	CHEBI:31296	oboInOwl:hasExactSynonym	Blonanserin
-WARN	duplicate_label_synonym	CHEBI:33234	oboInOwl:hasExactSynonym	vitamin E
-WARN	duplicate_label_synonym	CHEBI:33250	oboInOwl:hasExactSynonym	atom
-WARN	duplicate_label_synonym	CHEBI:33256	oboInOwl:hasExactSynonym	primary amide
-WARN	duplicate_label_synonym	CHEBI:33261	oboInOwl:hasExactSynonym	organosulfur compound
-WARN	duplicate_label_synonym	CHEBI:33302	oboInOwl:hasExactSynonym	pnictogen molecular entity
-WARN	duplicate_label_synonym	CHEBI:33304	oboInOwl:hasExactSynonym	chalcogen molecular entity
-WARN	duplicate_label_synonym	CHEBI:33447	oboInOwl:hasExactSynonym	phospho sugar
-WARN	duplicate_label_synonym	CHEBI:33575	oboInOwl:hasExactSynonym	carboxylic acid
-WARN	duplicate_label_synonym	CHEBI:33582	oboInOwl:hasExactSynonym	carbon group molecular entity
-WARN	duplicate_label_synonym	CHEBI:33597	oboInOwl:hasExactSynonym	homocyclic compound
-WARN	duplicate_label_synonym	CHEBI:33598	oboInOwl:hasExactSynonym	carbocyclic compound
-WARN	duplicate_label_synonym	CHEBI:33670	oboInOwl:hasExactSynonym	heteromonocyclic compound
-WARN	duplicate_label_synonym	CHEBI:33674	oboInOwl:hasExactSynonym	s-block molecular entity
-WARN	duplicate_label_synonym	CHEBI:33697	oboInOwl:hasExactSynonym	ribonucleic acid
-WARN	duplicate_label_synonym	CHEBI:33839	oboInOwl:hasExactSynonym	macromolecule
-WARN	duplicate_label_synonym	CHEBI:33853	oboInOwl:hasExactSynonym	phenols
-WARN	duplicate_label_synonym	CHEBI:35222	oboInOwl:hasExactSynonym	inhibitor
-WARN	duplicate_label_synonym	CHEBI:35850	oboInOwl:hasExactSynonym	sulfone
-WARN	duplicate_label_synonym	CHEBI:36005	oboInOwl:hasExactSynonym	docosahexaenoic acid
-WARN	duplicate_label_synonym	CHEBI:36009	oboInOwl:hasExactSynonym	omega-6 fatty acid
-WARN	duplicate_label_synonym	CHEBI:36359	oboInOwl:hasExactSynonym	phosphorus oxoacid derivative
-WARN	duplicate_label_synonym	CHEBI:36820	oboInOwl:hasExactSynonym	ring assembly
-WARN	duplicate_label_synonym	CHEBI:36962	oboInOwl:hasExactSynonym	organochalcogen compound
-WARN	duplicate_label_synonym	CHEBI:36963	oboInOwl:hasExactSynonym	organooxygen compound
-WARN	duplicate_label_synonym	CHEBI:37143	oboInOwl:hasExactSynonym	organofluorine compound
-WARN	duplicate_label_synonym	CHEBI:37555	oboInOwl:hasExactSynonym	omega-carboxyacyl-CoA
-WARN	duplicate_label_synonym	CHEBI:3962	oboInOwl:hasExactSynonym	curcumin
-WARN	duplicate_label_synonym	CHEBI:40303	oboInOwl:hasExactSynonym	lovastatin
-WARN	duplicate_label_synonym	CHEBI:42944	oboInOwl:hasExactSynonym	galanthamine
-WARN	duplicate_label_synonym	CHEBI:4353	oboInOwl:hasExactSynonym	Decursin
-WARN	duplicate_label_synonym	CHEBI:48705	oboInOwl:hasExactSynonym	agonist
-WARN	duplicate_label_synonym	CHEBI:48706	oboInOwl:hasExactSynonym	antagonist
-WARN	duplicate_label_synonym	CHEBI:49552	oboInOwl:hasExactSynonym	copper(1+)
-WARN	duplicate_label_synonym	CHEBI:49713	oboInOwl:hasExactSynonym	lithium(1+)
-WARN	duplicate_label_synonym	CHEBI:506227	oboInOwl:hasExactSynonym	N-acetyl-D-glucosamine
-WARN	duplicate_label_synonym	CHEBI:5417	oboInOwl:hasExactSynonym	glucosamine
-WARN	duplicate_label_synonym	CHEBI:5445	oboInOwl:hasExactSynonym	glyceraldehyde
-WARN	duplicate_label_synonym	CHEBI:566274	oboInOwl:hasExactSynonym	malonaldehyde
-WARN	duplicate_label_synonym	CHEBI:64073	oboInOwl:hasExactSynonym	exendin-4
-WARN	duplicate_label_synonym	CHEBI:6498	oboInOwl:hasExactSynonym	lipoxin A4
-WARN	duplicate_label_synonym	CHEBI:6538	oboInOwl:hasExactSynonym	Loratadine
-WARN	duplicate_label_synonym	CHEBI:6539	oboInOwl:hasExactSynonym	Lorazepam
-WARN	duplicate_label_synonym	CHEBI:6690	oboInOwl:hasExactSynonym	Maprotiline
-WARN	duplicate_label_synonym	CHEBI:6960	oboInOwl:hasExactSynonym	Moexipril
-WARN	duplicate_label_synonym	CHEBI:7476	oboInOwl:hasExactSynonym	naproxen
-WARN	duplicate_label_synonym	CHEBI:7494	oboInOwl:hasExactSynonym	nefazodone
-WARN	duplicate_label_synonym	CHEBI:8060	oboInOwl:hasExactSynonym	Phenelzine
-WARN	duplicate_label_synonym	CHEBI:8212	oboInOwl:hasExactSynonym	pimozide
-WARN	duplicate_label_synonym	CHEBI:86269	oboInOwl:hasExactSynonym	3-nitrotyrosine
-WARN	duplicate_label_synonym	CHEBI:8665	oboInOwl:hasExactSynonym	Pyridostigmine
-WARN	duplicate_label_synonym	CHEBI:8871	oboInOwl:hasExactSynonym	risperidone
-WARN	duplicate_label_synonym	CHEBI:9435	oboInOwl:hasExactSynonym	Temazepam
-WARN	duplicate_label_synonym	CL:0000598	oboInOwl:hasExactSynonym	pyramidal neuron
-WARN	duplicate_label_synonym	CMO:0000000	oboInOwl:hasExactSynonym	clinical measurement
-WARN	duplicate_label_synonym	GO:0007610	oboInOwl:hasExactSynonym	behavior
-WARN	duplicate_label_synonym	HP:0000707	oboInOwl:hasExactSynonym	Abnormality of the nervous system
-WARN	duplicate_label_synonym	HP:0000751	oboInOwl:hasExactSynonym	Personality changes
-WARN	duplicate_label_synonym	HP:0002013	oboInOwl:hasExactSynonym	Vomiting
-WARN	duplicate_label_synonym	HP:0012393	oboInOwl:hasExactSynonym	Allergy
-WARN	duplicate_label_synonym	HP:0012639	oboInOwl:hasExactSynonym	Abnormal nervous system morphology
-WARN	duplicate_label_synonym	IDOMAL:0000581	IAO:0000118	C3b
-WARN	duplicate_label_synonym	MOD:00719	oboInOwl:hasExactSynonym	L-methionine sulfoxide
-WARN	duplicate_label_synonym	MONDO:0000839	oboInOwl:hasExactSynonym	congenital abnormality
-WARN	duplicate_label_synonym	MONDO:0002046	oboInOwl:hasExactSynonym	alcohol abuse
-WARN	duplicate_label_synonym	MONDO:0002251	oboInOwl:hasExactSynonym	hepatitis
-WARN	duplicate_label_synonym	MONDO:0004335	oboInOwl:hasExactSynonym	digestive system disease
-WARN	duplicate_label_synonym	MONDO:0005151	oboInOwl:hasExactSynonym	endocrine system disease
-WARN	duplicate_label_synonym	MONDO:0007089	oboInOwl:hasExactSynonym	Alzheimer disease 2
-WARN	duplicate_label_synonym	MONDO:0010022	oboInOwl:hasExactSynonym	senile plaque formation
-WARN	duplicate_label_synonym	MONDO:0010422	oboInOwl:hasExactSynonym	Alzheimer disease 16
-WARN	duplicate_label_synonym	MONDO:0010783	oboInOwl:hasExactSynonym	Alzheimer disease, susceptibility to, mitochondrial
-WARN	duplicate_label_synonym	MONDO:0011194	oboInOwl:hasExactSynonym	Alzheimer disease 5
-WARN	duplicate_label_synonym	MONDO:0011401	oboInOwl:hasExactSynonym	Alzheimer disease without neurofibrillary tangles
-WARN	duplicate_label_synonym	MONDO:0011513	oboInOwl:hasExactSynonym	Alzheimer disease, familial early-onset, with coexisting amyloid and prion pathology
-WARN	duplicate_label_synonym	MONDO:0011561	oboInOwl:hasExactSynonym	Alzheimer disease 6
-WARN	duplicate_label_synonym	MONDO:0011647	oboInOwl:hasExactSynonym	Alzheimer disease 7
-WARN	duplicate_label_synonym	MONDO:0011743	oboInOwl:hasExactSynonym	Alzheimer disease 4
-WARN	duplicate_label_synonym	MONDO:0011777	oboInOwl:hasExactSynonym	Alzheimer disease 8
-WARN	duplicate_label_synonym	MONDO:0011913	oboInOwl:hasExactSynonym	Alzheimer disease 3
-WARN	duplicate_label_synonym	MONDO:0012321	oboInOwl:hasExactSynonym	Alzheimer disease 10
-WARN	duplicate_label_synonym	MONDO:0012344	oboInOwl:hasExactSynonym	Alzheimer disease 11
-WARN	duplicate_label_synonym	MONDO:0012609	oboInOwl:hasExactSynonym	Alzheimer disease 12
-WARN	duplicate_label_synonym	MONDO:0012630	oboInOwl:hasExactSynonym	Alzheimer disease 13
-WARN	duplicate_label_synonym	MONDO:0012631	oboInOwl:hasExactSynonym	Alzheimer disease 14
-WARN	duplicate_label_synonym	MONDO:0014036	oboInOwl:hasExactSynonym	Alzheimer disease 17
-WARN	duplicate_label_synonym	MONDO:0014265	oboInOwl:hasExactSynonym	Alzheimer disease 18
-WARN	duplicate_label_synonym	MONDO:0014316	oboInOwl:hasExactSynonym	Alzheimer disease 19
-WARN	duplicate_label_synonym	MONDO:0022880	oboInOwl:hasExactSynonym	corticobasal degeneration
-WARN	duplicate_label_synonym	MOP:0000030	oboInOwl:hasExactSynonym	acetylation
-WARN	duplicate_label_synonym	MP:0005331	oboInOwl:hasExactSynonym	insulin resistance
-WARN	duplicate_label_synonym	NCIT:A11	oboInOwl:hasExactSynonym	Has_NICHD_Parent
-WARN	duplicate_label_synonym	NCIT:A13	oboInOwl:hasExactSynonym	Related_To_Genetic_Biomarker
-WARN	duplicate_label_synonym	NCIT:A24	oboInOwl:hasExactSynonym	Is_PCDC_AML_Permissible_Value_For_Variable
-WARN	duplicate_label_synonym	NCIT:A28	oboInOwl:hasExactSynonym	Is_PCDC_EWS_Permissible_Value_For_Variable
-WARN	duplicate_label_synonym	NCIT:C100762	oboInOwl:hasExactSynonym	Alzheimer's Disease Assessment Scale-Cognitive CDISC Version Questionnaire
-WARN	duplicate_label_synonym	NCIT:C102114	oboInOwl:hasExactSynonym	Clinical Dementia Rating Questionnaire
-WARN	duplicate_label_synonym	NCIT:C103400	oboInOwl:hasExactSynonym	FDG-Positron Emission Tomography
-WARN	duplicate_label_synonym	NCIT:C105165	oboInOwl:hasExactSynonym	Disability Assessment for Dementia Questionnaire
-WARN	duplicate_label_synonym	NCIT:C105166	oboInOwl:hasExactSynonym	Alzheimer's Disease Cooperative Study Activities of Daily Living Inventory Questionnaire
-WARN	duplicate_label_synonym	NCIT:C106697	oboInOwl:hasExactSynonym	Geriatric Depression Scale Questionnaire
-WARN	duplicate_label_synonym	NCIT:C106888	oboInOwl:hasExactSynonym	Alzheimer's Disease Cooperative Study-Activities of Daily Living Inventory Mild Cognitive Impairment Questionnaire
-WARN	duplicate_label_synonym	NCIT:C111794	oboInOwl:hasExactSynonym	Notch Receptor Intracellular Domain
-WARN	duplicate_label_synonym	NCIT:C116450	oboInOwl:hasExactSynonym	Arterial Spin Labeling Magnetic Resonance Imaging
-WARN	duplicate_label_synonym	NCIT:C117960	oboInOwl:hasExactSynonym	Diagnostic Criteria
-WARN	duplicate_label_synonym	NCIT:C117997	oboInOwl:hasExactSynonym	Extrapyramidal Symptom Rating Scale-Abbreviated Clinical Classification
-WARN	duplicate_label_synonym	NCIT:C118457	oboInOwl:hasExactSynonym	N-Methyl-D-Aspartate Receptor
-WARN	duplicate_label_synonym	NCIT:C118892	oboInOwl:hasExactSynonym	FOXO Family
-WARN	duplicate_label_synonym	NCIT:C1192	oboInOwl:hasExactSynonym	Phosphatidylinositol 4,5-bisphosphate
-WARN	duplicate_label_synonym	NCIT:C120257	oboInOwl:hasExactSynonym	California Verbal Learning Test - Second Edition
-WARN	duplicate_label_synonym	NCIT:C123667	oboInOwl:hasExactSynonym	Montreal Cognitive Assessment Functional Test
-WARN	duplicate_label_synonym	NCIT:C123668	oboInOwl:hasExactSynonym	Rey Auditory Verbal Learning Functional Test
-WARN	duplicate_label_synonym	NCIT:C12534	oboInOwl:hasExactSynonym	Non-Granular Leukocyte
-WARN	duplicate_label_synonym	NCIT:C125410	oboInOwl:hasExactSynonym	Have Difficulty Swallowing
-WARN	duplicate_label_synonym	NCIT:C125913	oboInOwl:hasExactSynonym	Have Indigestion
-WARN	duplicate_label_synonym	NCIT:C129326	oboInOwl:hasExactSynonym	Resting State Functional Connectivity Magnetic Resonance Imaging
-WARN	duplicate_label_synonym	NCIT:C129646	oboInOwl:hasExactSynonym	Vascular Endothelial Growth Factor Family
-WARN	duplicate_label_synonym	NCIT:C131258	oboInOwl:hasExactSynonym	MT-RNR2 Gene
-WARN	duplicate_label_synonym	NCIT:C137847	oboInOwl:hasExactSynonym	Current Difficulty Learning New Tasks or Instructions
-WARN	duplicate_label_synonym	NCIT:C14211	oboInOwl:hasExactSynonym	Guinea Pig
-WARN	duplicate_label_synonym	NCIT:C143955	oboInOwl:hasExactSynonym	Blood Inflammatory Marker
-WARN	duplicate_label_synonym	NCIT:C150129	oboInOwl:hasExactSynonym	Circulating Protein
-WARN	duplicate_label_synonym	NCIT:C15206	oboInOwl:hasExactSynonym	Clinical Study
-WARN	duplicate_label_synonym	NCIT:C15262	oboInOwl:hasExactSynonym	Immunotherapy
-WARN	duplicate_label_synonym	NCIT:C15273	oboInOwl:hasExactSynonym	Longitudinal Study
-WARN	duplicate_label_synonym	NCIT:C15327	oboInOwl:hasExactSynonym	Lumbar Puncture
-WARN	duplicate_label_synonym	NCIT:C15362	oboInOwl:hasExactSynonym	Case Study
-WARN	duplicate_label_synonym	NCIT:C157012	oboInOwl:hasExactSynonym	Cognition Clock Test
-WARN	duplicate_label_synonym	NCIT:C15709	oboInOwl:hasExactSynonym	Genetic Testing
-WARN	duplicate_label_synonym	NCIT:C15719	oboInOwl:hasExactSynonym	Surveillance
-WARN	duplicate_label_synonym	NCIT:C160587	oboInOwl:hasExactSynonym	Executive Function Disorder
-WARN	duplicate_label_synonym	NCIT:C16436	oboInOwl:hasExactSynonym	Chromogranin
-WARN	duplicate_label_synonym	NCIT:C16502	oboInOwl:hasExactSynonym	Diagnostic Imaging
-WARN	duplicate_label_synonym	NCIT:C16518	oboInOwl:hasExactSynonym	DNA Binding Protein
-WARN	duplicate_label_synonym	NCIT:C16631	oboInOwl:hasExactSynonym	Genotype
-WARN	duplicate_label_synonym	NCIT:C166444	oboInOwl:hasExactSynonym	Aducanumab
-WARN	duplicate_label_synonym	NCIT:C16672	oboInOwl:hasExactSynonym	Heat Shock Protein
-WARN	duplicate_label_synonym	NCIT:C16795	oboInOwl:hasExactSynonym	Lifestyle
-WARN	duplicate_label_synonym	NCIT:C16809	oboInOwl:hasExactSynonym	Magnetic Resonance Imaging
-WARN	duplicate_label_synonym	NCIT:C16811	oboInOwl:hasExactSynonym	Magnetoencephalography
-WARN	duplicate_label_synonym	NCIT:C16861	oboInOwl:hasExactSynonym	Microtubule Associated Protein
-WARN	duplicate_label_synonym	NCIT:C16866	oboInOwl:hasExactSynonym	Model
-WARN	duplicate_label_synonym	NCIT:C17204	oboInOwl:hasExactSynonym	Computed Tomography
-WARN	duplicate_label_synonym	NCIT:C174447	oboInOwl:hasExactSynonym	Study Arm
-WARN	duplicate_label_synonym	NCIT:C17456	oboInOwl:hasExactSynonym	Experimental Model
-WARN	duplicate_label_synonym	NCIT:C1746	oboInOwl:hasExactSynonym	Peptide Hormone
-WARN	duplicate_label_synonym	NCIT:C17486	oboInOwl:hasExactSynonym	CCAAT Enhancer Binding Protein
-WARN	duplicate_label_synonym	NCIT:C176261	oboInOwl:hasExactSynonym	Study Phase
-WARN	duplicate_label_synonym	NCIT:C176312	oboInOwl:hasExactSynonym	Phosphorylated Tau Protein to Amyloid Beta1-42 Ratio Measurement
-WARN	duplicate_label_synonym	NCIT:C17710	oboInOwl:hasExactSynonym	Subcellular Process
-WARN	duplicate_label_synonym	NCIT:C17765	oboInOwl:hasExactSynonym	Heat Shock Protein 70
-WARN	duplicate_label_synonym	NCIT:C17958	oboInOwl:hasExactSynonym	Functional Magnetic Resonance Imaging
-WARN	duplicate_label_synonym	NCIT:C18103	oboInOwl:hasExactSynonym	Protein Synthesis
-WARN	duplicate_label_synonym	NCIT:C18153	oboInOwl:hasExactSynonym	Caspase
-WARN	duplicate_label_synonym	NCIT:C18520	oboInOwl:hasExactSynonym	Metabolic Marker
-WARN	duplicate_label_synonym	NCIT:C19146	oboInOwl:hasExactSynonym	In Vitro Model
-WARN	duplicate_label_synonym	NCIT:C19148	oboInOwl:hasExactSynonym	In Vivo Model
-WARN	duplicate_label_synonym	NCIT:C19272	oboInOwl:hasExactSynonym	Transgenic Model
-WARN	duplicate_label_synonym	NCIT:C19332	oboInOwl:hasExactSynonym	Personal Attribute
-WARN	duplicate_label_synonym	NCIT:C19609	oboInOwl:hasExactSynonym	Functional Imaging
-WARN	duplicate_label_synonym	NCIT:C20031	oboInOwl:hasExactSynonym	Extracellular Protein
-WARN	duplicate_label_synonym	NCIT:C20080	oboInOwl:hasExactSynonym	Angiography
-WARN	duplicate_label_synonym	NCIT:C20130	oboInOwl:hasExactSynonym	Protein Family
-WARN	duplicate_label_synonym	NCIT:C2020	oboInOwl:hasExactSynonym	Farnesyl Transferase Inhibitor
-WARN	duplicate_label_synonym	NCIT:C20391	oboInOwl:hasExactSynonym	Neurotrophic Factor
-WARN	duplicate_label_synonym	NCIT:C20424	oboInOwl:hasExactSynonym	Growth Factor
-WARN	duplicate_label_synonym	NCIT:C20993	oboInOwl:hasExactSynonym	Research or Clinical Assessment Tool
-WARN	duplicate_label_synonym	NCIT:C21051	oboInOwl:hasExactSynonym	Epigenetic Process
-WARN	duplicate_label_synonym	NCIT:C21097	oboInOwl:hasExactSynonym	Sedation
-WARN	duplicate_label_synonym	NCIT:C21217	oboInOwl:hasExactSynonym	Synuclein Family
-WARN	duplicate_label_synonym	NCIT:C21523	oboInOwl:hasExactSynonym	Complement Component Protein
-WARN	duplicate_label_synonym	NCIT:C25214	oboInOwl:hasExactSynonym	Evaluation
-WARN	duplicate_label_synonym	NCIT:C25506	oboInOwl:hasExactSynonym	Factor
-WARN	duplicate_label_synonym	NCIT:C25662	oboInOwl:hasExactSynonym	Sampling
-WARN	duplicate_label_synonym	NCIT:C3399	oboInOwl:hasExactSynonym	Swelling
-WARN	duplicate_label_synonym	NCIT:C34660	oboInOwl:hasExactSynonym	Head Injury
-WARN	duplicate_label_synonym	NCIT:C38101	oboInOwl:hasExactSynonym	X-Ray Imaging
-WARN	duplicate_label_synonym	NCIT:C38834	oboInOwl:hasExactSynonym	MAPK Signaling Pathway
-WARN	duplicate_label_synonym	NCIT:C40438	oboInOwl:hasExactSynonym	Beck Depression Inventory
-WARN	duplicate_label_synonym	NCIT:C41189	oboInOwl:hasExactSynonym	Study Subject
-WARN	duplicate_label_synonym	NCIT:C46079	oboInOwl:hasExactSynonym	Randomized Controlled Clinical Trial
-WARN	duplicate_label_synonym	NCIT:C46084	oboInOwl:hasExactSynonym	Memory Dysfunction
-WARN	duplicate_label_synonym	NCIT:C463	oboInOwl:hasExactSynonym	Eicosanoid
-WARN	duplicate_label_synonym	NCIT:C48202	oboInOwl:hasExactSynonym	Nested Case-control Study
-WARN	duplicate_label_synonym	NCIT:C48261	oboInOwl:hasExactSynonym	Screening
-WARN	duplicate_label_synonym	NCIT:C49159	oboInOwl:hasExactSynonym	Proportion
-WARN	duplicate_label_synonym	NCIT:C49686	oboInOwl:hasExactSynonym	Phase IIa Trial
-WARN	duplicate_label_synonym	NCIT:C49688	oboInOwl:hasExactSynonym	Phase IIb Trial
-WARN	duplicate_label_synonym	NCIT:C53360	oboInOwl:hasExactSynonym	Age-Adjusted Mortality Rate
-WARN	duplicate_label_synonym	NCIT:C54721	oboInOwl:hasExactSynonym	Phase 0 Trial
-WARN	duplicate_label_synonym	NCIT:C62716	oboInOwl:hasExactSynonym	Wide Range Achievement Test, 3rd Edition
-WARN	duplicate_label_synonym	NCIT:C67360	oboInOwl:hasExactSynonym	Attributable Risk
-WARN	duplicate_label_synonym	NCIT:C70820	oboInOwl:hasExactSynonym	Clinical Study by Phase
-WARN	duplicate_label_synonym	NCIT:C70840	oboInOwl:hasExactSynonym	Blinded Clinical Study
-WARN	duplicate_label_synonym	NCIT:C71164	oboInOwl:hasExactSynonym	Animal Model
-WARN	duplicate_label_synonym	NCIT:C74611	oboInOwl:hasExactSynonym	Erythrocyte Sedimentation Rate Measurement
-WARN	duplicate_label_synonym	NCIT:C74982	oboInOwl:hasExactSynonym	Mini-Mental Status Exam
-WARN	duplicate_label_synonym	NCIT:C76786	oboInOwl:hasExactSynonym	Tramiprosate
-WARN	duplicate_label_synonym	NCIT:C78757	oboInOwl:hasExactSynonym	Latrepirdine
-WARN	duplicate_label_synonym	NCIT:C79569	oboInOwl:hasExactSynonym	Bapineuzumab
-WARN	duplicate_label_synonym	NCIT:C80519	oboInOwl:hasExactSynonym	Biological Model
-WARN	duplicate_label_synonym	NCIT:C81115	oboInOwl:hasExactSynonym	Semagacestat
-WARN	duplicate_label_synonym	NCIT:C84809	oboInOwl:hasExactSynonym	Beta Amyloid 42 Measurement
-WARN	duplicate_label_synonym	NCIT:C84810	oboInOwl:hasExactSynonym	Tau Protein Measurement
-WARN	duplicate_label_synonym	NCIT:C84812	oboInOwl:hasExactSynonym	Phosphorylated Tau Protein Measurement
-WARN	duplicate_label_synonym	NCIT:C86983	oboInOwl:hasExactSynonym	NINCDS-ADRDA Criteria for Alzheimer's Disease
-WARN	duplicate_label_synonym	NCIT:C88419	oboInOwl:hasExactSynonym	Executive Function
-WARN	duplicate_label_synonym	NCIT:C91102	oboInOwl:hasExactSynonym	Clinical or Research Assessment Question
-WARN	duplicate_label_synonym	NCIT:C91105	oboInOwl:hasExactSynonym	Clinical or Research Assessment Questionnaire
-WARN	duplicate_label_synonym	NCIT:C93150	oboInOwl:hasExactSynonym	Hazard Ratio
-WARN	duplicate_label_synonym	NCIT:C93228	oboInOwl:hasExactSynonym	Retrospective Cohort Study
-WARN	duplicate_label_synonym	NCIT:C95114	oboInOwl:hasExactSynonym	Gamma Secretase
-WARN	duplicate_label_synonym	NCIT:C97201	oboInOwl:hasExactSynonym	Dimerization
-WARN	duplicate_label_synonym	NCIT:C98241	oboInOwl:hasExactSynonym	Thiazolidinedione Antidiabetic Agent
-WARN	duplicate_label_synonym	NCIT:C98772	oboInOwl:hasExactSynonym	Primary Outcome Measure
-WARN	duplicate_label_synonym	NCIT:C98781	oboInOwl:hasExactSynonym	Secondary Outcome Measure
-WARN	duplicate_label_synonym	NCIT:NHC0	oboInOwl:hasExactSynonym	code
-WARN	duplicate_label_synonym	NCIT:P100	oboInOwl:hasExactSynonym	OMIM_Number
-WARN	duplicate_label_synonym	NCIT:P106	oboInOwl:hasExactSynonym	Semantic_Type
-WARN	duplicate_label_synonym	NCIT:P107	oboInOwl:hasExactSynonym	Display_Name
-WARN	duplicate_label_synonym	NCIT:P108	oboInOwl:hasExactSynonym	Preferred_Name
-WARN	duplicate_label_synonym	NCIT:P207	oboInOwl:hasExactSynonym	UMLS_CUI
-WARN	duplicate_label_synonym	NCIT:P208	oboInOwl:hasExactSynonym	NCI_META_CUI
-WARN	duplicate_label_synonym	NCIT:P210	oboInOwl:hasExactSynonym	CAS_Registry
-WARN	duplicate_label_synonym	NCIT:P215	oboInOwl:hasExactSynonym	KEGG_ID
-WARN	duplicate_label_synonym	NCIT:P302	oboInOwl:hasExactSynonym	Accepted_Therapeutic_Use_For
-WARN	duplicate_label_synonym	NCIT:P310	oboInOwl:hasExactSynonym	Concept_Status
-WARN	duplicate_label_synonym	NCIT:P317	oboInOwl:hasExactSynonym	FDA_Table
-WARN	duplicate_label_synonym	NCIT:P319	oboInOwl:hasExactSynonym	FDA_UNII_Code
-WARN	duplicate_label_synonym	NCIT:P322	oboInOwl:hasExactSynonym	Contributing_Source
-WARN	duplicate_label_synonym	NCIT:P325	oboInOwl:hasExactSynonym	ALT_DEFINITION
-WARN	duplicate_label_synonym	NCIT:P331	oboInOwl:hasExactSynonym	NCBI_Taxon_ID
-WARN	duplicate_label_synonym	NCIT:P350	oboInOwl:hasExactSynonym	Chemical_Formula
-WARN	duplicate_label_synonym	NCIT:P366	oboInOwl:hasExactSynonym	Legacy Concept Name
-WARN	duplicate_label_synonym	NCIT:P366	oboInOwl:hasExactSynonym	Legacy_Concept_Name
-WARN	duplicate_label_synonym	NCIT:P368	oboInOwl:hasExactSynonym	CHEBI_ID
-WARN	duplicate_label_synonym	NCIT:P369	oboInOwl:hasExactSynonym	HGNC_ID
-WARN	duplicate_label_synonym	NCIT:P371	oboInOwl:hasExactSynonym	NICHD_Hierarchy_Term
-WARN	duplicate_label_synonym	NCIT:P375	oboInOwl:hasExactSynonym	Maps_To
-WARN	duplicate_label_synonym	NCIT:P98	oboInOwl:hasExactSynonym	DesignNote
-WARN	duplicate_label_synonym	OGG:3000000351	oboInOwl:hasExactSynonym	APP
-WARN	duplicate_label_synonym	OGG:3000000847	oboInOwl:hasExactSynonym	CAT
-WARN	duplicate_label_synonym	OGG:3000001139	IAO:0000118	CHRNA7
-WARN	duplicate_label_synonym	OGG:3000004513	IAO:0000118	COX2
-WARN	duplicate_label_synonym	SYMP:0000124	oboInOwl:hasExactSynonym	seizure
-WARN	duplicate_label_synonym	UBERON:0000463	oboInOwl:hasExactSynonym	organism substance
-WARN	duplicate_label_synonym	UBERON:0001851	oboInOwl:hasExactSynonym	cortex
-WARN	duplicate_label_synonym	UBERON:0002020	oboInOwl:hasExactSynonym	gray matter
-WARN	duplicate_label_synonym	UBERON:0002435	oboInOwl:hasExactSynonym	striatum
-WARN	duplicate_label_synonym	obo:UPa_UPA00026	oboInOwl:hasExactSynonym	metabolism
-WARN	duplicate_label_synonym	oboInOwl:hasDbXref	oboInOwl:hasExactSynonym	database_cross_reference
-INFO	lowercase_definition	obo:ADO#from_Alzheimer_Ontology	IAO:0000115	this indicates that the term originates from the Alzheimer Ontology by Fraunhofer SCAI
+INFO	missing_superclass	obo:ADO_0000010	rdfs:subClassOf	
+INFO	missing_superclass	obo:ADO_0000011	rdfs:subClassOf	
+INFO	missing_superclass	obo:ADO_0000012	rdfs:subClassOf	
+INFO	missing_superclass	BFO:0000001	rdfs:subClassOf	
 INFO	lowercase_definition	BFO:0000004	IAO:0000115	b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])@en
 INFO	lowercase_definition	BFO:0000015	IAO:0000115	p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])@en
 INFO	lowercase_definition	BFO:0000016	IAO:0000600	b is a disposition means: b is a realizable entity & b’s bearer is some material entity & b is such that if it ceases to exist, then its bearer is physically changed, & b’s realization occurs when and because this bearer is in some special physical circumstances, & this realization occurs in virtue of the bearer’s physical make-up. (axiom label in BFO2 Reference: [062-002])@en
@@ -1817,7 +1809,4 @@ INFO	lowercase_definition	UBERON:0001926	IAO:0000115	the group of neurons that s
 INFO	lowercase_definition	UBERON:0003876	IAO:0000115	a part or parts of the hippocampus that have a particular function
 INFO	lowercase_definition	UBERON:0003909	IAO:0000115	small blood vessel similar to a capillary but with a fenestrated endothelium. Sinusoids are found in the liver, lymphoid tissue, endocrine organs, and hematopoietic organs such as the bone marrow and the spleen. Sinusoids found within terminal villi of the placenta are not comparable to these; they possess a continuous endothelium and complete basal lamina[WP].
 INFO	lowercase_definition	UBERON:0004086	IAO:0000115	one of the system of communicating cavities in the brain that are continuous with the central canal of the spinal cord, that like it are derived from the medullary canal of the embryo, that are lined with an epithelial ependyma, and that contain a serous fluid
-INFO	missing_superclass	BFO:0000001	rdfs:subClassOf	
-INFO	missing_superclass	obo:ado.owlpurl.obolibrary.org/obo/ADO_0000010	rdfs:subClassOf	
-INFO	missing_superclass	obo:ado.owlpurl.obolibrary.org/obo/ADO_0000011	rdfs:subClassOf	
-INFO	missing_superclass	obo:ado.owlpurl.obolibrary.org/obo/ADO_0000012	rdfs:subClassOf	
+INFO	lowercase_definition	obo:ado#from_Alzheimer_Ontology	IAO:0000115	this indicates that the term originates from the Alzheimer Ontology by Fraunhofer SCAI
