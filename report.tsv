@@ -1372,6 +1372,10 @@ WARN	missing_definition	obo:UPa_UPC00165	IAO:0000115
 WARN	missing_definition	obo:UPa_UPC00235	IAO:0000115	
 WARN	missing_definition	obo:UPa_UPC00272	IAO:0000115	
 WARN	missing_definition	VO:0000792	IAO:0000115	
+WARN	missing_definition	obo:ado.owl#OWLClass_00000000000000000000	IAO:0000115	
+WARN	missing_definition	obo:ado.owl#OWLClass_00000000000000000001	IAO:0000115	
+WARN	missing_definition	obo:ado.owl#OWLClass_00000000000000000002	IAO:0000115	
+WARN	missing_definition	obo:ado.owl#cognitive_symptom	IAO:0000115	
 WARN	missing_definition	obo:mondo#excluded_from_qc_check	IAO:0000115	
 WARN	missing_definition	obo:mondo#excluded_subClassOf	IAO:0000115	
 WARN	missing_definition	dc11:contributor	IAO:0000115	
@@ -1388,10 +1392,6 @@ WARN	missing_definition	oboInOwl:hasNarrowSynonym	IAO:0000115
 WARN	missing_definition	oboInOwl:hasSynonym	IAO:0000115	
 WARN	missing_definition	oboInOwl:shorthand	IAO:0000115	
 WARN	missing_definition	foaf:depicted_by	IAO:0000115	
-WARN	missing_definition	https://bio.scai.fraunhofer.de/ontology/ADO#OWLClass_00000000000000000000	IAO:0000115	
-WARN	missing_definition	https://bio.scai.fraunhofer.de/ontology/ADO#OWLClass_00000000000000000001	IAO:0000115	
-WARN	missing_definition	https://bio.scai.fraunhofer.de/ontology/ADO#OWLClass_00000000000000000002	IAO:0000115	
-WARN	missing_definition	https://bio.scai.fraunhofer.de/ontology/ADO#cognitive_symptom	IAO:0000115	
 WARN	missing_definition	https://scai.fraunhofer.de/AlzheimerOntology#non-pharmacotherapy_procedure	IAO:0000115	
 WARN	missing_definition	https://schema.org/alternateName	IAO:0000115	
 WARN	missing_definition	https://www.wikidata.org/wiki/Property:P1149	IAO:0000115	
@@ -1724,9 +1724,9 @@ WARN	duplicate_label_synonym	UBERON:0002020	oboInOwl:hasExactSynonym	gray matter
 WARN	duplicate_label_synonym	UBERON:0002435	oboInOwl:hasExactSynonym	striatum
 WARN	duplicate_label_synonym	obo:UPa_UPA00026	oboInOwl:hasExactSynonym	metabolism
 WARN	duplicate_label_synonym	oboInOwl:hasDbXref	oboInOwl:hasExactSynonym	database_cross_reference
-WARN	equivalent_class_axiom_no_genus	https://bio.scai.fraunhofer.de/ontology/ADO#OWLClass_00000000000000000000	https://bio.scai.fraunhofer.de/ontology/ADO#OWLObjectProperty_00000000000000000000	DOID:10652
-WARN	equivalent_class_axiom_no_genus	https://bio.scai.fraunhofer.de/ontology/ADO#OWLClass_00000000000000000001	https://bio.scai.fraunhofer.de/ontology/ADO#OWLObjectProperty_00000000000000000006	DOID:10652
-WARN	equivalent_class_axiom_no_genus	https://bio.scai.fraunhofer.de/ontology/ADO#OWLClass_00000000000000000002	https://bio.scai.fraunhofer.de/ontology/ADO#OWLObjectProperty_00000000000000000002	DOID:10652
+WARN	equivalent_class_axiom_no_genus	obo:ado.owl#OWLClass_00000000000000000000	obo:ado.owl#OWLObjectProperty_00000000000000000000	DOID:10652
+WARN	equivalent_class_axiom_no_genus	obo:ado.owl#OWLClass_00000000000000000001	obo:ado.owl#OWLObjectProperty_00000000000000000006	DOID:10652
+WARN	equivalent_class_axiom_no_genus	obo:ado.owl#OWLClass_00000000000000000002	obo:ado.owl#OWLObjectProperty_00000000000000000002	DOID:10652
 INFO	lowercase_definition	BFO:0000004	IAO:0000115	b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])@en
 INFO	lowercase_definition	BFO:0000015	IAO:0000115	p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])@en
 INFO	lowercase_definition	BFO:0000016	IAO:0000600	b is a disposition means: b is a realizable entity & b’s bearer is some material entity & b is such that if it ceases to exist, then its bearer is physically changed, & b’s realization occurs when and because this bearer is in some special physical circumstances, & this realization occurs in virtue of the bearer’s physical make-up. (axiom label in BFO2 Reference: [062-002])@en
@@ -1816,8 +1816,8 @@ INFO	lowercase_definition	UBERON:0001926	IAO:0000115	the group of neurons that s
 INFO	lowercase_definition	UBERON:0003876	IAO:0000115	a part or parts of the hippocampus that have a particular function
 INFO	lowercase_definition	UBERON:0003909	IAO:0000115	small blood vessel similar to a capillary but with a fenestrated endothelium. Sinusoids are found in the liver, lymphoid tissue, endocrine organs, and hematopoietic organs such as the bone marrow and the spleen. Sinusoids found within terminal villi of the placenta are not comparable to these; they possess a continuous endothelium and complete basal lamina[WP].
 INFO	lowercase_definition	UBERON:0004086	IAO:0000115	one of the system of communicating cavities in the brain that are continuous with the central canal of the spinal cord, that like it are derived from the medullary canal of the embryo, that are lined with an epithelial ependyma, and that contain a serous fluid
-INFO	lowercase_definition	https://bio.scai.fraunhofer.de/ontology/ADO#from_Alzheimer_Ontology	IAO:0000115	this indicates that the term originates from the Alzheimer Ontology by Fraunhofer SCAI
+INFO	lowercase_definition	obo:ado.owl#from_Alzheimer_Ontology	IAO:0000115	this indicates that the term originates from the Alzheimer Ontology by Fraunhofer SCAI
 INFO	missing_superclass	BFO:0000001	rdfs:subClassOf	
-INFO	missing_superclass	https://bio.scai.fraunhofer.de/ontology/ADO#OWLClass_00000000000000000000	rdfs:subClassOf	
-INFO	missing_superclass	https://bio.scai.fraunhofer.de/ontology/ADO#OWLClass_00000000000000000001	rdfs:subClassOf	
-INFO	missing_superclass	https://bio.scai.fraunhofer.de/ontology/ADO#OWLClass_00000000000000000002	rdfs:subClassOf	
+INFO	missing_superclass	obo:ado.owl#OWLClass_00000000000000000000	rdfs:subClassOf	
+INFO	missing_superclass	obo:ado.owl#OWLClass_00000000000000000001	rdfs:subClassOf	
+INFO	missing_superclass	obo:ado.owl#OWLClass_00000000000000000002	rdfs:subClassOf	
