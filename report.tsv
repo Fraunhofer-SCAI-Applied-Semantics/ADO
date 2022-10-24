@@ -1,6 +1,4 @@
 Level	Rule Name	Subject	Property	Value
-ERROR	duplicate_definition	ExO:0000145	IAO:0000115	A person of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin, regardless of race.
-ERROR	duplicate_definition	ExO:0000149	IAO:0000115	A person of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin, regardless of race.
 ERROR	duplicate_label	https://www.wikidata.org/wiki/Property:P1659	rdfs:label	see also@en
 ERROR	duplicate_label	dc11:relation	rdfs:label	relation@en
 ERROR	duplicate_label	dc:relation	rdfs:label	relation@en
@@ -12,6 +10,8 @@ ERROR	duplicate_label	IAO:0000232	rdfs:label	curator note
 ERROR	duplicate_label	SCDO:0000303	rdfs:label	curator note
 ERROR	duplicate_label	dc11:contributor	rdfs:label	contributor
 ERROR	duplicate_label	dc:contributor	rdfs:label	contributor
+ERROR	multiple_definitions	obo:ADO_0000073	IAO:0000115	A measurement that quantifies the amount of beta-secretase 1 (BACE1) normally found in blood or cerebrospinal fluid. The quantification of the amount of beta-secretase 1 in a sample, typicallly cerebrospinal fluid. Beta-secretase-1 is an aspartic-acid protease important in the formation of myelin sheaths in peripheral nerve cells, and is thought to have a role in Alzheimer's disease pathogenesis.
+ERROR	multiple_definitions	obo:ADO_0000073	IAO:0000115	Quantification of the amount of beta-secretase 1 in a sample, typicallly cerebrospinal fluid. Beta-secretase-1 is an aspartic-acid protease important in the formation of myelin sheaths in peripheral nerve cells, and is thought to have a role in Alzheimer's disease pathogenesis.
 ERROR	multiple_definitions	BFO:0000020	IAO:0000115	A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.@en
 ERROR	multiple_definitions	BFO:0000020	IAO:0000115	b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1  i &lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])@en
 ERROR	multiple_definitions	BFO:0000020	IAO:0000115	b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])@en
@@ -74,6 +74,8 @@ ERROR	multiple_definitions	oboInOwl:hasExactSynonym	IAO:0000115	Fully qualified 
 ERROR	multiple_definitions	oboInOwl:inSubset	IAO:0000115	An association that connects the concept defining a particular terminology subset with concepts that belong to this subset.
 ERROR	multiple_definitions	oboInOwl:inSubset	IAO:0000115	In subset.
 ERROR	multiple_definitions	oboInOwl:inSubset	IAO:0000115	Used to associate the concept defining a particular terminology subset with concepts that belong to this subset.
+ERROR	duplicate_definition	ExO:0000145	IAO:0000115	A person of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin, regardless of race.
+ERROR	duplicate_definition	ExO:0000149	IAO:0000115	A person of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin, regardless of race.
 ERROR	multiple_labels	BFO:0000001	rdfs:label	entity
 ERROR	multiple_labels	BFO:0000001	rdfs:label	entity@en
 ERROR	multiple_labels	BFO:0000003	rdfs:label	occurrent
@@ -179,6 +181,162 @@ ERROR	multiple_labels	oboInOwl:inSubset	rdfs:label	in subset
 ERROR	multiple_labels	oboInOwl:inSubset	rdfs:label	in_subset
 ERROR	multiple_labels	oboInOwl:shorthand	rdfs:label	shorthand
 ERROR	multiple_labels	oboInOwl:shorthand	rdfs:label	shorthand@en
+WARN	duplicate_exact_synonym	OGG:3000009611	IAO:0000118	TRAC1
+WARN	duplicate_exact_synonym	OGG:3000009612	IAO:0000118	TRAC1
+WARN	duplicate_exact_synonym	OGG:3000000207	IAO:0000118	PKB
+WARN	duplicate_exact_synonym	OGG:3000002185	IAO:0000118	PKB
+WARN	duplicate_exact_synonym	OGG:3000000801	IAO:0000118	PHKD
+WARN	duplicate_exact_synonym	OGG:3000000805	IAO:0000118	PHKD
+WARN	duplicate_exact_synonym	OGG:3000001432	IAO:0000118	p38
+WARN	duplicate_exact_synonym	OGG:3000005594	IAO:0000118	p38
+WARN	duplicate_exact_synonym	OGG:3000004842	IAO:0000118	NOS
+WARN	duplicate_exact_synonym	OGG:3000004843	IAO:0000118	NOS
+WARN	duplicate_exact_synonym	NCIT:C16866	oboInOwl:hasExactSynonym	Model System
+WARN	duplicate_exact_synonym	NCIT:C80519	oboInOwl:hasExactSynonym	Model System
+WARN	duplicate_exact_synonym	NCIT:C16866	oboInOwl:hasExactSynonym	Model
+WARN	duplicate_exact_synonym	NCIT:C80519	oboInOwl:hasExactSynonym	Model
+WARN	duplicate_exact_synonym	OGG:3000003577	IAO:0000118	IL8RA
+WARN	duplicate_exact_synonym	OGG:3000003579	IAO:0000118	IL8RA
+WARN	duplicate_exact_synonym	OGG:3000001230	IAO:0000118	CKR-1
+WARN	duplicate_exact_synonym	OGG:3000003577	IAO:0000118	CKR-1
+WARN	duplicate_exact_synonym	OGG:3000000983	IAO:0000118	CDC2
+WARN	duplicate_exact_synonym	OGG:3000005424	IAO:0000118	CDC2
+WARN	duplicate_exact_synonym	OGG:3000002833	IAO:0000118	CD182
+WARN	duplicate_exact_synonym	OGG:3000003579	IAO:0000118	CD182
+WARN	duplicate_exact_synonym	GO:0007610	oboInOwl:hasExactSynonym	behaviour
+WARN	duplicate_exact_synonym	NBO:0000313	oboInOwl:hasExactSynonym	behaviour
+WARN	duplicate_exact_synonym	OGG:3000000718	IAO:0000118	ASP
+WARN	duplicate_exact_synonym	OGG:3000009474	IAO:0000118	ASP
+WARN	duplicate_exact_synonym	MONDO:0007089	oboInOwl:hasExactSynonym	Alzheimer disease type 2
+WARN	duplicate_exact_synonym	MONDO:0100088	oboInOwl:hasExactSynonym	Alzheimer disease type 2
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C100110	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C100129	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C101858	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C115302	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C115304	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C117745	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118168	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118169	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118468	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118970	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118971	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C119016	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C120166	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C125239	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C125906	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C127259	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C127261	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132298	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132310	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C137840	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C142799	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C142800	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156952	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156953	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156954	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156955	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157011	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157711	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C158037	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C158520	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159026	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159074	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159125	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159328	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159339	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159418	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159501	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159503	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C160931	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C165451	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C165634	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C167409	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C168549	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C168555	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C170442	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C170450	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C171094	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C171122	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173231	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C174019	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C174238	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C174250	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C174261	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C175518	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C54447	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C54450	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C54587	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C62596	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C65047	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66737	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66738	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67152	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67154	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67497	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C77526	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C77808	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C78735	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C81222	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C85492	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C89506	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90259	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C99147	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/chebi#1_STAR	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/chebi#2_STAR	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_AGR_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_FlyBase_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_GXD_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_MGI_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_RAD_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_annotate	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_manually_annotate	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_agr	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_aspergillus	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_candida	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_flybase_ribbon	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_mouse	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pombe	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_synapse	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_yeast	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/hp#hposlim_core	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mi#PSI-MI_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mod#PSI-MOD-slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mondo#clingen	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mondo#gard_rare	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mondo#metaclass	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mondo#ordo_disease	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mondo#predisposition	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/pato#attribute_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/pato#mpath_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/pato#scalar_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/pato#value_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/so#SOFA	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#cumbo	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#grouping_class	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#major_organ	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#non_informative	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#organ_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#upper_level	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#vertebrate_core	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/valid_for_go_annotation_extension	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/valid_for_go_ontology	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/valid_for_gocam	rdfs:subPropertyOf	
 WARN	duplicate_label_synonym	CHEBI:13705	oboInOwl:hasExactSynonym	acetoacetate
 WARN	duplicate_label_synonym	CHEBI:15354	oboInOwl:hasExactSynonym	choline
 WARN	duplicate_label_synonym	CHEBI:15355	oboInOwl:hasExactSynonym	acetylcholine
@@ -499,408 +657,10 @@ WARN	duplicate_label_synonym	UBERON:0002020	oboInOwl:hasExactSynonym	gray matter
 WARN	duplicate_label_synonym	UBERON:0002435	oboInOwl:hasExactSynonym	striatum
 WARN	duplicate_label_synonym	obo:UPa_UPA00026	oboInOwl:hasExactSynonym	metabolism
 WARN	duplicate_label_synonym	oboInOwl:hasDbXref	oboInOwl:hasExactSynonym	database_cross_reference
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C100110	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C100129	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C101858	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C115302	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C115304	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C117745	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118168	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118169	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118468	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118970	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118971	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C119016	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C120166	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C125239	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C125906	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C127259	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C127261	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132298	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132310	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C137840	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C142799	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C142800	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156952	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156953	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156954	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156955	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157011	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157711	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C158037	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C158520	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159026	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159074	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159125	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159328	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159339	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159418	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159501	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159503	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C160931	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C165451	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C165634	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C167409	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C168549	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C168555	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C170442	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C170450	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C171094	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C171122	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173231	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C174019	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C174238	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C174250	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C174261	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C175518	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C54447	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C54450	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C54587	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C62596	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C65047	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66737	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66738	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67152	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67154	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67497	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C77526	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C77808	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C78735	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C81222	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C85492	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C89506	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90259	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C99147	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/chebi#1_STAR	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/chebi#2_STAR	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_AGR_slim	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_FlyBase_slim	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_GXD_slim	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_MGI_slim	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_RAD_slim	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_annotate	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_manually_annotate	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_agr	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_aspergillus	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_candida	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_flybase_ribbon	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_mouse	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pombe	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_synapse	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_yeast	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/hp#hposlim_core	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mi#PSI-MI_slim	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mod#PSI-MOD-slim	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mondo#clingen	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mondo#gard_rare	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mondo#metaclass	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mondo#ordo_disease	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/mondo#predisposition	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/pato#attribute_slim	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/pato#mpath_slim	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/pato#scalar_slim	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/pato#value_slim	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/so#SOFA	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#cumbo	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#grouping_class	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#major_organ	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#non_informative	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#organ_slim	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#upper_level	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#vertebrate_core	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/valid_for_go_annotation_extension	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/valid_for_go_ontology	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/valid_for_gocam	rdfs:subPropertyOf	
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	DiffAvg:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	DiffFormula:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	DiffMono:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	Formula:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	MassAvg:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	MassMono:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	Origin:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	Source:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	TermSpec:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	UniProt:
-WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	Unimod:
-WARN	invalid_xref	TXPO:0000145	oboInOwl:hasDbXref	FBRL: A Function and Behavior Representation Language. Sasajima, M., Kitamura, Y., Ikeda, M. & Mizoguchi, R., In Proc. of IJCAI-95 (pp. 1830-1836), 1995
-WARN	invalid_xref	TXPO:0001865	oboInOwl:hasDbXref	rerlated molecular fuction GO:0004672
-WARN	invalid_xref	TXPO:0003645	oboInOwl:hasDbXref	IMR:0000368 (obsolete)
-WARN	invalid_xref	TXPO:0003668	oboInOwl:hasDbXref	IMR:0000960 (obsolete)
-WARN	invalid_xref	TXPO:0003670	oboInOwl:hasDbXref	IMR:0001166 (obsolete)
-WARN	invalid_xref	TXPO:0003670	oboInOwl:hasDbXref	"related molecule fuction
-GO:0004407"
-WARN	invalid_xref	TXPO:0003671	oboInOwl:hasDbXref	Catalysis role of the hydrolysis of a glycerophospholipid.
-WARN	invalid_xref	TXPO:0003671	oboInOwl:hasDbXref	IMR:0000281 (obsolete)
-WARN	invalid_xref	TXPO:0003673	oboInOwl:hasDbXref	IMR:0000517 (obsolete)
-WARN	duplicate_exact_synonym	OGG:3000009611	IAO:0000118	TRAC1
-WARN	duplicate_exact_synonym	OGG:3000009612	IAO:0000118	TRAC1
-WARN	duplicate_exact_synonym	OGG:3000000207	IAO:0000118	PKB
-WARN	duplicate_exact_synonym	OGG:3000002185	IAO:0000118	PKB
-WARN	duplicate_exact_synonym	OGG:3000000801	IAO:0000118	PHKD
-WARN	duplicate_exact_synonym	OGG:3000000805	IAO:0000118	PHKD
-WARN	duplicate_exact_synonym	OGG:3000001432	IAO:0000118	p38
-WARN	duplicate_exact_synonym	OGG:3000005594	IAO:0000118	p38
-WARN	duplicate_exact_synonym	OGG:3000004842	IAO:0000118	NOS
-WARN	duplicate_exact_synonym	OGG:3000004843	IAO:0000118	NOS
-WARN	duplicate_exact_synonym	NCIT:C16866	oboInOwl:hasExactSynonym	Model System
-WARN	duplicate_exact_synonym	NCIT:C80519	oboInOwl:hasExactSynonym	Model System
-WARN	duplicate_exact_synonym	NCIT:C16866	oboInOwl:hasExactSynonym	Model
-WARN	duplicate_exact_synonym	NCIT:C80519	oboInOwl:hasExactSynonym	Model
-WARN	duplicate_exact_synonym	OGG:3000003577	IAO:0000118	IL8RA
-WARN	duplicate_exact_synonym	OGG:3000003579	IAO:0000118	IL8RA
-WARN	duplicate_exact_synonym	OGG:3000001230	IAO:0000118	CKR-1
-WARN	duplicate_exact_synonym	OGG:3000003577	IAO:0000118	CKR-1
-WARN	duplicate_exact_synonym	OGG:3000000983	IAO:0000118	CDC2
-WARN	duplicate_exact_synonym	OGG:3000005424	IAO:0000118	CDC2
-WARN	duplicate_exact_synonym	OGG:3000002833	IAO:0000118	CD182
-WARN	duplicate_exact_synonym	OGG:3000003579	IAO:0000118	CD182
-WARN	duplicate_exact_synonym	GO:0007610	oboInOwl:hasExactSynonym	behaviour
-WARN	duplicate_exact_synonym	NBO:0000313	oboInOwl:hasExactSynonym	behaviour
-WARN	duplicate_exact_synonym	OGG:3000000718	IAO:0000118	ASP
-WARN	duplicate_exact_synonym	OGG:3000009474	IAO:0000118	ASP
-WARN	duplicate_exact_synonym	MONDO:0007089	oboInOwl:hasExactSynonym	Alzheimer disease type 2
-WARN	duplicate_exact_synonym	MONDO:0100088	oboInOwl:hasExactSynonym	Alzheimer disease type 2
-WARN	duplicate_scoped_synonym	CHEBI:15361	oboInOwl:hasExactSynonym	2-oxopropanoate
-WARN	duplicate_scoped_synonym	CHEBI:15361	oboInOwl:hasRelatedSynonym	2-oxopropanoate
-WARN	duplicate_scoped_synonym	CHEBI:16038	oboInOwl:hasExactSynonym	phosphatidylethanolamines
-WARN	duplicate_scoped_synonym	CHEBI:16038	oboInOwl:hasRelatedSynonym	phosphatidylethanolamines
-WARN	duplicate_scoped_synonym	CHEBI:16584	oboInOwl:hasExactSynonym	3-methylbut-3-en-1-yl trihydrogen diphosphate
-WARN	duplicate_scoped_synonym	CHEBI:16584	oboInOwl:hasRelatedSynonym	3-methylbut-3-en-1-yl trihydrogen diphosphate
-WARN	duplicate_scoped_synonym	CHEBI:16865	oboInOwl:hasExactSynonym	4-aminobutanoic acid
-WARN	duplicate_scoped_synonym	CHEBI:16865	oboInOwl:hasRelatedSynonym	4-aminobutanoic acid
-WARN	duplicate_scoped_synonym	CHEBI:16991	oboInOwl:hasExactSynonym	deoxyribonucleic acids
-WARN	duplicate_scoped_synonym	CHEBI:16991	oboInOwl:hasRelatedSynonym	deoxyribonucleic acids
-WARN	duplicate_scoped_synonym	CHEBI:17087	oboInOwl:hasExactSynonym	ketones
-WARN	duplicate_scoped_synonym	CHEBI:17087	oboInOwl:hasRelatedSynonym	ketones
-WARN	duplicate_scoped_synonym	CHEBI:17347	oboInOwl:hasExactSynonym	testosterone
-WARN	duplicate_scoped_synonym	CHEBI:17347	oboInOwl:hasRelatedSynonym	testosterone
-WARN	duplicate_scoped_synonym	CHEBI:17478	oboInOwl:hasExactSynonym	aldehydes
-WARN	duplicate_scoped_synonym	CHEBI:17478	oboInOwl:hasRelatedSynonym	aldehydes
-WARN	duplicate_scoped_synonym	CHEBI:18248	oboInOwl:hasExactSynonym	iron
-WARN	duplicate_scoped_synonym	CHEBI:18248	oboInOwl:hasRelatedSynonym	iron
-WARN	duplicate_scoped_synonym	CHEBI:22984	oboInOwl:hasExactSynonym	calcium
-WARN	duplicate_scoped_synonym	CHEBI:22984	oboInOwl:hasRelatedSynonym	calcium
-WARN	duplicate_scoped_synonym	CHEBI:24913	oboInOwl:hasExactSynonym	isoprenoids
-WARN	duplicate_scoped_synonym	CHEBI:24913	oboInOwl:hasRelatedSynonym	isoprenoids
-WARN	duplicate_scoped_synonym	CHEBI:25016	oboInOwl:hasExactSynonym	lead
-WARN	duplicate_scoped_synonym	CHEBI:25016	oboInOwl:hasRelatedSynonym	lead
-WARN	duplicate_scoped_synonym	CHEBI:25029	oboInOwl:hasExactSynonym	leukotrienes
-WARN	duplicate_scoped_synonym	CHEBI:25029	oboInOwl:hasRelatedSynonym	leukotrienes
-WARN	duplicate_scoped_synonym	CHEBI:25698	oboInOwl:hasExactSynonym	ethers
-WARN	duplicate_scoped_synonym	CHEBI:25698	oboInOwl:hasRelatedSynonym	ethers
-WARN	duplicate_scoped_synonym	CHEBI:26020	oboInOwl:hasExactSynonym	phosphates
-WARN	duplicate_scoped_synonym	CHEBI:26020	oboInOwl:hasRelatedSynonym	phosphates
-WARN	duplicate_scoped_synonym	CHEBI:27363	oboInOwl:hasExactSynonym	zinc
-WARN	duplicate_scoped_synonym	CHEBI:27363	oboInOwl:hasRelatedSynonym	zinc
-WARN	duplicate_scoped_synonym	CHEBI:28694	oboInOwl:hasExactSynonym	copper
-WARN	duplicate_scoped_synonym	CHEBI:28694	oboInOwl:hasRelatedSynonym	copper
-WARN	duplicate_scoped_synonym	CHEBI:28984	oboInOwl:hasExactSynonym	aluminium
-WARN	duplicate_scoped_synonym	CHEBI:28984	oboInOwl:hasRelatedSynonym	aluminium
-WARN	duplicate_scoped_synonym	CHEBI:30145	oboInOwl:hasExactSynonym	lithium
-WARN	duplicate_scoped_synonym	CHEBI:30145	oboInOwl:hasRelatedSynonym	lithium
-WARN	duplicate_scoped_synonym	CHEBI:33567	oboInOwl:hasExactSynonym	catecholamines
-WARN	duplicate_scoped_synonym	CHEBI:33567	oboInOwl:hasRelatedSynonym	catecholamines
-WARN	duplicate_scoped_synonym	CHEBI:33697	oboInOwl:hasExactSynonym	ribonucleic acids
-WARN	duplicate_scoped_synonym	CHEBI:33697	oboInOwl:hasRelatedSynonym	ribonucleic acids
-WARN	duplicate_scoped_synonym	CHEBI:35358	oboInOwl:hasExactSynonym	sulfonamides
-WARN	duplicate_scoped_synonym	CHEBI:35358	oboInOwl:hasRelatedSynonym	sulfonamides
-WARN	duplicate_scoped_synonym	CHEBI:35366	oboInOwl:hasExactSynonym	fatty acids
-WARN	duplicate_scoped_synonym	CHEBI:35366	oboInOwl:hasRelatedSynonym	fatty acids
-WARN	duplicate_scoped_synonym	CHEBI:37622	oboInOwl:hasExactSynonym	carboxamides
-WARN	duplicate_scoped_synonym	CHEBI:37622	oboInOwl:hasRelatedSynonym	carboxamides
-WARN	duplicate_scoped_synonym	CHEBI:49552	oboInOwl:hasExactSynonym	copper(1+) ion
-WARN	duplicate_scoped_synonym	CHEBI:49552	oboInOwl:hasExactSynonym	copper(I) cation
-WARN	duplicate_scoped_synonym	CHEBI:49552	oboInOwl:hasRelatedSynonym	copper(1+) ion
-WARN	duplicate_scoped_synonym	CHEBI:49552	oboInOwl:hasRelatedSynonym	copper(I) cation
-WARN	duplicate_scoped_synonym	CHEBI:50169	oboInOwl:hasExactSynonym	3alpha-hydroxy-5alpha-pregnan-20-one
-WARN	duplicate_scoped_synonym	CHEBI:50169	oboInOwl:hasRelatedSynonym	3alpha-hydroxy-5alpha-pregnan-20-one
-WARN	duplicate_scoped_synonym	CHEBI:57678	oboInOwl:hasExactSynonym	2-oxo-3-sulfanylpropanoate
-WARN	duplicate_scoped_synonym	CHEBI:57678	oboInOwl:hasRelatedSynonym	2-oxo-3-sulfanylpropanoate
-WARN	duplicate_scoped_synonym	CHEBI:7476	oboInOwl:hasExactSynonym	naproxen
-WARN	duplicate_scoped_synonym	CHEBI:7476	oboInOwl:hasRelatedSynonym	naproxen
-WARN	duplicate_scoped_synonym	CHEBI:7494	oboInOwl:hasExactSynonym	nefazodone
-WARN	duplicate_scoped_synonym	CHEBI:7494	oboInOwl:hasRelatedSynonym	nefazodone
-WARN	duplicate_scoped_synonym	CHEBI:8212	oboInOwl:hasExactSynonym	pimozide
-WARN	duplicate_scoped_synonym	CHEBI:8212	oboInOwl:hasRelatedSynonym	pimozide
-WARN	duplicate_scoped_synonym	CHEBI:8871	oboInOwl:hasExactSynonym	risperidone
-WARN	duplicate_scoped_synonym	CHEBI:8871	oboInOwl:hasRelatedSynonym	risperidone
-WARN	duplicate_scoped_synonym	IAO:0000115	IAO:0000118	DEFINITION
-WARN	duplicate_scoped_synonym	IAO:0000115	oboInOwl:hasExactSynonym	DEFINITION
-WARN	duplicate_scoped_synonym	NCBITaxon:2759	oboInOwl:hasExactSynonym	eukaryotes
-WARN	duplicate_scoped_synonym	NCBITaxon:2759	oboInOwl:hasRelatedSynonym	eukaryotes
-WARN	duplicate_scoped_synonym	NCBITaxon:40674	oboInOwl:hasExactSynonym	mammals
-WARN	duplicate_scoped_synonym	NCBITaxon:40674	oboInOwl:hasRelatedSynonym	mammals
-WARN	duplicate_scoped_synonym	NCBITaxon:7742	oboInOwl:hasExactSynonym	vertebrates
-WARN	duplicate_scoped_synonym	NCBITaxon:7742	oboInOwl:hasRelatedSynonym	vertebrates
-WARN	duplicate_scoped_synonym	UBERON:0001018	oboInOwl:hasNarrowSynonym	nerve tract
-WARN	duplicate_scoped_synonym	UBERON:0001018	oboInOwl:hasRelatedSynonym	nerve tract
-WARN	duplicate_scoped_synonym	UBERON:0002751	oboInOwl:hasExactSynonym	gyrus temporalis inferior
-WARN	duplicate_scoped_synonym	UBERON:0002751	oboInOwl:hasRelatedSynonym	gyrus temporalis inferior
-WARN	equivalent_class_axiom_no_genus	obo:ADO_0000010	obo:ADO_0000013	DOID:10652
-WARN	equivalent_class_axiom_no_genus	obo:ADO_0000011	obo:ADO_0000003	DOID:10652
-WARN	equivalent_class_axiom_no_genus	obo:ADO_0000012	obo:ADO_0000002	DOID:10652
-WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] 
-WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (hasContinuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [126-001] 
-WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] 
-WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x) (if (Material Entity x) (exists (t) (and (TemporalRegion t) (existsAt x t))))) // axiom label in BFO2 CLIF: [011-002] 
-WARN	annotation_whitespace	BFO:0000003	IAO:0000602	(forall (x) (if (Occurrent x) (exists (r) (and (SpatioTemporalRegion r) (occupiesSpatioTemporalRegion x r))))) // axiom label in BFO2 CLIF: [108-001] 
-WARN	annotation_whitespace	BFO:0000003	IAO:0000602	(forall (x) (iff (Occurrent x) (and (Entity x) (exists (y) (temporalPartOf y x))))) // axiom label in BFO2 CLIF: [079-001] 
-WARN	annotation_whitespace	BFO:0000004	IAO:0000602	(forall (x t) (if (IndependentContinuant x) (exists (r) (and (SpatialRegion r) (locatedInAt x r t))))) // axiom label in BFO2 CLIF: [134-001] 
-WARN	annotation_whitespace	BFO:0000004	IAO:0000602	(forall (x t) (if (and (IndependentContinuant x) (existsAt x t)) (exists (y) (and (Entity y) (specificallyDependsOnAt y x t))))) // axiom label in BFO2 CLIF: [018-002] 
-WARN	annotation_whitespace	BFO:0000004	IAO:0000602	(iff (IndependentContinuant a) (and (Continuant a) (not (exists (b t) (specificallyDependsOnAt a b t))))) // axiom label in BFO2 CLIF: [017-002] 
-WARN	annotation_whitespace	BFO:0000006	IAO:0000602	(forall (x y t) (if (and (SpatialRegion x) (continuantPartOfAt y x t)) (SpatialRegion y))) // axiom label in BFO2 CLIF: [036-001] 
-WARN	annotation_whitespace	BFO:0000006	IAO:0000602	(forall (x) (if (SpatialRegion x) (Continuant x))) // axiom label in BFO2 CLIF: [035-001] 
-WARN	annotation_whitespace	BFO:0000008	IAO:0000602	(forall (r) (if (TemporalRegion r) (occupiesTemporalRegion r r))) // axiom label in BFO2 CLIF: [119-002] 
-WARN	annotation_whitespace	BFO:0000008	IAO:0000602	(forall (x y) (if (and (TemporalRegion x) (occurrentPartOf y x)) (TemporalRegion y))) // axiom label in BFO2 CLIF: [101-001] 
-WARN	annotation_whitespace	BFO:0000008	IAO:0000602	(forall (x) (if (TemporalRegion x) (Occurrent x))) // axiom label in BFO2 CLIF: [100-001] 
-WARN	annotation_whitespace	BFO:0000009	IAO:0000602	(forall (x) (if (TwoDimensionalSpatialRegion x) (SpatialRegion x))) // axiom label in BFO2 CLIF: [039-001] 
-WARN	annotation_whitespace	BFO:0000011	IAO:0000602	(forall (r) (if (SpatioTemporalRegion r) (occupiesSpatioTemporalRegion r r))) // axiom label in BFO2 CLIF: [107-002] 
-WARN	annotation_whitespace	BFO:0000011	IAO:0000602	(forall (x t) (if (SpatioTemporalRegion x) (exists (y) (and (SpatialRegion y) (spatiallyProjectsOntoAt x y t))))) // axiom label in BFO2 CLIF: [099-001] 
-WARN	annotation_whitespace	BFO:0000011	IAO:0000602	(forall (x y) (if (and (SpatioTemporalRegion x) (occurrentPartOf y x)) (SpatioTemporalRegion y))) // axiom label in BFO2 CLIF: [096-001] 
-WARN	annotation_whitespace	BFO:0000011	IAO:0000602	(forall (x) (if (SpatioTemporalRegion x) (Occurrent x))) // axiom label in BFO2 CLIF: [095-001] 
-WARN	annotation_whitespace	BFO:0000011	IAO:0000602	(forall (x) (if (SpatioTemporalRegion x) (exists (y) (and (TemporalRegion y) (temporallyProjectsOnto x y))))) // axiom label in BFO2 CLIF: [098-001] 
-WARN	annotation_whitespace	BFO:0000015	IAO:0000602	(iff (Process a) (and (Occurrent a) (exists (b) (properTemporalPartOf b a)) (exists (c t) (and (MaterialEntity c) (specificallyDependsOnAt a c t))))) // axiom label in BFO2 CLIF: [083-003] 
-WARN	annotation_whitespace	BFO:0000016	IAO:0000602	(forall (x t) (if (and (RealizableEntity x) (existsAt x t)) (exists (y) (and (MaterialEntity y) (specificallyDepends x y t))))) // axiom label in BFO2 CLIF: [063-002] 
-WARN	annotation_whitespace	BFO:0000016	IAO:0000602	(forall (x) (if (Disposition x) (and (RealizableEntity x) (exists (y) (and (MaterialEntity y) (bearerOfAt x y t)))))) // axiom label in BFO2 CLIF: [062-002] 
-WARN	annotation_whitespace	BFO:0000017	IAO:0000602	(forall (x t) (if (RealizableEntity x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (bearerOfAt y x t))))) // axiom label in BFO2 CLIF: [060-002] 
-WARN	annotation_whitespace	BFO:0000017	IAO:0000602	(forall (x) (if (RealizableEntity x) (and (SpecificallyDependentContinuant x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (inheresIn x y)))))) // axiom label in BFO2 CLIF: [058-002] 
-WARN	annotation_whitespace	BFO:0000018	IAO:0000602	(forall (x) (if (ZeroDimensionalSpatialRegion x) (SpatialRegion x))) // axiom label in BFO2 CLIF: [037-001] 
-WARN	annotation_whitespace	BFO:0000019	IAO:0000602	(forall (x) (if (Quality x) (SpecificallyDependentContinuant x))) // axiom label in BFO2 CLIF: [055-001] 
-WARN	annotation_whitespace	BFO:0000019	IAO:0000602	(forall (x) (if (exists (t) (and (existsAt x t) (Quality x))) (forall (t_1) (if (existsAt x t_1) (Quality x))))) // axiom label in BFO2 CLIF: [105-001] 
-WARN	annotation_whitespace	BFO:0000020	IAO:0000602	(iff (RelationalSpecificallyDependentContinuant a) (and (SpecificallyDependentContinuant a) (forall (t) (exists (b c) (and (not (SpatialRegion b)) (not (SpatialRegion c)) (not (= b c)) (not (exists (d) (and (continuantPartOfAt d b t) (continuantPartOfAt d c t)))) (specificallyDependsOnAt a b t) (specificallyDependsOnAt a c t)))))) // axiom label in BFO2 CLIF: [131-004] 
-WARN	annotation_whitespace	BFO:0000020	IAO:0000602	(iff (SpecificallyDependentContinuant a) (and (Continuant a) (forall (t) (if (existsAt a t) (exists (b) (and (IndependentContinuant b) (not (SpatialRegion b)) (specificallyDependsOnAt a b t))))))) // axiom label in BFO2 CLIF: [050-003] 
-WARN	annotation_whitespace	BFO:0000023	IAO:0000602	(forall (x) (if (Role x) (RealizableEntity x))) // axiom label in BFO2 CLIF: [061-001] 
-WARN	annotation_whitespace	BFO:0000024	IAO:0000602	(forall (x) (if (FiatObjectPart x) (and (MaterialEntity x) (forall (t) (if (existsAt x t) (exists (y) (and (Object y) (properContinuantPartOfAt x y t)))))))) // axiom label in BFO2 CLIF: [027-004] 
-WARN	annotation_whitespace	BFO:0000026	IAO:0000602	(forall (x) (if (OneDimensionalSpatialRegion x) (SpatialRegion x))) // axiom label in BFO2 CLIF: [038-001] 
-WARN	annotation_whitespace	BFO:0000027	IAO:0000116	An entity a is an object aggregate if and only if there is a mutually exhaustive and pairwise disjoint partition of a into objects 
-WARN	annotation_whitespace	BFO:0000027	IAO:0000602	(forall (x) (if (ObjectAggregate x) (and (MaterialEntity x) (forall (t) (if (existsAt x t) (exists (y z) (and (Object y) (Object z) (memberPartOfAt y x t) (memberPartOfAt z x t) (not (= y z)))))) (not (exists (w t_1) (and (memberPartOfAt w x t_1) (not (Object w)))))))) // axiom label in BFO2 CLIF: [025-004] 
-WARN	annotation_whitespace	BFO:0000028	IAO:0000602	(forall (x) (if (ThreeDimensionalSpatialRegion x) (SpatialRegion x))) // axiom label in BFO2 CLIF: [040-001] 
-WARN	annotation_whitespace	BFO:0000029	IAO:0000602	(forall (x) (if (Site x) (ImmaterialEntity x))) // axiom label in BFO2 CLIF: [034-002] 
-WARN	annotation_whitespace	BFO:0000031	IAO:0000602	(iff (GenericallyDependentContinuant a) (and (Continuant a) (exists (b t) (genericallyDependsOnAt a b t)))) // axiom label in BFO2 CLIF: [074-001] 
-WARN	annotation_whitespace	BFO:0000034	IAO:0000602	(forall (x) (if (Function x) (Disposition x))) // axiom label in BFO2 CLIF: [064-001] 
-WARN	annotation_whitespace	BFO:0000035	IAO:0000602	(forall (x) (if (ProcessBoundary x) (exists (y) (and (ZeroDimensionalTemporalRegion y) (occupiesTemporalRegion x y))))) // axiom label in BFO2 CLIF: [085-002] 
-WARN	annotation_whitespace	BFO:0000035	IAO:0000602	(iff (ProcessBoundary a) (exists (p) (and (Process p) (temporalPartOf a p) (not (exists (b) (properTemporalPartOf b a)))))) // axiom label in BFO2 CLIF: [084-001] 
-WARN	annotation_whitespace	BFO:0000038	IAO:0000602	(forall (x) (if (OneDimensionalTemporalRegion x) (TemporalRegion x))) // axiom label in BFO2 CLIF: [103-001] 
-WARN	annotation_whitespace	BFO:0000040	IAO:0000602	(forall (x) (if (MaterialEntity x) (IndependentContinuant x))) // axiom label in BFO2 CLIF: [019-002] 
-WARN	annotation_whitespace	BFO:0000040	IAO:0000602	(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt x y t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [021-002] 
-WARN	annotation_whitespace	BFO:0000040	IAO:0000602	(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] 
-WARN	annotation_whitespace	BFO:0000140	IAO:0000602	(iff (ContinuantFiatBoundary a) (and (ImmaterialEntity a) (exists (b) (and (or (ZeroDimensionalSpatialRegion b) (OneDimensionalSpatialRegion b) (TwoDimensionalSpatialRegion b)) (forall (t) (locatedInAt a b t)))) (not (exists (c t) (and (SpatialRegion c) (continuantPartOfAt c a t)))))) // axiom label in BFO2 CLIF: [029-001] 
-WARN	annotation_whitespace	BFO:0000142	IAO:0000602	(iff (OneDimensionalContinuantFiatBoundary a) (and (ContinuantFiatBoundary a) (exists (b) (and (OneDimensionalSpatialRegion b) (forall (t) (locatedInAt a b t)))))) // axiom label in BFO2 CLIF: [032-001] 
-WARN	annotation_whitespace	BFO:0000144	IAO:0000602	(forall (x y) (if (processProfileOf x y) (and (properContinuantPartOf x y) (exists (z t) (and (properOccurrentPartOf z y) (TemporalRegion t) (occupiesSpatioTemporalRegion x t) (occupiesSpatioTemporalRegion y t) (occupiesSpatioTemporalRegion z t) (not (exists (w) (and (occurrentPartOf w x) (occurrentPartOf w z))))))))) // axiom label in BFO2 CLIF: [094-005] 
-WARN	annotation_whitespace	BFO:0000144	IAO:0000602	(iff (ProcessProfile a) (exists (b) (and (Process b) (processProfileOf a b)))) // axiom label in BFO2 CLIF: [093-002] 
-WARN	annotation_whitespace	BFO:0000145	IAO:0000602	(iff (RelationalQuality a) (exists (b c t) (and (IndependentContinuant b) (IndependentContinuant c) (qualityOfAt a b t) (qualityOfAt a c t)))) // axiom label in BFO2 CLIF: [057-001] 
-WARN	annotation_whitespace	BFO:0000146	IAO:0000602	(iff (TwoDimensionalContinuantFiatBoundary a) (and (ContinuantFiatBoundary a) (exists (b) (and (TwoDimensionalSpatialRegion b) (forall (t) (locatedInAt a b t)))))) // axiom label in BFO2 CLIF: [033-001] 
-WARN	annotation_whitespace	BFO:0000147	IAO:0000602	(iff (ZeroDimensionalContinuantFiatBoundary a) (and (ContinuantFiatBoundary a) (exists (b) (and (ZeroDimensionalSpatialRegion b) (forall (t) (locatedInAt a b t)))))) // axiom label in BFO2 CLIF: [031-001] 
-WARN	annotation_whitespace	BFO:0000148	IAO:0000602	(forall (x) (if (ZeroDimensionalTemporalRegion x) (TemporalRegion x))) // axiom label in BFO2 CLIF: [102-001] 
-WARN	annotation_whitespace	ERO:0001071	IAO:0000118	CSF collection 
-WARN	annotation_whitespace	ERO:0001071	IAO:0000118	Cerebrospinal fluid collection 
-WARN	annotation_whitespace	IAO:0000115	IAO:0000116	"2012-04-05:
-Barry Smith
-
-The official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions'  is terrible.
-
-Can you fix to something like:
-
-A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.
-
-Alan Ruttenberg
-
-Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria.
-
-On the specifics of the proposed definition:
-
-We don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition.
-
-Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable.
-
-We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  @en"
-WARN	annotation_whitespace	IAO:0000115	IAO:0000116	"2012-04-05: 
-Barry Smith
-
-OBI??????????????????'???????????????????????????'?????
-
-???????????
-
-?????????????????????????
-
-Alan Ruttenberg
-
-???????????????????????????????????????????????????????????????????????????????????????????????????????
-
-????????????
-
-????“??”??“??”?“??”?????????????“??”??????????“??”???'??'??????????????????????“??”???????????????????????????????????????????????????????????????????????????????? “????”????????????????????????????????????????????????
-
-??????????????????????????????
-
-???????????????????????????????????????chebi???????????????????????/???????????????????? @en"
-WARN	annotation_whitespace	IAO:0000115	IAO:0000116	"2012-04-05: 
-Barry Smith
-
-The official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions'  is terrible.
-
-Can you fix to something like:
-
-A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.
-
-Alan Ruttenberg
-
-Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria. 
-
-On the specifics of the proposed definition:
-
-We don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. 
-
-Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. 
-
-We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  @en"
-WARN	annotation_whitespace	INO:0000006	IAO:0000115	an annotation property that lists keyword(s) useful for literature tagging and retrieval of sentences containing the type (or kind) of entity (e.g., interaction) as shown by the ontology term label and definition. 
-WARN	annotation_whitespace	INO:0000157	IAO:0000115	A regulation represents a regulatory interaction between two interactors. 
-WARN	annotation_whitespace	MF:0000008	rdfs:seeAlso	GO:0050890, cognition, defined as `The operation of the mind by which an organism becomes aware of objects of thought or perception; it includes the mental activities associated with thinking, learning, and memory.' 
-WARN	annotation_whitespace	MF:0000020	IAO:0000115	A mental process is a bodily process that is of a type such that it can of itself be conscious. Examples include thinking, feeling pain, remembering and emotion as occurrent experiences. 
-WARN	annotation_whitespace	MF:0000020	rdfs:seeAlso	GO:0050890, cognition, defined as `The operation of the mind by which an organism becomes aware of objects of thought or perception; it includes the mental activities associated with thinking, learning, and memory.' 
-WARN	annotation_whitespace	MF:0000033	IAO:0000115	A mental disposition is a bodily disposition that is realized in a mental process. 
-WARN	annotation_whitespace	OAE:0000002	IAO:0000115	medical intervention is a planned process that has the goal of diagnosing, preventing or relieving illness or injury. 
-WARN	annotation_whitespace	OAE:0000002	IAO:0000116	"The act of intervening, interfering or interceding with the intent of modifying the outcome. In medicine, an intervention is usually undertaken to help treat or cure a condition. For example, \""Acupuncture as a therapeutic intervention is widely practiced in the United States,\""
-Reference:
-http://www.medterms.com/script/main/art.asp?articlekey=34214 . Some interventions can be used for diagnosis. "
-WARN	annotation_whitespace	OAE:0001551	IAO:0000115	an adverse event that occurs in brain. 
-WARN	annotation_whitespace	OBCS:0000001	IAO:0000115	a data transformation that has input of mulitple data and report overall trend of the data. 
-WARN	annotation_whitespace	OBCS:0000231	IAO:0000115	A rate of deaths (in general, or due to a specific cause) that in a particular population, scaled to the size of that population, per unit of time. 
-WARN	annotation_whitespace	OBI:0000070	IAO:0000116	12/3/12: BP: the reference to the 'physical examination' is included to point out that a prediction is not an assay, as that does not require physical examiniation. 
-WARN	annotation_whitespace	OBI:0500026	IAO:0000115	"an eligibility criterion (rule) is_a selection criterion which 
-defines and states the requirements (positive or negative) for an entity to be considered as suitable for a given task or participation in a process.
-@en"
-WARN	annotation_whitespace	OGG:0000000002	IAO:0000115	A gene is a material entity that represents the entire DNA sequence required for synthesis of a functional protein or RNA molecule. 
-WARN	annotation_whitespace	OGG:0000000006	IAO:0000115	A GeneID in the NCBI Gene database 
-WARN	annotation_whitespace	OGG:0000000007	IAO:0000115	the NCBI LocusTag name of a gene 
-WARN	annotation_whitespace	OGG:0000000029	IAO:0000115	an annotation property that shows the GO information associated with a specific gene. 
-WARN	annotation_whitespace	OGG:0000000030	IAO:0000115	An annotation property that represents a gene's association with PubMed publication(s). 
-WARN	annotation_whitespace	OGMS:0000096	IAO:0000232	"creation date: 2011-02-21T09:57:44Z
-editor date: 2017-04-18
-"
-WARN	annotation_whitespace	RO:0002161	IAO:0000425	?X DisjointWith RO_0002162 some ?Y 
-WARN	annotation_whitespace	STATO:0000184	IAO:0000115	"A ratio is a data item which is formed with two numbers r and s is written r/s, where r is the numerator and s is the denominator. The ratio of r to s is equivalent to the quotient r/s. 
-@en"
 WARN	missing_definition	obo:ADO_0000010	IAO:0000115	
 WARN	missing_definition	obo:ADO_0000011	IAO:0000115	
 WARN	missing_definition	obo:ADO_0000012	IAO:0000115	
+WARN	missing_definition	obo:ADO_0000041	IAO:0000115	
 WARN	missing_definition	BFO:0000141	IAO:0000115	
 WARN	missing_definition	BTO:0000932	IAO:0000115	
 WARN	missing_definition	CHEBI:135342	IAO:0000115	
@@ -1716,10 +1476,250 @@ WARN	missing_definition	https://www.wikidata.org/wiki/Property:P3201	IAO:0000115
 WARN	missing_definition	https://www.wikidata.org/wiki/Property:P486	IAO:0000115	
 WARN	missing_definition	https://www.wikidata.org/wiki/Property:P5806	IAO:0000115	
 WARN	missing_definition	https://www.wikidata.org/wiki/Q1823134	IAO:0000115	
-INFO	missing_superclass	obo:ADO_0000010	rdfs:subClassOf	
-INFO	missing_superclass	obo:ADO_0000011	rdfs:subClassOf	
-INFO	missing_superclass	obo:ADO_0000012	rdfs:subClassOf	
-INFO	missing_superclass	BFO:0000001	rdfs:subClassOf	
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	DiffAvg:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	DiffFormula:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	DiffMono:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	Formula:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	MassAvg:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	MassMono:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	Origin:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	Source:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	TermSpec:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	UniProt:
+WARN	invalid_xref	MOD:00719	oboInOwl:hasDbXref	Unimod:
+WARN	invalid_xref	TXPO:0000145	oboInOwl:hasDbXref	FBRL: A Function and Behavior Representation Language. Sasajima, M., Kitamura, Y., Ikeda, M. & Mizoguchi, R., In Proc. of IJCAI-95 (pp. 1830-1836), 1995
+WARN	invalid_xref	TXPO:0001865	oboInOwl:hasDbXref	rerlated molecular fuction GO:0004672
+WARN	invalid_xref	TXPO:0003645	oboInOwl:hasDbXref	IMR:0000368 (obsolete)
+WARN	invalid_xref	TXPO:0003668	oboInOwl:hasDbXref	IMR:0000960 (obsolete)
+WARN	invalid_xref	TXPO:0003670	oboInOwl:hasDbXref	IMR:0001166 (obsolete)
+WARN	invalid_xref	TXPO:0003670	oboInOwl:hasDbXref	"related molecule fuction
+GO:0004407"
+WARN	invalid_xref	TXPO:0003671	oboInOwl:hasDbXref	Catalysis role of the hydrolysis of a glycerophospholipid.
+WARN	invalid_xref	TXPO:0003671	oboInOwl:hasDbXref	IMR:0000281 (obsolete)
+WARN	invalid_xref	TXPO:0003673	oboInOwl:hasDbXref	IMR:0000517 (obsolete)
+WARN	duplicate_scoped_synonym	CHEBI:15361	oboInOwl:hasExactSynonym	2-oxopropanoate
+WARN	duplicate_scoped_synonym	CHEBI:15361	oboInOwl:hasRelatedSynonym	2-oxopropanoate
+WARN	duplicate_scoped_synonym	CHEBI:16038	oboInOwl:hasExactSynonym	phosphatidylethanolamines
+WARN	duplicate_scoped_synonym	CHEBI:16038	oboInOwl:hasRelatedSynonym	phosphatidylethanolamines
+WARN	duplicate_scoped_synonym	CHEBI:16584	oboInOwl:hasExactSynonym	3-methylbut-3-en-1-yl trihydrogen diphosphate
+WARN	duplicate_scoped_synonym	CHEBI:16584	oboInOwl:hasRelatedSynonym	3-methylbut-3-en-1-yl trihydrogen diphosphate
+WARN	duplicate_scoped_synonym	CHEBI:16865	oboInOwl:hasExactSynonym	4-aminobutanoic acid
+WARN	duplicate_scoped_synonym	CHEBI:16865	oboInOwl:hasRelatedSynonym	4-aminobutanoic acid
+WARN	duplicate_scoped_synonym	CHEBI:16991	oboInOwl:hasExactSynonym	deoxyribonucleic acids
+WARN	duplicate_scoped_synonym	CHEBI:16991	oboInOwl:hasRelatedSynonym	deoxyribonucleic acids
+WARN	duplicate_scoped_synonym	CHEBI:17087	oboInOwl:hasExactSynonym	ketones
+WARN	duplicate_scoped_synonym	CHEBI:17087	oboInOwl:hasRelatedSynonym	ketones
+WARN	duplicate_scoped_synonym	CHEBI:17347	oboInOwl:hasExactSynonym	testosterone
+WARN	duplicate_scoped_synonym	CHEBI:17347	oboInOwl:hasRelatedSynonym	testosterone
+WARN	duplicate_scoped_synonym	CHEBI:17478	oboInOwl:hasExactSynonym	aldehydes
+WARN	duplicate_scoped_synonym	CHEBI:17478	oboInOwl:hasRelatedSynonym	aldehydes
+WARN	duplicate_scoped_synonym	CHEBI:18248	oboInOwl:hasExactSynonym	iron
+WARN	duplicate_scoped_synonym	CHEBI:18248	oboInOwl:hasRelatedSynonym	iron
+WARN	duplicate_scoped_synonym	CHEBI:22984	oboInOwl:hasExactSynonym	calcium
+WARN	duplicate_scoped_synonym	CHEBI:22984	oboInOwl:hasRelatedSynonym	calcium
+WARN	duplicate_scoped_synonym	CHEBI:24913	oboInOwl:hasExactSynonym	isoprenoids
+WARN	duplicate_scoped_synonym	CHEBI:24913	oboInOwl:hasRelatedSynonym	isoprenoids
+WARN	duplicate_scoped_synonym	CHEBI:25016	oboInOwl:hasExactSynonym	lead
+WARN	duplicate_scoped_synonym	CHEBI:25016	oboInOwl:hasRelatedSynonym	lead
+WARN	duplicate_scoped_synonym	CHEBI:25029	oboInOwl:hasExactSynonym	leukotrienes
+WARN	duplicate_scoped_synonym	CHEBI:25029	oboInOwl:hasRelatedSynonym	leukotrienes
+WARN	duplicate_scoped_synonym	CHEBI:25698	oboInOwl:hasExactSynonym	ethers
+WARN	duplicate_scoped_synonym	CHEBI:25698	oboInOwl:hasRelatedSynonym	ethers
+WARN	duplicate_scoped_synonym	CHEBI:26020	oboInOwl:hasExactSynonym	phosphates
+WARN	duplicate_scoped_synonym	CHEBI:26020	oboInOwl:hasRelatedSynonym	phosphates
+WARN	duplicate_scoped_synonym	CHEBI:27363	oboInOwl:hasExactSynonym	zinc
+WARN	duplicate_scoped_synonym	CHEBI:27363	oboInOwl:hasRelatedSynonym	zinc
+WARN	duplicate_scoped_synonym	CHEBI:28694	oboInOwl:hasExactSynonym	copper
+WARN	duplicate_scoped_synonym	CHEBI:28694	oboInOwl:hasRelatedSynonym	copper
+WARN	duplicate_scoped_synonym	CHEBI:28984	oboInOwl:hasExactSynonym	aluminium
+WARN	duplicate_scoped_synonym	CHEBI:28984	oboInOwl:hasRelatedSynonym	aluminium
+WARN	duplicate_scoped_synonym	CHEBI:30145	oboInOwl:hasExactSynonym	lithium
+WARN	duplicate_scoped_synonym	CHEBI:30145	oboInOwl:hasRelatedSynonym	lithium
+WARN	duplicate_scoped_synonym	CHEBI:33567	oboInOwl:hasExactSynonym	catecholamines
+WARN	duplicate_scoped_synonym	CHEBI:33567	oboInOwl:hasRelatedSynonym	catecholamines
+WARN	duplicate_scoped_synonym	CHEBI:33697	oboInOwl:hasExactSynonym	ribonucleic acids
+WARN	duplicate_scoped_synonym	CHEBI:33697	oboInOwl:hasRelatedSynonym	ribonucleic acids
+WARN	duplicate_scoped_synonym	CHEBI:35358	oboInOwl:hasExactSynonym	sulfonamides
+WARN	duplicate_scoped_synonym	CHEBI:35358	oboInOwl:hasRelatedSynonym	sulfonamides
+WARN	duplicate_scoped_synonym	CHEBI:35366	oboInOwl:hasExactSynonym	fatty acids
+WARN	duplicate_scoped_synonym	CHEBI:35366	oboInOwl:hasRelatedSynonym	fatty acids
+WARN	duplicate_scoped_synonym	CHEBI:37622	oboInOwl:hasExactSynonym	carboxamides
+WARN	duplicate_scoped_synonym	CHEBI:37622	oboInOwl:hasRelatedSynonym	carboxamides
+WARN	duplicate_scoped_synonym	CHEBI:49552	oboInOwl:hasExactSynonym	copper(1+) ion
+WARN	duplicate_scoped_synonym	CHEBI:49552	oboInOwl:hasExactSynonym	copper(I) cation
+WARN	duplicate_scoped_synonym	CHEBI:49552	oboInOwl:hasRelatedSynonym	copper(1+) ion
+WARN	duplicate_scoped_synonym	CHEBI:49552	oboInOwl:hasRelatedSynonym	copper(I) cation
+WARN	duplicate_scoped_synonym	CHEBI:50169	oboInOwl:hasExactSynonym	3alpha-hydroxy-5alpha-pregnan-20-one
+WARN	duplicate_scoped_synonym	CHEBI:50169	oboInOwl:hasRelatedSynonym	3alpha-hydroxy-5alpha-pregnan-20-one
+WARN	duplicate_scoped_synonym	CHEBI:57678	oboInOwl:hasExactSynonym	2-oxo-3-sulfanylpropanoate
+WARN	duplicate_scoped_synonym	CHEBI:57678	oboInOwl:hasRelatedSynonym	2-oxo-3-sulfanylpropanoate
+WARN	duplicate_scoped_synonym	CHEBI:7476	oboInOwl:hasExactSynonym	naproxen
+WARN	duplicate_scoped_synonym	CHEBI:7476	oboInOwl:hasRelatedSynonym	naproxen
+WARN	duplicate_scoped_synonym	CHEBI:7494	oboInOwl:hasExactSynonym	nefazodone
+WARN	duplicate_scoped_synonym	CHEBI:7494	oboInOwl:hasRelatedSynonym	nefazodone
+WARN	duplicate_scoped_synonym	CHEBI:8212	oboInOwl:hasExactSynonym	pimozide
+WARN	duplicate_scoped_synonym	CHEBI:8212	oboInOwl:hasRelatedSynonym	pimozide
+WARN	duplicate_scoped_synonym	CHEBI:8871	oboInOwl:hasExactSynonym	risperidone
+WARN	duplicate_scoped_synonym	CHEBI:8871	oboInOwl:hasRelatedSynonym	risperidone
+WARN	duplicate_scoped_synonym	IAO:0000115	IAO:0000118	DEFINITION
+WARN	duplicate_scoped_synonym	IAO:0000115	oboInOwl:hasExactSynonym	DEFINITION
+WARN	duplicate_scoped_synonym	NCBITaxon:2759	oboInOwl:hasExactSynonym	eukaryotes
+WARN	duplicate_scoped_synonym	NCBITaxon:2759	oboInOwl:hasRelatedSynonym	eukaryotes
+WARN	duplicate_scoped_synonym	NCBITaxon:40674	oboInOwl:hasExactSynonym	mammals
+WARN	duplicate_scoped_synonym	NCBITaxon:40674	oboInOwl:hasRelatedSynonym	mammals
+WARN	duplicate_scoped_synonym	NCBITaxon:7742	oboInOwl:hasExactSynonym	vertebrates
+WARN	duplicate_scoped_synonym	NCBITaxon:7742	oboInOwl:hasRelatedSynonym	vertebrates
+WARN	duplicate_scoped_synonym	UBERON:0001018	oboInOwl:hasNarrowSynonym	nerve tract
+WARN	duplicate_scoped_synonym	UBERON:0001018	oboInOwl:hasRelatedSynonym	nerve tract
+WARN	duplicate_scoped_synonym	UBERON:0002751	oboInOwl:hasExactSynonym	gyrus temporalis inferior
+WARN	duplicate_scoped_synonym	UBERON:0002751	oboInOwl:hasRelatedSynonym	gyrus temporalis inferior
+WARN	equivalent_class_axiom_no_genus	obo:ADO_0000010	obo:ADO_0000013	DOID:10652
+WARN	equivalent_class_axiom_no_genus	obo:ADO_0000011	obo:ADO_0000003	DOID:10652
+WARN	equivalent_class_axiom_no_genus	obo:ADO_0000012	obo:ADO_0000002	DOID:10652
+WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] 
+WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (hasContinuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [126-001] 
+WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] 
+WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x) (if (Material Entity x) (exists (t) (and (TemporalRegion t) (existsAt x t))))) // axiom label in BFO2 CLIF: [011-002] 
+WARN	annotation_whitespace	BFO:0000003	IAO:0000602	(forall (x) (if (Occurrent x) (exists (r) (and (SpatioTemporalRegion r) (occupiesSpatioTemporalRegion x r))))) // axiom label in BFO2 CLIF: [108-001] 
+WARN	annotation_whitespace	BFO:0000003	IAO:0000602	(forall (x) (iff (Occurrent x) (and (Entity x) (exists (y) (temporalPartOf y x))))) // axiom label in BFO2 CLIF: [079-001] 
+WARN	annotation_whitespace	BFO:0000004	IAO:0000602	(forall (x t) (if (IndependentContinuant x) (exists (r) (and (SpatialRegion r) (locatedInAt x r t))))) // axiom label in BFO2 CLIF: [134-001] 
+WARN	annotation_whitespace	BFO:0000004	IAO:0000602	(forall (x t) (if (and (IndependentContinuant x) (existsAt x t)) (exists (y) (and (Entity y) (specificallyDependsOnAt y x t))))) // axiom label in BFO2 CLIF: [018-002] 
+WARN	annotation_whitespace	BFO:0000004	IAO:0000602	(iff (IndependentContinuant a) (and (Continuant a) (not (exists (b t) (specificallyDependsOnAt a b t))))) // axiom label in BFO2 CLIF: [017-002] 
+WARN	annotation_whitespace	BFO:0000006	IAO:0000602	(forall (x y t) (if (and (SpatialRegion x) (continuantPartOfAt y x t)) (SpatialRegion y))) // axiom label in BFO2 CLIF: [036-001] 
+WARN	annotation_whitespace	BFO:0000006	IAO:0000602	(forall (x) (if (SpatialRegion x) (Continuant x))) // axiom label in BFO2 CLIF: [035-001] 
+WARN	annotation_whitespace	BFO:0000008	IAO:0000602	(forall (r) (if (TemporalRegion r) (occupiesTemporalRegion r r))) // axiom label in BFO2 CLIF: [119-002] 
+WARN	annotation_whitespace	BFO:0000008	IAO:0000602	(forall (x y) (if (and (TemporalRegion x) (occurrentPartOf y x)) (TemporalRegion y))) // axiom label in BFO2 CLIF: [101-001] 
+WARN	annotation_whitespace	BFO:0000008	IAO:0000602	(forall (x) (if (TemporalRegion x) (Occurrent x))) // axiom label in BFO2 CLIF: [100-001] 
+WARN	annotation_whitespace	BFO:0000009	IAO:0000602	(forall (x) (if (TwoDimensionalSpatialRegion x) (SpatialRegion x))) // axiom label in BFO2 CLIF: [039-001] 
+WARN	annotation_whitespace	BFO:0000011	IAO:0000602	(forall (r) (if (SpatioTemporalRegion r) (occupiesSpatioTemporalRegion r r))) // axiom label in BFO2 CLIF: [107-002] 
+WARN	annotation_whitespace	BFO:0000011	IAO:0000602	(forall (x t) (if (SpatioTemporalRegion x) (exists (y) (and (SpatialRegion y) (spatiallyProjectsOntoAt x y t))))) // axiom label in BFO2 CLIF: [099-001] 
+WARN	annotation_whitespace	BFO:0000011	IAO:0000602	(forall (x y) (if (and (SpatioTemporalRegion x) (occurrentPartOf y x)) (SpatioTemporalRegion y))) // axiom label in BFO2 CLIF: [096-001] 
+WARN	annotation_whitespace	BFO:0000011	IAO:0000602	(forall (x) (if (SpatioTemporalRegion x) (Occurrent x))) // axiom label in BFO2 CLIF: [095-001] 
+WARN	annotation_whitespace	BFO:0000011	IAO:0000602	(forall (x) (if (SpatioTemporalRegion x) (exists (y) (and (TemporalRegion y) (temporallyProjectsOnto x y))))) // axiom label in BFO2 CLIF: [098-001] 
+WARN	annotation_whitespace	BFO:0000015	IAO:0000602	(iff (Process a) (and (Occurrent a) (exists (b) (properTemporalPartOf b a)) (exists (c t) (and (MaterialEntity c) (specificallyDependsOnAt a c t))))) // axiom label in BFO2 CLIF: [083-003] 
+WARN	annotation_whitespace	BFO:0000016	IAO:0000602	(forall (x t) (if (and (RealizableEntity x) (existsAt x t)) (exists (y) (and (MaterialEntity y) (specificallyDepends x y t))))) // axiom label in BFO2 CLIF: [063-002] 
+WARN	annotation_whitespace	BFO:0000016	IAO:0000602	(forall (x) (if (Disposition x) (and (RealizableEntity x) (exists (y) (and (MaterialEntity y) (bearerOfAt x y t)))))) // axiom label in BFO2 CLIF: [062-002] 
+WARN	annotation_whitespace	BFO:0000017	IAO:0000602	(forall (x t) (if (RealizableEntity x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (bearerOfAt y x t))))) // axiom label in BFO2 CLIF: [060-002] 
+WARN	annotation_whitespace	BFO:0000017	IAO:0000602	(forall (x) (if (RealizableEntity x) (and (SpecificallyDependentContinuant x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (inheresIn x y)))))) // axiom label in BFO2 CLIF: [058-002] 
+WARN	annotation_whitespace	BFO:0000018	IAO:0000602	(forall (x) (if (ZeroDimensionalSpatialRegion x) (SpatialRegion x))) // axiom label in BFO2 CLIF: [037-001] 
+WARN	annotation_whitespace	BFO:0000019	IAO:0000602	(forall (x) (if (Quality x) (SpecificallyDependentContinuant x))) // axiom label in BFO2 CLIF: [055-001] 
+WARN	annotation_whitespace	BFO:0000019	IAO:0000602	(forall (x) (if (exists (t) (and (existsAt x t) (Quality x))) (forall (t_1) (if (existsAt x t_1) (Quality x))))) // axiom label in BFO2 CLIF: [105-001] 
+WARN	annotation_whitespace	BFO:0000020	IAO:0000602	(iff (RelationalSpecificallyDependentContinuant a) (and (SpecificallyDependentContinuant a) (forall (t) (exists (b c) (and (not (SpatialRegion b)) (not (SpatialRegion c)) (not (= b c)) (not (exists (d) (and (continuantPartOfAt d b t) (continuantPartOfAt d c t)))) (specificallyDependsOnAt a b t) (specificallyDependsOnAt a c t)))))) // axiom label in BFO2 CLIF: [131-004] 
+WARN	annotation_whitespace	BFO:0000020	IAO:0000602	(iff (SpecificallyDependentContinuant a) (and (Continuant a) (forall (t) (if (existsAt a t) (exists (b) (and (IndependentContinuant b) (not (SpatialRegion b)) (specificallyDependsOnAt a b t))))))) // axiom label in BFO2 CLIF: [050-003] 
+WARN	annotation_whitespace	BFO:0000023	IAO:0000602	(forall (x) (if (Role x) (RealizableEntity x))) // axiom label in BFO2 CLIF: [061-001] 
+WARN	annotation_whitespace	BFO:0000024	IAO:0000602	(forall (x) (if (FiatObjectPart x) (and (MaterialEntity x) (forall (t) (if (existsAt x t) (exists (y) (and (Object y) (properContinuantPartOfAt x y t)))))))) // axiom label in BFO2 CLIF: [027-004] 
+WARN	annotation_whitespace	BFO:0000026	IAO:0000602	(forall (x) (if (OneDimensionalSpatialRegion x) (SpatialRegion x))) // axiom label in BFO2 CLIF: [038-001] 
+WARN	annotation_whitespace	BFO:0000027	IAO:0000116	An entity a is an object aggregate if and only if there is a mutually exhaustive and pairwise disjoint partition of a into objects 
+WARN	annotation_whitespace	BFO:0000027	IAO:0000602	(forall (x) (if (ObjectAggregate x) (and (MaterialEntity x) (forall (t) (if (existsAt x t) (exists (y z) (and (Object y) (Object z) (memberPartOfAt y x t) (memberPartOfAt z x t) (not (= y z)))))) (not (exists (w t_1) (and (memberPartOfAt w x t_1) (not (Object w)))))))) // axiom label in BFO2 CLIF: [025-004] 
+WARN	annotation_whitespace	BFO:0000028	IAO:0000602	(forall (x) (if (ThreeDimensionalSpatialRegion x) (SpatialRegion x))) // axiom label in BFO2 CLIF: [040-001] 
+WARN	annotation_whitespace	BFO:0000029	IAO:0000602	(forall (x) (if (Site x) (ImmaterialEntity x))) // axiom label in BFO2 CLIF: [034-002] 
+WARN	annotation_whitespace	BFO:0000031	IAO:0000602	(iff (GenericallyDependentContinuant a) (and (Continuant a) (exists (b t) (genericallyDependsOnAt a b t)))) // axiom label in BFO2 CLIF: [074-001] 
+WARN	annotation_whitespace	BFO:0000034	IAO:0000602	(forall (x) (if (Function x) (Disposition x))) // axiom label in BFO2 CLIF: [064-001] 
+WARN	annotation_whitespace	BFO:0000035	IAO:0000602	(forall (x) (if (ProcessBoundary x) (exists (y) (and (ZeroDimensionalTemporalRegion y) (occupiesTemporalRegion x y))))) // axiom label in BFO2 CLIF: [085-002] 
+WARN	annotation_whitespace	BFO:0000035	IAO:0000602	(iff (ProcessBoundary a) (exists (p) (and (Process p) (temporalPartOf a p) (not (exists (b) (properTemporalPartOf b a)))))) // axiom label in BFO2 CLIF: [084-001] 
+WARN	annotation_whitespace	BFO:0000038	IAO:0000602	(forall (x) (if (OneDimensionalTemporalRegion x) (TemporalRegion x))) // axiom label in BFO2 CLIF: [103-001] 
+WARN	annotation_whitespace	BFO:0000040	IAO:0000602	(forall (x) (if (MaterialEntity x) (IndependentContinuant x))) // axiom label in BFO2 CLIF: [019-002] 
+WARN	annotation_whitespace	BFO:0000040	IAO:0000602	(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt x y t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [021-002] 
+WARN	annotation_whitespace	BFO:0000040	IAO:0000602	(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] 
+WARN	annotation_whitespace	BFO:0000140	IAO:0000602	(iff (ContinuantFiatBoundary a) (and (ImmaterialEntity a) (exists (b) (and (or (ZeroDimensionalSpatialRegion b) (OneDimensionalSpatialRegion b) (TwoDimensionalSpatialRegion b)) (forall (t) (locatedInAt a b t)))) (not (exists (c t) (and (SpatialRegion c) (continuantPartOfAt c a t)))))) // axiom label in BFO2 CLIF: [029-001] 
+WARN	annotation_whitespace	BFO:0000142	IAO:0000602	(iff (OneDimensionalContinuantFiatBoundary a) (and (ContinuantFiatBoundary a) (exists (b) (and (OneDimensionalSpatialRegion b) (forall (t) (locatedInAt a b t)))))) // axiom label in BFO2 CLIF: [032-001] 
+WARN	annotation_whitespace	BFO:0000144	IAO:0000602	(forall (x y) (if (processProfileOf x y) (and (properContinuantPartOf x y) (exists (z t) (and (properOccurrentPartOf z y) (TemporalRegion t) (occupiesSpatioTemporalRegion x t) (occupiesSpatioTemporalRegion y t) (occupiesSpatioTemporalRegion z t) (not (exists (w) (and (occurrentPartOf w x) (occurrentPartOf w z))))))))) // axiom label in BFO2 CLIF: [094-005] 
+WARN	annotation_whitespace	BFO:0000144	IAO:0000602	(iff (ProcessProfile a) (exists (b) (and (Process b) (processProfileOf a b)))) // axiom label in BFO2 CLIF: [093-002] 
+WARN	annotation_whitespace	BFO:0000145	IAO:0000602	(iff (RelationalQuality a) (exists (b c t) (and (IndependentContinuant b) (IndependentContinuant c) (qualityOfAt a b t) (qualityOfAt a c t)))) // axiom label in BFO2 CLIF: [057-001] 
+WARN	annotation_whitespace	BFO:0000146	IAO:0000602	(iff (TwoDimensionalContinuantFiatBoundary a) (and (ContinuantFiatBoundary a) (exists (b) (and (TwoDimensionalSpatialRegion b) (forall (t) (locatedInAt a b t)))))) // axiom label in BFO2 CLIF: [033-001] 
+WARN	annotation_whitespace	BFO:0000147	IAO:0000602	(iff (ZeroDimensionalContinuantFiatBoundary a) (and (ContinuantFiatBoundary a) (exists (b) (and (ZeroDimensionalSpatialRegion b) (forall (t) (locatedInAt a b t)))))) // axiom label in BFO2 CLIF: [031-001] 
+WARN	annotation_whitespace	BFO:0000148	IAO:0000602	(forall (x) (if (ZeroDimensionalTemporalRegion x) (TemporalRegion x))) // axiom label in BFO2 CLIF: [102-001] 
+WARN	annotation_whitespace	ERO:0001071	IAO:0000118	CSF collection 
+WARN	annotation_whitespace	ERO:0001071	IAO:0000118	Cerebrospinal fluid collection 
+WARN	annotation_whitespace	IAO:0000115	IAO:0000116	"2012-04-05:
+Barry Smith
+
+The official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions'  is terrible.
+
+Can you fix to something like:
+
+A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.
+
+Alan Ruttenberg
+
+Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria.
+
+On the specifics of the proposed definition:
+
+We don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition.
+
+Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable.
+
+We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  @en"
+WARN	annotation_whitespace	IAO:0000115	IAO:0000116	"2012-04-05: 
+Barry Smith
+
+OBI??????????????????'???????????????????????????'?????
+
+???????????
+
+?????????????????????????
+
+Alan Ruttenberg
+
+???????????????????????????????????????????????????????????????????????????????????????????????????????
+
+????????????
+
+????“??”??“??”?“??”?????????????“??”??????????“??”???'??'??????????????????????“??”???????????????????????????????????????????????????????????????????????????????? “????”????????????????????????????????????????????????
+
+??????????????????????????????
+
+???????????????????????????????????????chebi???????????????????????/???????????????????? @en"
+WARN	annotation_whitespace	IAO:0000115	IAO:0000116	"2012-04-05: 
+Barry Smith
+
+The official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions'  is terrible.
+
+Can you fix to something like:
+
+A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.
+
+Alan Ruttenberg
+
+Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria. 
+
+On the specifics of the proposed definition:
+
+We don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. 
+
+Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. 
+
+We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  @en"
+WARN	annotation_whitespace	INO:0000006	IAO:0000115	an annotation property that lists keyword(s) useful for literature tagging and retrieval of sentences containing the type (or kind) of entity (e.g., interaction) as shown by the ontology term label and definition. 
+WARN	annotation_whitespace	INO:0000157	IAO:0000115	A regulation represents a regulatory interaction between two interactors. 
+WARN	annotation_whitespace	MF:0000008	rdfs:seeAlso	GO:0050890, cognition, defined as `The operation of the mind by which an organism becomes aware of objects of thought or perception; it includes the mental activities associated with thinking, learning, and memory.' 
+WARN	annotation_whitespace	MF:0000020	IAO:0000115	A mental process is a bodily process that is of a type such that it can of itself be conscious. Examples include thinking, feeling pain, remembering and emotion as occurrent experiences. 
+WARN	annotation_whitespace	MF:0000020	rdfs:seeAlso	GO:0050890, cognition, defined as `The operation of the mind by which an organism becomes aware of objects of thought or perception; it includes the mental activities associated with thinking, learning, and memory.' 
+WARN	annotation_whitespace	MF:0000033	IAO:0000115	A mental disposition is a bodily disposition that is realized in a mental process. 
+WARN	annotation_whitespace	OAE:0000002	IAO:0000115	medical intervention is a planned process that has the goal of diagnosing, preventing or relieving illness or injury. 
+WARN	annotation_whitespace	OAE:0000002	IAO:0000116	"The act of intervening, interfering or interceding with the intent of modifying the outcome. In medicine, an intervention is usually undertaken to help treat or cure a condition. For example, \""Acupuncture as a therapeutic intervention is widely practiced in the United States,\""
+Reference:
+http://www.medterms.com/script/main/art.asp?articlekey=34214 . Some interventions can be used for diagnosis. "
+WARN	annotation_whitespace	OAE:0001551	IAO:0000115	an adverse event that occurs in brain. 
+WARN	annotation_whitespace	OBCS:0000001	IAO:0000115	a data transformation that has input of mulitple data and report overall trend of the data. 
+WARN	annotation_whitespace	OBCS:0000231	IAO:0000115	A rate of deaths (in general, or due to a specific cause) that in a particular population, scaled to the size of that population, per unit of time. 
+WARN	annotation_whitespace	OBI:0000070	IAO:0000116	12/3/12: BP: the reference to the 'physical examination' is included to point out that a prediction is not an assay, as that does not require physical examiniation. 
+WARN	annotation_whitespace	OBI:0500026	IAO:0000115	"an eligibility criterion (rule) is_a selection criterion which 
+defines and states the requirements (positive or negative) for an entity to be considered as suitable for a given task or participation in a process.
+@en"
+WARN	annotation_whitespace	OGG:0000000002	IAO:0000115	A gene is a material entity that represents the entire DNA sequence required for synthesis of a functional protein or RNA molecule. 
+WARN	annotation_whitespace	OGG:0000000006	IAO:0000115	A GeneID in the NCBI Gene database 
+WARN	annotation_whitespace	OGG:0000000007	IAO:0000115	the NCBI LocusTag name of a gene 
+WARN	annotation_whitespace	OGG:0000000029	IAO:0000115	an annotation property that shows the GO information associated with a specific gene. 
+WARN	annotation_whitespace	OGG:0000000030	IAO:0000115	An annotation property that represents a gene's association with PubMed publication(s). 
+WARN	annotation_whitespace	OGMS:0000096	IAO:0000232	"creation date: 2011-02-21T09:57:44Z
+editor date: 2017-04-18
+"
+WARN	annotation_whitespace	RO:0002161	IAO:0000425	?X DisjointWith RO_0002162 some ?Y 
+WARN	annotation_whitespace	STATO:0000184	IAO:0000115	"A ratio is a data item which is formed with two numbers r and s is written r/s, where r is the numerator and s is the denominator. The ratio of r to s is equivalent to the quotient r/s. 
+@en"
+INFO	lowercase_definition	obo:ADO_0000092	IAO:0000115	a signaling process that is initiated through binding and activation of its cell-surface receptor and initiates a cascade of phosphorylation and dephosphorylation events, second-messenger generation, and protein-protein interactions that result in diverse metabolic events in almost every tissue
 INFO	lowercase_definition	BFO:0000004	IAO:0000115	b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])@en
 INFO	lowercase_definition	BFO:0000015	IAO:0000115	p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])@en
 INFO	lowercase_definition	BFO:0000016	IAO:0000600	b is a disposition means: b is a realizable entity & b’s bearer is some material entity & b is such that if it ceases to exist, then its bearer is physically changed, & b’s realization occurs when and because this bearer is in some special physical circumstances, & this realization occurs in virtue of the bearer’s physical make-up. (axiom label in BFO2 Reference: [062-002])@en
@@ -1810,3 +1810,7 @@ INFO	lowercase_definition	UBERON:0003876	IAO:0000115	a part or parts of the hipp
 INFO	lowercase_definition	UBERON:0003909	IAO:0000115	small blood vessel similar to a capillary but with a fenestrated endothelium. Sinusoids are found in the liver, lymphoid tissue, endocrine organs, and hematopoietic organs such as the bone marrow and the spleen. Sinusoids found within terminal villi of the placenta are not comparable to these; they possess a continuous endothelium and complete basal lamina[WP].
 INFO	lowercase_definition	UBERON:0004086	IAO:0000115	one of the system of communicating cavities in the brain that are continuous with the central canal of the spinal cord, that like it are derived from the medullary canal of the embryo, that are lined with an epithelial ependyma, and that contain a serous fluid
 INFO	lowercase_definition	obo:ado#from_Alzheimer_Ontology	IAO:0000115	this indicates that the term originates from the Alzheimer Ontology by Fraunhofer SCAI
+INFO	missing_superclass	obo:ADO_0000010	rdfs:subClassOf	
+INFO	missing_superclass	obo:ADO_0000011	rdfs:subClassOf	
+INFO	missing_superclass	obo:ADO_0000012	rdfs:subClassOf	
+INFO	missing_superclass	BFO:0000001	rdfs:subClassOf	
